@@ -1,9 +1,10 @@
 site_name: Requisitos - Grupo 01
-repo_url: https://github.com/https://github.com/Requisitos-de-Software/2021.1-Grupo01
-edit_uri: ""
+repo_url: https://github.com/Requisitos-de-Software/2021.1-Grupo01
 
 theme:
   name: material
+  features: navigation.tabs
 
 nav:
-  - Home: "index.md"
+  - Inicio: "index.md"
+  - Planejamento: "planejamento/index.md"
