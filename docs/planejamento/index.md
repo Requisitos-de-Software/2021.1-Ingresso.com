@@ -3,8 +3,8 @@
 
 |Versão|Data|Descrição|Autor(es)|
 |------|----|---------|---------|
-|1.0|27/07|Adição do cronograma de etapas| Rafael e Thiago|
-|1.1|27/07|Adição das ferramentas| Thiago e Rafael|
+|1.0|27/07|Adição do cronograma de etapas|Rafael e Thiago|
+|1.1|27/07|Adição das ferramentas|Rafael e Thiago|
 
 ## 2. Cronograma
 
