@@ -6,7 +6,10 @@ theme:
   features: navigation.tabs
   logo: assets/ingresso-logo.png
   favicon: assets/ingresso-logo.png
-  
+  palette:
+    primary: black
+    accent: blue
+
 nav:
   - Inicio: "index.md"
   - Planejamento: "planejamento/index.md"
