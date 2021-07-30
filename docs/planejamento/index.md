@@ -9,7 +9,7 @@
 
 ## 2. Cronograma
 
-O cronograma das etapas do projeto foi baseado nas datas de entregas das atividades descritas no plano de ensino da disciplina de Requisitos de Software, visando atender às exigências de cada ponto de controle. As datas podem ser alteradas, caso haja necessidade.
+<p style="text-align: justify; text-indent: 20px">O cronograma das etapas do projeto foi baseado nas datas de entregas das atividades descritas no plano de ensino da disciplina de Requisitos de Software, visando atender às exigências de cada ponto de controle. As datas podem ser alteradas, caso haja necessidade.</p>
 
 ### 2.1 Cronograma das etapas
 #### 2.1.2 Etapa Escrita (Desenvolvimento da documentação)
@@ -38,7 +38,7 @@ Apresentação VI                  |13/10        |Pós-Rastreabilidade - Gerênc
 
 ### 3.1 Extreme Programming (XP)
 
-<p style="text-align: justify; text-indent: 20px">Apesar do projeto não trabalhar efetivamente com programação de um software e sim com a parte de documentação, com foco na área de requisitos, o grupo optou por utilizar esta metodologia ágil devido aos seus cinco pricipais valores, que se encaixam muito bem no contexto deste projeto, sendo eles: <b>Comuinicação</b>, <b>Simplicidade</b>, <b>Feedback</b>, <b>Coragem</b> e <b>Respeito</b> </p>
+<p style="text-align: justify; text-indent: 20px">Apesar do projeto não trabalhar efetivamente com programação de um software e sim com a parte de documentação, com foco na área de requisitos, o grupo optou por utilizar esta metodologia ágil devido aos seus cinco principais valores, que se encaixam muito bem no contexto deste projeto, sendo eles: <b>Comunicação</b>, <b>Simplicidade</b>, <b>Feedback</b>, <b>Coragem</b> e <b>Respeito</b>. </p>
 
 <p style="text-align: justify; text-indent: 20px">Além disso, por ser uma metodologia ágil fortemente ligada a respostas rápidas às mudanças, o grupo terá reuniões semanais para discutir novas issues para o projeto, assim como passar o feedback do que foi feito até o estágio atual. Esta parte de reuniões é inspirada também na metodologia SCRUM, sendo bem parecida com as Plannings e Reviews.</p>
 
@@ -55,16 +55,16 @@ X-Nome_Documento
 Exemplo: 4-Política_de_Contribuição
 ```
 
-<p style="text-align: justify; text-indent: 20px"> Sendo X o número da issue atribuída seguido pelo nome do documento, como destacado anteriormente. Em ocasiões em que não se está trabalhando com nenhum documento em específico, então deve-se colocar o nome da issue correspondente</p>
+<p style="text-align: justify; text-indent: 20px"> Sendo X o número da issue atribuída seguido pelo nome do documento, como destacado anteriormente. Em ocasiões em que não se está trabalhando com nenhum documento em específico, então deve-se colocar o nome da issue correspondente.</p>
 
 ### 3.4 Políticas de Commits
 
 <p style="text-align: justify; text-indent: 20px">Os commits devem ser feitos de maneira clara e objetiva respeitando os padrões comentados a seguir: </p>
 
 <ul>
-    <li> Devem estar escritos em portugês </li>
-    <li> Os verbos devem estar no gerúndio </li>
-    <li> Devem apresentar o número base da issue </li>
+    <li> Devem estar escritos em português. </li>
+    <li> Os verbos devem estar no gerúndio. </li>
+    <li> Devem apresentar o número base da issue. </li>
 </ul>
 
 &emsp;&emsp;Portanto a formatação do commit será: ` #4 Corrigindo documento de planejamento `
