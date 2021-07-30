@@ -1,10 +1,12 @@
 site_name: Ingresso.com
-repo_url: https://github.com/Requisitos-de-Software/2021.1-Grupo01
+repo_url: https://github.com/Requisitos-de-Software/2021.1-Ingresso.com
 
 theme:
   name: material
   features: navigation.tabs
-
+  logo: assets/ingresso-logo.png
+  favicon: assets/ingresso-logo.png
+  
 nav:
   - Inicio: "index.md"
   - Planejamento: "planejamento/index.md"
