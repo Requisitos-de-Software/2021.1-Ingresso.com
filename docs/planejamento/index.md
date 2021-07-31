@@ -3,9 +3,10 @@
 
 |Versão|Data|Descrição|Autor(es)|
 |------|----|---------|---------|
-|1.0|27/07|<center>Adição do cronograma de etapas</center>|<center>Rafael e Thiago</center>|
-|1.1|27/07|<center>Adição das ferramentas</center>|<center>Rafael e Thiago</center>|
-|1.2|29/07|<center>Adição das Metodologias</center>|<center>Carlos Eduardo e Vitor Lamego</center>|
+|1.0|27/07|<center>Adição do cronograma de etapas e ferramentas</center>|<center>Rafael e Thiago</center>|
+|1.1|29/07|<center>Adição das Metodologias</center>|<center>Carlos Eduardo e Vitor Lamego</center>|
+|1.2|31/07|<center>Adição do HeatMap</center>|<center>Rafael</center>|
+
 
 ## 2. Cronograma
 
@@ -90,3 +91,20 @@ Co-authored-by: Fábio Silva <fabiosilva@gmail.com>
 | <img src="../assets/planejamento/logos/discord.png" width="50px" /> | Discord | Comunicação por voz entre os integrantes. |
 | <img src="../assets/planejamento/logos/vscode.png" width="50px" /> | Visual Studio Code | Edição da documentação. |
 | <img src="../assets/planejamento/logos/drawio.png" width="50px" /> | Draw.io | Criação de diagramas. |
+| <img src="../assets/planejamento/logos/mkdocs.png" width="100px" /> | Mkdocs | Ferramenta usada para criação do Site wiki do projeto. |
+
+
+
+
+
+## 5. HeatMap
+<p style="text-align: justify; text-indent: 20px">O HeatMap é um mapa de calor que mostra a disponibilidade de cada membro do time na semana. A partir desse mapa poderemos decidir o horário que a equipe poderá se reunir para discutir assuntos relacionados ao projeto, gravar as apresentações, bem como selecionar as duplas de pareamento. </p>
+
+<img src="../assets/planejamento/logos/heatMap.png" width="1000px" />
+
+
+<b>Legenda<b>
+  
+<img src="../assets/planejamento/logos/legendaCor.png" width="250px" />
+<img src="../assets/planejamento/logos/legendaChar.png" width="215px" />
+
