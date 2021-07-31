@@ -3,12 +3,14 @@
 
 |Versão|Data|Descrição|Autor(es)|
 |------|----|---------|---------|
-|1.0|27/07|Adição do cronograma de etapas|Rafael e Thiago|
-|1.1|27/07|Adição das ferramentas|Rafael e Thiago|
+|1.0|27/07|<center>Adição do cronograma de etapas e ferramentas</center>|<center>Rafael e Thiago</center>|
+|1.1|29/07|<center>Adição das Metodologias</center>|<center>Carlos Eduardo e Vitor Lamego</center>|
+|1.2|31/07|<center>Adição do HeatMap</center>|<center>Rafael</center>|
+
 
 ## 2. Cronograma
 
-O cronograma das etapas do projeto foi baseado nas datas de entregas das atividades descritas no plano de ensino da disciplina de Requisitos de Software, visando atender às exigências de cada ponto de controle. As datas podem ser alteradas, caso haja necessidade.
+<p style="text-align: justify; text-indent: 20px">O cronograma das etapas do projeto foi baseado nas datas de entregas das atividades descritas no plano de ensino da disciplina de Requisitos de Software, visando atender às exigências de cada ponto de controle. As datas podem ser alteradas, caso haja necessidade.</p>
 
 ### 2.1 Cronograma das etapas
 #### 2.1.2 Etapa Escrita (Desenvolvimento da documentação)
@@ -33,7 +35,53 @@ Apresentação IV                  |20/09        |Modelagem de Requisitos - Ági
 Apresentação V                   |22/09        |Análise de Requisitos: Verificação e Validação|
 Apresentação VI                  |13/10        |Pós-Rastreabilidade - Gerência II|
 
-## 3. Ferramentas
+## 3. Metodologia
+
+### 3.1 Extreme Programming (XP)
+
+<p style="text-align: justify; text-indent: 20px">Apesar do projeto não trabalhar efetivamente com programação de um software e sim com a parte de documentação, com foco na área de requisitos, o grupo optou por utilizar esta metodologia ágil devido aos seus cinco principais valores, que se encaixam muito bem no contexto deste projeto, sendo eles: <b>Comunicação</b>, <b>Simplicidade</b>, <b>Feedback</b>, <b>Coragem</b> e <b>Respeito</b>. </p>
+
+<p style="text-align: justify; text-indent: 20px">Além disso, por ser uma metodologia ágil fortemente ligada a respostas rápidas às mudanças, o grupo terá reuniões semanais para discutir novas issues para o projeto, assim como passar o feedback do que foi feito até o estágio atual. Esta parte de reuniões é inspirada também na metodologia SCRUM, sendo bem parecida com as Plannings e Reviews.</p>
+
+### 3.2 Controle de atividades
+
+<p style="text-align: justify; text-indent: 20px">O controle de atividades é uma parte fundamental para o acompanhamento da evolução do projeto. Por isso, todas as atividades a serem realizadas, assim como as atividades que já foram concluídas estarão dispostas em forma de <b>Issues</b> no próprio GitHub, dispondo de comentários com as respectivas finalidades de cada tarefa apresentada. Na ocasião de mudança no contexto de determinada issue, comentários explicativos serão feitos para documentar essas mudanças. </p>
+
+### 3.3 Políticas de Branch
+
+<p style="text-align: justify; text-indent: 20px">As branches serão nomeadas seguindo um padrão para a melhor organização do projeto. Por se tratar de um projeto baseado em documentos, terá apenas um tipo de nomenclatura de branch. Todas as branchs devem ser criadas a partir da <b>main</b> e devem estar nomeadas da seguinte maneira:</p>
+
+``` 
+X-Nome_Documento 
+Exemplo: 4-Política_de_Contribuição
+```
+
+<p style="text-align: justify; text-indent: 20px"> Sendo X o número da issue atribuída seguido pelo nome do documento, como destacado anteriormente. Em ocasiões em que não se está trabalhando com nenhum documento em específico, então deve-se colocar o nome da issue correspondente.</p>
+
+### 3.4 Políticas de Commits
+
+<p style="text-align: justify; text-indent: 20px">Os commits devem ser feitos de maneira clara e objetiva respeitando os padrões comentados a seguir: </p>
+
+<ul>
+    <li> Devem estar escritos em português. </li>
+    <li> Os verbos devem estar no gerúndio. </li>
+    <li> Devem apresentar o número base da issue. </li>
+</ul>
+
+&emsp;&emsp;Portanto a formatação do commit será: ` #4 Corrigindo documento de planejamento `
+
+<p style="text-align: justify; text-indent: 20px"> Nas ocasiões em que o commit foi realizado por duas ou mais pessoas, deve ser acrescentado à mensagem do commit o seguinte texto: </p>
+
+```
+#4 Corrigindo documento de planejamento
+
+
+Co-authored-by: Fábio Silva <fabiosilva@gmail.com>
+```
+
+&emsp;&emsp;<b>Observação:</b> O caracter '#' representa, por padrão, um comentário na mensagem de commit. Para evitar problemas basta digitar o comando: `git config --local core.commentChar auto`
+
+## 4. Ferramentas
 
 ||Ferramenta|Finalidade|
 |:-:|:-:|-|
@@ -43,3 +91,20 @@ Apresentação VI                  |13/10        |Pós-Rastreabilidade - Gerênc
 | <img src="../assets/planejamento/logos/discord.png" width="50px" /> | Discord | Comunicação por voz entre os integrantes. |
 | <img src="../assets/planejamento/logos/vscode.png" width="50px" /> | Visual Studio Code | Edição da documentação. |
 | <img src="../assets/planejamento/logos/drawio.png" width="50px" /> | Draw.io | Criação de diagramas. |
+| <img src="../assets/planejamento/logos/mkdocs.png" width="100px" /> | Mkdocs | Ferramenta usada para criação do Site wiki do projeto. |
+
+
+
+
+
+## 5. HeatMap
+<p style="text-align: justify; text-indent: 20px">O HeatMap é um mapa de calor que mostra a disponibilidade de cada membro do time na semana. A partir desse mapa poderemos decidir o horário que a equipe poderá se reunir para discutir assuntos relacionados ao projeto, gravar as apresentações, bem como selecionar as duplas de pareamento. </p>
+
+<img src="../assets/planejamento/logos/heatMap.png" width="1000px" />
+
+
+<b>Legenda<b>
+  
+<img src="../assets/planejamento/logos/legendaCor.png" width="250px" />
+<img src="../assets/planejamento/logos/legendaChar.png" width="215px" />
+
