@@ -3,6 +3,8 @@ repo_url: https://github.com/Requisitos-de-Software/2021.1-Ingresso.com
 
 theme:
   name: material
+  icon:
+      repo: fontawesome/brands/github
   features: navigation.tabs
   logo: assets/ingresso-logo.png
   favicon: assets/ingresso-logo.png
