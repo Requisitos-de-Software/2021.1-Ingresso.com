@@ -8,3 +8,4 @@ theme:
 nav:
   - Inicio: "index.md"
   - Planejamento: "planejamento/index.md"
+  - Pré Rastreabilidade: "pre_rastreabilidade/rich_picture.md"
