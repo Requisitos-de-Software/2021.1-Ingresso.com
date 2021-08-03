@@ -1,9 +1,16 @@
-site_name: Requisitos - Grupo 01
-repo_url: https://github.com/Requisitos-de-Software/2021.1-Grupo01
+site_name: Ingresso.com
+repo_url: https://github.com/Requisitos-de-Software/2021.1-Ingresso.com
 
 theme:
   name: material
+  icon:
+      repo: fontawesome/brands/github
   features: navigation.tabs
+  logo: assets/ingresso-logo.png
+  favicon: assets/ingresso-logo.png
+  palette:
+    primary: black
+    accent: blue
 
 nav:
   - Inicio: "index.md"
