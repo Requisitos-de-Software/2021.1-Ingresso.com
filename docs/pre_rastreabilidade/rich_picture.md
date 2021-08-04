@@ -10,10 +10,12 @@
 # 3. Rich Pictures
 ## 3.1 Versão 1.0
 ![RichPictureV1](../assets/pre_rastreabilidade/richPictureV1.png)
+<h6 align = "center">Figura 1: Versão 1.0 Rich Picture</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
 ## 3.2 Versão 2.0
 ![RichPictureV2](../assets/pre_rastreabilidade/richPictureV2.png)
+<h6 align = "center">Figura 2: Versão 2.0 Rich Picture</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
 # 4. Referências
