@@ -16,3 +16,5 @@ nav:
   - Inicio: "index.md"
   - Planejamento: "planejamento/index.md"
   - Pré Rastreabilidade: "pre_rastreabilidade/rich_picture.md"
+  - Apresentações:
+    - Ponto de Controle 1: "apresentacoes/p1.md"
