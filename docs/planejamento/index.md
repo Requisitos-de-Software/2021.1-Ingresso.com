@@ -114,5 +114,5 @@ Co-authored-by: Fábio Silva <fabiosilva@gmail.com>
 <h6 align = "center">Fonte: Autor</h6>
 
 ## 6. Referências
-<p style="text-align: justify; text-indent: 20px">[1] Higor. <b>Introdução ao Extreme Programming (XP)</b>. 2013. Disponível em: https://www.devmedia.com.br/introducao-ao-extreme-programming-xp/29249. Acesso em: 29 de julho de 2021</p>
-<p style="text-align: justify; text-indent: 20px">[2] SCRUM. Disponível em: https://www.desenvolvimentoagil.com.br/scrum. Acesso em: 29 de julho de 2021 </p>
+<p style="text-align: justify; text-indent: 20px">[1] Higor. <b>Introdução ao Extreme Programming (XP)</b>. 2013. Disponível em: <a href="https://www.devmedia.com.br/introducao-ao-extreme-programming-xp/29249" target="_blank">https://www.devmedia.com.br/introducao-ao-extreme-programming-xp/29249</a>. Acesso em: 29 de julho de 2021</p>
+<p style="text-align: justify; text-indent: 20px">[2] SCRUM. Disponível em: <a href="https://www.desenvolvimentoagil.com.br/scrum" target="_blank">https://www.desenvolvimentoagil.com.br/scrum</a>. Acesso em: 29 de julho de 2021 </p>

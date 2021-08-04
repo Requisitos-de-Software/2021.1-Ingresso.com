@@ -56,4 +56,4 @@
 
 ## Referências
 
-- [1] INGRESSO.COM. [Conheça Nossa História](https://www.ingresso.com/institucional#section-timeline). 2021
+<p style="text-align: justify; text-indent: 20px">[1] INGRESSO.COM. 2021. Disponível em: <a href="https://www.ingresso.com/institucional#section-timeline" target="_blank">Conheça Nossa História</a>. Acesso em: 27 de julho de 2021.</p>
