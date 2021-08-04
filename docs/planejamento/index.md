@@ -6,7 +6,7 @@
 |1.0|27/07|<center>Adição do cronograma de etapas e ferramentas</center>|<center>Rafael e Thiago</center>|
 |1.1|29/07|<center>Adição das Metodologias</center>|<center>Carlos Eduardo e Vitor Lamego</center>|
 |1.2|31/07|<center>Adição do HeatMap</center>|<center>Rafael</center>|
-
+|1.3|04/08|<center>Adição referências e legendas</center>|<center>João Pedro, Vitor Lamego</center>|
 
 ## 2. Cronograma
 
@@ -23,6 +23,8 @@ III - Modelagem de Requisitos        | 22/08 - 30/08 | Cenários , Léxico, Use 
 IV - Modelagem de Requisitos (Ágil)| 31/08 - 11/09 | Histórias de Usuário, Backlogs, NFR Framework|
 V - Análise de Requisitos          | 12/09 - 18/09 | Análise de requisitos: Verificação e Validação  |
 VI - Pós-Rastreabilidade            | 19/09 - 09/10 | Gerência de Desenvolvimento de Software orientada à baseline de Requisitos |
+<h6 align = "center">Tabela 1: Tabela contendo datas e descrições sobre as etapas de desenvolvimento</h6>
+<h6 align = "center">Fonte: Autor</h6>
 
 #### 2.1.2 Etapa de Gravação (Desenvolvimento das apresentações)
 
@@ -34,14 +36,16 @@ Apresentação III                 |01/09        |Modelagem de Requisitos: Cená
 Apresentação IV                  |20/09        |Modelagem de Requisitos - Ágil (US, Backlogs, NFR Framework)|
 Apresentação V                   |22/09        |Análise de Requisitos: Verificação e Validação|
 Apresentação VI                  |13/10        |Pós-Rastreabilidade - Gerência II|
+<h6 align = "center">Tabela 2: Tabela contendo datas e descrições sobre as etapas de gravação</h6>
+<h6 align = "center">Fonte: Autor</h6>
 
 ## 3. Metodologia
 
 ### 3.1 Extreme Programming (XP)
 
-<p style="text-align: justify; text-indent: 20px">Apesar do projeto não trabalhar efetivamente com programação de um software e sim com a parte de documentação, com foco na área de requisitos, o grupo optou por utilizar esta metodologia ágil devido aos seus cinco principais valores, que se encaixam muito bem no contexto deste projeto, sendo eles: <b>Comunicação</b>, <b>Simplicidade</b>, <b>Feedback</b>, <b>Coragem</b> e <b>Respeito</b>. </p>
+<p style="text-align: justify; text-indent: 20px">Apesar do projeto não trabalhar efetivamente com programação de um software e sim com a parte de documentação, com foco na área de requisitos, o grupo optou por utilizar esta metodologia ágil devido aos seus cinco principais valores, que se encaixam muito bem no contexto deste projeto, sendo eles: <b>Comunicação</b>, <b>Simplicidade</b>, <b>Feedback</b>, <b>Coragem</b> e <b>Respeito</b> [1].</p>
 
-<p style="text-align: justify; text-indent: 20px">Além disso, por ser uma metodologia ágil fortemente ligada a respostas rápidas às mudanças, o grupo terá reuniões semanais para discutir novas issues para o projeto, assim como passar o feedback do que foi feito até o estágio atual. Esta parte de reuniões é inspirada também na metodologia SCRUM, sendo bem parecida com as Plannings e Reviews.</p>
+<p style="text-align: justify; text-indent: 20px">Além disso, por ser uma metodologia ágil fortemente ligada a respostas rápidas às mudanças, o grupo terá reuniões semanais para discutir novas issues para o projeto, assim como passar o feedback do que foi feito até o estágio atual. Esta parte de reuniões é inspirada também na metodologia SCRUM, sendo bem parecida com as Plannings e Reviews [2].</p>
 
 ### 3.2 Controle de atividades
 
@@ -92,19 +96,23 @@ Co-authored-by: Fábio Silva <fabiosilva@gmail.com>
 | <img src="../assets/planejamento/logos/vscode.png" width="50px" /> | Visual Studio Code | Edição da documentação. |
 | <img src="../assets/planejamento/logos/drawio.png" width="50px" /> | Draw.io | Criação de diagramas. |
 | <img src="../assets/planejamento/logos/mkdocs.png" width="100px" /> | Mkdocs | Ferramenta usada para criação do Site wiki do projeto. |
-
-
-
-
+<h6 align = "center">Tabela 3: Tabela contendo as ferramentas utilizadas no projeto</h6>
+<h6 align = "center">Fonte: Autor</h6>
 
 ## 5. HeatMap
 <p style="text-align: justify; text-indent: 20px">O HeatMap é um mapa de calor que mostra a disponibilidade de cada membro do time na semana. A partir desse mapa poderemos decidir o horário que a equipe poderá se reunir para discutir assuntos relacionados ao projeto, gravar as apresentações, bem como selecionar as duplas de pareamento. </p>
 
 <img src="../assets/planejamento/logos/heatMap.png" width="1000px" />
+<h6 align = "center">Figura 1: HeatMap da equipe</h6>
+<h6 align = "center">Fonte: Autor</h6>
 
-
-<b>Legenda<b>
+<b>Legenda</b>
   
 <img src="../assets/planejamento/logos/legendaCor.png" width="250px" />
 <img src="../assets/planejamento/logos/legendaChar.png" width="215px" />
+<h6 align = "center">Figura 2 e 3: Legendas do HeatMap</h6>
+<h6 align = "center">Fonte: Autor</h6>
 
+## 6. Referências
+<p style="text-align: justify; text-indent: 20px">[1] Higor. <b>Introdução ao Extreme Programming (XP)</b>. 2013. Disponível em: <a href="https://www.devmedia.com.br/introducao-ao-extreme-programming-xp/29249" target="_blank">https://www.devmedia.com.br/introducao-ao-extreme-programming-xp/29249</a>. Acesso em: 29 de julho de 2021</p>
+<p style="text-align: justify; text-indent: 20px">[2] SCRUM. Disponível em: <a href="https://www.desenvolvimentoagil.com.br/scrum" target="_blank">https://www.desenvolvimentoagil.com.br/scrum</a>. Acesso em: 29 de julho de 2021 </p>

@@ -13,7 +13,7 @@
   </p>
   
   <p align="justify">&emsp;&emsp;
-    A Ingresso.com é uma ticketaria on-line, a primeira do Brasil, que permite a compra de ingresso para diversos eventos, como o Rock In Rio, cinema e teatro por meio da internet.
+    A Ingresso.com é uma ticketaria on-line, a primeira do Brasil, que permite a compra de ingresso para diversos eventos, como o Rock In Rio, cinema e teatro por meio da internet [1].
   </p>
   
 ## Equipe
@@ -52,3 +52,8 @@
 | Versão | Data  | Descrição            | Autor(es)       |
 | ------ | ----- | -------------------- | --------------- |
 | 1.0    | 01/08 | Criação do Documento | Thiago e Rafael |
+| 1.1    | 04/08 | Adição das referencias| Thiago |
+
+## Referências
+
+<p style="text-align: justify; text-indent: 20px">[1] INGRESSO.COM. 2021. Disponível em: <a href="https://www.ingresso.com/institucional#section-timeline" target="_blank">Conheça Nossa História</a>. Acesso em: 27 de julho de 2021.</p>
