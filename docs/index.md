@@ -13,7 +13,15 @@
   </p>
   
   <p align="justify">&emsp;&emsp;
-    A Ingresso.com é uma ticketaria on-line, a primeira do Brasil, que permite a compra de ingresso para diversos eventos, como o Rock In Rio, cinema e teatro por meio da internet [1].
+    A Ingresso.com é uma ticketaria on-line, a primeira do Brasil, que permite a compra de ingresso para diversos eventos, como o Rock In Rio, cinema e teatro por meio da internet [1]. 
+  </p>
+
+  <p align="justify">&emsp;&emsp;
+    Após algumas conversas e votações, o grupo optou por escolher o aplicativo Ingresso.com após analisar que o trabalho voltado para a área de requisitos seria muito benéfico para todos, uma vez que, além de possuir diversas funções, é um aplicativo com espaço para adicionar novas funcionalidades também. Sendo assim, conseguiríamos realizar um bom trabalho, tanto na parte de análise dos requisitos já existentes, como na área de criação e sugestão para uma nova versão.
+  </p>
+
+  <p align="justify">&emsp;&emsp;
+    Além disso, sabemos que devido à pandemia os evento e alguns estabelecimentos tiveram que fechar suas portas por conta de um bem maior, o que impactou diretamente o aplicativo em questão. Portanto, com a reabertura de alguns cinemas, teatros e até eventos, o momento parece propício para um estudo dos requisitos do aplicativo, uma vez que voltará, de maneira gradual, a ser bastante utilizado.
   </p>
   
 ## Equipe
