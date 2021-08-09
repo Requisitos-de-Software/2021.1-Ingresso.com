@@ -61,6 +61,7 @@
 | ------ | ----- | -------------------- | --------------- |
 | 1.0    | 01/08 | Criação do Documento | Thiago e Rafael |
 | 1.1    | 04/08 | Adição das referencias| Thiago |
+| 1.2    | 09/08 | Adição da justificativa do app| Vitor Lamego |
 
 ## Referências
 
