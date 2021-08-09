@@ -12,10 +12,15 @@ theme:
     primary: black
     accent: blue
 
+extra_css:
+  - stylesheets/extra.css
+
 nav:
   - Inicio: "index.md"
   - Planejamento: "planejamento/index.md"
   - Pré Rastreabilidade: "pre_rastreabilidade/rich_picture.md"
+  - Elicitação:
+    - Storytelling: "elicitacao/storytelling.md"
   - Apresentações:
     - Ponto de Controle 1: "apresentacoes/p1.md"
   - Atas:
