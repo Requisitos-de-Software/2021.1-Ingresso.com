@@ -16,6 +16,8 @@ nav:
   - Inicio: "index.md"
   - Planejamento: "planejamento/index.md"
   - Pré Rastreabilidade: "pre_rastreabilidade/rich_picture.md"
+  - Elicitação:
+    - Observação Participativa: "elicitacao/observacao_participativa.md"
   - Apresentações:
     - Ponto de Controle 1: "apresentacoes/p1.md"
   - Atas:
