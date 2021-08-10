@@ -23,7 +23,7 @@
 
 ## 4. Verbalização do Usuário
 
-|Operação|Observação|
+|Ação|Observação|
 |:---:|:---:|
 | Inicialização pela primeira vez | Quando o usuário abre o app pela primeira vez, é pedida permissão para utilizar a localização para poder sugerir eventos de acordo com a proximidade da localização informada.
 |Alterar localização|No menu superior esquerdo tem como alterar a localização para ver eventos de outros lugares.|
@@ -42,14 +42,23 @@
 |Formas de pagamento| É possível pagar com cartão de crédito, google pay, paypal ou cartão de débito, também é possível aplicar código de desconto.|
 |Após o pagamento| É gerado um comprovante que atesta que você pagou pelo serviço.|
 
+<h6 align = "center">Tabela 1: Tabela contendo as verbalizações das ações do sujeito</h6>
+<h6 align = "center">Fonte: Autor</h6>
+
 <center>
 <h3> Acesso à <a href="https://drive.google.com/file/d/1wepFqr5pSS0Fe8-JQdHjwefvvhgvlwsO/view?usp=sharing">gravação do sujeito.</a></h3>
 </center>
 
 
 
+
 ## 5. Requisitos levantados
 
+<h4>Legendas:</h4>
+* AP = Análise de protocolo
+* RF = Requisito funcional
+* RNF = Requisito não funcional
+  
 |ID|Tipo|Descrição|
 |:--:|:--:|:-----:|
 |AP01|RF01|O aplicativo deve permitir selecionar a região desejada|
@@ -72,6 +81,10 @@
 |AP18|RNF02|O aplicativo deve ser de fácil instalação|
 |AP19|RNF03|O aplicativo deve ser seguro por lidar com dados sensíveis|
 |AP20|RNF04|O aplicativo deve ser monetizado através de publicidade|
+
+<h6 align = "center">Tabela 2: Tabela contendo os requisitos levantas pela análise de protocolo</h6>
+<h6 align = "center">Fonte: Autor</h6>
+
 
 ## 6. Referências
 
