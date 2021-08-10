@@ -6,7 +6,7 @@
 |1.1|09/08|<center>Adição de tabela de requisitos elicitados</center>|<center>João Pedro</center>|
 
 ## 2. Introdução
-<p style="text-align: justify; text-indent: 20px"><b><i>Storytelling</i></b> é uma técnica de elicitação de requisitos, que traduzida para o português significa Contar Histórias. Estudos demonstram que essa metodologia é capaz de levantar requisitos de uma forma muito eficiente, além, de ser capaz de capturar melhor diversos detalhes específicos. Esse poderio decorre do conhecimento natural do ser humano de contar histórias, para poder se comunicar e compartilhar conhecimento [1]. Por esses e muito outros motivos, essa técnica se faz essêncial para a elicitação de requisitos do projeto.</p>
+<p style="text-align: justify; text-indent: 20px"><b><i>Storytelling</i></b> é uma técnica de elicitação de requisitos, que traduzida para o português significa Contar Histórias. Estudos demonstram que essa metodologia é capaz de levantar requisitos de uma forma muito eficiente, além, de ser capaz de capturar melhor diversos detalhes específicos. Esse poderio decorre do conhecimento natural do ser humano de contar histórias, para poder se comunicar e compartilhar conhecimento [1]. Por esses e muito outros motivos, essa técnica se faz essencial para a elicitação de requisitos do projeto.</p>
 
 ## 3. Resultados
 ### 3.1 História 1
