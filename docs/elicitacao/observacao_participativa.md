@@ -13,7 +13,8 @@
 ## 3. Resultado
 <p style="text-align: justify; text-indent: 20px">O participante Carlos Eduardo acessou e navegou o aplicativo ingresso.com e documentou os requisitos elicitados.</p>
 
-<p style="text-align: justify; text-indent: 20px">Data de realização: 09/08/2021.</p>
+- Data de realização: 09/08/2021
+- Versão do aplicativo: 3.1.4 Build 192
 
 ### Requisitos
 
