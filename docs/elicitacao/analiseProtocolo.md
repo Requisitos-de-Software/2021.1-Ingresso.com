@@ -39,3 +39,10 @@
 |Identificação de pagamento| Para poder realizar o pagamento é necessário se identificar de alguma forma, as disponíveis são: Entrar com uma rede social (facebook ou google), Entrar como cliente Ingresso.com e Entrar sem cadastro que seria somente com o e-mail e o cpf.|
 |Formas de pagamento| É possível pagar com cartão de crédito, google pay, paypal ou cartão de débito, também é possível aplicar código de desconto.|
 |Após o pagamento| É gerado um comprovante que atesta que você pagou pelo serviço.|
+
+<center>
+<h3> Acesso à <a href="https://drive.google.com/file/d/1wepFqr5pSS0Fe8-JQdHjwefvvhgvlwsO/view?usp=sharing">gravação do sujeito.</a></h3>
+</center>
+
+
+
