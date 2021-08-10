@@ -18,6 +18,7 @@ nav:
   - Pré Rastreabilidade: "pre_rastreabilidade/rich_picture.md"
   - Elicitação:
     - Personas: "elicitacao/personas.md"
+    - 5W2H: "elicitacao/5w2h.md"
   - Apresentações:
     - Ponto de Controle 1: "apresentacoes/p1.md"
   - Atas:
