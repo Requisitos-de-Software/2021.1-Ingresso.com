@@ -2,7 +2,9 @@
 
 |Versão|Data|Descrição|Autor(es)|
 |------|----|---------|---------|
-|1.0|10/08|<center>Abertura do documento de análise de protocolo</center>|<center>Rafael</center>|
+|1.0|10/08|Abertura do documento de análise de protocolo|Rafael|
+|1.1|10/08|Adição dos requisitos levantados|Rafael|
+
 
 ## 2. Introdução
 
@@ -43,6 +45,46 @@
 <center>
 <h3> Acesso à <a href="https://drive.google.com/file/d/1wepFqr5pSS0Fe8-JQdHjwefvvhgvlwsO/view?usp=sharing">gravação do sujeito.</a></h3>
 </center>
+
+
+
+## 5. Requisitos levantados
+
+|ID|Tipo|Descrição|
+|:--:|:--:|:-----:|
+|AP01|RF01|O aplicativo deve permitir selecionar a região desejada|
+|AP02|RF02|O usuário deve conseguir ver os filmes em cartaz na região desejada|
+|AP03|RF03|O usuário deve conseguir pesquisar os filmes em cartaz naregião desejada |
+|AP04|RF04|O usuário deve conseguir ver os cinemas na região desejada |
+|AP05|RF05|O usuário deve conseguir pesquisar os cinemas na região desejada |
+|AP06|RF06|O aplicativo deve recomendar os filmes em alta (destaques) |
+|AP07|RF07|O aplicativo deve recomendar notícias em alta (destaques) |
+|AP08|RF08|O aplicativo deve exibir as prevenções adotadas pelos cinemas referentes a pandemia do covid-19 |
+|AP09|RF09|O aplicativo deve deixar claro o que cada medida de prevenção significa|
+|AP10|RF10|O usuário deve poder navegar pelo aplicativo sem precisar de um cadastro|
+|AP11|RF11|O usuário deve se cadastrar utilizando redes sociais ou não|
+|AP12|RF12|O usuário deve poder escolher o(s) seu(s) assento(s)|
+|AP13|RF13|O usuário deve poder escolher qual tipo de ingresso vai querer|
+|AP14|RF14|O usuário deve poder escolher o alimento(combo) que irá consumir na sessão|
+|AP15|RF15|O usuário deve conseguir efetuar o pagamento de diferentes formas |
+|AP16|RF16|O aplicativo deve identificar o usuário no pagamento|
+|AP17|RNF01|O aplicativo deve ser de fácil utilização (intuitivo)|
+|AP18|RNF02|O aplicativo deve ser de fácil instalação|
+|AP19|RNF03|O aplicativo deve ser seguro por lidar com dados sensíveis|
+|AP20|RNF04|O aplicativo deve ser monetizado através de publicidade|
+
+## 6. Referências
+
+<p style="text-align: justify; text-indent: 20px">[1] SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 07. 1º/2019. 50 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.</p>
+
+
+
+
+
+
+
+
+
 
 
 
