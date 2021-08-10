@@ -20,6 +20,7 @@ nav:
   - Planejamento: "planejamento/index.md"
   - Pré Rastreabilidade: "pre_rastreabilidade/rich_picture.md"
   - Elicitação:
+    - Personas: "elicitacao/personas.md"
     - Storytelling: "elicitacao/storytelling.md"
   - Apresentações:
     - Ponto de Controle 1: "apresentacoes/p1.md"
