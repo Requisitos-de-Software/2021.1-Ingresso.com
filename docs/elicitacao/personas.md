@@ -7,7 +7,7 @@
 |1.1.2|08/08|<center>Adição de persona secundária e antipersona</center>|<center>João Pedro</center>|
 
 ## 2. Introdução
-<p style="text-align: justify; text-indent: 20px">Para a criação de um produto de qualidade, é importante compreender quem são os usuários, quais são seus ojetivos e suas necessidades. De forma a facilitar esse entendimento, algumas técnicas podem ser utilizadas para tal propósito. Uma dessas metodologias, e a que está descrita nesse documento, é a utilização das personas.</p>
+<p style="text-align: justify; text-indent: 20px">Para a criação de um produto de qualidade, é importante compreender quem são os usuários, quais são seus objetivos e suas necessidades. De forma a facilitar esse entendimento, algumas técnicas podem ser utilizadas para tal propósito. Uma dessas metodologias, e a que está descrita nesse documento, é a utilização das personas.</p>
 <p style="text-align: justify; text-indent: 20px"><b>Personas</b> conforme descrito por Cooper <i>et al.</i> (2007), Pruitt e Adlin (2006) e Cooper (1999), são personagens fictícios de um grupo de usuários reais utilizadas para descrever um usuário comum da aplicação. Através dessa técnica, as discussões de design se mantém focadas nos mesmos alvos, permitindo uma melhor análise de requisitos. Portanto, segundo Diniz <i>et al.</i> (2021, pág. 153) [1], as personas são definidas segundo seus objetivos após vários processos de refinação.</p>
 
 ## 3. Resultados
@@ -36,7 +36,7 @@
 |<b>Escolaridade:</b>|Ensino Superior Completo.|
 |<b>Objetivos:</b>|Deseja viajar para os mais diversos estados (que ainda não visitou), buscando novas experiências por todo o país em que reside.|
 |<b>Habilidades:</b>|Extremamente habilidosa com a preparação de novos pratos, facilidade de leitura e aprendizado, além de possuir uma grande habilidade em motivar e se comunicar com outras pessoas.|
-|<b>Tarefas:</b>|Por todo o período da manhã e da tarde ensinsa literatura em uma escola de ensino fundamental onde trabalha. Pela noite, prepara suas aulas do dia seguinte e aproveita suas últimas horas do dia navegando pela internet.|
+|<b>Tarefas:</b>|Por todo o período da manhã e da tarde ensina literatura em uma escola de ensino fundamental onde trabalha. Pela noite, prepara suas aulas do dia seguinte e aproveita suas últimas horas do dia navegando pela internet.|
 |<b>Relacionamentos:</b>|Solteira.|
 |<b>Requisitos:</b>|Alice não necessita de muitas coisas a não ser de seu celular/notebook para preparar suas aulas e para descançar assistindo seus filmes prediletos. Apesar disso, gosta de coisas simples e de fácil acesso para suprir suas necessidades.|
 |<b>Expectativas:</b>|Por seu desejo de viajar para os diversos estados brasileiros e por gostar bastante da simplicidade, espera que um aplicativo de cinemas seja capaz de prover meios simples para a obtenção de informações sobre cinemas e quais filmes estão em cartaz em sua redondeza.|
