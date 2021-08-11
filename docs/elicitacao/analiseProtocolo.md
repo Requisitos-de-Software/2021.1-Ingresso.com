@@ -54,41 +54,39 @@
 
 ## 5. Requisitos levantados
 
-<h4>Legendas:</h4>
+<h4>Legenda:</h4>
 * AP = Análise de protocolo
-* RF = Requisito funcional
-* RNF = Requisito não funcional
   
-|ID|Tipo|Descrição|
+|ID|Descrição|Tipo de Requisito|
 |:--:|:--:|:-----:|
-|AP01|RF01|O aplicativo deve permitir selecionar a região desejada|
-|AP02|RF02|O usuário deve conseguir ver os filmes em cartaz na região desejada|
-|AP03|RF03|O usuário deve conseguir pesquisar os filmes em cartaz naregião desejada |
-|AP04|RF04|O usuário deve conseguir ver os cinemas na região desejada |
-|AP05|RF05|O usuário deve conseguir pesquisar os cinemas na região desejada |
-|AP06|RF06|O aplicativo deve recomendar os filmes em alta (destaques) |
-|AP07|RF07|O aplicativo deve recomendar notícias em alta (destaques) |
-|AP08|RF08|O aplicativo deve exibir as prevenções adotadas pelos cinemas referentes a pandemia do covid-19 |
-|AP09|RF09|O aplicativo deve deixar claro o que cada medida de prevenção significa|
-|AP10|RF10|O usuário deve poder navegar pelo aplicativo sem precisar de um cadastro|
-|AP11|RF11|O usuário deve se cadastrar utilizando redes sociais ou não|
-|AP12|RF12|O usuário deve poder escolher o(s) seu(s) assento(s)|
-|AP13|RF13|O usuário deve poder escolher qual tipo de ingresso vai querer|
-|AP14|RF14|O usuário deve poder escolher o alimento(combo) que irá consumir na sessão|
-|AP15|RF15|O usuário deve conseguir efetuar o pagamento de diferentes formas |
-|AP16|RF16|O aplicativo deve identificar o usuário no pagamento|
-|AP17|RNF01|O aplicativo deve ser de fácil utilização (intuitivo)|
-|AP18|RNF02|O aplicativo deve ser de fácil instalação|
-|AP19|RNF03|O aplicativo deve ser seguro por lidar com dados sensíveis|
-|AP20|RNF04|O aplicativo deve ser monetizado através de publicidade|
+|AP01|O aplicativo deve permitir selecionar a região desejada|Requisito funcional|
+|AP02|O usuário deve conseguir ver os filmes em cartaz na região desejada|Requisito funcional
+|AP03|O usuário deve conseguir pesquisar os filmes em cartaz na região desejada|Requisito funcional|
+|AP04|O usuário deve conseguir ver os cinemas na região desejada |Requisito funcional|
+|AP05|O usuário deve conseguir pesquisar os cinemas na região desejada |Requisito funcional|
+|AP06|O aplicativo deve recomendar os filmes em alta (destaques) |Requisito funcional|
+|AP07|O aplicativo deve recomendar notícias em alta (destaques) |Requisito funcional|
+|AP08|O aplicativo deve exibir as prevenções adotadas pelos cinemas referentes a pandemia do covid-19|Requisito funcional|
+|AP09|O aplicativo deve deixar claro o que cada medida de prevenção significa|Requisito funcional|
+|AP10|O usuário deve se cadastrar utilizando redes sociais ou não|Requisito funcional|
+|AP11|O usuário deve poder escolher o(s) seu(s) assento(s)|Requisito funcional|
+|AP12|O usuário deve poder escolher qual tipo de ingresso vai querer|Requisito funcional|
+|AP13|O usuário deve poder escolher o alimento(combo) que irá consumir na sessão|Requisito funcional|
+|AP14|O usuário deve conseguir efetuar o pagamento de diferentes formas |Requisito funcional|
+|AP15|O aplicativo deve identificar o usuário no pagamento|Requisito funcional|
+|AP16|O usuário deve poder navegar pelo aplicativo sem precisar de um cadastro|Requisito não funcional|
+|AP17|O aplicativo deve ser de fácil utilização (intuitivo)|Requisito não funcional|
+|AP18|O aplicativo deve ser de fácil instalação|Requisito não funcional|
+|AP19|O aplicativo deve ser seguro por lidar com dados sensíveis|Requisito não funcional|
+|AP20|O aplicativo deve ser monetizado através de publicidade|Requisito não funcional|
 
-<h6 align = "center">Tabela 2: Tabela contendo os requisitos levantas pela análise de protocolo</h6>
+<h6 align = "center">Tabela 2: Tabela contendo os requisitos levantados pela análise de protocolo</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
 
 ## 6. Referências
 
-<p style="text-align: justify; text-indent: 20px">[1] SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 07. 1º/2019. 50 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.</p>
+<p style="text-align: justify; text-indent: 20px">[1] SERRANO, Milene; SERRANO, Maurício. <b>Requisitos - Aula 07</b>. 2019. 50 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.</p>
 
 
 
