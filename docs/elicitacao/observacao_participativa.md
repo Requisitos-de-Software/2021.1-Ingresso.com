@@ -5,7 +5,7 @@
 |1.1|09/08|Adição do resultado|Carlos Eduardo|
 
 ## 2. Introdução
-<p style="text-align: justify; text-indent: 20px">A técnica de elicitação observação participativa compreende do engenheiro de software se passar como um usuário do aplicativo, o que o leva a observar aspectos, funcionalidades e características para documentar os requisitos do sistema.</p>
+<p style="text-align: justify; text-indent: 20px">A técnica de elicitação observação participativa compreende do engenheiro de software se passar como um usuário do aplicativo, o que o leva a observar aspectos, funcionalidades e características para documentar os requisitos do sistema. [1]</p>
 
 ## 3. Resultado
 - Data de realização da observação: 09/08/2021
@@ -74,5 +74,8 @@
 |OP57|O usuário deve poder editar ou excluir seus cartões salvos|<p style="text-align: center">Requisito Funcional</p>|
 |OP58|O sistema deve enviar um email confirmando a compra de ingressos|<p style="text-align: center">Requisito Funcional</p>|
 
+<h6 align = "center">Tabela 1: Tabela contendo os requisitos elicitados<h6>
+<h6 align = "center">Fonte: Autor</h6>
+
 ## 4. Referências
-<p style="text-align: justify; text-indent: 20px">SERRANO, Maurício; SERRANO, Milene; <b>Requisitos - Aula 07</b>. </p>
+<p style="text-align: justify; text-indent: 20px">[1] SERRANO, Maurício; SERRANO, Milene; <b>Requisitos - Aula 07</b>. </p>
