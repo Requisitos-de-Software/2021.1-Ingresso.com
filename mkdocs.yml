@@ -12,6 +12,9 @@ theme:
     primary: black
     accent: blue
 
+extra_css:
+  - stylesheets/extra.css
+
 nav:
   - Inicio: "index.md"
   - Planejamento: "planejamento/index.md"
@@ -19,6 +22,7 @@ nav:
   - Elicitação:
     - Análise de Protocolo: "elicitacao/analiseProtocolo.md"
     - Personas: "elicitacao/personas.md"
+    - Storytelling: "elicitacao/storytelling.md"
   - Apresentações:
     - Ponto de Controle 1: "apresentacoes/p1.md"
   - Atas:
