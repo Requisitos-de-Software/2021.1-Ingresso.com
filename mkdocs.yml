@@ -17,6 +17,7 @@ nav:
   - Planejamento: "planejamento/index.md"
   - Pré Rastreabilidade: "pre_rastreabilidade/rich_picture.md"
   - Elicitação:
+    - Análise de Protocolo: "elicitacao/analiseProtocolo.md"
     - Personas: "elicitacao/personas.md"
   - Apresentações:
     - Ponto de Controle 1: "apresentacoes/p1.md"
