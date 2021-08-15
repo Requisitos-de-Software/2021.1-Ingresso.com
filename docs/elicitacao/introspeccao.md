@@ -4,11 +4,14 @@
 |------|----|---------|---------|
 |1.0|13/08|Abertura do documento de Introspecção|Thiago|
 |1.1|13/08|Adição das introspecções|Thiago|
+|1.1|15/08|Adicao da introducão e referências|Thiago|
 
 ## 1. Introdução
+<p style="text-align: justify; text-indent: 20px">
+A introspecção consiste no ato de tentar entender as propriedades que um sistema deve ter para que seja bem sucedido. Baseia-se em imaginar o que você gostaria que o sistema tivesse para realizar uma dada tarefa. Essa técnica pode sofrer com o viés do Engenheiro de Requisitos que está imaginando, uma vez que as escolhas dele podem não refletir as necessidades da maioria dos usuários do sistema [1]. Sendo assim, a seção 2 apresenta uma introspecção que está sendo aplicada sobre um fluxo de entrar no aplicativo até o recebimento do ingresso.
+</p>
 
 ## 2. Introspecções Desenvolvidas
-
 ### Ao acessar o aplicativo
 
 - Deve apresentar os filmes mais populares em cartaz.
@@ -66,3 +69,5 @@
 
 
 ## 3. Referências
+
+- [1] Goguen, J. e Linde, C. <b>Techniques for Requirements Elicitation</b>. IEE Computer Society. 1993.
