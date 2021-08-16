@@ -8,7 +8,7 @@
 
 ## 1. Introdução
 <p style="text-align: justify; text-indent: 20px">
-A introspecção consiste no ato de tentar entender as propriedades que um sistema deve ter para que seja bem sucedido. Baseia-se em imaginar o que você gostaria que o sistema tivesse para realizar uma dada tarefa. Essa técnica pode sofrer com o viés do Engenheiro de Requisitos que está imaginando, uma vez que as escolhas dele podem não refletir as necessidades da maioria dos usuários do sistema [1]. Sendo assim, a seção 2 apresenta uma introspecção que está sendo aplicada sobre um fluxo de entrar no aplicativo até o recebimento do ingresso.
+A introspecção consiste no ato de tentar entender as propriedades que um sistema deve ter para que seja bem sucedido. Baseia-se em imaginar o que você gostaria que o sistema tivesse para realizar uma determinada tarefa. Essa técnica pode sofrer com o viés do Engenheiro de Requisitos que está imaginando, uma vez que as escolhas dele podem não refletir as necessidades da maioria dos usuários do sistema [1]. Sendo assim, a seção 2 apresenta uma introspecção que está sendo aplicada sobre um fluxo de entrar no aplicativo até o recebimento do ingresso.
 </p>
 
 ## 2. Introspecções Desenvolvidas
@@ -16,16 +16,19 @@ A introspecção consiste no ato de tentar entender as propriedades que um siste
 
 - Deve apresentar os filmes mais populares em cartaz.
 - Deve apresentar os filmes que serão lançados.
+- Deve mostrar os cinemas abertos próximos ao usuário.
 - Deve ter uma maneira de pesquisar e filtrar.
 - Deve ter uma área para notícias.
 - Deve ter uma área de autenticação.
+- Deve ter uma área informando as medidas de prevenção durante a pandemia.
+- Deve ter uma área para selecionar a cidade que deseja.
 - Não há necessidade de autenticação para navegar entre os filmes e notícias.
 
 ### Ao escolher um filme
 
 - Deve apresentar informações sobre o filme.
 - Deve mostrar os cinemas mais próximos em que o filme está em cartaz.
-- Os cinemas devem apresentar os horários das sessões do filme.
+- Os cinemas devem apresentar os horários das sessões do filme nos próximos dois dias.
 - Deve ter como seguir o filme para acompanhar notícias e lançamentos.
 - Deve recomendar outros filmes.
 - Pode compartilhar o filme.
