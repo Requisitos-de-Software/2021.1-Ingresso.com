@@ -12,13 +12,20 @@ theme:
     primary: black
     accent: blue
 
+extra_css:
+  - stylesheets/extra.css
+
 nav:
   - Inicio: "index.md"
   - Planejamento: "planejamento/index.md"
   - Pré Rastreabilidade: "pre_rastreabilidade/rich_picture.md"
   - Elicitação:
     - Personas: "elicitacao/personas.md"
+    - Storytelling: "elicitacao/storytelling.md"
+    - Análise de Protocolo: "elicitacao/analiseProtocolo.md"
     - Entrevistas: "elicitacao/entrevistas.md"
+    - Observação Participativa: "elicitacao/observacao_participativa.md"
+    - 5W2H: "elicitacao/5w2h.md"
   - Apresentações:
     - Ponto de Controle 1: "apresentacoes/p1.md"
   - Atas:
