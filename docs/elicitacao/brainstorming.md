@@ -6,15 +6,17 @@
 |1.1|17/08|Adição dos Questionamentos e Requisitos|Rafael, Thiago e Vitor Lamego|
 |1.2|17/08|Adição da Introdução|Vitor Lamego|
 |1.3|17/08|Organização da tabela de requisitos|Rafael Ramos|
+|1.4|17/08|Revisando documento|Thiago|
 
 
 
 ## 2. Introdução
-<p style="text-align: justify; text-indent: 20px">O Brainstorming é uma técnica de estímulo para o surgimento de ideias criativas, assim promove o pensamento estrtégino e inovador dos membros de uma determinada equipe. A técnica consiste basicamente em compartilhar ideias espontâneas a fim de encontrar soluções para um determinado problema ou para gerar insigths de criatividade em relação a algum contexto. Para o bom funcionamento a técnica deve ser realizada em grupo, de preferência com pessoas que tenham diferentes perspectivas do problemas, e livre de críticas, tudo deve ser levado em conta dentro de um brainstorming. [1]</p>
 
-<p style="text-align: justify; text-indent: 20px">Na área de Engenharia de Software é muito commum vermos essa técnica sendo utilizada no período de elicitação de requisitos junto ao usuário, assim a equipe consegue formular, junto ao cliente, soluções melhores para o problema proposto. Além disso pode ser aplicada dentro da equipe também, a fim de discutir mudanças, diferentes caminhos e para formular novas ideias para o projeto.</p>
+<p align="justify" style="text-indent: 20px">O Brainstorming é uma técnica de estímulo para o surgimento de ideias criativas, assim promove o pensamento estratégico e inovador dos membros de uma determinada equipe. A técnica consiste basicamente em compartilhar ideias espontâneas a fim de encontrar soluções para um determinado problema ou para gerar insights de criatividade em relação a algum contexto. Para um bom funcionamento, a técnica deve ser realizada em grupo, de preferência com pessoas que tenham diferentes perspectivas dos problemas, e livre de críticas, tudo deve ser levado em conta dentro de um brainstorming. [1]</p>
 
-<p style="text-align: justify; text-indent: 20px">Nessa ocasião, os membros Rafael Cleydson, Thiago Paiva e Vitor Lamego se reuniram para discutir mais sobre possíveis vertentes novas no aplicativo e também levantar os requisitos da aplicação a partir de uma conversa em grupo, que é justamente o que o brainstorming propõe. Assim, foram feitas algumas perguntas iniciais como forma de aquecimento para o processo de elicitação, nesta etapa algumas perguntas foram levantadas e cada membro deu a sua opinião sobre, assim começamos a abrir o ponto de vista e as novas perspectivas do aplicativo. Depois disso foi feito a elicitação de requisitos em conjunto, onde os membros colocaram em uma tabela os requisitos funcionais e não funcionais que foram discutido. O documento a seguir mostra os resultados da aplicação do brainstorming.</p>
+<p align="justify" style="text-indent: 20px">Na área de Engenharia de Software, é muito comum vermos essa técnica sendo utilizada no período de elicitação de requisitos junto ao usuário, assim a equipe consegue formular, junto ao cliente, soluções melhores para o problema proposto. Além disso, pode ser aplicada pela própria equipe, a fim de discutir mudanças, diferentes caminhos e para formular novas ideias para o projeto.</p>
+
+<p align="justify" style="text-indent: 20px">Nessa ocasião, os membros Rafael Cleydson, Vitor Lamego e Thiago Paiva se reuniram para discutir sobre as possíveis novas vertentes do aplicativo e também levantar os requisitos da aplicação a partir de uma conversa em grupo, que é justamente o que o brainstorming propõe. Assim, foram feitas algumas perguntas iniciais como forma de aquecimento para o processo de elicitação, nesta etapa algumas perguntas foram levantadas e cada membro deu a sua opinião sobre, assim começamos a abrir o ponto de vista e as novas perspectivas do aplicativo. Depois disso, foi feita a elicitação de requisitos em conjunto, onde os membros colocaram em uma tabela os requisitos funcionais e não funcionais que foram discutidos. As seções a seguir mostram os resultados da aplicação do brainstorming.</p>
 
 ## 3. Questionamentos
 <hr>
@@ -35,6 +37,7 @@
 <hr>
 
 ### 3.2 Trazer novas funcionalidades para o aplicativo, além da opção principal de compra de ingresso, seria algo vantajoso ou não para o aplicativo ?
+
 - <p align="justify"> <b>Rafael</b>: Creio que trazer novas funcionalidades faz muito sentido se essa funcionalidade seja para incentivar as compras de ingresso, pois filmes são disponibilizados em diversas plataformas on-line de fácil acessibilidade, então funcionalidades que incentivem a ida dos usuários ao cinema para assistir o filme tão desejado são sempre bem vindas, agora se for uma funcionalidade que não possui nenhuma relação com a venda de ingressos, talvez seja necessária uma análise mais profunda da necessidade de expansão ou não do aplicativo. 
 </p>
 
@@ -43,8 +46,11 @@
 
 - <p align="justify"> <b>Thiago</b>: Novas funcionalidades são sempre importantes para qualquer aplicativo que queira persistir no mercado por muito tempo. Ainda mais funcionalidades que ofereçam alguma praticidade para o usuário. Assim, uma opção muito boa seria comprar os acompanhamentos junto com o ingresso, pois economiza um bom tempo que a pessoa gastaria na fila.
 </p>
+
 <hr>
+
 ### 3.3 Como incentivar o usuário a utilizar o aplicativo mais vezes ?
+
 - <p align="justify"> <b>Rafael</b>: Um grande incentivo para reuso do app seria o usuário possuir uma conta, ou seja, ele se cadastrar e poder logar. Após ele ter uma conta, sentir segurança e facilidade no uso do aplicativo, seria interessante também algum sistema de recompensa em parceria com os cinemas.
 </p>
 
@@ -59,6 +65,7 @@
 <hr>
 
 ## 4. Requisitos levantados:
+
 <h4>Legenda:</h4>
 * BS - Brainstorming
   
