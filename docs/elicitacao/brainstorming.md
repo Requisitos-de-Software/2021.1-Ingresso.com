@@ -5,6 +5,8 @@
 |1.0|17/08|Abertura do documento de brainstorm|Rafael, Thiago e Vitor Lamego|
 |1.1|17/08|Adição dos Questionamentos e Requisitos|Rafael, Thiago e Vitor Lamego|
 |1.2|17/08|Adição da Introdução|Vitor Lamego|
+|1.3|17/08|Organização da tabela de requisitos|Rafael Ramos|
+
 
 
 ## 2. Introdução
@@ -57,32 +59,33 @@
 <hr>
 
 ## 4. Requisitos levantados:
-
-|ID|Descrição|Tipo de Requisito|
-|:--:|:--:|:-----:|
-|BS01| O aplicativo deve permitir o cadastro/login do usuário | Requisito Funcional|
-|BS02| O aplicativo deve fornecer diferentes maneiras de pagamento | Requisito Funcional|
-|BS03| O usuário deve poder comprar os acompanhamentos junto dos ingressos | Requisito Funcional |
-|BS04| O sistema e o evento deve ter uma interface de comunicação prática| Requisito Não Funcional |
-|BS05| O aplicativo deve informar os cinemas próximos ao usuário | Requisito Funcional |
-|BS06| O aplicativo deve permitir que o usuário selecione a cidade que deseja | Requisito Funcional |
-|BS07| O aplicativo deve informar notícias sobre os filmes | Requisito Funcional |
-|BS08| O aplicativo deve informar os filmes em cartaz | Requisito Funcional |
-|BS09| O aplicativo deve informar os filmes que vão ser lançados em breve | Requisito Funcional |
-|BS10| O aplicativo deve informar as sessões disponíveis de um filme em específico | Requisito Funcional |
-|BS11| O usuário deve poder filtrar as sessões de acordo com com o tipo de exibição do filme | Requisito Funcional
-|BS12| O aplicativo deve permitir o cancelamento/reembolso da compra| Requisito Funcional |
-|BS13| O aplicativo deve informar os detalhes de um filme específico| Requisito Funcional |
-|BS14| O aplicativo deve informar o histórico de compra dos usuários logados| Requisito Funcional |
-|BS15| O aplicativo deve assegurar a segurança dos usuários| Requisito Não Funcional |
-|BS16| O aplicativo deve fornecer uma opção de atendimento para ajudar o usuário | Requisito Funcional |
-|BS17| O aplicativo deve fornecer as iniciativas de prevenção de cada cinema | Requisito Funcional |
-|BS18| O aplicativo deve funcionar em todas as plataformas virtuais | Requisito Não Funcional |
-|BS19| O aplicativo deve funcionar em dispositivos de tamanhos diferentes | Requisito Não Funcional |
-|BS20| O usuário deve poder compartilhar uma determinada notícia | Requisito Funcional |
+<h4>Legenda:</h4>
+* BS - Brainstorming
+  
+|  ID   |                                     Descrição                                     |    Tipo de Requisito    |
+| :---: | :-------------------------------------------------------------------------------: | :---------------------: |
+| BS01  |              O aplicativo deve permitir o cadastro/login do usuário               |   Requisito Funcional   |
+| BS02  |       O aplicativo deve permitir que o usuário selecione a cidade desejada        |   Requisito Funcional   |
+| BS03  |             O aplicativo deve informar os cinemas próximos ao usuário             |   Requisito Funcional   |
+| BS04  |                  O aplicativo deve informar os filmes em cartaz                   |   Requisito Funcional   |
+| BS05  |        O aplicativo deve informar os filmes que vão ser lançados em breve         |   Requisito Funcional   |
+| BS06  |           O aplicativo deve informar os detalhes de um filme específico           |   Requisito Funcional   |
+| BS07  |    O aplicativo deve informar as sessões disponíveis de um filme em específico    |   Requisito Funcional   |
+| BS08  | O usuário deve poder filtrar as sessões de acordo com o tipo de exibição do filme |   Requisito Funcional   |
+| BS09  |             O aplicativo deve fornecer diferentes formas de pagamento             |   Requisito Funcional   |
+| BS10  |        O usuário deve poder comprar os acompanhamentos junto dos ingressos        |   Requisito Funcional   |
+| BS11  |           O aplicativo deve permitir o cancelamento/reembolso da compra           |   Requisito Funcional   |
+| BS12  |       O aplicativo deve informar o histórico de compra dos usuários logados       |   Requisito Funcional   |
+| BS13  |                O aplicativo deve informar notícias sobre os filmes                |   Requisito Funcional   |
+| BS14  |             O usuário deve poder compartilhar uma determinada notícia             |   Requisito Funcional   |
+| BS15  |       O aplicativo deve fornecer as iniciativas de prevenção de cada cinema       |   Requisito Funcional   |
+| BS16  |     O aplicativo deve fornecer uma opção de atendimento para ajudar o usuário     |   Requisito Funcional   |
+| BS17  |                  O aplicativo deve prover segurança aos usuários                  | Requisito Não Funcional |
+| BS18  |           O aplicativo deve funcionar em todas as plataformas virtuais            | Requisito Não Funcional |
+| BS19  |        O aplicativo deve funcionar em dispositivos de tamanhos diferentes         | Requisito Não Funcional |
+| BS20  |        O sistema e o evento deve ter uma interface de comunicação prática         | Requisito Não Funcional |
 
 <h6 align="center">Tabela 1: Requisitos elicitados a partir do brainstorm</h6>
-<h6 align="center">Legenda: BS - Brainstorming</h6>
 <h6 align="center">Fonte: Autores</h6>
 
 ## 5. Referências
