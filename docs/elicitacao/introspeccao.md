@@ -73,47 +73,47 @@ A introspecção consiste no ato de tentar entender as propriedades que um siste
 
 ## 3. Requisitos Elicitados
 
-|ID|Descrição|Tipo|
+|ID|Descrição|Tipo de Requisito|
 |---|----|-----|
-I01|Apresentar os filmes mais populares em cartaz|Funcional|
-I02|Apresentar os filmes que serão lançados|Funcional|
-I03|Mostrar os cinemas abertos próximos ao usuário|Funcional|
-I04|Pesquisar um filme|Funcional|
-I05|Ter uma área para notícias|Funcional|
-I06|Ter uma área de autenticação|Funcional|
-I07|Ter uma área informando as medidas de prevenção durante a pandemia|Funcional|
-I08|Ter uma área para selecionar a cidade que deseja|Funcional|
-I09|Não há necessidade de autenticação para navegar entre os filmes e notícias|Não funcional|
-I10|Apresentar informações sobre o filme|Funcional|
-I11|Mostrar os cinemas mais próximos em que o filme está em cartaz|Funcional|
-I12|Os cinemas devem apresentar os horários das sessões do filme nos próximos dois dias|Funcional|
-I13|Ter como seguir o filme para acompanhar notícias e lançamentos|Funcional|
-I14|Recomendar outros filmes|Funcional|
-I15|Compartilhar o filme|Funcional|
-I16|Apresentar as informações do cinema|Funcional|
-I17|Apresentar as sessões com os horários e dias com vagas|Funcional|
-I18|Apresentar informações da sessão|Funcional|
-I19|Mostrar os assentos disponíveis|Funcional|
-I20|Apresentar os tipos de ingressos|Funcional|
-I21|Oferecer acompanhamentos|Funcional|
-I22|Comprar com uma conta criada no domínio|Funcional|
-I23|Comprar com uma conta do Google ou Facebook|Funcional|
-I24|Comprar sem o cadastro|Funcional|
-I25|Mostrar um resumo da compra|Funcional|
-I26|Mostrar o total e informações do pagamento|Funcional|
-I27|Ter como escolher o método de pagamento|Funcional|
-I28|O usuário deve ser notificado|Funcional|
-I29|O resumo do pedido deve ser enviado por e-mail|Funcional|
-I30|Ter uma área para os pedidos|Funcional|
-I31|Notificar a confirmação do pagamento|Funcional|
-I32|Apresentar informações do ingresso|Funcional|
-I33|Enviar o ingresso por e-mail|Funcional|
-I34|Notificar quando a sessão tiver chegando|Funcional|
+I01|Apresentar os filmes mais populares em cartaz|Requisito Funcional|
+I02|Apresentar os filmes que serão lançados|Requisito Funcional|
+I03|Mostrar os cinemas abertos próximos ao usuário|Requisito Funcional|
+I04|Pesquisar um filme|Requisito Funcional|
+I05|Ter uma área para notícias|Requisito Funcional|
+I06|Ter uma área de autenticação|Requisito Funcional|
+I07|Ter uma área informando as medidas de prevenção durante a pandemia|Requisito Funcional|
+I08|Ter uma área para selecionar a cidade que deseja|Requisito Funcional|
+I09|Não há necessidade de autenticação para navegar entre os filmes e notícias|Requisito Não Funcional|
+I10|Apresentar informações sobre o filme|Requisito Funcional|
+I11|Mostrar os cinemas mais próximos em que o filme está em cartaz|Requisito Funcional|
+I12|Os cinemas devem apresentar os horários das sessões do filme nos próximos dois dias|Requisito Funcional|
+I13|Ter como seguir o filme para acompanhar notícias e lançamentos|Requisito Funcional|
+I14|Recomendar outros filmes|Requisito Funcional|
+I15|Compartilhar o filme|Requisito Funcional|
+I16|Apresentar as informações do cinema|Requisito Funcional|
+I17|Apresentar as sessões com os horários e dias com vagas|Requisito Funcional|
+I18|Apresentar informações da sessão|Requisito Funcional|
+I19|Mostrar os assentos disponíveis|Requisito Funcional|
+I20|Apresentar os tipos de ingressos|Requisito Funcional|
+I21|Oferecer acompanhamentos|Requisito Funcional|
+I22|Comprar com uma conta criada no domínio|Requisito Funcional|
+I23|Comprar com uma conta do Google ou Facebook|Requisito Funcional|
+I24|Comprar sem o cadastro|Requisito Funcional|
+I25|Mostrar um resumo da compra|Requisito Funcional|
+I26|Mostrar o total e informações do pagamento|Requisito Funcional|
+I27|Ter como escolher o método de pagamento|Requisito Funcional|
+I28|O usuário deve ser notificado|Requisito Funcional|
+I29|O resumo do pedido deve ser enviado por e-mail|Requisito Funcional|
+I30|Ter uma área para os pedidos|Requisito Funcional|
+I31|Notificar a confirmação do pagamento|Requisito Funcional|
+I32|Apresentar informações do ingresso|Requisito Funcional|
+I33|Enviar o ingresso por e-mail|Requisito Funcional|
+I34|Notificar quando a sessão tiver chegando|Requisito Funcional|
 
 <p align="center">Tabela 1: Requisitos elicitados a partir da introspecção</p>
 <p align="center">Fonte: Autores</p>
 
 
-## 3. Referências
+## 4. Referências
 
 - [1] Goguen, J. e Linde, C. <b>Techniques for Requirements Elicitation</b>. IEE Computer Society. 1993.
