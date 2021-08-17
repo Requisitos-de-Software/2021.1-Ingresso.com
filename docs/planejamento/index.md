@@ -7,6 +7,7 @@
 |1.1|29/07|<center>Adição das Metodologias</center>|<center>Carlos Eduardo e Vitor Lamego</center>|
 |1.2|31/07|<center>Adição do HeatMap</center>|<center>Rafael</center>|
 |1.3|04/08|<center>Adição referências e legendas</center>|<center>João Pedro, Vitor Lamego</center>|
+|1.4|04/08|<center>Adição nova ferramenta de storyboard</center>|<center>João Pedro</center>|
 
 ## 2. Cronograma
 
@@ -96,6 +97,7 @@ Co-authored-by: Fábio Silva <fabiosilva@gmail.com>
 | <img src="../assets/planejamento/logos/vscode.png" width="50px" /> | Visual Studio Code | Edição da documentação. |
 | <img src="../assets/planejamento/logos/drawio.png" width="50px" /> | Draw.io | Criação de diagramas. |
 | <img src="../assets/planejamento/logos/mkdocs.png" width="100px" /> | Mkdocs | Ferramenta usada para criação do Site wiki do projeto. |
+| <img src="../assets/planejamento/logos/storyboardThat.png" width="100px" /> | Storyboar That | Criação de storyboard. |
 <h6 align = "center">Tabela 3: Tabela contendo as ferramentas utilizadas no projeto</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
