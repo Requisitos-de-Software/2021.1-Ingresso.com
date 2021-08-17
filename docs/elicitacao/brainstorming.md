@@ -2,11 +2,17 @@
 
 |Versão|Data|Descrição|Autor(es)|
 |------|----|---------|---------|
-|1.0|17/08|Abertura do documento de brainstorm|Rafael, Vitor e Thiago|
-|1.1|17/08|Adição dos Questionamentos e Requisitos|Rafael, Vitor e Thiago|
+|1.0|17/08|Abertura do documento de brainstorm|Rafael, Thiago e Vitor Lamego|
+|1.1|17/08|Adição dos Questionamentos e Requisitos|Rafael, Thiago e Vitor Lamego|
+|1.2|17/08|Adição da Introdução|Vitor Lamego|
 
 
 ## 2. Introdução
+<p style="text-align: justify; text-indent: 20px">O Brainstorming é uma técnica de estímulo para o surgimento de ideias criativas, assim promove o pensamento estrtégino e inovador dos membros de uma determinada equipe. A técnica consiste basicamente em compartilhar ideias espontâneas a fim de encontrar soluções para um determinado problema ou para gerar insigths de criatividade em relação a algum contexto. Para o bom funcionamento a técnica deve ser realizada em grupo, de preferência com pessoas que tenham diferentes perspectivas do problemas, e livre de críticas, tudo deve ser levado em conta dentro de um brainstorming. [1]</p>
+
+<p style="text-align: justify; text-indent: 20px">Na área de Engenharia de Software é muito commum vermos essa técnica sendo utilizada no período de elicitação de requisitos junto ao usuário, assim a equipe consegue formular, junto ao cliente, soluções melhores para o problema proposto. Além disso pode ser aplicada dentro da equipe também, a fim de discutir mudanças, diferentes caminhos e para formular novas ideias para o projeto.</p>
+
+<p style="text-align: justify; text-indent: 20px">Nessa ocasião, os membros Rafael Cleydson, Thiago Paiva e Vitor Lamego se reuniram para discutir mais sobre possíveis vertentes novas no aplicativo e também levantar os requisitos da aplicação a partir de uma conversa em grupo, que é justamente o que o brainstorming propõe. Assim, foram feitas algumas perguntas iniciais como forma de aquecimento para o processo de elicitação, nesta etapa algumas perguntas foram levantadas e cada membro deu a sua opinião sobre, assim começamos a abrir o ponto de vista e as novas perspectivas do aplicativo. Depois disso foi feito a elicitação de requisitos em conjunto, onde os membros colocaram em uma tabela os requisitos funcionais e não funcionais que foram discutido. O documento a seguir mostra os resultados da aplicação do brainstorming.</p>
 
 ## 3. Questionamentos
 <hr>
@@ -49,6 +55,7 @@
 - <p align="justify"> <b>Rafael</b>:  Uma maneira também interessante de manter o usuário no aplicativo, bem como incentivar outros usuários, seria o compartilhamento de notícias e filmes, acho que ter a opção de compartilhar promove um engajamento bacana dos usuários.
 </p>
 <hr>
+
 ## 4. Requisitos levantados:
 
 |ID|Descrição|Tipo de Requisito|
@@ -77,3 +84,6 @@
 <h6 align="center">Tabela 1: Requisitos elicitados a partir do brainstorm</h6>
 <h6 align="center">Legenda: BS - Brainstorming</h6>
 <h6 align="center">Fonte: Autores</h6>
+
+## 5. Referências
+<p style="text-align: justify;">[1] <b>Brainstorming RockContent</b>. Disponível em: <a href="https://rockcontent.com/br/blog/brainstorming/" target="_blanck">https://rockcontent.com/br/blog/brainstorming/</a>. Acesso em: 17 de ago. de 2021.</p>
