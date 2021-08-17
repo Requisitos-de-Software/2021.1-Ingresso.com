@@ -20,12 +20,12 @@ nav:
   - Planejamento: "planejamento/index.md"
   - Pré Rastreabilidade: "pre_rastreabilidade/rich_picture.md"
   - Elicitação:
+    - Análise de Protocolo: "elicitacao/analiseProtocolo.md"
+    - Entrevistas: "elicitacao/entrevistas.md"
+    - Introspecção: "elicitacao/introspeccao.md"
+    - Observação Participativa: "elicitacao/observacao_participativa.md"
     - Personas: "elicitacao/personas.md"
     - Storytelling: "elicitacao/storytelling.md"
-    - Entrevistas: "elicitacao/entrevistas.md""
-    - Análise de Protocolo: "elicitacao/analiseProtocolo.md"
-    - Observação Participativa: "elicitacao/observacao_participativa.md"
-    - Introspecção: "elicitacao/introspeccao.md"
     - 5W2H: "elicitacao/5w2h.md"
   - Apresentações:
     - Ponto de Controle 1: "apresentacoes/p1.md"
