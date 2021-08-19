@@ -188,16 +188,16 @@ Esta pergunta serve para verificar se os usuários tem boas experiências com o 
 
 |ID|Descrição|Tipo de Requisito
 |--|--|--|
-| I01 | Aba Notícias | Funcional |
-| I02 | Verificar filmes que estão em cartaz | Funcional |
-| I03 | Verificar locais dos cinemas| Funcional |
-| I04 | Ver a avaliação de um filme| Funcional |
-| I05 | Ver filmes em breve | Funcional |
-| I06 | Ver a indicação de filme| Funcional |
-| I07 | Ver sessões de filme| Funcional |
-| I08 | Aplicativo deve ser bonito | Não Funcional |
-| I09 | O aplicativo deve ser interativo melhorando a experiência do usuário | Não Funcional |
-| I010 | As funcionalidades devem ser de fácil visualização| Não Funcional |
+| Q01 | O sistema deve disponibilizar a aba Notícias | Funcional |
+| Q02 | o usuário deve poder verificar filmes que estão em cartaz | Funcional |
+| Q03 | O usuário deve poder verificar locais dos cinemas| Funcional |
+| Q04 | O usuário deve poder ver a avaliação de um filme| Funcional |
+| Q05 | O usuário deve poder ver filmes em breve | Funcional |
+| Q06 | O usuário deve poder ver a indicação de filme| Funcional |
+| Q07 | O usuário deve poder ver sessões de filme| Funcional |
+| Q08 | O sistema deve ter uma initerface bonita | Não Funcional |
+| Q09 | O sistema deve ser interativo melhorando a experiência do usuário | Não Funcional |
+| Q10 | O sistema deve possuir funcionalidades de fácil vizualização| Não Funcional |
 
 <figcaption>Tabela 1 - Requisitos elicitados</figcaption>
 
