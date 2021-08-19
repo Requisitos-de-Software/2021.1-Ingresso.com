@@ -1,12 +1,12 @@
 ## 1. Versionamento
 
-|Versão|Data|Descrição|Autor(es)|
-|------|----|---------|---------|
-|1.0|17/08|Abertura do documento de brainstorm|Rafael, Thiago e Vitor Lamego|
-|1.1|17/08|Adição dos Questionamentos e Requisitos|Rafael, Thiago e Vitor Lamego|
-|1.2|17/08|Adição da Introdução|Vitor Lamego|
-|1.3|17/08|Organização da tabela de requisitos|Rafael Ramos|
-|1.4|17/08|Revisando documento|Thiago|
+| Versão | Data  | Descrição                               | Autor(es)                     |
+| ------ | ----- | --------------------------------------- | ----------------------------- |
+| 1.0    | 17/08 | Abertura do documento de brainstorm     | Rafael, Thiago e Vitor Lamego |
+| 1.1    | 17/08 | Adição dos Questionamentos e Requisitos | Rafael, Thiago e Vitor Lamego |
+| 1.2    | 17/08 | Adição da Introdução                    | Vitor Lamego                  |
+| 1.3    | 17/08 | Organização da tabela de requisitos     | Rafael Ramos                  |
+| 1.4    | 17/08 | Revisando documento                     | Thiago                        |
 
 
 
@@ -86,11 +86,12 @@
 | BS13  |                O aplicativo deve informar notícias sobre os filmes                |   Requisito Funcional   |
 | BS14  |             O usuário deve poder compartilhar uma determinada notícia             |   Requisito Funcional   |
 | BS15  |       O aplicativo deve fornecer as iniciativas de prevenção de cada cinema       |   Requisito Funcional   |
-| BS16  |     O aplicativo deve fornecer uma opção de atendimento para ajudar o usuário     |   Requisito Funcional   |
-| BS17  |                  O aplicativo deve prover segurança aos usuários                  | Requisito Não Funcional |
-| BS18  |           O aplicativo deve funcionar em todas as plataformas virtuais            | Requisito Não Funcional |
-| BS19  |        O aplicativo deve funcionar em dispositivos de tamanhos diferentes         | Requisito Não Funcional |
-| BS20  |        O sistema e o evento deve ter uma interface de comunicação prática         | Requisito Não Funcional |
+| BS16  | O aplicativo deve fornecer informações sobre eventos próximos a região escolhida  |   Requisito Funcional   |
+| BS17  |     O aplicativo deve fornecer uma opção de atendimento para ajudar o usuário     |   Requisito Funcional   |
+| BS18  |                  O aplicativo deve prover segurança aos usuários                  | Requisito Não Funcional |
+| BS19  |           O aplicativo deve funcionar em todas as plataformas virtuais            | Requisito Não Funcional |
+| BS20  |        O aplicativo deve funcionar em dispositivos de tamanhos diferentes         | Requisito Não Funcional |
+| BS21  |        O sistema e o evento deve ter uma interface de comunicação prática         | Requisito Não Funcional |
 
 <h6 align="center">Tabela 1: Requisitos elicitados a partir do brainstorm</h6>
 <h6 align="center">Fonte: Autores</h6>
