@@ -27,6 +27,8 @@ nav:
     - Personas: "elicitacao/personas.md"
     - Storytelling: "elicitacao/storytelling.md"
     - 5W2H: "elicitacao/5w2h.md"
+  - Priorização:
+    - First Things First: "priorizacao/first_things_first.md"
   - Apresentações:
     - Ponto de Controle 1: "apresentacoes/p1.md"
   - Atas:
