@@ -21,6 +21,7 @@ nav:
   - Pré Rastreabilidade: "pre_rastreabilidade/rich_picture.md"
   - Elicitação:
     - Análise de Protocolo: "elicitacao/analiseProtocolo.md"
+    - Brainstorming: "elicitacao/brainstorming.md"
     - Entrevistas: "elicitacao/entrevistas.md"
     - Introspecção: "elicitacao/introspeccao.md"
     - Observação Participativa: "elicitacao/observacao_participativa.md"
