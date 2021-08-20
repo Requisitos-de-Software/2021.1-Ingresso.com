@@ -18,9 +18,9 @@
 |:--:|:--:|:-----:|: -----:| 
 |AP01| O aplicativo deve permitir selecionar a região desejada | RF | <b>MUST</b> | 
 |AP02| O usuário deve conseguir ver os filmes em cartaz na região desejada | RF | <b>MUST</b> | 
-|AP03| O usuário deve conseguir pesquisar os filmes em cartaz na região desejada | RF | <b>MUST</b> | 
+|AP03| O usuário deve conseguir pesquisar os filmes em cartaz na região desejada | RF | <b>SHOULD</b> | 
 |AP04| O usuário deve conseguir ver os cinemas na região desejada | RF | <b>MUST</b> | 
-|AP05| O usuário deve conseguir pesquisar os cinemas na região desejada | RF |<b>MUST</b>  | 
+|AP05| O usuário deve conseguir pesquisar os cinemas na região desejada | RF |<b>SHOULD</b>  | 
 |AP06| O aplicativo deve recomendar os filmes em alta (destaques) | RF |<b>COULD</b>  | 
 |AP07| O aplicativo deve recomendar notícias em alta (destaques) | RF |<b>COULD</b>  | 
 |AP08| O aplicativo deve exibir as prevenções adotadas pelos cinemas referentes a pandemia do covid-19 | RF | <b>MUST</b> | 
@@ -53,7 +53,7 @@
 |I25| Mostrar um resumo da compra | RF |<b>MUST</b>  |
 |I26| Mostrar o total e informações do pagamento | RF |<b>MUST</b>   |
 |I29| O resumo do pedido deve ser enviado por e-mail | RF | <b>MUST</b>  | 
-|I30| Ter uma área para os pedidos | RF |<b>MUST</b>  |
+|I30| Ter uma área para os pedidos | RF |<b>SHOULD</b>  |
 |I31| Notificar a confirmação do pagamento | RF |<b>MUST</b>   |
 |I32| Apresentar informações do ingresso | RF |<b>MUST</b>  | 
 |I33| Enviar o ingresso por e-mail | RF |<b>MUST</b>  | 
@@ -62,15 +62,15 @@
 |OP04| O usuário deve poder recuperar senha | RF |<b>MUST</b>  | 
 |OP05| O sistema deve enviar um email de recuperação de senha | RF |<b>MUST</b>  | 
 |OP06| O usuário deve poder ver seus dados pessoais | RF |<b>MUST</b>  | 
-|OP07| O usuário deve poder ver seus Pedidos | RF |<b>MUST</b>  
+|OP07| O usuário deve poder ver seus Pedidos | RF |<b>SHOULD</b>  
 |OP08| O usuário deve poder ver seus Cartões Salvos| RF |<b>MUST</b>  | 
 |OP09| O usuário deve poder sair da conta logada | RF |<b>MUST</b>  | 
 |OP12| O usuário deve poder enviar uma solicitação de atendimento | RF |<b>MUST</b>  | 
 |OP19| O usuário deve poder ver filmes que vão estar nos cinemas em breve | RF |<b>SHOULD</b>  | 
 |OP20| O usuário deve poder ver título, categoria, classificação indicativa, avaliação, duração, elenco, sinopse, direção, distribuidor e país de origem do filme selecionado | RF |<b>MUST</b>  | 
-|OP22| O usuário deve poder ver as sessões do filme selecionado por dia da semana | RF |<b>MUST</b>  | 
+|OP22| O usuário deve poder ver as sessões do filme selecionado por dia da semana | RF |<b>SHOULD</b>  | 
 |OP23| O usuário deve poder filtrar sessões do filme selecionado por Tipos de Exibição | RF |<b>SHOULD</b>  | 
-|OP24| O usuário deve poder limpar filtros selecionados | RF |<b>MUST</b>  | 
+|OP24| O usuário deve poder limpar filtros selecionados | RF |<b>SHOULD</b>  | 
 |OP26| O usuário deve poder assistir trailer do filme | RF |<b>COULD</b>  | 
 |OP27| O usuário deve poder ordenar cinemas por nome ou proximidade | RF |<b>COULD</b>  | 
 |OP28| O usuário deve poder favoritar cinemas | RF |<b>WOULD</b>  
@@ -89,20 +89,20 @@
 |AP18| O aplicativo deve ser de fácil instalação | RNF |<b>MUST</b>  | 
 |AP19| O aplicativo deve ser seguro por lidar com dados sensíveis | RNF |<b>MUST</b>  | 
 |AP20| O aplicativo deve ser monetizado através de publicidade | RNF |<b>SHOULD</b>  | 
-|E05| O aplicativo deve oferecer comodidade ao usuário | RNF |<b>MUST</b>  | 
+|E05| O aplicativo deve oferecer comodidade ao usuário | RNF |<b>SHOULD</b>  | 
 |E06| O pagamento de ingressos deve ser fácil | RNF |<b>MUST</b>  | 
 |E07| O pagamento de ingresso deve ser rápido | RNF |<b>MUST</b>  | 
 |E09| A seleção de cadeiras deve prover uma forma de visualização eficiente, para se entender onde a cadeira se localiza no cinema | RNF |<b>MUST</b>  | 
-|E10| A plataforma deve ser rápida| RNF |<b>MUST</b>  | 
+|E10| A plataforma deve ser rápida| RNF |<b>SHOULD</b>  | 
 |I09| Não há necessidade de autenticação para navegar entre os filmes e notícias| RNF |<b>MUST</b> | 
-|ST01| O aplicativo deve ser fácil de ser utilizado | RNF |<b>MUST</b>  | 
+|ST01| O aplicativo deve ser fácil de ser utilizado | RNF |<b>SHOULD</b>  | 
 |ST03| O aplicativo deve estar sempre com os horários das sessões atualizados | RNF |<b>MUST</b>  | 
 |ST05| O aplicativo deve estar sempre com as notícias atualizadas | RNF |<b>MUST</b>  | 
 |ST07| A lista de filmes e notícias devem ser claras e legíveis | RNF |<b>MUST</b>  | 
 |ST10| O aplicativo deve prover conforto e menos tempos em filas para compra de ingressos | RNF |<b>MUST</b>  | 
 |BS19| O aplicativo deve funcionar em todas as plataformas virtuais | RNF |<b>MUST</b>  | 
 |BS20| O aplicativo deve funcionar em dispositivos de tamanhos diferentes | RNF |<b>SHOULD</b>  | 
-|BS21| O sistema e o evento deve ter uma interface de comunicação prática | RNF |<b>MUST</b>  | 
+|BS21| O sistema e o evento deve ter uma interface de comunicação prática | RNF |<b>SHOULD</b>  | 
 
 <h6 align="center">Tabela 1: Requisitos priorizados utilizando MoSCoW</h6>
 <h6 align="center">Fonte: Autores</h6>
@@ -127,6 +127,21 @@
 <h6 align="center">Fonte: Autores</h6>
 
 
+## 4. Conclusões
+
+<p style="text-align: justify; text-indent: 20px">Após feita a priorização, os resultados obtidos referente à quantidade de requisitos em cada nível de prioridade foi:</p>
+
+<center>
+
+|Prioridade|Quantidade| 
+|:--:|:--:|
+|MUST|49|
+|SHOULD|21|
+|COULD|12|
+|WOULD|5|
+
+
+</center>
 
 
 ## 5. Referências
