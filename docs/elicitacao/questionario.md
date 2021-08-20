@@ -12,7 +12,7 @@ O questionário é conhecido como uma técnica simples para elicitação de requ
 </p>
 
 <p style="text-indent: 20px; text-align: justify">
-As respostas listadas no nosso questionário nos ajudaram a enchergar qual o público que mais utiliza o aplicativo, quais são as motivações para a utilização do aplicativo entre outras coisas apenas com dados quantitativos.
+As respostas listadas no nosso questionário nos ajudaram a enxergar qual o público que mais utiliza o aplicativo, quais são as motivações para a utilização do aplicativo entre outras coisas apenas com dados quantitativos.
 </p>
 
 <p style="text-indent: 20px; text-align: justify">
@@ -104,7 +104,7 @@ Esta questão nos ajuda a saber com que frequência os usuários que responderam
 <center>
 
 <img width="600px" src="../../../assets/questionario/q7.png">
-<figcaption> Figura 7: Questão para saber se o usuário sabe que existem outras funcionaliades no aplicativo</figcaption>
+<figcaption> Figura 7: Questão para saber se o usuário sabe que existem outras funcionalidades no aplicativo</figcaption>
 
 </center>
 <p style="text-indent: 20px; text-align: justify">
@@ -200,6 +200,7 @@ Esta pergunta serve para verificar se os usuários tem boas experiências com o 
 | Q10 | O sistema deve possuir funcionalidades de fácil vizualização| Não Funcional |
 
 <figcaption>Tabela 1 - Requisitos elicitados</figcaption>
+<p align="center">Fonte: Autor</p>
 
 </center>
 
