@@ -1,18 +1,14 @@
----
-mathjax: true
----
-
 ## 1. Versionamento
 
 |Versão|Data|Descrição|Autor(es)|
 |------|----|---------|---------|
 |1.0|19/08|Abertura do documento|Carlos e Thiago|
 |1.1|19/08|Adição da Priorização|Carlos e Thiago|
-
+|1.2|21/08|Revisão do documento|Calors e Thiago|
 
 ## 2. Introdução
 
-<p style="text-align: justify; text-indent: 20px">Após uma elicitação de requisitos em um processo de desenvolvimento de software, existe a necessidade de realizar uma priorização de forma rigorosa e analítica. A First Things First é uma técnica que ajuda a relacionar as funcionalidades com um valor estimado que o representante dos clientes e o representante da equipe de desenvolvimento entrega para elas. Assim, (Wiegers, Beatty. 2013) apresentam os passos necessários dentro do procedimento para a realização dessa técnica [1]: </p>
+<p style="text-align: justify; text-indent: 20px">Segundo Wiegers (2013), quando não há um consenso sobre quais requisitos devem ser os mais importantes, há a necessidade de uma priorização de requisitos mais rigorosa e analítica. Sendo assim, para priorizar os requisitos analíticamente, usa-se um método chamado <b>First Things First</b>. A <b>First Things First</b> é uma técnica que ajuda a relacionar as funcionalidades com um valor estimado definido pelo representante dos clientes e pelo representante da equipe de desenvolvimento. Assim, os passos necessários para a realização dessa técnica são mostrados abaixo:</p>
 
 - Liste em uma tabela todos os requisitos que serão priorizados.
 - Estime o benefício relativo que cada requisito fornece ao cliente em uma escala de 1 a 9.
@@ -20,17 +16,17 @@ mathjax: true
 - Adicione uma coluna que será a soma do benefício multiplicado pelo peso e da penalidade multiplicada para cada requisito.
 - Estime o custo de implementação de cada funcionalidade em uma escala de 1 a 9.
 - Estime o risco da funcionalidade não ser entregue na primeira tentativa em uma escala de 1 a 9.
-- Use a seguinte fórmula para calcular a prioridade de cada requisito:
+- Use a seguinte fórmula, apresentada na Figura 1, para calcular a prioridade de cada requisito.
 
 <center>
     <img src="../../assets/priorizacao/formula_prioridade.png" width="300px"/>
-    <h6 align = "center">Figura 1: Fórmula de Prioridade</h6>
-    <h6 align = "center">Fonte: [1]</h6>
+    <h6 align = "center">Figura 1: Formula para calcular a prioridade.</h6>
+    <h6 align = "center">Fonte: Wiegers (2013)</h6>
 </center>
 
 - Finalmente, ordene a lista de requisitos em ordem decrescente da prioridade calculada.
 
-<p style="text-align: justify; text-indent: 20px">Além dos passos apresentados, levamos em consideração alguns pontos apresentados por (Wiegers, Beatty. 2013) para estimarmos a priorização, sendo eles: </p>
+<p style="text-align: justify; text-indent: 20px">Além disso, levamos em consideração alguns pontos apresentados por Wiegers (2013) para estimarmos os benefícios e malefícios de cada requisito, sendo eles: </p>
 
 - A necessidade do cliente.
 - A importância relativa dos requisitos para os clientes.
@@ -146,15 +142,3 @@ mathjax: true
 ## 4. Referências
 
 <p style="text-align: justify; text-indent: 20px">[1] Wiegers, K.; Beatty, J. Software Requirements. <b>Microsoft Press</b>. ed. 3, 2013.</p>
-
-
-
-
-
-
-
-
-
-
-
-
