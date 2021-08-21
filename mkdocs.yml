@@ -28,7 +28,9 @@ nav:
     - Storytelling: "elicitacao/storytelling.md"
     - 5W2H: "elicitacao/5w2h.md"
   - Priorização:
+    - Brainstorming: "elicitacao/brainstorming.md"
     - First Things First: "priorizacao/first_things_first.md"
+    - Questionario: "elicitacao/questionario.md"
   - Apresentações:
     - Ponto de Controle 1: "apresentacoes/p1.md"
   - Atas:
