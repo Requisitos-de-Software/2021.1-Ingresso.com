@@ -21,16 +21,16 @@ nav:
   - Pré Rastreabilidade: "pre_rastreabilidade/rich_picture.md"
   - Elicitação:
     - Análise de Protocolo: "elicitacao/analiseProtocolo.md"
+    - Brainstorming: "elicitacao/brainstorming.md"
     - Entrevistas: "elicitacao/entrevistas.md"
     - Introspecção: "elicitacao/introspeccao.md"
     - Observação Participativa: "elicitacao/observacao_participativa.md"
     - Personas: "elicitacao/personas.md"
     - Storytelling: "elicitacao/storytelling.md"
+    - Questionario: "elicitacao/questionario.md"
     - 5W2H: "elicitacao/5w2h.md"
   - Priorização:
-    - Brainstorming: "elicitacao/brainstorming.md"
     - First Things First: "priorizacao/first_things_first.md"
-    - Questionario: "elicitacao/questionario.md"
   - Apresentações:
     - Ponto de Controle 1: "apresentacoes/p1.md"
   - Atas:
