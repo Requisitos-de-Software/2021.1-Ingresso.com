@@ -37,7 +37,7 @@ As respostas do questionário estão listadas abaixo:
 ### 4.1 Questão 1
 <center>
 
-<img width="600px" src="../../../assets/questionario/q1.png">
+<img width="600px" src="../../assets/questionario/q1.png">
 <figcaption> Figura 1: Questão sobre a idade do entrevistado </figcaption>
 
 </center>
@@ -48,7 +48,7 @@ Para a elicitação de requisitos é importante se saber o público que estará 
 ### 4.2 Questão 2
 <center>
 
-<img width="600px" src="../../../assets/questionario/q2.png">
+<img width="600px" src="../../assets/questionario/q2.png">
 <figcaption> Figura 2: Questão sobre a frequência de visitas ao cinema </figcaption>
 
 </center>
@@ -59,7 +59,7 @@ Aqui podemos ter uma noção de quantas vezes as pessoas que responderam vão ao
 ### 4.3 Questão 3
 <center>
 
-<img width="600px" src="../../../assets/questionario/q3.png">
+<img width="600px" src="../../assets/questionario/q3.png">
 <figcaption> Figura 3: Questão para saber se o usuário utiliza o aplicativo </figcaption>
 
 </center>
@@ -70,7 +70,7 @@ Percebe-se que o aplicativo nem sempre é usado para a compra de ingressos ao ir
 ### 4.4 Questão 4
 <center>
 
-<img width="600px" src="../../../assets/questionario/q4.png">
+<img width="600px" src="../../assets/questionario/q4.png">
 <figcaption> Figura 4: Questão para saber os motivos da não utilização do aplicativo pelo usuário </figcaption>
 
 </center>
@@ -81,7 +81,7 @@ O objetivo dessa pergunta é identificar quantas das pessoas não conhecem o apl
 ### 4.5 Questão 5
 <center>
 
-<img width="600px" src="../../../assets/questionario/q5.png">
+<img width="600px" src="../../assets/questionario/q5.png">
 <figcaption> Figura 5: Questão sobre outros aplicativos utilizados caso a pessoa responda que utiliza outro aplicativo na questão anterior </figcaption>
 
 </center>
@@ -92,7 +92,7 @@ As respostas ajudam a mapear quais são os concorrentes do aplicativo ingresso.c
 ### 4.6 Questão 6
 <center>
 
-<img width="600px" src="../../../assets/questionario/q6.png">
+<img width="600px" src="../../assets/questionario/q6.png">
 <figcaption> Figura 6: Questão sobre a frequência que se utiliza o app </figcaption>
 
 </center>
@@ -103,7 +103,7 @@ Esta questão nos ajuda a saber com que frequência os usuários que responderam
 ### 4.7 Questão 7
 <center>
 
-<img width="600px" src="../../../assets/questionario/q7.png">
+<img width="600px" src="../../assets/questionario/q7.png">
 <figcaption> Figura 7: Questão para saber se o usuário sabe que existem outras funcionalidades no aplicativo</figcaption>
 
 </center>
@@ -114,7 +114,7 @@ O resultado desta pergunta nos dá como dado se os usuários estão cientes que 
 ### 4.8 Questão 8
 <center>
 
-<img width="600px" src="../../../assets/questionario/q8.png">
+<img width="600px" src="../../assets/questionario/q8.png">
 <figcaption> Figura 8: Questão sobre as funcionalidades que foram utilizadas pelos entrevistados </figcaption>
 
 </center>
@@ -125,7 +125,7 @@ Esta pergunta ajuda a mapear quais as funcionalidades são conhecidas e realment
 ### 4.9 Questão 9
 <center>
 
-<img width="600px" src="../../../assets/questionario/q9.png">
+<img width="600px" src="../../assets/questionario/q9.png">
 <figcaption> Figura 9: Questão sobre as funcionalidades que os usuários não conhecem </figcaption>
 
 </center>
@@ -137,7 +137,7 @@ Esta pergunta serve para verificar quais as funcionalidades que são desconhecid
 ### 4.10 Questão 10
 <center>
 
-<img width="600px" src="../../../assets/questionario/q10.png">
+<img width="600px" src="../../assets/questionario/q10.png">
 <figcaption> Figura 10: Questão para saber se o usuário confia no aplicativo </figcaption>
 
 </center>
@@ -149,7 +149,7 @@ Esta pergunta serve para saber se os usuários acham o aplicativo confiável par
 ### 4.11 Questão 11
 <center>
 
-<img width="600px" src="../../../assets/questionario/q11.png">
+<img width="600px" src="../../assets/questionario/q11.png">
 <figcaption> Figura 11: Questão sobre a facilidade de utilização do aplicativo </figcaption>
 
 </center>
@@ -161,7 +161,7 @@ Esta pergunta serve para verificar se os usuários acham o aplicativo intuitivo 
 ### 4.12 Questão 12
 <center>
 
-<img width="600px" src="../../../assets/questionario/q12.png">
+<img width="600px" src="../../assets/questionario/q12.png">
 <figcaption> Figura 12: Questão para saber se os usuários acham o aplicativo bonito</figcaption>
 
 </center>
@@ -173,7 +173,7 @@ Esta pergunta serve para saber se o aplicativo é considerado bonito.
 ### 4.13 Questão 13
 <center>
 
-<img width="600px" src="../../../assets/questionario/q13.png">
+<img width="600px" src="../../assets/questionario/q13.png">
 <figcaption> Figura 13: Questão para saber se o usuário tem experiências boas com o aplicativo </figcaption>
 
 </center>
