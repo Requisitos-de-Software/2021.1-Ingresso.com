@@ -26,13 +26,16 @@ nav:
     - Introspecção: "elicitacao/introspeccao.md"
     - Observação Participativa: "elicitacao/observacao_participativa.md"
     - Personas: "elicitacao/personas.md"
-    - Storytelling: "elicitacao/storytelling.md"
     - Questionario: "elicitacao/questionario.md"
+    - Storytelling: "elicitacao/storytelling.md"
     - 5W2H: "elicitacao/5w2h.md"
   - Priorização:
     - First Things First: "priorizacao/first_things_first.md"
+    - House of Quality: "priorizacao/house_of_quality.md"
+    - MoSCoW: "priorizacao/moscow.md"
   - Apresentações:
     - Ponto de Controle 1: "apresentacoes/p1.md"
+    - Ponto de Controle 2: "apresentacoes/p2.md"
   - Atas:
     - 27/07/2021: "atas/ata27_07.md"
     - 05/08/2021: "atas/ata05_08.md"
