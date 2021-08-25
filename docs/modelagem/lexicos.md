@@ -115,6 +115,12 @@
 |**Noção**|Feedback dos usuários sobre um filme|
 |**Impacto**|O usuário pode visualizar avaliações de um filme|
 
+|LO13|**Pedido**|
+|---|------------------|
+|**Sinônimos**|Pedido de compra|
+|**Noção**|Conjunto de produtos, quantidades, preços e condições que o usuário está comprando ou comprou|
+|**Impacto**|O usuario pode pedir reembolso|
+
 <hr>
 
 ### 4.2 Verbos
@@ -167,17 +173,35 @@
 |**Noção**|O usuário pode ver as informações sobre o filme|
 |**Impacto**|O usuário pode perder ou ganhar interesse a partir das informações<br>O usuário pode comprar ingressos para o filme|
 
-|LV09|**Visualizar notícia**|
+|LV09|**Ler notícia**|
 |---|------------------|
-|**Sinônimos**|-|
+|**Sinônimos**|Visualizar notícia|
 |**Noção**|O usuário pode ler as notícias|
 |**Impacto**|O usuário pode se interessar por um filme|
 
-|LV10|**Compartilhar filme**|
+|LV10|**Compartilhar**|
 |---|------------------|
-|**Sinônimos**|Compartilhar notícia|
+|**Sinônimos**|-|
 |**Noção**|O usuário pode compartilhar um filme ou uma notícia com alguém|
 |**Impacto**|O usuário compartilha a página do filme, ou notícia, por uma rede social|
+
+|LV11|**Pedir reembolso**|
+|---|------------------|
+|**Sinônimos**|-|
+|**Noção**|O usuário pode pedir reembolso de um pedido|
+|**Impacto**|O usuario terá seu dinheiro estornado<br>Os assentos selecionados se tornam disponíveis|
+
+|LV12|**Selecionar cinema**|
+|---|------------------|
+|**Sinônimos**|Selecionar local|
+|**Noção**|O usuário pode escolher o cinema|
+|**Impacto**|O usuario pode escolher a sessão|
+
+|LV12|**Selecionar sessão**|
+|---|------------------|
+|**Sinônimos**|-|
+|**Noção**|O usuário pode escolher a sessão do cinema|
+|**Impacto**|O usuário pode comprar o ingresso<br>|
 
 <hr>
 
@@ -189,7 +213,7 @@
 |**Noção**|O usuário pretende comprar um ingresso, então esse ingresso é salvo no carrinho para ele poder tanto fazer o pagamento quanto realizar modificações|
 |**Impacto**|O usuário pode comprar os itens do carrinho<br>Se o usuário não se interessar mais pelo ingresso, ele pode retirá-lo do carrinho|
 
-|LE02|**Filme está em cartaz**|
+|LE02|**Filme em cartaz**|
 |---|------------------|
 |**Sinônimos**|Filme disponível para venda|
 |**Noção**|O filme estando em cartaz significa que ele está disponível para ser assistido em determinados cinemas possuindo uma ou várias sessões|
@@ -201,19 +225,19 @@
 |**Noção**|Um filme que não tem mais sessões disponíveis|
 |**Impacto**|O usuário não pode comprar ingressos para esse filme<br>Quando houver sessões, o filme entra em cartaz|
 
-|LE04|**Filme está para ser lançado**|
+|LE04|**Filme em breve**|
 |---|------------------|
-|**Sinônimos**|Filme chegará em breve|
+|**Sinônimos**|Filme chegará em breve, Filme está para ser lançado|
 |**Noção**|Um filme que está para ser lançado significa que ele estará disponível para ser assistido em breve|
 |**Impacto**|O usuário pode ver mais detalhes sobre o filme que está para ser lançado (trailer, descrição)<br>Quando o filme for lançado, ele sairá dos filmes em breve|
 
-|LE05|**Filme está em lançamento**|
+|LE05|**Filme em lançamento**|
 |---|------------------|
 |**Sinônimos**|Filme recém-lançado|
 |**Noção**|Um filme que está em lançamento significa que está disponível para ser assistido há pouco tempo|
 |**Impacto**|O usuário pode comprar ingresso para o filme<br>Quando passa algumas semanas depois que o filme foi lançado, ele se torna um filme em cartaz|
 
-|LE06|**Filme está em alta**|
+|LE06|**Filme em alta**|
 |---|------------------|
 |**Sinônimos**|Filmes populares|
 |**Noção**|Um filme em alta é um filme popular, que é de interesse de várias pessoas|
