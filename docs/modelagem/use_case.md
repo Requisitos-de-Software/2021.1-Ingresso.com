@@ -5,6 +5,7 @@
 |1.0|23/08|Criação do documento|João Pedro e Victor Lima|
 |1.1|23/08|Adição da introdução e do Diagrama de Casos de Uso|João Pedro e Victor Lima|
 |1.2|24/08|Adição das tabelas 6 a 10 de especialização|João Pedro|
+|1.3|25/08|Adição das tabelas 1 a 5 de especialização|Victor Lima|
 
 ## 2. Introdução
 <p style="text-align: justify; text-indent: 20px"> Difersas são as formas de se modelar os requisitos elicitados de um sistema. Entre essas diversas maneiras se encontra a técnica de <b>Casos de Uso</b>, utilizada especificamente para os requisitos funcionais do software. Nesse diagrama, segundo Andrey	(2007, pág. 15)[1], são representados um conjunto de ações que um usuário pode realizar em um sistema, bem como, relacionamentos entre ator e caso de uso, e entre caso de uso e caso de uso.</p>
@@ -19,65 +20,63 @@
 ### 4.1 UC01 Login
 |UC01|Informações|
 |--|--|
-|Descrição|
-|Ator|
-|Pré-condições|
-|Ação|
-|Fluxo Principal|
-|Fluxo Alternativo|
-|Pós-condições|
+|Descrição| O usuário deve poder fazer login no app|
+|Ator| Usuário|
+|Pré-condições| Acesso à internet e Ter uma conta|
+|Ação| O usuário entrar na sua conta|
+|Fluxo Principal|<b>FP01</b>: Fluxo de fazer login no aplicativo<br/>1. O ator entra no aplicativo<br/>2. O sistema exibe 5 funcionalidades pricipais de acesso<br/>3. O ator clica no ícone de perfil no canto superior direito<br/>4. O sistema mostra a opção entrar<br/>5. O ator digita suas informações de login|
+|Pós-condições| O ator poderá ter acesso as funcionalidades de usuário logado|
 <h6 align = "center">Tabela 1: Tabela de especialização do login.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 ### 4.2 UC02 Cadastro 
 |UC02|Informações|
 |--|--|
-|Descrição|
-|Ator|
-|Pré-condições|
-|Ação|
-|Fluxo Principal|
-|Fluxo Alternativo|
-|Pós-condições|
+|Descrição| O usuário deve poder se cadastrar no aplicativo|
+|Ator| Usuário|
+|Pré-condições| Acesso à internet|
+|Ação| O usuário se cadastrar na plataforma|
+|Fluxo Principal|<b>FP01</b>: Fluxo de fazer cadastro no aplicativo<br/>1. O ator entra no aplicativo<br/>2. O sistema exibe 5 funcionalidades pricipais de acesso<br/>3. O ator clica no ícone de perfil no canto superior direito<br/>4. O sistema mostra a opção entrar<br/>5. O ator clica em criar conta<br/>6. o ator digita suas informações e se cadastra|
+|Fluxo Alternativo|<b>FA01</b>: Fluxo de fazer cadastro no aplicativo<br/>1. O ator entra no aplicativo<br/>2. O sistema exibe 5 funcionalidades principais de acesso<br/>3. O ator clica no ícone de perfil no canto superior direito<br/>4. O sistema mostra a opção de entrar</br>5. O ator clica em continuar com o facebook</br></br><b>FA02</b>: Fluxo de fazer cadastro no aplicativo<br/>1. O ator entra no aplicativo<br/>2. O sistema exibe 5 funcionalidades principais de acesso<br/>3. O ator clica no ícone de perfil no canto superior direito<br/>4. O sistema mostra a opção de entrar</br>5. O ator clica em continuar com o google |
+|Pós-condições|O ator poderá fazer login no aplicativo|
 <h6 align = "center">Tabela 2: Tabela de especialização do cadastro.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 ### 4.3 UC03 Editar Conta 
 |UC03|Informações|
 |--|--|
-|Descrição|
-|Ator|
-|Pré-condições|
-|Ação|
-|Fluxo Principal|
-|Fluxo Alternativo|
-|Pós-condições|
+|Descrição| O usuário deve poder editar seu perfil|
+|Ator| Usuário|
+|Pré-condições| Acesso à internet e ter uma conta no aplicativo|
+|Ação| Edição do perfil do Usuário|
+|Fluxo Principal|<b>FP01</b>: Fluxo de editar a conta no app<br/>1. O ator entra no aplicativo<br/>2. O sistema exibe 5 funcionalidades pricipais de acesso<br/>3. O ator clica no ícone de perfil no canto superior direito<br/>4. O sistema mostra a opção entrar<br/>5. O ator digita suas informações de login<br/>6. O ator clica em dados pessoais</br>7. O ator edita suas informações para as novas|
+|Fluxo Alternativo|<b>FA01</b>: Fluxo de fazer cadastro no aplicativo<br/>1. O ator entra no aplicativo com suas informações de login salvas<br/>2. O sistema exibe 5 funcionalidades pricipais de acesso<br/>3. O ator clica no ícone de perfil no canto superior direito</br>4. O ator clica em dados pessoais</br>5. O ator edita suas informações para as novas|
+|Pós-condições| O Usuário mantém suas informações atualizadas|
 <h6 align = "center">Tabela 3: Tabela de especialização de editar a conta.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 ### 4.4 UC04 Selecionar Região 
 |UC04|Informações|
 |--|--|
-|Descrição|
-|Ator|
-|Pré-condições|
-|Ação|
-|Fluxo Principal|
-|Fluxo Alternativo|
-|Pós-condições|
+|Descrição| O usuário deve poder trocar a região em que ele se encontra para ver filme|
+|Ator| Usuário|
+|Pré-condições| Acesso à internet|
+|Ação| Trocar a Região do aplicativo para verificar as sessões|
+|Fluxo Principal|<b>FP01</b>: Fluxo para trocar região<br/>1. O ator entra no aplicativo<br/>2. O sistema exibe 5 funcionalidades pricipais de acesso<br/>3. O ator clica no ícone de perfil no canto superior direito<br/>4. O sistema mostra a região selecionada</br>5. O usuário clica em cima da região atual</br>6. O usuário escolhe outra região|
+|Pós-condições| O usuário pode verificar os filmes em qualquer local que desejar|
 <h6 align = "center">Tabela 4: Tabela de especialização de selecionar a região.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 ### 4.5 UC05 Ver Notícias
 |UC05|Informações|
 |--|--|
-|Descrição|
-|Ator|
-|Pré-condições|
-|Ação|
-|Fluxo Principal|
-|Fluxo Alternativo|
-|Pós-condições|
+|Descrição| O Usuário deve poder ver Notícias relacionadas aos filmes e cinema|
+|Ator| Usuário|
+|Pré-condições| Acesso à internet|
+|Ação| Ir até a aba de notícias|
+|Fluxo Principal|<b>FP01</b>: Fluxo de acessar notícias pelo menu inferior<br/>1. O ator entra no aplicativo<br/>2. O sistema exibe 5 funcionalidades pricipais de acesso<br/>3. O ator clica em "Notícias"<br/>4. O sistema mostra as notícias disponíveis|
+|Fluxo Alternativo|<b>FA01</b>: Fluxo de acessar notícias pelo menu inferior<br/>1. O ator entra no aplicativo<br/>2. O sistema exibe 5 funcionalidades pricipais de acesso<br/>3. O ator clica em Notícias em alta em destaques<br/>4. O sistema mostra as notícias disponíveis|
+|Pós-condições| O ator consegue vizualizar todas as atualizações sobre os filmes |
 <h6 align = "center">Tabela 5: Tabela de especialização da visualização de notícias.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
