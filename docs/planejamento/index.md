@@ -8,26 +8,55 @@
 |1.2|31/07|<center>Adição do HeatMap</center>|<center>Rafael</center>|
 |1.3|04/08|<center>Adição referências e legendas</center>|<center>João Pedro, Vitor Lamego</center>|
 |1.4|04/08|<center>Adição nova ferramenta de storyboard</center>|<center>João Pedro</center>|
+|2.0|24/08|<center>Melhoria do Cronograma</center>|<center>João Pedro</center>|
 
 ## 2. Cronograma
 
 <p style="text-align: justify; text-indent: 20px">O cronograma das etapas do projeto foi baseado nas datas de entregas das atividades descritas no plano de ensino da disciplina de Requisitos de Software, visando atender às exigências de cada ponto de controle. As datas podem ser alteradas, caso haja necessidade.</p>
 
-### 2.1 Cronograma das etapas
-#### 2.1.2 Etapa Escrita (Desenvolvimento da documentação)
+#### 2.1 Etapa Escrita Geral (Desenvolvimento da documentação)
 
 | Título                         | Data        |Descrição|
 | :------------------------------: | ----------- | -------------------------------------------------------------------------- |
 I - Pré-Rastreabilidade            | 27/07 - 04/08 | Planejamento do Projeto, Rich Picture|
 II - Elicitação de Requisitos       | 05/08 - 21/08 | Técnicas e Priorização|
-III - Modelagem de Requisitos        | 22/08 - 30/08 | Cenários , Léxico, Use Case, Especificação Suplementar|
+III - Modelagem de Requisitos        | 22/08 - 30/08 | Cenários, Léxico, Use Case, Especificação Suplementar|
 IV - Modelagem de Requisitos (Ágil)| 31/08 - 11/09 | Histórias de Usuário, Backlogs, NFR Framework|
 V - Análise de Requisitos          | 12/09 - 18/09 | Análise de requisitos: Verificação e Validação  |
 VI - Pós-Rastreabilidade            | 19/09 - 09/10 | Gerência de Desenvolvimento de Software orientada à baseline de Requisitos |
-<h6 align = "center">Tabela 1: Tabela contendo datas e descrições sobre as etapas de desenvolvimento</h6>
+<h6 align = "center">Tabela 1: Tabela geral contendo datas e descrições sobre as etapas de desenvolvimento</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
-#### 2.1.2 Etapa de Gravação (Desenvolvimento das apresentações)
+#### 2.2 Etapa Escrita Específica (Issues, Responsáveis e Revisores)
+
+|Tema|Título|Data de Entrega|Responsáveis|Revisores|
+|:-:|:-:|:-:|:-:|:-:|
+|||<b>Primeira Entrega</b>|||
+|I. Pré-Rastreabilidade|Cronograma e Ferramentas|05/07|Rafael e Thiago|Carlos e João Pedro|
+|I. Pré-Rastreabilidade|Documento de Metodologia|01/08|Carlos e Vitor Lamego|Rafael e Thiago
+|I. Pré-Rastreabilidade|Pré-Elicitação Rich Picture|01/08|João Pedro e Victor Lima|Carlos e Thiago|
+|||<b>Segunda Entrega</b>|||
+|II. Elicitação de Requisitos|Documento de Atas|06/08|João Pedro|Rafael|
+|II. Elicitação de Requisitos|Justificativa de Escolha|10/08|Vitor Lamego|João Pedro e Thiago|
+|II. Elicitação de Requisitos|Elicitação Personas|10/08|João Pedro|Carlos e Vitor Lamego|
+|II. Elicitação de Requisitos|Elicitação Análise de Protocolo|11/08|Rafael|Carlos e João Pedro|
+|II. Elicitação de Requisitos|Elicitação Storytelling|12/08|João Pedro|Rafael e Victor Lima|
+|II. Elicitação de Requisitos|Elicitação Observação Participativa|16/08|Carlos|João Pedro e Victor Lima|
+|II. Elicitação de Requisitos|Elicitação Brainstorming|20/08|Rafael, Thiago e Vitor Lamego|João Pedro e Victor Lima
+|II. Elicitação de Requisitos|Elitação Questionário|20/08|Victor Lima|Carlos e João Pedro
+|II. Pré-Rastreabilidade|Pré-Elicitação 5W2H|15/08|Vitor Lamego|Rafael e Victor Lima|
+|II. Priorização de Requisitos|Priorização MoSCoW|21/08|Victor Lima e Vitor Lamego|Carlos e Thiago|
+|II. Priorização de Requisitos|Priorização House of Quality|22/08|João Pedro e Rafael|Victor Lima e Vitor Lamego|
+|II. Priorização de Requisitos|First Things First|23/08|Carlos e Thiago|João Pedro e Rafael|
+|||<b>Terceira Entrega</b>|||
+|III. Modelagem de Requisitos|Modelagem Léxicos|--|Rafael e Thiago|--|
+|III. Modelagem de Requisitos|Modelagem Especificação Suplementar|--|Rafael e Thiago|--|
+|III. Modelagem de Requisitos|Modelagem Use Case|--|João Pedro e Victor Lima|--|
+|III. Modelagem de Requisitos|Modelagem Cenários|--|Carlos e Vitor Lamego|--|
+<h6 align = "center">Tabela 2: Tabela específica contendo data de entrega, responsáveis e revisores</h6>
+<h6 align = "center">Fonte: Autor</h6>
+
+#### 2.3 Etapa de Gravação (Desenvolvimento das apresentações)
 
 | Título             | Data        |Descrição|
 | :-------------------------------: |-------------|---------|
@@ -37,7 +66,7 @@ Apresentação III                 |01/09        |Modelagem de Requisitos: Cená
 Apresentação IV                  |20/09        |Modelagem de Requisitos - Ágil (US, Backlogs, NFR Framework)|
 Apresentação V                   |22/09        |Análise de Requisitos: Verificação e Validação|
 Apresentação VI                  |13/10        |Pós-Rastreabilidade - Gerência II|
-<h6 align = "center">Tabela 2: Tabela contendo datas e descrições sobre as etapas de gravação</h6>
+<h6 align = "center">Tabela 3: Tabela contendo datas e descrições sobre as etapas de gravação</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
 ## 3. Metodologia
@@ -98,7 +127,7 @@ Co-authored-by: Fábio Silva <fabiosilva@gmail.com>
 | <img src="../assets/planejamento/logos/drawio.png" width="50px" /> | Draw.io | Criação de diagramas. |
 | <img src="../assets/planejamento/logos/mkdocs.png" width="100px" /> | Mkdocs | Ferramenta usada para criação do Site wiki do projeto. |
 | <img src="../assets/planejamento/logos/storyboardThat.png" width="100px" /> | Storyboar That | Criação de storyboard. |
-<h6 align = "center">Tabela 3: Tabela contendo as ferramentas utilizadas no projeto</h6>
+<h6 align = "center">Tabela 4: Tabela contendo as ferramentas utilizadas no projeto</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
 ## 5. HeatMap
