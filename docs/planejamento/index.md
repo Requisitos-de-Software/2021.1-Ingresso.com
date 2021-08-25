@@ -49,7 +49,7 @@ VI - Pós-Rastreabilidade            | 19/09 - 09/10 | Gerência de Desenvolvime
 |II. Priorização de Requisitos|Priorização House of Quality|22/08|João Pedro e Rafael|Victor Lima e Vitor Lamego|
 |II. Priorização de Requisitos|First Things First|23/08|Carlos e Thiago|João Pedro e Rafael|
 |||<b>Terceira Entrega</b>|||
-|III. Modelagem de Requisitos|Modelagem Léxicos|--|Rafael e Thiago|--|
+|III. Modelagem de Requisitos|Modelagem Léxicos|25/08|Rafael e Thiago|Carlos e João|
 |III. Modelagem de Requisitos|Modelagem Especificação Suplementar|--|Rafael e Thiago|--|
 |III. Modelagem de Requisitos|Modelagem Use Case|--|João Pedro e Victor Lima|--|
 |III. Modelagem de Requisitos|Modelagem Cenários|--|Carlos e Vitor Lamego|--|
