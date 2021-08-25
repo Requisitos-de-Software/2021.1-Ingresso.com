@@ -75,7 +75,7 @@
 
 |LO07|**Sessão**|
 |---|------------------|
-|**Sinônimos**|-|
+|**Sinônimos**|Horário|
 |**Noção**|Sessão refere-se a um determinado cinema e horário onde vai passar o filme|
 |**Impacto**|Um ingresso só pode ser comprado quando referido a uma sessão|
 
@@ -84,6 +84,36 @@
 |**Sinônimos**|Carrinho de compras|
 |**Noção**|Conjunto de ingressos e acompanhamentos que o usuário pretende comprar|
 |**Impacto**|O usuário pode comprar vários itens|
+
+|LO09|**Notícia**|
+|---|------------------|
+|**Sinônimos**|-|
+|**Noção**|Uma notícia sobre algum filme, evento ou anúncio|
+|**Impacto**|O usuário pode visualizar as notícias e compartilhá-la|
+
+|LO10|**Local**|
+|---|------------------|
+|**Sinônimos**|Localidade|
+|**Noção**|Localização do cinema|
+|**Impacto**|O usuário pode pesquisar os cinemas pela localidade|
+
+|LO11|**Classificação etária**|
+|---|------------------|
+|**Sinônimos**|Classificação indicativa|
+|**Noção**|Idade mínima recomendada para assistir o filme|
+|**Impacto**|O usuário pode filtrar os filmes que a classificação etária atende a sua idade|
+
+|LO12|**Gênero**|
+|---|------------------|
+|**Sinônimos**|Classificação|
+|**Noção**|Conjunto de filmes com a mesma origem ou tema relacionados|
+|**Impacto**|O usuário pode filtrar por gênero do filme|
+
+|LO13|**Avaliação**|
+|---|------------------|
+|**Sinônimos**|Avaliação de usuários|
+|**Noção**|Feedback dos usuários sobre um filme|
+|**Impacto**|O usuário pode visualizar avaliações de um filme|
 
 <hr>
 
@@ -115,7 +145,7 @@
 
 |LV05|**Pesquisar**|
 |---|------------------|
-|**Sinônimos**|Buscar, Encontrar|
+|**Sinônimos**|Buscar, Encontrar, Filtrar|
 |**Noção**|O usuário pode pesquisar sobre um filme ou cinema|
 |**Impacto**|Após pesquisado, o usuário pode acessar informações específicas sobre os filmes ou cinemas encontrados|
 
@@ -125,11 +155,29 @@
 |**Noção**|O usuário pode visualizar as prevenções referentes ao cinema determinado|
 |**Impacto**|O usuário tem acesso as prevenções referentes a cinemas próximos<br>Sabendo as prevenções ele pode se preparar para evitar imprevistos|
 
-|LV07|**Compartilhar filme**|
+|LV07|**Visualizar avaliação**|
 |---|------------------|
-|**Sinônimos**|Enviar filme|
-|**Noção**|O usuário pode compartilhar um filme com alguém|
-|**Impacto**|O usuário compartilha o video por uma rede social |
+|**Sinônimos**|-|
+|**Noção**|O usuário pode ver as avaliações feitas pelos usuários do Rotten Tomatoes|
+|**Impacto**|O usuário pode perder ou ganhar interesse a partir das avaliações|
+
+|LV08|**Visualizar filme**|
+|---|------------------|
+|**Sinônimos**|-|
+|**Noção**|O usuário pode ver as informações sobre o filme|
+|**Impacto**|O usuário pode perder ou ganhar interesse a partir das informações<br>O usuário pode comprar ingressos para o filme|
+
+|LV09|**Visualizar notícia**|
+|---|------------------|
+|**Sinônimos**|-|
+|**Noção**|O usuário pode ler as notícias|
+|**Impacto**|O usuário pode se interessar por um filme|
+
+|LV10|**Compartilhar filme**|
+|---|------------------|
+|**Sinônimos**|Compartilhar notícia|
+|**Noção**|O usuário pode compartilhar um filme ou uma notícia com alguém|
+|**Impacto**|O usuário compartilha a página do filme, ou notícia, por uma rede social|
 
 <hr>
 
@@ -159,37 +207,49 @@
 |**Noção**|Um filme que está para ser lançado significa que ele estará disponível para ser assistido em breve|
 |**Impacto**|O usuário pode ver mais detalhes sobre o filme que está para ser lançado (trailer, descrição)<br>Quando o filme for lançado, ele sairá dos filmes em breve|
 
-|LE05|**Filme está em alta**|
+|LE05|**Filme está em lançamento**|
+|---|------------------|
+|**Sinônimos**|Filme recém-lançado|
+|**Noção**|Um filme que está em lançamento significa que está disponível para ser assistido há pouco tempo|
+|**Impacto**|O usuário pode comprar ingresso para o filme<br>Quando passa algumas semanas depois que o filme foi lançado, ele se torna um filme em cartaz|
+
+|LE06|**Filme está em alta**|
 |---|------------------|
 |**Sinônimos**|Filmes populares|
 |**Noção**|Um filme em alta é um filme popular, que é de interesse de várias pessoas|
 |**Impacto**|O usuário pode decidir assistir o filme em alta comprando um ingresso para determinada sessão. Quando o filme não está mais em alta e a quantidade de sessões diminuiu, ele se torna apenas um filme em cartaz|
 
-|LE06|**Filme esgotado**|
+|LE07|**Filme esgotado**|
 |---|------------------|
 |**Sinônimos**|Ingressos esgotados|
 |**Noção**|Um filme que está em cartaz, mas não tem ingressos disponíveis para a venda|
 |**Impacto**|O usuário não pode comprar ingressos para esse filme<br>Quando houver sessões com ingressos disponíveis, então ele se torna um filme em cartaz|
 
-|LE07|**Assento disponível**|
+|LE08|**Assento disponível**|
 |---|------------------|
 |**Sinônimos**|Assento livre|
 |**Noção**|Um assento que pode ser selecionado pelo usuário para uma determinada sessão|
 |**Impacto**|O usuário pode escolher um assento disponível<br>Quando alguém já escolheu esse assento, ele não está mais disponível|
 
-|LE08|**Assento está selecionado**|
+|LE09|**Assento indisponível**|
+|---|------------------|
+|**Sinônimos**|Assento ocupado|
+|**Noção**|Um assento que ter sido selecionado por outro usuário ou está bloqueado devido a medidas de prevenção contra o COVID|
+|**Impacto**|O usuário não pode escolher um assento indisponível<br>Quando o usuário desiste da compra do ingresso, o assento desse usuário se torna disponível|
+
+|LE10|**Assento está selecionado**|
 |---|------------------|
 |**Sinônimos**|Assento está escolhido|
 |**Noção**|Um ou mais assentos foram selecionados pelo usuário para determinada sessão|
 |**Impacto**|O usuário visualiza os assentos disponíveis para a sessão<br>O usuário escolhe um assento disponível<br>Os assentos ao redor são bloqueados por motivos de prevenção|
 
-|LE09|**Cinema está favoritado**|
+|LE11|**Cinema está favoritado**|
 |---|------------------|
 |**Sinônimos**|Cinema está como preferido, predileto|
 |**Noção**|Um usuário logado pode favoritar um cinema, facilitando o futuro acesso a esses cinemas por uma aba especial "Favoritos"|
 |**Impacto**|O usuário clica no símbolo de coração e favorita o cinema<br>O cinema favoritado aparece em “Favoritos”<br>Caso o usuário clique no coração novamente, este cinema deixa de ser favorito.|
 
-|LE10|**Cinema aberto**|
+|LE12|**Cinema aberto**|
 |---|------------------|
 |**Sinônimos**|Cinema em funcionamento|
 |**Noção**|Um cinema que tem sessões disponíveis para filmes|
