@@ -41,7 +41,7 @@
 |---|------------------|
 |**Sinônimos**|Cliente|
 |**Noção**|A pessoa interessada em comprar ingresso para algum evento|
-|**Impacto**|O usuário pode comprar ingresso, escolher assento, pesquisar um evento e visualizar prevenções<br>|
+|**Impacto**|O usuário pode comprar ingresso, escolher assento, pesquisar um evento e visualizar prevenções|
 
 |LO02|**Filme**|
 |---|------------------|
@@ -99,7 +99,7 @@
 |---|------------------|
 |**Sinônimos**|Selecionar assento|
 |**Noção**|O usuário tem a opção de escolher um ou mais assentos para determinada sessão|
-|**Impacto**|Os assentos foram escolhidos;<br>Assentos próximos são bloqueados por medidas de segurança|
+|**Impacto**|Os assentos foram escolhidos<br>Assentos próximos são bloqueados por medidas de segurança|
 
 |LV03|**Cadastrar usuário**|
 |---|------------------|
@@ -123,7 +123,7 @@
 |---|------------------|
 |**Sinônimos**|Ler prevenções|
 |**Noção**|O usuário pode visualizar as prevenções referentes ao cinema determinado|
-|**Impacto**|O usuário tem acesso as prevenções referentes a cinemas próximas<br>Sabendo as prevenções ele pode se preparar para evitar imprevistos|
+|**Impacto**|O usuário tem acesso as prevenções referentes a cinemas próximos<br>Sabendo as prevenções ele pode se preparar para evitar imprevistos|
 
 |LV07|**Compartilhar filme**|
 |---|------------------|
@@ -153,17 +153,17 @@
 |**Noção**|Um filme que não tem mais sessões disponíveis|
 |**Impacto**|O usuário não pode comprar ingressos para esse filme<br>Quando houver sessões, o filme entra em cartaz|
 
-|LE04|**Filme está em lançamento**|
+|LE04|**Filme está para ser lançado**|
 |---|------------------|
-|**Sinônimos**|Filme recém-lançado|
-|**Noção**|Um filme que está em lançamento significa que está disponível para ser assistido há pouco tempo|
-|**Impacto**|O usuário compre comprar ingresso para o filme<br>Quando passa algumas semanas que o filme está em lançamento, ele se torna um filme em cartaz|
+|**Sinônimos**|Filme chegará em breve|
+|**Noção**|Um filme que está para ser lançado significa que ele estará disponível para ser assistido em breve|
+|**Impacto**|O usuário pode ver mais detalhes sobre o filme que está para ser lançado (trailer, descrição)<br>Quando o filme for lançado, ele sairá dos filmes em breve|
 
 |LE05|**Filme está em alta**|
 |---|------------------|
 |**Sinônimos**|Filmes populares|
 |**Noção**|Um filme em alta é um filme popular, que é de interesse de várias pessoas|
-|**Impacto**|O usuário pode decidir assistir o filme em alta comprando um ingresso para determinada sessão. Quando o filme não está mais em lançamento e a quantidade de sessões diminuiu, ele se torna apenas um filme em cartaz|
+|**Impacto**|O usuário pode decidir assistir o filme em alta comprando um ingresso para determinada sessão. Quando o filme não está mais em alta e a quantidade de sessões diminuiu, ele se torna apenas um filme em cartaz|
 
 |LE06|**Filme esgotado**|
 |---|------------------|
@@ -181,7 +181,7 @@
 |---|------------------|
 |**Sinônimos**|Assento está escolhido|
 |**Noção**|Um ou mais assentos foram selecionados pelo usuário para determinada sessão|
-|**Impacto**|O usuário visualiza os assentos disponíveis para a sessão<br>Escolhe um assento disponível<br>Os assentos ao redor são bloqueados por motivos de prevenção|
+|**Impacto**|O usuário visualiza os assentos disponíveis para a sessão<br>O usuário escolhe um assento disponível<br>Os assentos ao redor são bloqueados por motivos de prevenção|
 
 |LE09|**Cinema está favoritado**|
 |---|------------------|
