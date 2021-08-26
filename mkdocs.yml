@@ -34,6 +34,8 @@ nav:
     - First Things First: "priorizacao/first_things_first.md"
     - House of Quality: "priorizacao/house_of_quality.md"
     - MoSCoW: "priorizacao/moscow.md"
+  - Modelagem:
+    - Cenários: "modelagem/cenarios.md"
   - Apresentações:
     - Ponto de Controle 1: "apresentacoes/p1.md"
     - Ponto de Controle 2: "apresentacoes/p2.md"
