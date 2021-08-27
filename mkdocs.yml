@@ -35,6 +35,7 @@ nav:
     - House of Quality: "priorizacao/house_of_quality.md"
     - MoSCoW: "priorizacao/moscow.md"
   - Modelagem:
+    - Casos de Uso: "modelagem/use_case.md"
     - Lexicos: "modelagem/lexicos.md"
   - Apresentações:
     - Ponto de Controle 1: "apresentacoes/p1.md"
