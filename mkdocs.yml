@@ -37,6 +37,7 @@ nav:
   - Modelagem:
     - Casos de Uso: "modelagem/use_case.md"
     - Lexicos: "modelagem/lexicos.md"
+    - Especificacão Suplementar: "modelagem/especificacao.md"
   - Apresentações:
     - Ponto de Controle 1: "apresentacoes/p1.md"
     - Ponto de Controle 2: "apresentacoes/p2.md"
