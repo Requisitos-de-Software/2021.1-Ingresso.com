@@ -50,7 +50,7 @@
 |Pré-condições| Acesso à internet e ter uma conta no aplicativo|
 |Ação| Edição do perfil do Usuário|
 |Fluxo Principal|<b>FP01</b>: Fluxo de editar a conta no app<br/>1. O ator entra no aplicativo<br/>2. O sistema exibe 5 funcionalidades pricipais de acesso<br/>3. O ator clica no ícone de perfil no canto superior direito<br/>4. O sistema mostra a opção entrar<br/>5. O ator digita suas informações de login<br/>6. O ator clica em dados pessoais</br>7. O ator edita suas informações para as novas|
-|Fluxo Alternativo|<b>FA01</b>: Fluxo de fazer cadastro no aplicativo<br/>1. O ator entra no aplicativo com suas informações de login salvas<br/>2. O sistema exibe 5 funcionalidades pricipais de acesso<br/>3. O ator clica no ícone de perfil no canto superior direito</br>4. O ator clica em dados pessoais</br>5. O ator edita suas informações para as novas|
+|Fluxo Alternativo|<b>FA01</b>: Fluxo de feditar conta no<br/>1. O ator entra no aplicativo com suas informações de login salvas<br/>2. O sistema exibe 5 funcionalidades pricipais de acesso<br/>3. O ator clica no ícone de perfil no canto superior direito</br>4. O ator clica em dados pessoais</br>5. O ator edita suas informações para as novas|
 |Pós-condições| O Usuário mantém suas informações atualizadas|
 <h6 align = "center">Tabela 3: Tabela de especialização de editar a conta.</h6>
 <h6 align = "center">Fonte: Autores</h6>
@@ -62,7 +62,8 @@
 |Ator| Usuário|
 |Pré-condições| Acesso à internet|
 |Ação| Trocar a Região do aplicativo para verificar as sessões|
-|Fluxo Principal|<b>FP01</b>: Fluxo para trocar região<br/>1. O ator entra no aplicativo<br/>2. O sistema exibe 5 funcionalidades pricipais de acesso<br/>3. O ator clica no ícone de perfil no canto superior direito<br/>4. O sistema mostra a região selecionada</br>5. O usuário clica em cima da região atual</br>6. O usuário escolhe outra região|
+|Fluxo Principal|<b>FP01</b>: Fluxo para trocar região<br/>1. O ator entra no aplicativo<br/>2. O sistema exibe 5 funcionalidades pricipais de acesso<br/>3. O ator clica na região selecionada no canto superior esquerdo<br/>4. O sistema mostra a região selecionada</br>5. O usuário escolhe outra região|
+|Fluxo Alternativo|<b>FP01</b>: Fluxo para trocar região<br/>1. O ator entra no aplicativo<br/>2. O sistema exibe 5 funcionalidades pricipais de acesso<br/>3. O ator clica no ícone de perfil no canto superior direito<br/>4. O sistema mostra a região selecionada</br>5. O usuário clica em cima da região atual</br>6. O usuário escolhe outra região|
 |Pós-condições| O usuário pode verificar os filmes em qualquer local que desejar|
 <h6 align = "center">Tabela 4: Tabela de especialização de selecionar a região.</h6>
 <h6 align = "center">Fonte: Autores</h6>
@@ -75,7 +76,7 @@
 |Pré-condições| Acesso à internet|
 |Ação| Ir até a aba de notícias|
 |Fluxo Principal|<b>FP01</b>: Fluxo de acessar notícias pelo menu inferior<br/>1. O ator entra no aplicativo<br/>2. O sistema exibe 5 funcionalidades pricipais de acesso<br/>3. O ator clica em "Notícias"<br/>4. O sistema mostra as notícias disponíveis|
-|Fluxo Alternativo|<b>FA01</b>: Fluxo de acessar notícias pelo menu inferior<br/>1. O ator entra no aplicativo<br/>2. O sistema exibe 5 funcionalidades pricipais de acesso<br/>3. O ator clica em Notícias em alta em destaques<br/>4. O sistema mostra as notícias disponíveis|
+|Fluxo Alternativo|<b>FA01</b>: Fluxo de acessar notícias pela página de destaques<br/>1. O ator entra no aplicativo<br/>2. O sistema exibe 5 funcionalidades pricipais de acesso<br/>3. O ator clica em Notícias em alta em destaques<br/>4. O sistema mostra as notícias disponíveis|
 |Pós-condições| O ator consegue vizualizar todas as atualizações sobre os filmes |
 <h6 align = "center">Tabela 5: Tabela de especialização da visualização de notícias.</h6>
 <h6 align = "center">Fonte: Autores</h6>
@@ -88,7 +89,7 @@
 |Pré-condições|Acesso à internet|
 |Ação|O usuário ver os filmes em cartaz|
 |Fluxo Principal|<b>FP01</b>: Fluxo de acessar filmes em cartaz pelo menu inferior<br/>1. O ator entra no aplicativo<br/>2. O sistema exibe 5 funcionalidades pricipais de acesso<br/>3. O ator clica em "Filmes"<br/>4. O sistema mostra a opção "Em Cartaz" ou "Em Breve"<br/>5. O ator seleciona a opção "Em Cartaz"|
-|Fluxo Alternativo|<b>FA01</b>: Fluxo de acessar filmes em alta no menu principal<br/>1. O ator entra no aplicativo<br/>2. O sistema exibe no menu principal os filmes em alta<br/>3. O ator seleciona essa opção<br/>4. O ator é redirecionado para a aba de filmes em cartaz|
+|Fluxo Alternativo|<b>FA01</b>: Fluxo de acessar filmes em alta no menu principal<br/>1. O ator entra no aplicativo<br/>2. O sistema exibe no menu principal os filmes em alta<br/>3. O ator seleciona essa opção<br/>4. O ator é redirecionado para a aba de filmes em cartaz<br/><br/><b>FA02</b>: Fluxo de acessar filmes pela pesquisa<br/>1. O ator entra no aplicativo<br/>2. O ator clica em filmes na navegação<br/>3. O ator seleciona a lupa<br/>4. O ator pesquisa o filme|
 |Pós-condições|O ator poderá visualizar todos os filmes em cartaz em sua região|
 <h6 align = "center">Tabela 6: Tabela de especialização da visualização dos filmes em cartaz.</h6>
 <h6 align = "center">Fonte: Autores</h6>
@@ -101,7 +102,7 @@
 |Pré-condições|Acesso à internet e acesso à localização|
 |Ação|O usuário ver os cinemas|
 |Fluxo Principal|<b>FP01</b>: Fluxo de acessar cinemas pelo menu inferior<br/>1. O ator entra no aplicativo<br/>2. O sistema exibe 5 funcionalidades pricipais de acesso<br/>3. O ator clica em "Cinemas"<br/>4. O ator seleciona o cinema de sua escolha|
-|Fluxo Alternativo|<b>FA01</b>: Fluxo de acessar um cinema pelo filme em cartaz<br/>1. O ator entra no aplicativo<br/>2. O ator acessa a funcionalidade "Filmes"<br/>3. O ator escolhe a opção "Em Cartaz"<br/>4. O ator seleciona um filme de sua escolha<br/>5. O sistema exibe informações de sessões em diversos cinemas<br/>6. O ator seleciona um cinema de sua escolha<br/><br/><b>FA02</b>: Fluxo de acessar um cinema pelo menu principal<br/>1. o ator entra no aplicativo<br/>2. O sistema exibe em seu menu principal a opção "Cinemas Abertos Próximos de Você"<br/>3. O usuário seleciona essa opção<br/>4. O sistema redireciona para a aba "Cinemas"|
+|Fluxo Alternativo|<b>FA01</b>: Fluxo de acessar um cinema pelo filme em cartaz<br/>1. O ator entra no aplicativo<br/>2. O ator acessa a funcionalidade "Filmes"<br/>3. O ator escolhe a opção "Em Cartaz"<br/>4. O ator seleciona um filme de sua escolha<br/>5. O sistema exibe informações de sessões em diversos cinemas<br/>6. O ator seleciona um cinema de sua escolha<br/><br/><b>FA02</b>: Fluxo de acessar um cinema pelo menu principal<br/>1. o ator entra no aplicativo<br/>2. O sistema exibe em seu menu principal a opção "Cinemas Abertos Próximos de Você"<br/>3. O usuário seleciona essa opção<br/>4. O sistema redireciona para a aba "Cinemas"região<br/><br/><b>FA03</b>: Fluxo de acessar um cinema pela pesquisa<br/>1. o ator entra no aplicativo<br/>2. O ator clica em cinemas na barra de navegação<br/>3. O ator clica na lupa de pesquisa<br/>4. O sistema mostra os cinemas que tenham conexão com a pesquisa|
 |Pós-condições|O ator poderá visualizar informações do cinema, bem como, cinemas em sua região|
 <h6 align = "center">Tabela 7: Tabela de especialização da visualização dos cinemas.</h6>
 <h6 align = "center">Fonte: Autores</h6>
