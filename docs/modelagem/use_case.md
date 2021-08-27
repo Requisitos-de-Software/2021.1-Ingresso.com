@@ -17,7 +17,7 @@
 <h6 align = "center">Fonte: Autores</h6>
 
 ## 4. Especificação dos Casos de Uso
-### 4.1 UC01 Login
+### UC01 Login
 <center>
 
 |UC01|Informações|
@@ -33,7 +33,7 @@
 <h6 align = "center">Tabela 1: Tabela de especialização do login.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
-### 4.2 UC02 Cadastro 
+### UC02 Cadastro 
 <center>
 
 |UC02|Informações|
@@ -50,7 +50,7 @@
 <h6 align = "center">Tabela 2: Tabela de especialização do cadastro.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
-### 4.3 UC03 Editar Conta 
+### UC03 Editar Conta 
 <center>
 
 |UC03|Informações|
@@ -67,7 +67,7 @@
 <h6 align = "center">Tabela 3: Tabela de especialização de editar a conta.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
-### 4.4 UC04 Selecionar Região 
+### UC04 Selecionar Região 
 <center>
 
 |UC04|Informações|
@@ -84,7 +84,7 @@
 <h6 align = "center">Tabela 4: Tabela de especialização de selecionar a região.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
-### 4.5 UC05 Ver Notícias
+### UC05 Ver Notícias
 <center>
 
 |UC05|Informações|
@@ -101,7 +101,7 @@
 <h6 align = "center">Tabela 5: Tabela de especialização da visualização de notícias.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
-### 4.6 UC06 Ver Filmes em Cartaz
+### UC06 Ver Filmes em Cartaz
 <center>
 
 |UC06|Informações|
@@ -135,7 +135,7 @@
 <h6 align = "center">Tabela 7: Tabela de especialização da visualização dos cinemas.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
-### 4.8 UC08 Ver Horários
+### UC08 Ver Horários
 <center>
 
 |UC08|Informações|
@@ -152,7 +152,7 @@
 <h6 align = "center">Tabela 8: Tabela de especialização da visualização dos horários.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
-### 4.9 UC09 Ver Filmes em Breve
+### UC09 Ver Filmes em Breve
 <center>
 
 |UC09|Informações|
@@ -169,7 +169,7 @@
 <h6 align = "center">Tabela 9: Tabela de especialização da visualização dos filmes em breve.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
-### 4.10 UC10 Comprar Ingresso
+### UC10 Comprar Ingresso
 <center>
 
 |UC10|Informações|
