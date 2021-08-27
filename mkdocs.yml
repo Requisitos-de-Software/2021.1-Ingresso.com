@@ -18,26 +18,29 @@ extra_css:
 nav:
   - Inicio: "index.md"
   - Planejamento: "planejamento/index.md"
-  - Pré Rastreabilidade: "pre_rastreabilidade/rich_picture.md"
+  - Pré Rastreabilidade:
+    - Rich Picture: "pre_rastreabilidade/rich_picture.md"
+    - 5W2H: "elicitacao/5w2h.md"
   - Elicitação:
     - Análise de Protocolo: "elicitacao/analiseProtocolo.md"
     - Brainstorming: "elicitacao/brainstorming.md"
     - Entrevistas: "elicitacao/entrevistas.md"
     - Introspecção: "elicitacao/introspeccao.md"
     - Observação Participativa: "elicitacao/observacao_participativa.md"
+    - Questionário: "elicitacao/questionario.md"
     - Personas: "elicitacao/personas.md"
-    - Questionario: "elicitacao/questionario.md"
     - Storytelling: "elicitacao/storytelling.md"
-    - 5W2H: "elicitacao/5w2h.md"
   - Priorização:
     - First Things First: "priorizacao/first_things_first.md"
     - House of Quality: "priorizacao/house_of_quality.md"
     - MoSCoW: "priorizacao/moscow.md"
   - Modelagem:
     - Casos de Uso: "modelagem/use_case.md"
+    - Lexicos: "modelagem/lexicos.md"
   - Apresentações:
     - Ponto de Controle 1: "apresentacoes/p1.md"
     - Ponto de Controle 2: "apresentacoes/p2.md"
   - Atas:
     - 27/07/2021: "atas/ata27_07.md"
     - 05/08/2021: "atas/ata05_08.md"
+    - 24/08/2021: "atas/ata24_08.md"
