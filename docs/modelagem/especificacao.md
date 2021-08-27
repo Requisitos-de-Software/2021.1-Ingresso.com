@@ -10,7 +10,7 @@
 
 <p style="text-align: justify; text-indent: 20px">
 
-A especificação suplementar é um documento em linguagem natural, na qual são descritos os requisitos não funcionais [1]. Segundo Vazquez e Simões (2016), o requisito não funcional é o resultado de uma construção de escolhas para uma solução particular dentre várias possiveis. Por exemplo, quais normas seguir para garantir a segurança no armazenamento dos dados do usuário ? Assim, para sistematizar a identificação, validadação e desenvolvimento dos requisitos não funcionais, a metodologia utilizada foi a FURPS+, apresentada na proxima seção. Os requisitos não funcionais, utilizados nesta modelagem, foram derivados do Product Backlog e da Políticas de Privacidade e Segurança do Ingresso.com [3].
+A especificação suplementar é um documento em linguagem natural, na qual são descritos os requisitos não funcionais [1]. Segundo Vazquez e Simões (2016), o requisito não funcional é o resultado de uma construção de escolhas para uma solução particular dentre várias possiveis. Por exemplo, quais normas seguir para garantir a segurança no armazenamento dos dados do usuário ? Assim, para sistematizar a identificação, validadação e desenvolvimento dos requisitos não funcionais, a metodologia utilizada foi a FURPS+, apresentada na proxima seção. Os requisitos não funcionais, utilizados nesta modelagem, foram derivados da lista de requisitos levantados e da Políticas de Privacidade e Segurança do Ingresso.com [3].
 
 </p>
 
@@ -19,7 +19,7 @@ A especificação suplementar é um documento em linguagem natural, na qual são
 ### 3.1 Funcionalidade
 
 <p align=”justify”>
-	As funcionalidades se encontram no <a href="https://docs.google.com/spreadsheets/d/1jnQp4QDh6lcEGvI0FulFJ9UemWUIfF5fezK66ocX0iw/edit?usp=sharing" target="_blank">Product backlog</a> e nos casos de usos do projeto.
+	As funcionalidades se encontram na <a href="https://docs.google.com/spreadsheets/d/1jnQp4QDh6lcEGvI0FulFJ9UemWUIfF5fezK66ocX0iw/edit?usp=sharing" target="_blank">lista de requisitos</a> e nos casos de usos do projeto.
 </p>
 <hr>
 
@@ -42,12 +42,12 @@ Rastro [E06](../elicitacao/entrevistas.md), [E07](../elicitacao/entrevistas.md) 
 <p align=”justify”>&emsp;&emsp;
 	A aplicação do Ingresso.com estabelece uma visualização simples em 2D para selecionar as cadeiras disponíveis em determinada sessão. Assim, é possível selecionar a(s) cadeira(s) desejadas com apenas um clique. Talvez aderir um modelo de visualização 3D traria mais eficiência para entender onde a cadeira se localiza no cinema.
 </p>
-Rastro [E08](elicitacao/entrevistas.md) e [E09](../elicitacao/entrevistas.md).
+Rastro [E08](../elicitacao/entrevistas.md) e [E09](../elicitacao/entrevistas.md).
 
 
 - <b>O aplicativo deve ser fácil de ser utilizado</b>
 <p align=”justify”>&emsp;&emsp;
-	O aplicativo deve prover uma interface gráfica intuitiva e de fácil utilização. O aplicativo promove uma fácil utilização por meio do menu inferior contendo diferentes seções como “Destaques”, “Filmes”, “Cinemas”, “Notícias” e “Prevenções”, ou seja, o usuário pode se mover entre as funcionalidades do app de maneira intuitiva, quando quiser ver um Filme vai para filme, quando tiver em dúvida do que assistir pode ir nos destaque, e assim por diante. Já no painel superior, há as informações sobre a região e conta do usuário, é importante ter a seleção de região de maneira chamativa pois ela determina as informações do app.
+	O aplicativo deve prover uma interface gráfica intuitiva e de fácil utilização. O app do Ingresso.com promove uma fácil utilização por meio do menu inferior contendo diferentes seções como “Destaques”, “Filmes”, “Cinemas”, “Notícias” e “Prevenções”, ou seja, o usuário pode se mover entre as funcionalidades do app de maneira intuitiva, quando quiser ver um Filme vai para filme, quando tiver em dúvida do que assistir pode ir nos destaque, e assim por diante. Já no painel superior, há as informações sobre a região e conta do usuário, onde é importante ter a seleção de região de maneira chamativa pois ela determina as informações do app.
 </p>
 Rastro [ST01](../elicitacao/storytelling.md)
 , [ST07](../elicitacao/storytelling.md)
@@ -58,8 +58,9 @@ Rastro [ST01](../elicitacao/storytelling.md)
 
 - <b>O aplicativo deve garantir a segurança no armazenamento de dados</b>
 <p align=”justify”>&emsp;&emsp;
-Uma vez que o Ingresso.com armazena dados sensiveis do usuário, os serviços providos pelo aplicativo são regidos e operados em conformidade com as leis do Brasil. Rastro AP19.
+Uma vez que o Ingresso.com armazena dados sensiveis do usuário, os serviços providos pelo aplicativo são regidos e operados em conformidade com as leis do Brasil. 
 </p>
+Rastro [AP19](../elicitacao/analiseProtocolo.md).
 
 - <b>O aplicativo deve estar sempre com os horários das sessões e notícias atualizadas</b>
 <p align=”justify”>&emsp;&emsp;
