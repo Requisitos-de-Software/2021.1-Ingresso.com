@@ -50,7 +50,7 @@ VI - Pós-Rastreabilidade            | 19/09 - 09/10 | Gerência de Desenvolvime
 |II. Priorização de Requisitos|First Things First|23/08|Carlos e Thiago|João Pedro e Rafael|
 |||<b>Terceira Entrega</b>|||
 |III. Modelagem de Requisitos|Modelagem Léxicos|25/08|Rafael e Thiago|Carlos e João|
-|III. Modelagem de Requisitos|Modelagem Especificação Suplementar|--|Rafael e Thiago|--|
+|III. Modelagem de Requisitos|Modelagem Especificação Suplementar|27/08|Rafael e Thiago|Carlos e João|
 |III. Modelagem de Requisitos|Modelagem Use Case|--|João Pedro e Victor Lima|--|
 |III. Modelagem de Requisitos|Modelagem Cenários|--|Carlos e Vitor Lamego|--|
 <h6 align = "center">Tabela 2: Tabela específica contendo data de entrega, responsáveis e revisores</h6>
