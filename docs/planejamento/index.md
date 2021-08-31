@@ -9,6 +9,7 @@
 |1.3|04/08|<center>Adição referências e legendas</center>|<center>João Pedro, Vitor Lamego</center>|
 |1.4|04/08|<center>Adição nova ferramenta de storyboard</center>|<center>João Pedro</center>|
 |2.0|24/08|<center>Melhoria do Cronograma</center>|<center>João Pedro</center>|
+|2.1|24/08|<center>Adição de datas no Cronograma</center>|<center>João Pedro</center>|
 
 ## 2. Cronograma
 
@@ -49,10 +50,10 @@ VI - Pós-Rastreabilidade            | 19/09 - 09/10 | Gerência de Desenvolvime
 |II. Priorização de Requisitos|Priorização House of Quality|22/08|João Pedro e Rafael|Victor Lima e Vitor Lamego|
 |II. Priorização de Requisitos|First Things First|23/08|Carlos e Thiago|João Pedro e Rafael|
 |||<b>Terceira Entrega</b>|||
-|III. Modelagem de Requisitos|Modelagem Léxicos|--|Rafael e Thiago|--|
-|III. Modelagem de Requisitos|Modelagem Especificação Suplementar|--|Rafael e Thiago|--|
-|III. Modelagem de Requisitos|Modelagem Use Case|--|João Pedro e Victor Lima|--|
-|III. Modelagem de Requisitos|Modelagem Cenários|--|Carlos e Vitor Lamego|--|
+|III. Modelagem de Requisitos|Modelagem Léxicos|27/08|Rafael e Thiago|Carlos e João|
+|III. Modelagem de Requisitos|Modelagem Especificação Suplementar|27/08|Rafael e Thiago|Carlos e João|
+|III. Modelagem de Requisitos|Modelagem Use Case|27/08|João Pedro e Victor Lima|Rafael e Vitor Lamego|
+|III. Modelagem de Requisitos|Modelagem Cenários|28/08|Carlos e Vitor Lamego|Thiago e Victor Lima|
 <h6 align = "center">Tabela 2: Tabela específica contendo data de entrega, responsáveis e revisores</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
