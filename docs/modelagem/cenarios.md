@@ -10,11 +10,11 @@
 ## 2. Introdução
 <p style="text-align: justify; text-indent: 20px">Dentro da Engenharia de Requisitos existe uma etapa fundamental designada para a Modelagem dos requisitos. Dentre as várias técnicas existentes, este documento irá abordar e aplicar uma técnica em específico: Cenários.</p>
 
-<p style="text-align: justify; text-indent: 20px">A técnica de modelagem citada anteriormente consiste basicamente na descrição narrativa informal e concreta a respeito da interação entre um usuário e um sistema.[1] Sendo assim, nesse documento foram elaboras algumas descrições relacionadas a interação dos usuários do aplicativo Ingresso.com com o sistema em questão.</p>
+<p style="text-align: justify; text-indent: 20px">A técnica de modelagem citada anteriormente consiste basicamente na descrição narrativa informal e concreta a respeito da interação entre um usuário e um sistema[1]. Sendo assim, nesse documento foram elaboras algumas descrições relacionadas a interação dos usuários do aplicativo Ingresso.com com o sistema em questão.</p>
 
 
 ## 3. Cenários:
-<p style="text-align: justify; text-indent: 20px">Para a aplicação da técnica, o grupo optou pela criação do primeiro(C01) cenário como uma dinâmica geral do aplicativo, que aborda as funcionalidades e ações gerais, mas que ao longo do documento foram especificadas para extrair qualquer tipo de interação existente. A partir do segundo cenário (C02) foram descritas as interações mais específicas do software. Vejamos a seguir os resultados:</p>
+<p style="text-align: justify; text-indent: 20px">Para a aplicação da técnica, o grupo optou pela criação do primeiro(C01) cenário como uma dinâmica geral do aplicativo, que aborda as funcionalidades e ações gerais, mas que ao longo do documento foram especificadas para extrair qualquer tipo de interação existente. A partir do segundo cenário (C02), foram descritas as interações mais específicas do software. Vejamos a seguir os resultados:</p>
 
 ### C01: Dinâmica do Ingresso.com
 
@@ -27,10 +27,11 @@
 |<b>Atores</b>| Comprador/Usuário | 
 |<b>Recursos</b>| Smartphone, internet e o aplicativo | 
 |<b>Exceção</b>| 1. Smartphone para de funcionar</br>2. Sem acesso à internet |
-|<b>Episódios</b>| 1. Usuário abre o aplicativo </br>2. Usuário ESCOLHE REGIÃO DO CINEMA</br>3. Usuário ESCOLHE CINEMA.</br>4. Usuário FAVORTIA CINEMA</br>5. Usuário CONSULTA FILMES EM CARTAZ</br>6. Usuário CONSULTA FILMES EM BREVE</br>7. Usuário ESCOLHE SESSÃO DO FILME</br>8. Usuário ESCOLHE ASSENTOS DA SESSÃO</br>9. Usuário ESCOLHE TIPO DE INGRESSO</br>10. Usuário CRIA CONTA</br>11. Usuário FAZ LOGIN</br>12. Usuário ESCOLHE FORMA DE PAGAMENTO</br>13. Usuário COMPRA INGRESSO</br>14. Usuário OLHA NOTÍCIAS</br>15. Usuário CONSULTA MEDIDAS DE PREVENÇÃO DO CINEMA|
+|<b>Episódios</b>| 1. Usuário abre o aplicativo </br>2. Usuário ESCOLHE REGIÃO DO CINEMA</br>3. Usuário ESCOLHE CINEMA.</br>4. Usuário FAVORITA CINEMA</br>5. Usuário CONSULTA FILMES EM CARTAZ</br>6. Usuário CONSULTA FILMES EM BREVE</br>7. Usuário ESCOLHE SESSÃO DO FILME</br>8. Usuário ESCOLHE ASSENTOS DA SESSÃO</br>9. Usuário ESCOLHE TIPO DE INGRESSO</br>10. Usuário CRIA CONTA</br>11. Usuário FAZ LOGIN</br>12. Usuário ESCOLHE FORMA DE PAGAMENTO</br>13. Usuário COMPRA INGRESSO</br>14. Usuário OLHA NOTÍCIAS</br>15. Usuário CONSULTA MEDIDAS DE PREVENÇÃO DO CINEMA|
 
-</center>
+
 <h6 align = "center">Tabela 1: Descrição das características do Cenário 01</h6>
+<h6 align = "center">Fonte: Autores</h6>
 
 ### C02: Escolher região do cinema
 
@@ -39,7 +40,7 @@
 |Cenário 002||
 |:----:|:----------|
 |<b>Objetivo</b>| Filtrar os cinemas pela região que o usuário se encontra, a fim de ter um serviço mais focado na sua área | 
-|<b>Contexto</b>| Pré-condição: Aplicativo aberto, acesso à internet e smatphone com gps<br>Pós-condição: O usuário possui um serviço direcionado para onde ele se encontra |
+|<b>Contexto</b>| Pré-condição: Aplicativo aberto, acesso à internet e smartphone com gps<br>Pós-condição: O usuário possui um serviço direcionado para onde ele se encontra |
 |<b>Atores</b>| Usuário | 
 |<b>Recursos</b>| Smartphone, internet e o aplicativo | 
 |<b>Exceção</b>| 1. Smartphone para de funcionar</br>2. Sem acesso à internet<br>3. Usuário não libera o uso da localização pelo aplicativo Ingresso |
@@ -47,6 +48,7 @@
 
 </center>
 <h6 align = "center">Tabela 2: Descrição das características do Cenário 02</h6>
+<h6 align = "center">Fonte: Autores</h6>
 
 ### C03: Escolher cinema
 
@@ -63,6 +65,7 @@
 
 </center>
 <h6 align = "center">Tabela 3: Descrição das características do Cenário 03</h6>
+<h6 align = "center">Fonte: Autores</h6>
 
 ### C04: Favoritar cinema
 
@@ -75,10 +78,11 @@
 |<b>Atores</b>| Usuário | 
 |<b>Recursos</b>| Smartphone, internet e o aplicativo | 
 |<b>Exceção</b>| 1. Smartphone para de funcionar</br>2. Sem acesso à internet<br>3. Usuário não possui conta |
-|<b>Episódios</b>| 1. Usuário navega até a lista de cinemas<br>2. Usuário escolhe um cinema desejado<br>3. Usuário clica no ícone de coração<br>4. Usuário faz login, caso não tenha feito anteriormente.<br>5. Cinema é adiciona à lista de favoritos|
+|<b>Episódios</b>| 1. Usuário navega até a lista de cinemas<br>2. Usuário escolhe um cinema desejado<br>3. Usuário clica no ícone de coração<br>4. Usuário faz login, caso não tenha feito anteriormente.<br>5. Cinema é adicionado à lista de favoritos|
 
 </center>
 <h6 align = "center">Tabela 4: Descrição das características do Cenário 04</h6>
+<h6 align = "center">Fonte: Autores</h6>
 
 ### C05: Consultar filmes em cartaz
 
@@ -95,6 +99,7 @@
 
 </center>
 <h6 align = "center">Tabela 5: Descrição das características do Cenário 05</h6>
+<h6 align = "center">Fonte: Autores</h6>
 
 ### C06: Consultar filmes em breve
 
@@ -111,6 +116,7 @@
 
 </center>
 <h6 align = "center">Tabela 6: Descrição das características do Cenário 06</h6>
+<h6 align = "center">Fonte: Autores</h6>
 
 ### C07: Escolher sessão do filme
 
@@ -127,6 +133,7 @@
 
 </center>
 <h6 align = "center">Tabela 7: Descrição das características do Cenário 07</h6>
+<h6 align = "center">Fonte: Autores</h6>
 
 ### C08: Escolher assentos da sessão
 
@@ -143,6 +150,7 @@
 
 </center>
 <h6 align = "center">Tabela 8: Descrição das características do Cenário 08</h6>
+<h6 align = "center">Fonte: Autores</h6>
 
 ### C09: Escolher o tipo de ingresso
 
@@ -159,6 +167,7 @@
 
 </center>
 <h6 align = "center">Tabela 9: Descrição das características do Cenário 09</h6>
+<h6 align = "center">Fonte: Autores</h6>
 
 ### C10: Escolher o que vai comer na sessão
 
@@ -166,7 +175,7 @@
 
 |Cenário 010||
 |:----:|:----------|
-|<b>Objetivo</b>| Permitir que o usuário já compre a sua comida do cinema junto aos ingressos, evitando que ele enfrente mais filas | 
+|<b>Objetivo</b>| Permitir que o usuário compre os acompanhamentos junto aos ingressos, evitando que ele enfrente mais filas | 
 |<b>Contexto</b>| Pré-condição: Tipo de ingresso escolhido<br>Pós-condição: Usuário é direcionado para o pagamento do que foi escolhido|
 |<b>Atores</b>| Usuário | 
 |<b>Recursos</b>| Smartphone, internet e o aplicativo | 
@@ -175,6 +184,7 @@
 
 </center>
 <h6 align = "center">Tabela 10: Descrição das características do Cenário 10</h6>
+<h6 align = "center">Fonte: Autores</h6>
 
 ### C11: Realizar pagamento como cliente do Ingresso.com
 
@@ -191,6 +201,7 @@
 
 </center>
 <h6 align = "center">Tabela 11: Descrição das características do Cenário 11</h6>
+<h6 align = "center">Fonte: Autores</h6>
 
 ### C12: Realizar pagamento sem ser cliente do Ingresso.com
 
@@ -207,6 +218,7 @@
 
 </center>
 <h6 align = "center">Tabela 12: Descrição das características do Cenário 12</h6>
+<h6 align = "center">Fonte: Autores</h6>
 
 ### C13: Criar conta sem integração com outro aplicativo
 
@@ -223,6 +235,7 @@
 
 </center>
 <h6 align = "center">Tabela 13: Descrição das características do Cenário 13</h6>
+<h6 align = "center">Fonte: Autores</h6>
 
 ### C14: Criar conta a partir do Facebook
 
@@ -239,6 +252,7 @@
 
 </center>
 <h6 align = "center">Tabela 14: Descrição das características do Cenário 14</h6>
+<h6 align = "center">Fonte: Autores</h6>
 
 ### C15: Criar conta a partir do Google
 
@@ -255,6 +269,7 @@
 
 </center>
 <h6 align = "center">Tabela 15: Descrição das características do Cenário 15</h6>
+<h6 align = "center">Fonte: Autores</h6>
 
 ### C16: Fazer Login
 
@@ -271,6 +286,7 @@
 
 </center>
 <h6 align = "center">Tabela 16: Descrição das características do Cenário 16</h6>
+<h6 align = "center">Fonte: Autores</h6>
 
 ### C17: Ver Notícias
 
@@ -287,6 +303,7 @@
 
 </center>
 <h6 align = "center">Tabela 17: Descrição das características do Cenário 17</h6>
+<h6 align = "center">Fonte: Autores</h6>
 
 ### C18: Ver Prevenções
 
@@ -303,6 +320,7 @@
 
 </center>
 <h6 align = "center">Tabela 18: Descrição das características do Cenário 18</h6>
+<h6 align = "center">Fonte: Autores</h6>
 
 ### C19: Ver Ingressos comprados
 
@@ -319,6 +337,7 @@
 
 </center>
 <h6 align = "center">Tabela 19: Descrição das características do Cenário 19</h6>
+<h6 align = "center">Fonte: Autores</h6>
 
 ### C20: Visualizar detalhes de um filme
 
@@ -326,7 +345,7 @@
 
 |Cenário 020||
 |:----:|:----------|
-|<b>Objetivo</b>| Usuário poder visualizar detalhes como, duração, sinopse, diretor, país de origem, e algumas outras informações de algum filme em específico. | 
+|<b>Objetivo</b>| Usuário poder visualizar detalhes como duração, sinopse, diretor, país de origem e algumas outras informações de algum filme em específico. | 
 |<b>Contexto</b>| Pré-condição: Aplicativo aberto, acesso à internet|
 |<b>Atores</b>| Usuário | 
 |<b>Recursos</b>| Smartphone, internet e o aplicativo | 
@@ -335,6 +354,7 @@
 
 </center>
 <h6 align = "center">Tabela 20: Descrição das características do Cenário 20</h6>
+<h6 align = "center">Fonte: Autores</h6>
 
 ## 4. Referências
 <p style="text-align: justify;">[1] DevMedia. <b>Artigo Engenharia de Software 16 - Cenários e Casos de Uso: Fundamentos e Conceitos</b>. 2009. Disponível em: <a href="https://www.devmedia.com.br/artigo-engenharia-de-software-16-cenarios-e-casos-de-uso-fundamentos-e-conceitos/14186" target="_blank">DevMedia</a>. Acesso em: 26 de agosto de 2021</p>
