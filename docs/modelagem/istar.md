@@ -11,15 +11,31 @@
 
 <p style="text-align: justify; text-indent: 20px"> Para o projeto em questão, foram desenvolvidos quatro diferentes diagramas que detalham e analisam diferentes contextos da aplicação, sendo eles: Cinema, Notícia, Conta e Ingressos. A seguir podemos analisar cada um desses diagramas envolvendo tanto o Modelo de Dependência quanto o Modelo Rationale para cada contexto. </p>
 
-## 3. IStar
+## 3. iStar
 
 ### Cinema
+#### Modelo Dependência
+
+#### Modelo Rationale
+
 
 ### Notícia
+#### Modelo Dependência
+
+#### Modelo Rationale
+
 
 ### Conta
+#### Modelo Dependência
+
+#### Modelo Rationale
+
 
 ### Ingressos
+#### Modelo Dependência
+
+#### Modelo Rationale
+
 
 ## 4. Referências
 <p style="text-align: justify">[1] Sanderson. <b>iStar4G: Estendendo a linguagem iStar 2.0 para modelagem de jogos digitais</b>. Disponível em: <a href="http://r1.ufrrj.br/nuesgames/Sanderson.pdf" target="_blank">Sanderson.</a>. Acesso em: 06 de setembro de 2021</p>
