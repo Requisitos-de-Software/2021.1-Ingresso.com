@@ -8,9 +8,9 @@
 
 
 ## 2. Introdução
-<p style="text-align: justify; text-indent: 20px"> A técnica de modelagem iStar se propõe a dar suporte à definição e especificação de elementos que compreenderão o produto final [1]. O iStar é aplicado em diferentes áreas e não somente em Engenharia de Software, trazendo um foco social, estratégico e intecional para a modelagem de determinado contexto. A modelagem traz uma orientação voltada a objetivo e atores para o projeto, sendo dois elementos extremamente focalizados dentro da técnica [2]. Sendo assim, o iStar consegue detalhar e melhorar a visualização de determinado contexto ou de determinado problema em estudo, correlacionando atores, problemas, objetivos e soluções.</p>
+<p style="text-align: justify; text-indent: 20px"> A técnica de modelagem iStar se propõe a dar suporte à definição e especificação de elementos que compreenderão o produto final [1]. O iStar é aplicado em diferentes áreas e não somente em Engenharia de Software, trazendo um foco social, estratégico e intencional para a modelagem de determinado contexto. A modelagem traz uma orientação voltada a objetivo e atores para o projeto, sendo dois elementos extremamente focalizados dentro da técnica [2]. Sendo assim, o iStar consegue detalhar e melhorar a visualização de determinado contexto ou de determinado problema em estudo, correlacionando atores, problemas, objetivos e soluções.</p>
 
-<p style="text-align: justify; text-indent: 20px"> Para o projeto em questão, foram desenvolvidos quatro diferentes diagramas, no software piStar tool [3] que detalham e analisam diferentes contextos da aplicação, sendo eles: Cinema, Notícia, Conta e Ingressos. A seguir podemos analisar cada um desses diagramas envolvendo tanto o Modelo de Dependência quanto o Modelo Rationale para cada contexto.</p>
+<p style="text-align: justify; text-indent: 20px"> Para o projeto em questão, foram desenvolvidos sete diferentes diagramas no software piStar tool [3] que detalham e analisam diversos contextos da aplicação, sendo eles: Cinema, Notícia, Conta e Ingressos. A seguir podemos analisar cada um desses diagramas envolvendo tanto o Modelo de Dependência quanto o Modelo Rationale para cada contexto.</p>
 
 ## 3. iStar
 
