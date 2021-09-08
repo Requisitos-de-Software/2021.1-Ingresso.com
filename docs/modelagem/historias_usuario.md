@@ -3,7 +3,7 @@
 | Versão | Data  | Descrição             | Autor(es)       |
 | ------ | ----- | --------------------- | --------------- |
 | 1.0    | 06/09 | Abertura do documento | Carlos |
-| 1.1    | 07/09 | Adição das features   | Carlos |
+| 1.1    | 07/09 | Adição das features   | Carlos e Victor Lima |
 
 
 ## 2. Introdução
