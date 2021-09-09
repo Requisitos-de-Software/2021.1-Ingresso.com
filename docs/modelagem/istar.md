@@ -14,46 +14,46 @@
 
 ## 3. iStar
 
-### Cinema
+### 3.1 Cinema
 #### Modelo Dependência
-![](../assets/modelagem/Istar/cinema1.png)
+<img src="../../assets/modelagem/Istar/cinema1.png" class="zoom"/>
 <h6 align = "center">Figura 1: Modelo dependência para o cinema.</h6>
-<h6 align = "center">Fonte: Autores, pela ferramenta iStar tool [3].</h6>
+<h6 align = "center">Fonte: Autores, pela ferramenta piStar tool [3].</h6>
 
 #### Modelo <i>Rationale</i>
-![](../assets/modelagem/Istar/cinema2.png)
+<img src="../../assets/modelagem/Istar/cinema2.png" class="zoom"/>
 <h6 align = "center">Figura 2: Modelo <i>rationale</i> para o cinema.</h6>
-<h6 align = "center">Fonte: Autores, pela ferramenta iStar tool [3].</h6>
+<h6 align = "center">Fonte: Autores, pela ferramenta piStar tool [3].</h6>
 
-### Notícia
+### 3.2 Notícia
 #### Modelo Dependência
-![](../assets/modelagem/Istar/noticia.png)
+<img src="../../assets/modelagem/Istar/noticia.png" class="zoom"/>
 <h6 align = "center">Figura 3: Modelo dependência para as notícias.</h6>
-<h6 align = "center">Fonte: Autores, pela ferramenta iStar tool [3].</h6>
+<h6 align = "center">Fonte: Autores, pela ferramenta piStar tool [3].</h6>
 
-### Conta
+### 3.3 Conta
 #### Modelo Dependência
-![](../assets/modelagem/Istar/conta1.png)
+<img src="../../assets/modelagem/Istar/conta1.png" class="zoom"/>
 <h6 align = "center">Figura 4: Modelo dependência para a conta.</h6>
-<h6 align = "center">Fonte: Autores, pela ferramenta iStar tool [3].</h6>
+<h6 align = "center">Fonte: Autores, pela ferramenta piStar tool [3].</h6>
 
 #### Modelo <i>Rationale</i>
-![](../assets/modelagem/Istar/conta2.png)
+<img src="../../assets/modelagem/Istar/conta2.png" class="zoom"/>
 <h6 align = "center">Figura 5: Modelo <i>rationale</i> para a conta.</h6>
-<h6 align = "center">Fonte: Autores, pela ferramenta iStar tool [3].</h6>
+<h6 align = "center">Fonte: Autores, pela ferramenta piStar tool [3].</h6>
 
-### Ingressos
+### 3.4 Ingressos
 #### Modelo Dependência
-![](../assets/modelagem/Istar/ingresso1.png)
+<img src="../../assets/modelagem/Istar/ingresso1.png" class="zoom"/>
 <h6 align = "center">Figura 6: Modelo dependência para os ingressos.</h6>
-<h6 align = "center">Fonte: Autores, pela ferramenta iStar tool [3].</h6>
+<h6 align = "center">Fonte: Autores, pela ferramenta piStar tool [3].</h6>
 
 #### Modelo <i>Rationale</i>
-![](../assets/modelagem/Istar/ingresso2.png)
+<img src="../../assets/modelagem/Istar/ingresso2.png" class="zoom"/>
 <h6 align = "center">Figura 7: Modelo <i>rationale</i> para os ingressos.</h6>
-<h6 align = "center">Fonte: Autores, pela ferramenta iStar tool [3].</h6>
+<h6 align = "center">Fonte: Autores, pela ferramenta piStar tool [3].</h6>
 
 ## 4. Referências
 <p style="text-align: justify">[1] Sanderson. <b>iStar4G: Estendendo a linguagem iStar 2.0 para modelagem de jogos digitais</b>. Disponível em: <a href="http://r1.ufrrj.br/nuesgames/Sanderson.pdf" target="_blank">http://r1.ufrrj.br/nuesgames/Sanderson.pdf</a>. Acesso em: 06 de set. de 2021</p>
 <p style="text-align: justify">[2] iStar Language Guide. Disponível em: <a href="https://sites.google.com/site/istarlanguage/home" target="_blank">iStar Language Guide.</a>. Acesso em: 06 de set. de 2021</p>
-<p style="text-align: justify">[3] piStart tool. Disponível em: <a href="https://www.cin.ufpe.br/~jhcp/pistar/tool/#" target="_blank">https://www.cin.ufpe.br/~jhcp/pistar/tool/#</a>. Acesso em: 03 de set. de 2021</p>
+<p style="text-align: justify">[3] piStar tool. Disponível em: <a href="https://www.cin.ufpe.br/~jhcp/pistar/tool/#" target="_blank">https://www.cin.ufpe.br/~jhcp/pistar/tool/#</a>. Acesso em: 03 de set. de 2021</p>
