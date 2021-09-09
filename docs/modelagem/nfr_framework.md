@@ -2,7 +2,7 @@
 
 |Versão|Data|Descrição|Autor(es)|
 |------|----|---------|---------|
-|1.0|26/08|Abertura do documento de NFR Framework|Rafael e Thiago|
+|1.0|08/09|Abertura do documento de NFR Framework|Rafael e Thiago|
 |1.1|09/09|Adição dos gráficos|Rafael e Thiago|
 <hr>
 
@@ -42,20 +42,34 @@
 <h6 align = "center">Fonte: Autores</h6>
 <hr>
 
-### 3.5 Suportabilidade
+### 3.5 Desempenho
+
+<img class="zoom" src="../../assets/modelagem/nfr/nfr_desempenho.png">
+<h6 align = "center">Figura 5: SIG de desempenho</h6>
+<h6 align = "center">Fonte: Autores</h6>
+<hr>
+
+### 3.6 Desempenho com propagação
+
+<img class="zoom" src="../../assets/modelagem/nfr/nfr_desempenho_propagacao.png">
+<h6 align = "center">Figura 6: SIG de desempenho com propagação</h6>
+<h6 align = "center">Fonte: Autores</h6>
+<hr>
+
+### 3.7 Suportabilidade
 
 <img class="zoom" src="../../assets/modelagem/nfr/nfr_suportabilidade.png">
-<h6 align = "center">Figura 5: SIG de suportabilidade</h6>
+<h6 align = "center">Figura 7: SIG de suportabilidade</h6>
 <h6 align = "center">Fonte: Autores</h6>
 <hr>
 
-### 3.5 Suportabilidade com propagação
+### 3.8 Suportabilidade com propagação
 
 <img class="zoom" src="../../assets/modelagem/nfr/nfr_suportabilidade_propagacao.png">
-<h6 align = "center">Figura 6: SIG de suportabilidade com propagação</h6>
+<h6 align = "center">Figura 8: SIG de suportabilidade com propagação</h6>
 <h6 align = "center">Fonte: Autores</h6>
 <hr>
 
-## Referências 
+## 4. Referências 
 
 <p style="text-align: justify; text-indent: 20px">[1] SILVA, Reinaldo Antônio da. <b>NFR4ES:Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados</b>. Recife, 2019</p>
