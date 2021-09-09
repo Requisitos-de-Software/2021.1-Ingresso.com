@@ -38,6 +38,7 @@ nav:
     - Casos de Uso: "modelagem/use_case.md"
     - Cenários: "modelagem/cenarios.md"
     - Especificacão Suplementar: "modelagem/especificacao.md"
+    - iStar: "modelagem/istar.md"
     - Lexicos: "modelagem/lexicos.md"
   - Apresentações:
     - Ponto de Controle 1: "apresentacoes/p1.md"
