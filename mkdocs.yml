@@ -41,6 +41,7 @@ nav:
     - Histórias de Usuário: "modelagem/historias_usuario.md"
     - iStar: "modelagem/istar.md"
     - Lexicos: "modelagem/lexicos.md"
+    - NFR Framework: "modelagem/nfr_framework.md"
     - Product Backlog: "modelagem/product_backlog.md"
   - Apresentações:
     - Ponto de Controle 1: "apresentacoes/p1.md"
