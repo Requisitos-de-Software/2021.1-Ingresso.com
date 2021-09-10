@@ -27,7 +27,8 @@ usuário" ou "cartão (card)". [2]
 
 ## 4. Épicos
 
-#### Legenda:
+<b>Legenda:</b>
+
 - E: Épico.
 
 | Épico | Descrição | Features |
@@ -42,7 +43,8 @@ usuário" ou "cartão (card)". [2]
 
 ## 5. Features
 
-#### Legenda:
+<b>Legenda:</b>
+
 - US: Histórias de Usuário.
 
 ### Feature 01 - Cadastro
