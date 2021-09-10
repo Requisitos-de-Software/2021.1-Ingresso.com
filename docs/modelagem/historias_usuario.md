@@ -56,7 +56,7 @@ usuário" ou "cartão (card)". [2]
 | ID | US02 |
 |-----|--------|
 | Nome | Validação do formulário de cadastramento. |
-| Descrição | Eu, como desenvolvedor, desejo realizar a validadação dos dados preenchidos no formulário de cadastramento para garantir que são reais. |
+| Descrição | Eu, como sistema, desejo realizar a validadação dos dados preenchidos no formulário de cadastramento para garantir que são reais. |
 | Critérios de Aceitação | Deve conter as seguintes opções: <br/> <b> Nome </b> <br/> -> Apenas caracteres do alfabeto.<br/> <b> E-mail </b> <br/>-> Ser email válido. <br/> <b> Senha </b> <br/>-> Possuir ao menos 8 digitos. <br/>  <b> Data de Aniversário </b><br/> -> Possuir dia entre 1 e 31  <br/> ->  Possuir mês entre 01 e 12<br/> <b> Cpf </b> <br/>-> Cpf válido <br/>  <b> DDD e telefone </b> <br/>-> telefone válido <br/> <b> Endereço composto </b> <br/> -> Endereço existente <br/>|
 
 ### Feature 02 - Login
@@ -70,7 +70,7 @@ usuário" ou "cartão (card)". [2]
 | ID | US04 |
 |-----|--------|
 | Nome | Validação do formulário de login. |
-| Descrição | Eu, como desenvolvedor, desejo realizar a validadação dos dados preenchidos no formulário de login para que possa autenticá-lo. |
+| Descrição | Eu, como sistema, desejo realizar a validadação dos dados preenchidos no formulário de login para que possa autenticá-lo. |
 | Critérios de Aceitação | Deve conter as seguintes opções: <br/> <b> E-mail </b> <br/>-> Ser email válido. <br/> <b> Senha </b> <br/>-> Possuir ao menos 8 digitos. <br/> |
 
 | ID | US05 |
@@ -82,7 +82,7 @@ usuário" ou "cartão (card)". [2]
 | ID | US06 |
 |-----|--------|
 | Nome | Enviar email esqueceu senha. |
-| Descrição | Eu, como desenvolvedor, desejo enviar email para que o usuário redefina a senha. |
+| Descrição | Eu, como sistema, desejo enviar email para que o usuário redefina a senha. |
 | Critérios de Aceitação | -> Mensagem com informação de email enviado. <br/> |
 
 ### Feature 03 - Logout
@@ -141,7 +141,7 @@ usuário" ou "cartão (card)". [2]
 |-----|--------|
 | Nome | Adicionar localização. |
 | Descrição | Eu, como usuário, desejo adicionar minha localização ou escolher a cidade para que eu possa ver os cinemas da minha região.  |
-| Critérios de Aceitação | -> Opção para atualizar localização. <br/> -> Opçãopara buscar cidade. <br/> -> Lista de cidades mais acessadas. <br/> -> Lista de cidades ordenadas por estado. <br/>|
+| Critérios de Aceitação | -> Opção para atualizar localização. <br/> -> Opção para buscar cidade. <br/> -> Lista de cidades mais acessadas. <br/> -> Lista de cidades ordenadas por estado. <br/>|
 
 | ID | US15  |
 |-----|--------|
@@ -155,7 +155,7 @@ usuário" ou "cartão (card)". [2]
 |-----|--------|
 | Nome | Visualizar cinemas. |
 | Descrição | Eu, como usuário, desejo visualizar cinemas da minha cidade para que eu possa escolher algum para ir. |
-| Critérios de Aceitação | -> Opção para ordenar por nome. <br/> -> Opção para ordenar por proximidade. <br/> -> Opção para visualizar cinemas fechados. <br/> Opção para visualizar cinemas abertos. <br/> -> Listar cinemas favoritos. <br/> |
+| Critérios de Aceitação | -> Opção para ordenar por nome. <br/> -> Opção para ordenar por proximidade. <br/> -> Opção para visualizar cinemas fechados. <br/> -> Opção para visualizar cinemas abertos. <br/> -> Listar cinemas favoritos. <br/> |
 
 | ID | US17  |
 |-----|--------|
@@ -218,13 +218,13 @@ usuário" ou "cartão (card)". [2]
 | ID | US26  |
 |-----|--------|
 | Nome | Visualizar filmes em breve. |
-| Descrição | Eu, como usuário, desejo visualizar filmes que em breve estarão nos cinemas para que eu possa me programar para assistir o filme. |
+| Descrição | Eu, como usuário, desejo visualizar filmes que em breve estarão nos cinemas para que eu possa me programar para assistir a ele. |
 | Critérios de Aceitação | -> Listar todos os filmes em breve da cidade. <br/> -> Data que os filmes entrarão em cartaz. <br/>|
 
 | ID | US27  |
 |-----|--------|
 | Nome | Detalhes do filme. |
-| Descrição | Eu, como usuário, desejo visualizar as informações sobre o filme para decidir se quero assistí-lo ou não. |
+| Descrição | Eu, como usuário, desejo visualizar as informações sobre o filme para decidir se quero assistir a ele ou não. |
 | Critérios de Aceitação | -> Avaliação crítica do Roten Tomatoes. <br/> ->  Avaliação dos usuários do Roten Tomatoes. <br/> -> Classificação indicativa. <br/> -> Duração do filme. <br/> -> Data de estreia. <br/> -> Gênero do filme. <br/> -> Nome original do filme. <br/> -> Elenco. <br/> -> Sinopse. <br/> -> Direção. <br/> -> Distribuidor. <br/> -> País de origem. <br/>|
 
 | ID | US28  |
@@ -236,7 +236,7 @@ usuário" ou "cartão (card)". [2]
 | ID | US29  |
 |-----|--------|
 | Nome | Disponibilizar trailer. |
-| Descrição | Eu, como desenvolvedor, desejo disponibilizar trailer do filme do youtube para o aplicativo para que o usuário consiga assistí-lo. |
+| Descrição | Eu, como sistema, desejo disponibilizar trailer do filme do youtube para o aplicativo para que o usuário consiga assistir a ele. |
 | Critérios de Aceitação | -> Reproduzir trailer do filme vindo do youtube. <br/>|
 
 ### Feature 11 - Ingresso
@@ -266,8 +266,8 @@ usuário" ou "cartão (card)". [2]
 
 | ID | US33  |
 |-----|--------|
-| Nome | Sessões do filme. |
-| Descrição | Eu, como desenvolvedor, desejo enviar uma mensagem para o email do usuário para informar que a compra de ingresso foi realizada.|
+| Nome | Enviar mensagem sobre pagamento. |
+| Descrição | Eu, como sistema, desejo enviar uma mensagem para o email do usuário para informar que a compra de ingresso foi realizada.|
 | Critérios de Aceitação | -> Sistema enviar mensagem via email do usuário. <br/> |
 
 ### Feature 14 - Carrinho
@@ -289,7 +289,7 @@ usuário" ou "cartão (card)". [2]
 
 | ID | US36  |
 |-----|--------|
-| Nome | Notícia. |
+| Nome | Ler notícia. |
 | Descrição | Eu, como usuário, desejo ler a notícia para que eu possa entendê-la por completo. |
 | Critérios de Aceitação | -> Contéudo da notícia. <br/>|
 
@@ -314,12 +314,12 @@ usuário" ou "cartão (card)". [2]
 | ID | US39  |
 |-----|--------|
 | Nome | Anúncios. |
-| Descrição | Eu, como desenvolvedor, desejo apresentar ao usuário propagandas para que seja gerada receita e lucro para minha empresa. |
+| Descrição | Eu, como sistema, desejo apresentar ao usuário propagandas para que seja gerada receita e lucro para minha empresa. |
 | Critérios de Aceitação | -> Anúncios localizados em pontos estratégicos. <br/>|
 
 
 
-## 5. Referência
+## 6. Referência
 
 <p style="text-align: justify; text-indent: 20px">[1] Reinehr, S. <b>Engenharia de Requisitos</b>. Grupo A, 2020. 9786556900674. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9786556900674/. Acesso em: 2021 set. 06.</p>
 
