@@ -39,6 +39,7 @@ nav:
     - Cenários: "modelagem/cenarios.md"
     - Especificacão Suplementar: "modelagem/especificacao.md"
     - Histórias de Usuário: "modelagem/historias_usuario.md"
+    - iStar: "modelagem/istar.md"
     - Lexicos: "modelagem/lexicos.md"
     - Product Backlog: "modelagem/product_backlog.md"
   - Apresentações:
