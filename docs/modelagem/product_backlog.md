@@ -20,7 +20,8 @@ seus usuários.
 
 ## 3. Product Backlog Ingresso.com
 
-#### Legenda:
+<b>Legenda:</b>
+
 - E: Épico.
 - F: Feature.
 - US: Histórias de Usuário.
