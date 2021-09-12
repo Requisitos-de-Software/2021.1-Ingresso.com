@@ -60,7 +60,7 @@ seus usuários.
         <tr>
             <td id="celula" rowspan="4"><a href="../historias_usuario/#feature-02-login"> F02 </a><br>Login</td>
             <td id="celula">US03 / AP16</td>
-            <td id="celula">Eu, como usuário, desejo fazer login para entrar na minha conta e aproveitar das funcionalidades do Ingresso.com</td>
+            <td id="celula">Eu, como usuário, desejo fazer login para entrar na minha conta e aproveitar as funcionalidades do Ingresso.com</td>
             <td id="celula">MUST</td>
         </tr>
         <tr>
@@ -109,7 +109,7 @@ seus usuários.
         <tr>
             <td id="celula" rowspan="1"><a href="../historias_usuario/#feature-05-atendimento"> F05 </a><br>Atendimento</td>
             <td id="celula">US12 / OP12</td>
-            <td id="celula">Eu, como usuário, desejo esclarecer dúvidas e/ou enviar solicitações de atendimento para o ingresso.com para compreender melhor o aplicativo.</td>
+            <td id="celula">Eu, como usuário, desejo esclarecer dúvidas e/ou enviar solicitações de atendimento para o Ingresso.com para compreender melhor o aplicativo.</td>
             <td id="celula">MUST</td>
         </tr>
         <tr>
@@ -236,7 +236,7 @@ seus usuários.
         </tr>
         <tr>
             <td id="celula" rowspan="4">E06<br>Engajamento</td>
-            <td id="celula" rowspan="3"><a href="../historias_usuario/#feature-15-noticia"> F15 </a><br>Noticia</td>
+            <td id="celula" rowspan="3"><a href="../historias_usuario/#feature-15-noticia"> F15 </a><br>Notícia</td>
             <td id="celula">US35 / I05</td>
             <td id="celula">Eu, como usuário, desejo visualizar notícias sobre o mundo do cinema para que eu possa ficar por dentro das novidades.</td>
             <td id="celula">COULD</td>

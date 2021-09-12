@@ -38,7 +38,7 @@ usuário" ou "cartão (card)". [2]
 | E03 - Cinemas | Engloba toda parte de cinemas | -> Localização <br/> -> Cinemas <br/> -> Sessões <br/> |
 | E04 - Filmes | Engloba toda parte de filmes | -> Filmes <br/> |
 | E05 - Compra | Engloba toda a parte de compra de ingressos | -> Ingresso <br/> -> Acompanhamentos <br/> -> Pagamento <br/> -> Carrinho <br/>|
-| E06 - Engajamento | Engloba toda a parte de manter o usuário engajado.  | -> Noticia <br/> -> Destaques <br/> |
+| E06 - Engajamento | Engloba toda a parte de manter o usuário engajado.  | -> Notícia <br/> -> Destaques <br/> |
 | E07 - Lucro | Engloba uma parte do lucro do aplicativo. | -> Anúncios. <br/>|
 
 ## 5. Features
@@ -52,28 +52,28 @@ usuário" ou "cartão (card)". [2]
 | ID | US01  |
 |-----|--------|
 | Nome | Criar conta. |
-| Descrição | Eu, como usuário, desejo criar uma conta para eu ter acesso as funcionalidades completas do aplicativo. |
+| Descrição | Eu, como usuário, desejo criar uma conta para ter acesso às funcionalidades completas do aplicativo. |
 | Critérios de Aceitação | O formulário de cadastramento deve conter os seguintes campos: <br/> -> Nome <br/> -> E-mail <br/> -> Senha <br/> -> Data de Aniversário <br/> -> Gênero <br/> -> Cpf <br/> -> DDD e telefone <br/> -> Endereço composto |
 
 | ID | US02 |
 |-----|--------|
 | Nome | Validação do formulário de cadastramento. |
 | Descrição | Eu, como sistema, desejo realizar a validadação dos dados preenchidos no formulário de cadastramento para garantir que são reais. |
-| Critérios de Aceitação | Deve conter as seguintes opções: <br/> <b> Nome </b> <br/> -> Apenas caracteres do alfabeto.<br/> <b> E-mail </b> <br/>-> Ser email válido. <br/> <b> Senha </b> <br/>-> Possuir ao menos 8 digitos. <br/>  <b> Data de Aniversário </b><br/> -> Possuir dia entre 1 e 31  <br/> ->  Possuir mês entre 01 e 12<br/> <b> Cpf </b> <br/>-> Cpf válido <br/>  <b> DDD e telefone </b> <br/>-> telefone válido <br/> <b> Endereço composto </b> <br/> -> Endereço existente <br/>|
+| Critérios de Aceitação | Deve conter as seguintes opções: <br/> <b> Nome </b> <br/> -> Apenas caracteres do alfabeto.<br/> <b> E-mail </b> <br/>-> Ser email válido. <br/> <b> Senha </b> <br/>-> Possuir ao menos 8 dígitos. <br/>  <b> Data de Aniversário </b><br/> -> Possuir dia entre 1 e 31  <br/> ->  Possuir mês entre 01 e 12<br/> <b> Cpf </b> <br/>-> Cpf válido <br/>  <b> DDD e telefone </b> <br/>-> Telefone válido <br/> <b> Endereço composto </b> <br/> -> Endereço existente <br/>|
 
 ### Feature 02 - Login
 
 | ID | US03 |
 |-----|--------|
 | Nome | Fazer login |
-| Descrição | Eu, como usuário, desejo fazer login para entrar na minha conta e aproveitar das funcionalidades do ingresso.com |
+| Descrição | Eu, como usuário, desejo fazer login para entrar na minha conta e aproveitar as funcionalidades do Ingresso.com |
 | Critérios de Aceitação | -> Input de email e senha <br/> -> Opção para logar com Facebook <br/> -> Opção para logar com Google <br/> -> Opção para escolher se quer receber novidades e mensagens por email.|
 
 | ID | US04 |
 |-----|--------|
 | Nome | Validação do formulário de login. |
 | Descrição | Eu, como sistema, desejo realizar a validadação dos dados preenchidos no formulário de login para que possa autenticá-lo. |
-| Critérios de Aceitação | Deve conter as seguintes opções: <br/> <b> E-mail </b> <br/>-> Ser email válido. <br/> <b> Senha </b> <br/>-> Possuir ao menos 8 digitos. <br/> |
+| Critérios de Aceitação | Deve conter as seguintes opções: <br/> <b> E-mail </b> <br/>-> Ser email válido. <br/> <b> Senha </b> <br/>-> Possuir ao menos 8 dígitos. <br/> |
 
 | ID | US05 |
 |-----|--------|
@@ -111,7 +111,7 @@ usuário" ou "cartão (card)". [2]
 
 | ID | US10 |
 |-----|--------|
-| Nome | Vizualizar cartões salvos. |
+| Nome | Visualizar cartões salvos. |
 | Descrição | Eu, como usuário, desejo visualizar cartões salvos para que eu possa excluir algum ou alterá-lo. |
 | Critérios de Aceitação | -> Todos cartões salvos. <br/> -> Opção para alterar. <br/> -> Opção para excluir cartão salvo. <br/>|
 
@@ -126,7 +126,7 @@ usuário" ou "cartão (card)". [2]
 | ID | US12  |
 |-----|--------|
 | Nome | Solicitar atendimento. |
-| Descrição | Eu, como usuário, desejo esclarecer dúvidas e/ou enviar solicitações de atendimento para o ingresso.com para compreender melhor o aplicativo. |
+| Descrição | Eu, como usuário, desejo esclarecer dúvidas e/ou enviar solicitações de atendimento para o Ingresso.com para compreender melhor o aplicativo. |
 | Critérios de Aceitação | -> Opção de atendimento. <br/> -> Campo para pesquisar dúvida. <br/> -> Campo de seleção para opção de contato. <br/> -> Formulário com input para email, assunto, descrição, motivo do contato, cpf e celular. <br/> -> Opção de anexar arquivos. <br/>|
 
 ### Feature 06 - Sobre o App
