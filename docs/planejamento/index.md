@@ -1,4 +1,3 @@
-
 ## 1. Versionamento
 
 |Versão|Data|Descrição|Autor(es)|
@@ -10,6 +9,7 @@
 |1.4|04/08|<center>Adição nova ferramenta de storyboard</center>|<center>João Pedro</center>|
 |2.0|24/08|<center>Melhoria do Cronograma</center>|<center>João Pedro</center>|
 |2.1|24/08|<center>Adição de datas no Cronograma</center>|<center>João Pedro</center>|
+|3.0|10/09|<center>Adição de datas no Cronograma (4 entrega)</center>|<center>João Pedro</center>|
 
 ## 2. Cronograma
 
@@ -54,6 +54,10 @@ VI - Pós-Rastreabilidade            | 19/09 - 09/10 | Gerência de Desenvolvime
 |III. Modelagem de Requisitos|Modelagem Especificação Suplementar|27/08|Rafael e Thiago|Carlos e João|
 |III. Modelagem de Requisitos|Modelagem Use Case|27/08|João Pedro e Victor Lima|Rafael e Vitor Lamego|
 |III. Modelagem de Requisitos|Modelagem Cenários|28/08|Carlos e Vitor Lamego|Thiago e Victor Lima|
+|||<b>Quarta Entrega</b>|||
+|IV. Modelagem Ágil de Requisitos|Modelagem Ágil iStar|02/09|João e Vitor Lamego|Thiago e Rafael|
+|IV. Modelagem Ágil de Requisitos|Modelagem Ágil NFR <i>Framework</i>|10/09|Thiago e Rafael|Carlos e João|
+|IV. Modelagem Ágil de Requisitos|Modelagem Ágil Product Backlog e Histórias de Usuário|11/09|Carlos e Victor Lima|João e Vitor Lamego|
 <h6 align = "center">Tabela 2: Tabela específica contendo data de entrega, responsáveis e revisores</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
