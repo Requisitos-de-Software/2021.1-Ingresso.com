@@ -35,3 +35,18 @@
 
 **Obs:**
 <p style="text-align: justify; text-indent: 20px"> É importante ressaltar um critério que também foi verificado para todos os léxicos ao invés de avaliado individualmente. Foi verificado que mesmo os léxicos sendo referenciados por outros léxicos, eles não possuem ligação/linkagem entre si. </p> 
+
+
+## 5. Conclusão
+<p style="text-align: justify; text-indent: 20px"> A partir da verificação do artefato de léxicos foram percebidos alguns problemas que podem ser corrigidos. Os léxicos estão em uma linguagem bem concisa propiciando facilidade de entendimento sobre o universo de informações do sistema do <i>Ingresso.com</i>.</p>
+
+<b>Possíveis correções:</b>
+
+* LO14: Padronizar o título (LO13 -> LO14); Corrigir erros ortográficos.
+* LV13: Padronizar o título (LV12 -> LV13).
+* Fazer a linkagem dos léxicos dentro do documento.
+
+
+## 6. Bibliografia
+
+<p style="text-align: justify; text-indent: 20px">[1] SERRANO, Milene; SERRANO, Maurício. <b>Requisitos - Aula 10</b>. 2019. 35 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.</p>
