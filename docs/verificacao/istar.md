@@ -9,7 +9,7 @@
 <p style="text-align: justify; text-indent: 20px"> O escopo dessa verificação se limita ao documento de modelagem <a href="../../modelagem/istar">iStar</a>.</p>
 
 ## 3. Metodologia
-<p style="text-align: justify; text-indent: 20px"> Como metodologia para a realização da verificação, foi escolhida a técnica de inspeção pela estratégia de leitura e checklist, por ser uma metologia simples, objetiva e eficaz.</p>
+<p style="text-align: justify; text-indent: 20px"> Como metodologia para a realização da verificação, foi escolhida a técnica de inspeção pela estratégia de leitura e checklist, por ser uma metodologia simples, objetiva e eficaz.</p>
 
 ## 4. Verificação
 |Número|Questão|Cinema|Notícia|Conta|Ingresso|
