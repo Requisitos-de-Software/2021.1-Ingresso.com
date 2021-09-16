@@ -4,7 +4,7 @@
 |------|----|---------|---------|
 |1.0|16/09|Abertura do documento|Vitor Lamego|
 |1.1|16/09|Adição das tabelas de verificação|Vitor Lamego|
-|1.1|16/09|Adição do resultado|Vitor Lamego|
+|1.2|16/09|Adição do resultado|Vitor Lamego|
 
 
 
@@ -414,7 +414,7 @@
 </center>
 
 ## 5. Resultados
-<p style="text-align: justify; text-indent: 20px">A seguir vamos apresentar em percentual o resultado obtido a partir de cada questão do checklist apresentado, demontsrando o percentual de acerto e de erro de cada questão em especiífico. Segue o resultado a seguir:</p>
+<p style="text-align: justify; text-indent: 20px">A seguir vamos apresentar em percentual o resultado obtido a partir de cada questão do checklist apresentado, demonstrando o percentual de acerto e de erro de cada questão em especiífico. Segue o resultado a seguir:</p>
 
 |Número|Questão|✔️|❌|
 |:----:|:----------|:----:|:-----:| 
@@ -426,7 +426,7 @@
 |<b>6</b>| A exceção é condizente com a realidade ?|95%|5%|
 |<b>7</b>| Os episódios realmente ajudam a atingir o objetivo descrito ?|65%|35%|
 
-<p style="text-align: justify; text-indent: 20px">Dessa maneira, podemos perceber que a questão de número 7 foi a que obteve uma maior porcentagem de erros, os quais a maioria se deve devido a falta de detalhamento de alguns episódios necessários antes dos episódios que efetivamente atingem o objetivo do cenário, sendo estão um foco de revisão para o projeto. A questão de número 2 também obteve uma taxa de 20% de cenários com problemas na descrição do objetivo, o que por sua maioria se deve a falta de objetividade na e clareza na descrição de qual era o objetivo do cenário, colocando alguns detalhes e informações que vão além do que realmente é o objetivo principal.</p>
+<p style="text-align: justify; text-indent: 20px">Dessa maneira, podemos perceber que a questão de número 7 foi a que obteve uma maior porcentagem de erros, os quais a maioria são devido a falta de detalhamento de alguns episódios necessários antes dos episódios que efetivamente atingem o objetivo do cenário, sendo então um foco de revisão para o projeto. A questão de número 2 também obteve uma taxa de 20% de cenários com problemas na descrição do objetivo, o que por sua maioria se deve a falta de objetividade e clareza na descrição de qual era o objetivo do cenário, colocando alguns detalhes e informações que vão além do que realmente é o objetivo principal.</p>
 
 
 ## 6. Referências
