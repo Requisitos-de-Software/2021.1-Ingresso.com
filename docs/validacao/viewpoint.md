@@ -13,21 +13,15 @@
 
 ### 3.1 Universo do discurso
 <p style="text-align: justify; text-indent: 20px">Para entender melhor os requisitos, foi definido um universo do discurso que guiou as produções dos <i>viewpoints</i>. Esse universo se encontra a seguir: </p>
-```
-“Comprar um ingresso. Essa compra é restrita ao usuário. Existem três tipos 
-de usuários; São eles o Cliente, o próprio Ingresso.com e o Cinema. As seguintes
-restrições devem ser atendidas: 1) Todos ingressos selecionados devem estar
-disponíveis para compra; 2) Nenhum ingresso pode estar disponível para compra e
-ocupado ao mesmo tempo; 3) O tipo do ingresso selecionado deve estar contido
-entre as classes disponíveis; 4) O método de pagamento selecionado deve estar
-contido entre os tipos possíveis. 5) O usuário pode comprar sem a necessidade
-de um cadastro."
-``` 
+
+<pre style="white-space:pre-wrap;font-size:15px">
+“Comprar um ingresso. Essa compra é restrita ao usuário. Existem três tipos  de usuários; São eles o Cliente, o próprio Ingresso.com e o Cinema. As seguintes restrições devem ser atendidas: 1) Todos ingressos selecionados devem estar disponíveis para compra; 2) Nenhum ingresso pode estar disponível para compra e ocupado ao mesmo tempo; 3) O tipo do ingresso selecionado deve estar contido entre as classes disponíveis; 4) O método de pagamento selecionado deve estar contido entre os tipos possíveis. 5) O usuário pode comprar sem a necessidade de um cadastro."
+</pre>
 
 ## 4. Perspectivas
 ### 4.1 <i>Viewpoint</i> A
 
-<pre style="overflow-x:scroll;">
+<pre style="overflow-x:scroll;font-size:15px">
 Perspectiva do processo:    
     (((<a href="../../modelagem/lexicos#usuario">usuario</a> =usuario-id =cpf =email)    
     (<a href="../../modelagem/lexicos#ingresso">ingresso</a> =ingresso-id =preço =assento =tipo =forma-de-pagamento =quantidade)    
@@ -40,8 +34,7 @@ Perspectiva do processo:
     (<a href="../../modelagem/lexicos#carrinho">compra</a> =compra-id =quantidade-ingressos =preço =assento-id =acompanhamento-id))    
     (($delete-from wm (<a href="../../modelagem/lexicos#assento-disponivel">assento-disponível</a> =assento-id =cinema-id =filme-id =sessão-id))    
     ($add-to wm (<a href="../../modelagem/lexicos#assento-indisponivel">assento-indisponível</a> =assento-id =cinema-id =filme-id =sessão-id))))    
-</pre>
-<pre style="overflow-x:scroll;">
+
 Hierarquia:
     (é-um 
         (agente (usuário cinema ingresso.com))    
@@ -61,21 +54,20 @@ Hierarquia:
 
 ### 4.2 <i>Viewpoint</i> B
 
-<pre style="overflow-x:scroll;">
+<pre style="overflow-x:scroll;font-size:15px">
 Perspectiva do autor:
-    (((usuário =usuario-id =cpf =email)
-    (filme =filme-id =titulo =imagem)
-    (cinema =cinema-id =nome =localização =filme-id)
-    (sessão =sessão-id =sala =horário =data =tipo =filme-id)
-    (assento =assento-id =posição =sessão-id)
+    (((<a href="../../modelagem/lexicos#usuario">usuario</a> =usuario-id =cpf =email)
+    (<a href="../../modelagem/lexicos#filme">filme</a> =filme-id =titulo =imagem)
+    (<a href="../../modelagem/lexicos#cinema">cinema</a> =cinema-id =nome =localização =filme-id)
+    (<a href="../../modelagem/lexicos#sessao">sessão</a> =sessão-id =sala =horário =data =tipo =filme-id)
+    (<a href="../../modelagem/lexicos#assento">assento</a> =assento-id =posição =sessão-id)
     (checa-assento-disponível =assento-id =assento-disponível)
-    (ingresso =ingresso-id =tipo =quantidade =preço =assento)
+    (<a href="../../modelagem/lexicos#ingresso">ingresso</a> =ingresso-id =tipo =quantidade =preço =assento)
     (checa-tipo-ingresso =ingresso-id =tipos)
-    (acompanhamento =acompanhamento-id =preço =quantidade =taxa)
-    (compra =usuario-id =cinema-id =sessão-id =assento-id =ingresso-id =acompanhamento-id =total =forma-pagamento =desconto))
+    (<a href="../../modelagem/lexicos#acompanhamento">acompanhamento</a> =acompanhamento-id =preço =quantidade =taxa)
+    (<a href="../../modelagem/lexicos#carrinho">compra</a> =usuario-id =cinema-id =sessão-id =assento-id =ingresso-id =acompanhamento-id =total =forma-pagamento =desconto))
     (($delete-from wm (assento-disponível =assento-id =sessão-id =cinema-id =filme-id))) )
-</pre>
-<pre style="overflow-x:scroll;">
+
 Hierarquia:
     (é-um 
         (agente (usuário cinema Ingresso.com)
