@@ -45,6 +45,7 @@ nav:
     - Product Backlog: "modelagem/product_backlog.md"
   - Análise:
     - Verificação:
+      - Cenários: "verificacao/cenarios.md"
       - iStar: "verificacao/istar.md"
       - Product Backlog: "verificacao/product_backlog.md"
   - Apresentações:
