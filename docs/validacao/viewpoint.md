@@ -3,6 +3,7 @@
 |------|----|---------|---------|
 |1.0|14/09|Criação do documento|João Pedro e Thiago|
 |1.1|16/09|Adição dos viewpoint|João Pedro e Thiago|
+|1.2|16/09|Link dos léxicos|Thiago|
 
 ## 2. Introdução
 <p style="text-align: justify; text-indent: 20px">Messaoudi define informalmente a técnica de <i>viewpoint</i> como a análise dos "diferentes pontos de vista de um domínio que pode ser observado" [1]. Ou seja, a metologia se baseia na ideia de que os diversos requisitos podem ser elicitados de diferentes pontos de vista, onde a validação das diferenças pode ser utilizada como uma forma de validação inicial dos requisitos.</p>
