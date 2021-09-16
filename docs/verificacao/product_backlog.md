@@ -597,7 +597,7 @@ Usando como método a Inspeção, onde o objetivo é encontrar problemas no docu
 </table>
 </center>
 
-<h6 align = "center">Figura 4: Tabela com checklist histórias de usuário </h6>
+<h6 align = "center">Tabela 4: Tabela com checklist histórias de usuário </h6>
 <h6 align = "center">Fonte: Autor</h6>
 
 ## 5. Conclusão

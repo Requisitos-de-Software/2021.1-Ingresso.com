@@ -46,6 +46,7 @@ nav:
   - Análise:
     - Verificação:
       - iStar: "verificacao/istar.md"
+      - Casos de Uso: "verificacao/casos_de_uso.md"
       - Product Backlog: "verificacao/product_backlog.md"
   - Apresentações:
     - Ponto de Controle 1: "apresentacoes/p1.md"
