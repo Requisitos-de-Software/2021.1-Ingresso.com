@@ -44,8 +44,11 @@ nav:
     - NFR Framework: "modelagem/nfr_framework.md"
     - Product Backlog: "modelagem/product_backlog.md"
   - Análise:
+    - Verificação:
+      - iStar: "verificacao/istar.md"
+      - Product Backlog: "verificacao/product_backlog.md"
     - Validação:
-        - Viewpoint: "validacao/viewpoint.md"
+      - Viewpoint: "validacao/viewpoint.md"
   - Apresentações:
     - Ponto de Controle 1: "apresentacoes/p1.md"
     - Ponto de Controle 2: "apresentacoes/p2.md"
