@@ -7,12 +7,12 @@
 
 ## 2. Introdução
 <p style="text-align: justify; text-indent: 20px">
-A verificação é realizada para que se tenha a certeza de que os requisitos listaddos foram atendidos, ela serve para que seja garantido que o sistema atende as necessidades.
+A verificação é realizada para que se tenha a certeza de que os requisitos listados foram atendidos, ela serve para que seja garantido que o sistema atenda as necessidades.[2]
 </p>
 
 ## 3. Metodologia
 <p style="text-align: justify; text-indent: 20px">
-Para a verificação das duas versões de rich pictures realizadas pela nossa equipe no contexto da discipliina foi utilizada a técnica de inspeção. Por meio de um checklist foi realizada uma avaliação de tópicos e detectados os problemas a serem corrigidos e o que já está correto no artefato.
+Para a verificação das duas versões de rich pictures realizadas pela nossa equipe no contexto da discipliina foi utilizada a técnica de inspeção. Por meio de um checklist foi realizada uma avaliação de tópicos e detectados os problemas a serem corrigidos e o que já está correto no artefato.[2]
 </p>
 
 ## 4. Rastreabilidade
@@ -20,7 +20,7 @@ Para a verificação das duas versões de rich pictures realizadas pela nossa eq
 [Rich Picture](https://requisitos-de-software.github.io/2021.1-Ingresso.com/pre_rastreabilidade/rich_picture/)
 
 ## 5. Inspeção
-Justificativas baseadas em: [Complexity and rich pictures](http://leadershipforchange.org.uk/wp-content/uploads/Complexity-and-rich-pictures.pdf) e Slides de Aula
+Justificativas baseadas em: [Complexity and rich pictures](http://leadershipforchange.org.uk/wp-content/uploads/Complexity-and-rich-pictures.pdf) e Slides de Aula.[3][4]
 
 |Questão|Justificativa
 |-------|-------------|
@@ -62,12 +62,12 @@ A partir da verificação feita com a técnica de inspeção, foram observadas i
 
 ## 9. Bibliografia
 
-<p style="text-align: justify; text-indent: 20px">Rich Picture. Disponível em: http://systems.open.ac.uk/materials/T552/pages/rich/richAppendix.html. Acesso em: 16/09/21 </p>
+<p style="text-align: justify; text-indent: 20px">[1]Rich Picture. Disponível em: http://systems.open.ac.uk/materials/T552/pages/rich/richAppendix.html. Acesso em: 16/09/21 </p>
 
-<p style="text-align: justify; text-indent: 20px">A Importância da validação e da verificação. Disponível em: https://www.devmedia.com.br/a-importancia-da-validacao-e-da-verificacao/24559. Acesso em: 16/09/21 </p>
+<p style="text-align: justify; text-indent: 20px">[2]A Importância da validação e da verificação. Disponível em: https://www.devmedia.com.br/a-importancia-da-validacao-e-da-verificacao/24559. Acesso em: 16/09/21 </p>
 
-<p style="text-align: justify; text-indent: 20px">Complexity and rich pictures. Disponível em: http://leadershipforchange.org.uk/wp-content/uploads/Complexity-and-rich-pictures.pdf. Acesso em: 16/09/21 </p>
+<p style="text-align: justify; text-indent: 20px">[3]Complexity and rich pictures. Disponível em: http://leadershipforchange.org.uk/wp-content/uploads/Complexity-and-rich-pictures.pdf. Acesso em: 16/09/21 </p>
 
-<p style="text-align: justify; text-indent: 20px">Serrano, Milene. Serrano, Mauricio. Requisitos-Aula 04.2019, Slide 11. </p>
+<p style="text-align: justify; text-indent: 20px">[4]Serrano, Milene. Serrano, Mauricio. Requisitos-Aula 04.2019, Slide 11. </p>
 
-<p style="text-align: justify; text-indent: 20px">Guiabolso RichPicture. Disponível em: https://fga-disciplinas.github.io/2019.1-Guia-Bolso/analise/analise_rich_picture. Acesso em: 16/09/21. </p>
+<p style="text-align: justify; text-indent: 20px">[5]Guiabolso RichPicture. Disponível em: https://fga-disciplinas.github.io/2019.1-Guia-Bolso/analise/analise_rich_picture. Acesso em: 16/09/21. </p>
