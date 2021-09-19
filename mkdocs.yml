@@ -51,6 +51,7 @@ nav:
       - Casos de Uso: "verificacao/casos_de_uso.md"
       - Product Backlog: "verificacao/product_backlog.md"
       - NFR Framework: "verificacao/nfr.md"
+      - Rich Picture: "verificacao/rich_picture.md"
   - Apresentações:
     - Ponto de Controle 1: "apresentacoes/p1.md"
     - Ponto de Controle 2: "apresentacoes/p2.md"
