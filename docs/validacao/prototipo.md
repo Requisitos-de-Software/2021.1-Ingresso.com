@@ -19,7 +19,7 @@
 
 ## 4. Rastros
 
-<p style="text-align: justify; text-indent: 20px">Como o escopo do aplicativo é muito grande e não havia possibilidade de fazer um protótipo tão grande em tão pouco tempo, deicidimos selecionar algumas funcionalidades que são essenciais para o aplicativo. Tais requisitos foram retirados do <a href="../../modelagem/product_backlog">Product Backlog</a> já previamente elaborado pela nossa equipe.</p>
+<p style="text-align: justify; text-indent: 20px">Como o escopo do aplicativo é muito grande e não havia possibilidade de fazer um protótipo tão grande em tão pouco tempo, decidimos selecionar algumas funcionalidades que são essenciais para o aplicativo. Tais requisitos foram retirados do <a href="../../modelagem/product_backlog">Product Backlog</a> já previamente elaborado pela nossa equipe.</p>
 
 |Épico|Tema|Feature|Histórias de Usuário|
 |:--:|:--:|:----:|:--:|
@@ -38,12 +38,10 @@
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FjUMzlIXt7PDyOFyT87P74O%2FIngresso.com-Baixa-Fidelidade%3Fnode-id%3D85%253A701%26scaling%3Dscale-down%26page-id%3D70%253A14%26starting-point-node-id%3D85%253A443" allowfullscreen></iframe>
 
 ## 6. Conclusão
-<p style="text-align: justify; text-indent: 20px">Consideramos o app do Ingresso.com em produção na play store [2] como nosso stakeholder, ou seja, a validação será baseada no que temos implementado no app para identificar os requisitos validados nesse documento!</p>
-
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FLri10pagJdWbwrqn46RpUN%2FIngresso.com-App-mobile%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
-<h6 align="center">App do Ingresso.com disponível na play store. [2]</h6>
+<h6 align="center">App do Ingresso.com disponível na play store [2].</h6>
 
-<p style="text-align: justify; text-indent: 20px">Percebe-se através da prototipação que os requisitos presentes no Rastro desse documento estão corretamente validados de acordo com a expectativa dos nossos stakeholders que seria o próprio app em produção.</p>
+<p style="text-align: justify; text-indent: 20px">Percebe-se através da prototipação que os requisitos presentes no Rastro desse documento estão corretamente validados de acordo com a expectativa dos nossos stakeholders que seria o próprio app em produção [2].</p>
 
 ## 7. Referências
 
