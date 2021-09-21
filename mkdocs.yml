@@ -53,6 +53,7 @@ nav:
       - NFR Framework: "verificacao/nfr.md"
       - Rich Picture: "verificacao/rich_picture.md"
     - Validação:
+      - Protótipo: "validacao/prototipo.md"
       - Viewpoint: "validacao/viewpoint.md"
   - Apresentações:
     - Ponto de Controle 1: "apresentacoes/p1.md"
