@@ -10,6 +10,7 @@
 |2.0|24/08|<center>Melhoria do Cronograma</center>|<center>João Pedro</center>|
 |2.1|24/08|<center>Adição de datas no Cronograma</center>|<center>João Pedro</center>|
 |3.0|10/09|<center>Adição de datas no Cronograma (4 entrega)</center>|<center>João Pedro</center>|
+|4.0|19/09|<center>Adição de datas no Cronograma (5 entrega)</center>|<center>João Pedro</center>|
 
 ## 2. Cronograma
 
@@ -58,6 +59,17 @@ VI - Pós-Rastreabilidade            | 19/09 - 09/10 | Gerência de Desenvolvime
 |IV. Modelagem Ágil de Requisitos|Modelagem Ágil iStar|02/09|João e Vitor Lamego|Thiago e Rafael|
 |IV. Modelagem Ágil de Requisitos|Modelagem Ágil NFR <i>Framework</i>|10/09|Thiago e Rafael|Carlos e João|
 |IV. Modelagem Ágil de Requisitos|Modelagem Ágil Product Backlog e Histórias de Usuário|11/09|Carlos e Victor Lima|João e Vitor Lamego|
+|||<b>Quinta Entrega</b>|||
+|V. Verificação e Validação|Verificação iStar|14/09|João|Rafael|
+|V. Verificação e Validação|Verificação Product Backlog|15/09|Carlos|João e Thiago|
+|V. Verificação e Validação|Verificação Casos de Uso|15/09|Carlos|Vitor Lamego|
+|V. Verificação e Validação|Verificação NFR Framework|16/09|Thiago|João|
+|V. Verificação e Validação|Verificação Léxicos|16/09|Rafael|Carlos|
+|V. Verificação e Validação|Verificação Cenários|16/09|Vitor Lamego|Thiago|
+|V. Verificação e Validação|Verificação Rich Picture|19/09|Victor Lima|João e Thiago|
+|V. Verificação e Validação|Validação Viewpoint|20/09|João e Thiago|Rafael e Victor Lima|
+|V. Verificação e Validação|Validação Protótipo|20/09|Rafael e Victor Lima|Carlos e Thiago
+|V. Verificação e Validação|Validação Informal|20/09|Vitor Lamego|Victor Lima e Carlos|
 <h6 align = "center">Tabela 2: Tabela específica contendo data de entrega, responsáveis e revisores</h6>
 <h6 align = "center">Fonte: Autor</h6>
 

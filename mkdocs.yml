@@ -51,13 +51,16 @@ nav:
       - Casos de Uso: "verificacao/casos_de_uso.md"
       - Product Backlog: "verificacao/product_backlog.md"
       - NFR Framework: "verificacao/nfr.md"
+      - Rich Picture: "verificacao/rich_picture.md"
     - Validação:
       - Protótipo: "validacao/prototipo.md"
+      - Viewpoint: "validacao/viewpoint.md"
   - Apresentações:
     - Ponto de Controle 1: "apresentacoes/p1.md"
     - Ponto de Controle 2: "apresentacoes/p2.md"
     - Ponto de Controle 3: "apresentacoes/p3.md"
     - Ponto de Controle 4: "apresentacoes/p4.md"
+    - Ponto de Controle 5: "apresentacoes/p5.md"
   - Atas:
     - 27/07/2021: "atas/ata27_07.md"
     - 05/08/2021: "atas/ata05_08.md"
