@@ -1,10 +1,10 @@
-
 ## 1. Versionamento
 
 | Versão | Data  | Descrição                               | Autor(es)                        |
 | ------ | ----- | :---------------------------------------: | :--------------------------------: |
 | 1.0    | 24/08 | Abertura do documento | Rafael e Thiago|
 | 1.1    | 24/08 | Adição dos léxicos | Rafael e Thiago|
+| 1.2	 | 28/09 | Linkagem dos léxicos | João Pedro|
 
 <hr>
 
@@ -41,99 +41,99 @@
 |LO01|**Usuário**|
 |---|------------------|
 |**Sinônimos**|Cliente|
-|**Noção**|A pessoa interessada em comprar ingresso para algum evento|
-|**Impacto**|O usuário pode comprar ingresso, escolher assento, pesquisar um evento e visualizar prevenções|
+|**Noção**|A pessoa interessada em comprar <a href=.#ingresso>ingresso</a> para algum evento|
+|**Impacto**|O usuário pode <a href=.#comprar-ingresso>comprar ingresso</a>, <a href=.#escolher-assento>escolher assento</a>, <a href=.#pesquisar>pesquisar</a> um evento e <a href=.#visualizar-prevencoes>visualizar prevenções</a>|
 
 <div id="filme"/>
 |LO02|**Filme**|
 |---|------------------|
 |**Sinônimos**|Evento, Espetáculo|
-|**Noção**|Filmes para o usuário ver |
-|**Impacto**|O usuário escolhe um filme desejado<br>O usuário visualiza os locais e horários em que o filme vai passar|
+|**Noção**|Filmes para o <a href=.#usuario>usuário</a> ver|
+|**Impacto**|O <a href=.#usuario>usuário</a> escolhe um filme desejado<br>O <a href=.#usuario>usuário</a> visualiza os <a href=.#local>locais</a> e <a href=.#sessao>horários</a> em que o filme vai passar|
 
 <div id="acompanhamento"/>
 |LO03|**Acompanhamento**|
 |---|------------------|
 |**Sinônimos**|Bebida, comida e pipoca|
-|**Noção**|Conjunto de comidas e bebidas que acompanham o usuário durante a sessão|
-|**Impacto**|O usuário pode comprar acompanhamentos<br>O usuário retira o acompanhamento no evento|
+|**Noção**|Conjunto de comidas e bebidas que acompanham o <a href=.#usuario>usuário</a> durante a <a href=.#sessao>sessão</a>|
+|**Impacto**|O <a href=.#usuario>usuário</a> pode comprar acompanhamentos<br>O <a href=.#usuario>usuário</a> retira o acompanhamento no evento|
 
 <div id="ingresso"/>
 |LO04|**Ingresso**|
 |---|------------------|
 |**Sinônimos**|Bilhete, Entrada, Convite|
-|**Noção**|Um ingresso representa a entrada para uma sessão de filme em determinado cinema|
-|**Impacto**|Um ingresso é utilizado para assistir um filme|
+|**Noção**|Um <a href=.#ingresso>ingresso</a> representa a entrada para uma <a href=.#sessao>sessão</a> de <a href=.#filme>filme</a> em determinado <a href=.#cinema>cinema</a>|
+|**Impacto**|Um <a href=.#ingresso>ingresso</a> é utilizado para assistir um filme|
 
 <div id="cinema"/>
 |LO05|**Cinema**|
 |---|------------------|
 |**Sinônimos**|Estabelecimento|
-|**Noção**|Local onde é possível assistir um filme desejado|
-|**Impacto**|Os filmes que estão em cartaz só podem ser transmitidos em algum cinema|
+|**Noção**|<a href=.#local>Local</a> onde é possível assistir um <a href=.#filme>filme</a> desejado|
+|**Impacto**|Os <a href=.#filme>filmes</a> que estão em <a href=.#filme-em-cartaz>cartaz</a> só podem ser transmitidos em algum cinema|
 
 <div id="assento"/>
 |LO06|**Assento**|
 |---|------------------|
 |<b>Sinônimos</b>|Poltrona|
-|**Noção**|A cadeira que o usuário irá sentar durante o evento|
-|**Impacto**|O usuário pode escolher o assento|
+|**Noção**|A cadeira que o <a href=.#usuario>usuário</a> irá sentar durante o evento|
+|**Impacto**|O <a href=.#usuario>usuário</a> pode escolher o assento|
 
 <div id="sessao"/>
 |LO07|**Sessão**|
 |---|------------------|
 |**Sinônimos**|Horário|
-|**Noção**|Sessão refere-se a um determinado cinema e horário onde vai passar o filme|
-|**Impacto**|Um ingresso só pode ser comprado quando referido a uma sessão|
+|**Noção**|Sessão refere-se a um determinado <a href=.#cinema>cinema</a> e horário onde vai passar o filme|
+|**Impacto**|Um <a href=.#ingresso>ingresso</a> só pode ser <a href=.#comprar-ingresso>comprado</a> quando referido a uma sessão|
 
 <div id="carrinho"/>
 |LO08|**Carrinho**|
 |---|------------------|
 |**Sinônimos**|Carrinho de compras|
-|**Noção**|Conjunto de ingressos e acompanhamentos que o usuário pretende comprar|
-|**Impacto**|O usuário pode comprar vários itens|
+|**Noção**|Conjunto de <a href=.#ingresso>ingressos</a> e <a href=.#acompanhamento>acompanhamentos</a> que o <a href=.#usuario>usuário</a> pretende comprar|
+|**Impacto**|O <a href=.#usuario>usuário</a> pode comprar vários itens|
 
 <div id="noticia"/>
 |LO09|**Notícia**|
 |---|------------------|
 |**Sinônimos**|-|
-|**Noção**|Uma notícia sobre algum filme, evento ou anúncio|
-|**Impacto**|O usuário pode visualizar as notícias e compartilhá-la|
+|**Noção**|Uma <a href=.#noticia>notícia</a> sobre algum <a href=.#filme>filme</a>, evento ou anúncio|
+|**Impacto**|O <a href=.#usuario>usuário</a> pode visualizar as <a href=.#noticia>notícias</a> e compartilhá-la|
 
 <div id="local"/>
 |LO10|**Local**|
 |---|------------------|
 |**Sinônimos**|Localidade|
-|**Noção**|Localização do cinema|
-|**Impacto**|O usuário pode pesquisar os cinemas pela localidade|
+|**Noção**|Localização do <a href=.#cinema>cinema</a>|
+|**Impacto**|O <a href=.#usuario>usuário</a> pode pesquisar os <a href=.#cinema>cinemas</a> pela localidade|
 
 <div id="classificacao-etaria"/>
 |LO11|**Classificação etária**|
 |---|------------------|
 |**Sinônimos**|Classificação indicativa|
 |**Noção**|Idade mínima recomendada para assistir o filme|
-|**Impacto**|O usuário pode filtrar os filmes que a classificação etária atende a sua idade|
+|**Impacto**|O <a href=.#usuario>usuário</a> pode filtrar os <a href=.#filme>filmes</a> que a classificação etária atende a sua idade|
 
 <div id="genero"/>
 |LO12|**Gênero**|
 |---|------------------|
 |**Sinônimos**|Classificação|
-|**Noção**|Conjunto de filmes com a mesma origem ou tema relacionados|
-|**Impacto**|O usuário pode filtrar por gênero do filme|
+|**Noção**|Conjunto de <a href=.#filme>filmes</a> com a mesma origem ou tema relacionados|
+|**Impacto**|O <a href=.#usuario>usuário</a> pode filtrar por gênero do filme|
 
 <div id="avaliacao"/>
 |LO13|**Avaliação**|
 |---|------------------|
-|**Sinônimos**|Avaliação de usuários|
-|**Noção**|Feedback dos usuários sobre um filme|
-|**Impacto**|O usuário pode visualizar avaliações de um filme|
+|**Sinônimos**|Avaliação de <a href=.#usuario>usuários</a>|
+|**Noção**|Feedback dos <a href=.#usuario>usuários</a> sobre um filme|
+|**Impacto**|O <a href=.#usuario>usuário</a> pode <a href=.#visualizar-avaliacao>visualizar avaliações</a> de um filme|
 
 <div id="pedido"/>
 |LO13|**Pedido**|
 |---|------------------|
 |**Sinônimos**|Pedido de compra|
-|**Noção**|Conjunto de produtos, quantidades, preços e condições que o usuário está comprando ou comprou|
-|**Impacto**|O usuario pode pedir reembolso|
+|**Noção**|Conjunto de produtos, quantidades, preços e condições que o <a href=.#usuario>usuário</a> está comprando ou comprou|
+|**Impacto**|O <a href=.#usuario>usuário</a> pode pedir reembolso|
 
 <hr>
 
@@ -142,93 +142,93 @@
 <div id="comprar-ingresso"/>
 |LV01|**Comprar Ingresso**|
 |---|------------------|
-|**Sinônimos**|Adquirir/Obter ingresso|
-|**Noção**|O usuário irá, através do pagamento, obter um ingresso para uma sessão|
-|**Impacto**|O usuário receberá o ingresso para o filme comprado|
+|**Sinônimos**|Adquirir/Obter <a href=.#ingresso>ingresso</a>|
+|**Noção**|O <a href=.#usuario>usuário</a> irá, através do pagamento, obter um <a href=.#ingresso>ingresso</a> para uma <a href=.#sessao>sessão</a>|
+|**Impacto**|O <a href=.#usuario>usuário</a> receberá o <a href=.#ingresso>ingresso</a> para o <a href=.#filme>filme</a> comprado|
 
 <div id="escolher-assento"/>
 |LV02|**Escolher Assento**|
 |---|------------------|
-|**Sinônimos**|Selecionar assento|
-|**Noção**|O usuário tem a opção de escolher um ou mais assentos para determinada sessão|
-|**Impacto**|Os assentos foram escolhidos<br>Assentos próximos são bloqueados por medidas de segurança|
+|**Sinônimos**|Selecionar <a href=.#assento>assento</a>|
+|**Noção**|O <a href=.#usuario>usuário</a> tem a opção de escolher um ou mais <a href=.#assento>assentos</a> para determinada <a href=.#sessao>sessão</a>|
+|**Impacto**|Os <a href=.#assento>assentos</a> foram escolhidos<br><a href=.#assento>Assentos</a> próximos são bloqueados por medidas de segurança|
 
 <div id="cadastrar-usuario"/>
 |LV03|**Cadastrar usuário**|
 |---|------------------|
-|**Sinônimos**|Registrar usuário|
-|**Noção**|O usuário poderá se cadastrar no app e receber alguns benefícios|
-|**Impacto**|O usuário cadastrado tem direito a algumas funcionalidades a mais|
+|**Sinônimos**|Registrar <a href=.#usuario>usuário</a>|
+|**Noção**|O <a href=.#usuario>usuário</a> poderá se cadastrar no app e receber alguns benefícios|
+|**Impacto**|O <a href=.#usuario>usuário</a> cadastrado tem direito a algumas funcionalidades a mais|
 
 <div id="logar-no-sistema"/>
 |LV04|**Logar no sistema**|
 |---|------------------|
 |**Sinônimos**|-|
-|**Noção**|O usuário já cadastrado poderá logar no sistema|
-|**Impacto**|Após logado, o usuário poderá ter acesso às informações sobre sua conta, bem como os benefícios de um usuário cadastrado|
+|**Noção**|O <a href=.#usuario>usuário</a> já cadastrado poderá logar no sistema|
+|**Impacto**|Após logado, o <a href=.#usuario>usuário</a> poderá ter acesso às informações sobre sua conta, bem como os benefícios de um <a href=.#usuario>usuário</a> cadastrado|
 
 <div id="pesquisar"/>
 |LV05|**Pesquisar**|
 |---|------------------|
 |**Sinônimos**|Buscar, Encontrar, Filtrar|
-|**Noção**|O usuário pode pesquisar sobre um filme ou cinema|
-|**Impacto**|Após pesquisado, o usuário pode acessar informações específicas sobre os filmes ou cinemas encontrados|
+|**Noção**|O <a href=.#usuario>usuário</a> pode pesquisar sobre um <a href=.#filme>filme</a> ou <a href=.#cinema>cinema</a>|
+|**Impacto**|Após pesquisado, o <a href=.#usuario>usuário</a> pode acessar informações específicas sobre os <a href=.#filme>filmes</a> ou <a href=.#cinema>cinemas</a> encontrados|
 
 <div id="visualizar-prevencoes"/>
 |LV06|**Visualizar prevenções**|
 |---|------------------|
 |**Sinônimos**|Ler prevenções|
-|**Noção**|O usuário pode visualizar as prevenções referentes ao cinema determinado|
-|**Impacto**|O usuário tem acesso as prevenções referentes a cinemas próximos<br>Sabendo as prevenções ele pode se preparar para evitar imprevistos|
+|**Noção**|O <a href=.#usuario>usuário</a> pode visualizar as prevenções referentes ao <a href=.#cinema>cinema</a> determinado|
+|**Impacto**|O <a href=.#usuario>usuário</a> tem acesso as prevenções referentes a <a href=.#cinema>cinemas</a> próximos<br>Sabendo as prevenções ele pode se preparar para evitar imprevistos|
 
 <div id="visualizar-avaliacao"/>
 |LV07|**Visualizar avaliação**|
 |---|------------------|
 |**Sinônimos**|-|
-|**Noção**|O usuário pode ver as avaliações feitas pelos usuários do Rotten Tomatoes|
-|**Impacto**|O usuário pode perder ou ganhar interesse a partir das avaliações|
+|**Noção**|O <a href=.#usuario>usuário</a> pode ver as avaliações feitas pelos <a href=.#usuario>usuários</a> do Rotten Tomatoes|
+|**Impacto**|O <a href=.#usuario>usuário</a> pode perder ou ganhar interesse a partir das avaliações|
 
 <div id="visualizar-filme"/>
 |LV08|**Visualizar filme**|
 |---|------------------|
 |**Sinônimos**|-|
-|**Noção**|O usuário pode ver as informações sobre o filme|
-|**Impacto**|O usuário pode perder ou ganhar interesse a partir das informações<br>O usuário pode comprar ingressos para o filme|
+|**Noção**|O <a href=.#usuario>usuário</a> pode ver as informações sobre o <a href=.#filme>filme</a>|
+|**Impacto**|O <a href=.#usuario>usuário</a> pode perder ou ganhar interesse a partir das informações<br>O <a href=.#usuario>usuário</a> pode <a href=.#comprar-ingresso>comprar ingressos</a> para o <a href=.#filme>filme</a>|
 
 <div id="ler-noticia"/>
 |LV09|**Ler notícia**|
 |---|------------------|
-|**Sinônimos**|Visualizar notícia|
-|**Noção**|O usuário pode ler as notícias|
-|**Impacto**|O usuário pode se interessar por um filme|
+|**Sinônimos**|Visualizar <a href=.#noticia>notícia</a>|
+|**Noção**|O <a href=.#usuario>usuário</a> pode ler as <a href=.#noticia>notícias</a>|
+|**Impacto**|O <a href=.#usuario>usuário</a> pode se interessar por um <a href=.#filme>filme</a>|
 
 <div id="compartilhar"/>
 |LV10|**Compartilhar**|
 |---|------------------|
 |**Sinônimos**|-|
-|**Noção**|O usuário pode compartilhar um filme ou uma notícia com alguém|
-|**Impacto**|O usuário compartilha a página do filme, ou notícia, por uma rede social|
+|**Noção**|O <a href=.#usuario>usuário</a> pode compartilhar um <a href=.#filme>filme</a> ou uma <a href=.#noticia>notícia</a> com alguém|
+|**Impacto**|O <a href=.#usuario>usuário</a> compartilha a página do filme, ou <a href=.#noticia>notícia</a>, por uma rede social|
 
 <div id="pedir-reembolso"/>
 |LV11|**Pedir reembolso**|
 |---|------------------|
 |**Sinônimos**|-|
-|**Noção**|O usuário pode pedir reembolso de um pedido|
-|**Impacto**|O usuario terá seu dinheiro estornado<br>Os assentos selecionados se tornam disponíveis|
+|**Noção**|O <a href=.#usuario>usuário</a> pode pedir reembolso de um pedido|
+|**Impacto**|O <a href=.#usuario>usuário</a> terá seu dinheiro estornado<br>Os <a href=.#assento-esta-selecionado>assentos selecionados</a> se tornam <a href=.#assento-disponivel>disponíveis</a>|
 
 <div id="selecionar-cinema"/>
 |LV12|**Selecionar cinema**|
 |---|------------------|
-|**Sinônimos**|Selecionar local|
-|**Noção**|O usuário pode escolher o cinema|
-|**Impacto**|O usuario pode escolher a sessão|
+|**Sinônimos**|Selecionar <a href=.#local>local</a>|
+|**Noção**|O <a href=.#usuario>usuário</a> pode escolher o <a href=.#cinema>cinema</a>|
+|**Impacto**|O <a href=.#usuario>usuário</a> pode escolher a <a href=.#sessao>sessão</a>|
 
 <div id="selecionar-sessao"/>
 |LV12|**Selecionar sessão**|
 |---|------------------|
 |**Sinônimos**|-|
-|**Noção**|O usuário pode escolher a sessão do cinema|
-|**Impacto**|O usuário pode comprar o ingresso<br>|
+|**Noção**|O <a href=.#usuario>usuário</a> pode escolher a <a href=.#sessao>sessão</a> do <a href=.#cinema>cinema</a>|
+|**Impacto**|O <a href=.#usuario>usuário</a> pode <a href=.#comprar-ingresso>comprar o ingresso</a><br>|
 
 <hr>
 
@@ -237,86 +237,86 @@
 <div id="ingresso-esta-no-carrinho"/>
 |LE01|**Ingresso está no carrinho**|
 |---|------------------|
-|**Sinônimos**|Ingresso está sendo comprado|
-|**Noção**|O usuário pretende comprar um ingresso, então esse ingresso é salvo no carrinho para ele poder tanto fazer o pagamento quanto realizar modificações|
-|**Impacto**|O usuário pode comprar os itens do carrinho<br>Se o usuário não se interessar mais pelo ingresso, ele pode retirá-lo do carrinho|
+|**Sinônimos**|<a href=.#ingresso>Ingresso</a> está sendo comprado|
+|**Noção**|O <a href=.#usuario>usuário</a> pretende <a href=.#comprar-ingresso>comprar um ingresso</a>, então esse <a href=.#ingresso>ingresso</a> é salvo no <a href=.#carrinho>carrinho</a> para ele poder tanto fazer o pagamento quanto realizar modificações|
+|**Impacto**|O <a href=.#usuario>usuário</a> pode comprar os itens do <a href=.#carrinho>carrinho</a><br>Se o <a href=.#usuario>usuário</a> não se interessar mais pelo <a href=.#ingresso>ingresso</a>, ele pode retirá-lo do <a href=.#carrinho>carrinho</a>|
 
 <div id="filme-em-cartaz"/>
 |LE02|**Filme em cartaz**|
 |---|------------------|
-|**Sinônimos**|Filme disponível para venda|
-|**Noção**|O filme estando em cartaz significa que ele está disponível para ser assistido em determinados cinemas possuindo uma ou várias sessões|
-|**Impacto**|O usuário pode decidir assistir o filme em cartaz comprando um ingresso para determinada sessão<br>Quando não há mais cinemas transmitindo esse filme, ele fica fora de cartaz<br>Quando não houver mais ingressos a venda, o filme está egotado|
+|**Sinônimos**|<a href=.#filme>Filme</a> disponível para venda|
+|**Noção**|O a filme estando em cartaz significa que ele está disponível para ser assistido em determinados <a href=.#cinema>cinemas</a> possuindo uma ou várias <a href=sessao>sessões</a>|
+|**Impacto**|O <a href=.#usuario>usuário</a> pode decidir assistir o <a href=.#filme>filme</a> em cartaz comprando um <a href=.#ingresso>ingresso</a> para determinada <a href=.#sessao>sessão</a><br>Quando não há mais <a href=.#cinema>cinemas</a> transmitindo esse filme, ele fica <a href=.#filme-fora-de-cartaz>fora de cartaz</a><br>Quando não houver mais <a href=.#ingresso>ingressos</a> a venda, o <a href=.#filme-esgotado>filme está egotado</a>|
 
 <div id="filme-fora-de-cartaz"/>
 |LE03|**Filme fora de cartaz**|
 |---|------------------|
 |**Sinônimos**|Filme não disponível|
-|**Noção**|Um filme que não tem mais sessões disponíveis|
-|**Impacto**|O usuário não pode comprar ingressos para esse filme<br>Quando houver sessões, o filme entra em cartaz|
+|**Noção**|Um <a href=.#filme>filme</a> que não tem mais <a href=.#sessao>sessões</a> disponíveis|
+|**Impacto**|O <a href=.#usuario>usuário</a> não pode <a href=.#comprar-ingresso>comprar ingressos</a> para esse <a href=.#filme>filme</a><br>Quando houver <a href=.#sessao>sessões</a>, o <a href=.#filme-em-cartaz>filme entra em cartaz</a>|
 
 <div id="filme-em-breve"/>
 |LE04|**Filme em breve**|
 |---|------------------|
-|**Sinônimos**|Filme chegará em breve, Filme está para ser lançado|
-|**Noção**|Um filme que está para ser lançado significa que ele estará disponível para ser assistido em breve|
-|**Impacto**|O usuário pode ver mais detalhes sobre o filme que está para ser lançado (trailer, descrição)<br>Quando o filme for lançado, ele sairá dos filmes em breve|
+|**Sinônimos**|<a href=.#filme>Filme</a> chegará em breve, <a href=.#filme>Filme</a> está para ser lançado|
+|**Noção**|Um <a href=.#filme>filme</a> que está para ser lançado significa que ele estará disponível para ser assistido em breve|
+|**Impacto**|O <a href=.#usuario>usuário</a> pode ver mais detalhes sobre o <a href=.#filme>filme</a> que está para ser lançado (trailer, descrição)<br>Quando o <a href=.#filme>filme</a> for lançado, ele sairá dos filmes em breve|
 
-<div id="filme-em-lançamento"/>
+<div id="filme-em-lancamento"/>
 |LE05|**Filme em lançamento**|
 |---|------------------|
 |**Sinônimos**|Filme recém-lançado|
-|**Noção**|Um filme que está em lançamento significa que está disponível para ser assistido há pouco tempo|
-|**Impacto**|O usuário pode comprar ingresso para o filme<br>Quando passa algumas semanas depois que o filme foi lançado, ele se torna um filme em cartaz|
+|**Noção**|Um <a href=.#filme>filme</a> que está em lançamento significa que está disponível para ser assistido há pouco tempo|
+|**Impacto**|O <a href=.#usuario>usuário</a> pode comprar <a href=.#ingresso>ingresso</a> para o <a href=.#filme>filme</a><br>Quando passa algumas semanas depois que o <a href=.#filme>filme</a> foi lançado, ele se torna um <a href=.#filme-em-cartaz>filme em cartaz</a>|
 
 <div id="filme-em-alta"/>
 |LE06|**Filme em alta**|
 |---|------------------|
 |**Sinônimos**|Filmes populares|
-|**Noção**|Um filme em alta é um filme popular, que é de interesse de várias pessoas|
-|**Impacto**|O usuário pode decidir assistir o filme em alta comprando um ingresso para determinada sessão. Quando o filme não está mais em alta e a quantidade de sessões diminuiu, ele se torna apenas um filme em cartaz|
+|**Noção**|Um <a href=.#filme>filme</a> em alta é um <a href=.#filme>filme</a> popular, que é de interesse de várias pessoas|
+|**Impacto**|O <a href=.#usuario>usuário</a> pode decidir assistir o <a href=.#filme>filme</a> em alta comprando um <a href=.#ingresso>ingresso</a> para determinada <a href=.#sessao>sessão</a>. Quando o <a href=.#filme>filme</a> não está mais em alta e a quantidade de sessões diminuiu, ele se torna apenas um <a href=.#filme-em-cartaz>filme em cartaz</a>|
 
 <div id="filme-esgotado"/>
 |LE07|**Filme esgotado**|
 |---|------------------|
-|**Sinônimos**|Ingressos esgotados|
-|**Noção**|Um filme que está em cartaz, mas não tem ingressos disponíveis para a venda|
-|**Impacto**|O usuário não pode comprar ingressos para esse filme<br>Quando houver sessões com ingressos disponíveis, então ele se torna um filme em cartaz|
+|**Sinônimos**|<a href=.#ingresso>Ingressos</a> esgotados|
+|**Noção**|Um <a href=.#filme>filme</a> que está em cartaz, mas não tem <a href=.#ingresso>ingressos</a> disponíveis para a venda|
+|**Impacto**|O <a href=.#usuario>usuário</a> não pode comprar <a href=.#ingresso>ingressos</a> para esse <a href=.#filme>filme</a><br>Quando houver <a href=.#sessao>sessões</a> com <a href=.#ingresso>ingressos</a> disponíveis, então ele se torna um <a href=.#filme-em-cartaz>filme em cartaz</a>|
 
 <div id="assento-disponivel"/>
 |LE08|**Assento disponível**|
 |---|------------------|
-|**Sinônimos**|Assento livre|
-|**Noção**|Um assento que pode ser selecionado pelo usuário para uma determinada sessão|
-|**Impacto**|O usuário pode escolher um assento disponível<br>Quando alguém já escolheu esse assento, ele não está mais disponível|
+|**Sinônimos**|<a href=.#assento>Assento</a> livre|
+|**Noção**|Um <a href=.#assento>assento</a> que pode ser selecionado pelo <a href=.#usuario>usuário</a> para uma determinada <a href=.#sessao>sessão</a>|
+|**Impacto**|O <a href=.#usuario>usuário</a> pode escolher um <a href=.#assento>assento</a> disponível<br>Quando alguém já escolheu esse <a href=.#assento>assento</a>, ele não está mais disponível|
 
 <div id="assento-indisponivel"/>
 |LE09|**Assento indisponível**|
 |---|------------------|
-|**Sinônimos**|Assento ocupado|
-|**Noção**|Um assento que ter sido selecionado por outro usuário ou está bloqueado devido a medidas de prevenção contra o COVID|
-|**Impacto**|O usuário não pode escolher um assento indisponível<br>Quando o usuário desiste da compra do ingresso, o assento desse usuário se torna disponível|
+|**Sinônimos**|<a href=.#assento>Assento</a> ocupado|
+|**Noção**|Um <a href=.#assento>assento</a> que ter sido selecionado por outro <a href=.#usuario>usuário</a> ou está bloqueado devido a medidas de prevenção contra o COVID|
+|**Impacto**|O <a href=.#usuario>usuário</a> não pode escolher um <a href=.#assento>assento</a> indisponível<br>Quando o <a href=.#usuario>usuário</a> desiste da compra do <a href=.#ingresso>ingresso</a>, o <a href=.#assento>assento</a> desse <a href=.#usuario>usuário</a> se torna disponível|
 
 <div id="assento-esta-selecionado"/>
 |LE10|**Assento está selecionado**|
 |---|------------------|
-|**Sinônimos**|Assento está escolhido|
-|**Noção**|Um ou mais assentos foram selecionados pelo usuário para determinada sessão|
-|**Impacto**|O usuário visualiza os assentos disponíveis para a sessão<br>O usuário escolhe um assento disponível<br>Os assentos ao redor são bloqueados por motivos de prevenção|
+|**Sinônimos**|<a href=.#assento>Assento</a> está escolhido|
+|**Noção**|Um ou mais <a href=.#assento>assentos</a> foram selecionados pelo <a href=.#usuario>usuário</a> para determinada <a href=.#sessao>sessão</a>|
+|**Impacto**|O <a href=.#usuario>usuário</a> visualiza os <a href=.#assento-disponivel>assentos disponíveis</a> para a <a href=.#sessao>sessão</a><br>O <a href=.#usuario>usuário</a> escolhe um <a href=.#assento-disponivel>assento disponível</a><br>Os <a href=.#assento>assentos</a> ao redor são bloqueados por motivos de prevenção|
 
 <div id="cinema-esta-favoritado"/>
 |LE11|**Cinema está favoritado**|
 |---|------------------|
-|**Sinônimos**|Cinema está como preferido, predileto|
-|**Noção**|Um usuário logado pode favoritar um cinema, facilitando o futuro acesso a esses cinemas por uma aba especial "Favoritos"|
-|**Impacto**|O usuário clica no símbolo de coração e favorita o cinema<br>O cinema favoritado aparece em “Favoritos”<br>Caso o usuário clique no coração novamente, este cinema deixa de ser favorito.|
+|**Sinônimos**|<a href=.#cinema>Cinema</a> está como preferido, predileto|
+|**Noção**|Um <a href=.#usuario>usuário</a> <a href=.#logar-no-sistema>logado</a> pode favoritar um <a href=.#cinema>cinema</a>, facilitando o futuro acesso a esses <a href=.#cinema>cinemas</a> por uma aba especial "Favoritos"|
+|**Impacto**|O <a href=.#usuario>usuário</a> clica no símbolo de coração e favorita o <a href=.#cinema>cinema</a><br>O <a href=.#cinema>cinema</a> favoritado aparece em “Favoritos”<br>Caso o <a href=.#usuario>usuário</a> clique no coração novamente, este <a href=.#cinema>cinema</a> deixa de ser favorito.|
 
 <div id="cinema-aberto"/>
 |LE12|**Cinema aberto**|
 |---|------------------|
-|**Sinônimos**|Cinema em funcionamento|
-|**Noção**|Um cinema que tem sessões disponíveis para filmes|
-|**Impacto**|O usuário pode visualizar os filmes e sessões disponíveis<br>Quando não há sessões disponíveis, ele está fechado|
+|**Sinônimos**|<a href=.#cinema>Cinema</a> em funcionamento|
+|**Noção**|Um <a href=.#cinema>cinema</a> que tem <a href=.#sessao>sessões</a> disponíveis para <a href=.#filme>filmes</a>|
+|**Impacto**|O <a href=.#usuario>usuário</a> pode visualizar os filmes e sessões disponíveis<br>Quando não há sessões disponíveis, ele está fechado|
 
 <hr>
 
