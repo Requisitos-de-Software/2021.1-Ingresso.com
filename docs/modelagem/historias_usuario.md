@@ -34,11 +34,11 @@ usuário" ou "cartão (card)". [2]
 | Épico | Descrição | Features |
 | ------| --------- | -------- |
 | E01 - Cadastro e Autenticação | Engloba toda parte de cadastramento, login e logout | -> Cadastro <br/> -> Login <br/> -> Logout |
-| E02 - Perfil | Engloba toda a parte de informações de usuário e configurações da aplicação. | -> Perfil <br/> -> Atendimento <br/> -> Sobre o App <br/> | 
-| E03 - Cinemas | Engloba toda parte de cinemas | -> Localização <br/> -> Cinemas <br/> -> Sessões <br/> |
-| E04 - Filmes | Engloba toda parte de filmes | -> Filmes <br/> |
-| E05 - Compra | Engloba toda a parte de compra de ingressos | -> Ingresso <br/> -> Acompanhamentos <br/> -> Pagamento <br/> -> Carrinho <br/>|
-| E06 - Engajamento | Engloba toda a parte de manter o usuário engajado.  | -> Notícia <br/> -> Destaques <br/> |
+| E02 - Perfil | Engloba toda a parte de informações de [usuário](../../modelagem/lexicos/#usuario) e configurações da aplicação. | -> Perfil <br/> -> Atendimento <br/> -> Sobre o App <br/> | 
+| E03 - [Cinemas](../../modelagem/lexicos/#cinema) | Engloba toda parte de [cinemas](../../modelagem/lexicos/#cinema) | -> Localização <br/> -> [Cinemas](../../modelagem/lexicos/#cinema) <br/> -> [Sessões](../../modelagem/lexicos/#sessao) <br/> |
+| E04 - [Filmes](../../modelagem/lexicos/#filme) | Engloba toda parte de [filmes](../../modelagem/lexicos/#filme) | -> [Filmes](../../modelagem/lexicos/#filme) <br/> |
+| E05 - [Compra](../../modelagem/lexicos/#compra-ingresso) | Engloba toda a parte de [compra](../../modelagem/lexicos/#compra-ingresso) de [ingressos](../../modelagem/lexicos/#ingresso) | -> [Ingresso](../../modelagem/lexicos/#ingresso) <br/> -> [Acompanhamentos](../../modelagem/lexicos/#acompanhamento) <br/> -> Pagamento <br/> -> [Carrinho](../../modelagem/lexicos/#carrinho) <br/>|
+| E06 - Engajamento | Engloba toda a parte de manter o [usuário](../../modelagem/lexicos/#usuario) engajado.  | -> [Notícia](../../modelagem/lexicos/#noticia) <br/> -> Destaques <br/> |
 | E07 - Lucro | Engloba uma parte do lucro do aplicativo. | -> Anúncios. <br/>|
 
 ## 5. Features
@@ -52,7 +52,7 @@ usuário" ou "cartão (card)". [2]
 | ID | US01  |
 |-----|--------|
 | Nome | Criar conta. |
-| Descrição | Eu, como usuário, desejo criar uma conta para ter acesso às funcionalidades completas do aplicativo. |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo criar uma conta para ter acesso às funcionalidades completas do aplicativo. |
 | Critérios de Aceitação | O formulário de cadastramento deve conter os seguintes campos: <br/> -> Nome <br/> -> E-mail <br/> -> Senha <br/> -> Data de Aniversário <br/> -> Gênero <br/> -> Cpf <br/> -> DDD e telefone <br/> -> Endereço composto |
 
 | ID | US02 |
@@ -66,7 +66,7 @@ usuário" ou "cartão (card)". [2]
 | ID | US03 |
 |-----|--------|
 | Nome | Fazer login |
-| Descrição | Eu, como usuário, desejo fazer login para entrar na minha conta e aproveitar as funcionalidades do Ingresso.com |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo fazer login para entrar na minha conta e aproveitar as funcionalidades do Ingresso.com |
 | Critérios de Aceitação | -> Input de email e senha <br/> -> Opção para logar com Facebook <br/> -> Opção para logar com Google <br/> -> Opção para escolher se quer receber novidades e mensagens por email.|
 
 | ID | US04 |
@@ -78,13 +78,13 @@ usuário" ou "cartão (card)". [2]
 | ID | US05 |
 |-----|--------|
 | Nome | Esqueceu senha. |
-| Descrição | Eu, como usuário, desejo redefinir a senha da minha conta que esqueci para fazer login. |
-| Critérios de Aceitação | -> Opção "esqueci a senha" <br/> -> Campo input para que o usuário insira email. <br/> |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo redefinir a senha da minha conta que esqueci para fazer login. |
+| Critérios de Aceitação | -> Opção "esqueci a senha" <br/> -> Campo input para que o [usuário](../../modelagem/lexicos/#usuario) insira email. <br/> |
 
 | ID | US06 |
 |-----|--------|
 | Nome | Enviar email esqueceu senha. |
-| Descrição | Eu, como sistema, desejo enviar email para que o usuário redefina a senha. |
+| Descrição | Eu, como sistema, desejo enviar email para que o [usuário](../../modelagem/lexicos/#usuario) redefina a senha. |
 | Critérios de Aceitação | -> Mensagem com informação de email enviado. <br/> |
 
 ### Feature 03 - Logout
@@ -92,7 +92,7 @@ usuário" ou "cartão (card)". [2]
 | ID | US07  |
 |-----|--------|
 | Nome | Fazer logout. |
-| Descrição | Eu, como usuário, desejo realizar logout do aplicativo para que minha conta não esteja mais vinculada com o app. |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo realizar logout do aplicativo para que minha conta não esteja mais vinculada com o app. |
 | Critérios de Aceitação | -> Existir opção para sair da conta no app.|
 
 ### Feature 04 - Perfil
@@ -100,25 +100,25 @@ usuário" ou "cartão (card)". [2]
 | ID | US08  |
 |-----|--------|
 | Nome | Alterar senha. |
-| Descrição | Eu, como usuário, desejo alterar a senha da minha conta para uma de minha preferência. |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo alterar a senha da minha conta para uma de minha preferência. |
 | Critérios de Aceitação | -> Campo input de senha atual <br/> -> Campo input de nova senha <br/> -> Validar senha com ao menos 8 caracteres <br/> -> Campo para confirmar senha <br/>|
 
 | ID | US09  |
 |-----|--------|
 | Nome | Alterar dados pessoais. |
-| Descrição | Eu, como usuário, desejo alterar os dados pessoais da minha conta caso algum dado tenha mudado. |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo alterar os dados pessoais da minha conta caso algum dado tenha mudado. |
 | Critérios de Aceitação | Deve conter os seguintes campos: <br/> -> Nome <br/> -> Senha <br/> -> Data de Aniversário <br/> -> Gênero <br/> -> DDD e telefone <br/> -> Endereço composto <br/> Dados válidados de acordo com a [**US02**](#feature-01-cadastro)|
 
 | ID | US10 |
 |-----|--------|
 | Nome | Visualizar cartões salvos. |
-| Descrição | Eu, como usuário, desejo visualizar cartões salvos para que eu possa excluir algum ou alterá-lo. |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo visualizar cartões salvos para que eu possa excluir algum ou alterá-lo. |
 | Critérios de Aceitação | -> Todos cartões salvos. <br/> -> Opção para alterar. <br/> -> Opção para excluir cartão salvo. <br/>|
 
 | ID | US11  |
 |-----|--------|
 | Nome | Visualizar pedidos. |
-| Descrição | Eu, como usuário, desejo visualizar meu pedidos realizados para que possa acompanhar quais ingressos e sessões já assisti.|
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo visualizar meu pedidos realizados para que possa acompanhar quais [ingressos](../../modelagem/lexicos/#ingresso) e [sessões](../../modelagem/lexicos/#usuario) já assisti.|
 | Critérios de Aceitação | -> Apresentar pedidos ordenados pelo mais recente. <br/>|
 
 ### Feature 05 - Atendimento
@@ -126,7 +126,7 @@ usuário" ou "cartão (card)". [2]
 | ID | US12  |
 |-----|--------|
 | Nome | Solicitar atendimento. |
-| Descrição | Eu, como usuário, desejo esclarecer dúvidas e/ou enviar solicitações de atendimento para o Ingresso.com para compreender melhor o aplicativo. |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo esclarecer dúvidas e/ou enviar solicitações de atendimento para o Ingresso.com para compreender melhor o aplicativo. |
 | Critérios de Aceitação | -> Opção de atendimento. <br/> -> Campo para pesquisar dúvida. <br/> -> Campo de seleção para opção de contato. <br/> -> Formulário com input para email, assunto, descrição, motivo do contato, cpf e celular. <br/> -> Opção de anexar arquivos. <br/>|
 
 ### Feature 06 - Sobre o App
@@ -134,7 +134,7 @@ usuário" ou "cartão (card)". [2]
 | ID | US13  |
 |-----|--------|
 | Nome | Informações do app. |
-| Descrição | Eu, como usuário, desejo visualizar informações sobre o aplicativo para saber qual a versão que está instalada em meu smartphone. |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo visualizar informações sobre o aplicativo para saber qual a versão que está instalada em meu smartphone. |
 | Critérios de Aceitação | -> Informalções sobre o smartphone. <br/> -> Informação sobre a versão do app. <br/>|
 
 ### Feature 07 - Localização
@@ -142,164 +142,164 @@ usuário" ou "cartão (card)". [2]
 | ID | US14  |
 |-----|--------|
 | Nome | Adicionar localização. |
-| Descrição | Eu, como usuário, desejo adicionar minha localização ou escolher a cidade para que eu possa ver os cinemas da minha região.  |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo adicionar minha localização ou escolher a cidade para que eu possa ver os [cinemas](../../modelagem/lexicos/#cinema) da minha região.  |
 | Critérios de Aceitação | -> Opção para atualizar localização. <br/> -> Opção para buscar cidade. <br/> -> Lista de cidades mais acessadas. <br/> -> Lista de cidades ordenadas por estado. <br/>|
 
 | ID | US15  |
 |-----|--------|
 | Nome | Alterar localização. |
-| Descrição | Eu, como usuário, desejo alterar a localização ou cidade para que eu possa ver os cinemas da cidade em que estou.|
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo alterar a localização ou cidade para que eu possa ver os [cinemas](../../modelagem/lexicos/#cinema) da cidade em que estou.|
 | Critérios de Aceitação | -> Critérios da [**US14**](#feature-07-localizaçao)|
 
-### Feature 08 - Cinemas
+### Feature 08 - [Cinemas](../../modelagem/lexicos/#cinema)
 
 | ID | US16  |
 |-----|--------|
-| Nome | Visualizar cinemas. |
-| Descrição | Eu, como usuário, desejo visualizar cinemas da minha cidade para que eu possa escolher algum para ir. |
-| Critérios de Aceitação | -> Opção para ordenar por nome. <br/> -> Opção para ordenar por proximidade. <br/> -> Opção para visualizar cinemas fechados. <br/> -> Opção para visualizar cinemas abertos. <br/> -> Listar cinemas favoritos. <br/> |
+| Nome | Visualizar [cinemas](../../modelagem/lexicos/#cinema). |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo visualizar [cinemas](../../modelagem/lexicos/#cinema) da minha cidade para que eu possa escolher algum para ir. |
+| Critérios de Aceitação | -> Opção para ordenar por nome. <br/> -> Opção para ordenar por proximidade. <br/> -> Opção para visualizar [cinemas](../../modelagem/lexicos/#cinema) fechados. <br/> -> Opção para visualizar [cinemas](../../modelagem/lexicos/#cinema) abertos. <br/> -> Listar [cinemas](../../modelagem/lexicos/#cinema) favoritos. <br/> |
 
 | ID | US17  |
 |-----|--------|
-| Nome | Pesquisar cinemas. |
-| Descrição | Eu, como usuário, desejo pesquisar cinemas para ver se está aberto ou se vende ingressos pelo app. |
+| Nome | Pesquisar [cinemas](../../modelagem/lexicos/#cinema). |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo pesquisar [cinemas](../../modelagem/lexicos/#cinema) para ver se está aberto ou se vende [ingressos](../../modelagem/lexicos/#ingresso) pelo app. |
 | Critérios de Aceitação | -> Campo input para busca. <br/> |
 
 | ID | US18  |
 |-----|--------|
-| Nome | Sobre o cinema. |
-| Descrição | Eu, como usuário, desejo visualizar informações sobre o cinema para que eu possa saber como chegar nele e entrar em contato. |
-| Critérios de Aceitação | -> Informação sobre contato. <br/> -> Localização do cinema. <br/> -> Tipo de retirada de ingresso. <br/> |
+| Nome | Sobre o [cinema](../../modelagem/lexicos/#cinema). |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo visualizar informações sobre o [cinema](../../modelagem/lexicos/#cinema) para que eu possa saber como chegar nele e entrar em contato. |
+| Critérios de Aceitação | -> Informação sobre contato. <br/> -> Localização do [cinema](../../modelagem/lexicos/#cinema). <br/> -> Tipo de retirada de [ingresso](../../modelagem/lexicos/#ingresso). <br/> |
 
 | ID | US19  |
 |-----|--------|
-| Nome | Prevenções do cinema. |
-| Descrição | Eu, como usuário, desejo visualizar as medidas preventivas adotadas pelo cinema para que eu possa me previnir melhor. |
+| Nome | Prevenções do [cinema](../../modelagem/lexicos/#cinema). |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo visualizar as medidas preventivas adotadas pelo [cinema](../../modelagem/lexicos/#cinema) para que eu possa me previnir melhor. |
 | Critérios de Aceitação | -> Informações sobre as prevenções. <br/> |
 
 | ID | US20  |
 |-----|--------|
-| Nome | Compartilhar cinema. |
-| Descrição | Eu, como usuário, desejo compartilhar um cinema para meus amigos e/ou familiares para mostrar que tenho interesse nesse cinema. |
-| Critérios de Aceitação | -> Opção para compartilhar. <br/> -> Plataformas em que pode ser compartilhado o cinema. <br/>|
+| Nome | Compartilhar [cinema](../../modelagem/lexicos/#cinema). |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo compartilhar um [cinema](../../modelagem/lexicos/#cinema) para meus amigos e/ou familiares para mostrar que tenho interesse nesse [cinema](../../modelagem/lexicos/#cinema). |
+| Critérios de Aceitação | -> Opção para compartilhar. <br/> -> Plataformas em que pode ser compartilhado o [cinema](../../modelagem/lexicos/#cinema). <br/>|
 
 | ID | US21  |
 |-----|--------|
-| Nome | Favoritar cinema. |
-| Descrição | Eu, como usuário, desejo favoritar um cinema para adicioná-lo a minha lista de cinemas favoritos e ter acesso mais fácil a ele.| 
-| Critérios de Aceitação | -> Opção de favoritar cinema. <br/> |
+| Nome | Favoritar [cinema](../../modelagem/lexicos/#cinema). |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo favoritar um [cinema](../../modelagem/lexicos/#cinema) para adicioná-lo a minha lista de [cinemas](../../modelagem/lexicos/#cinema) favoritos e ter acesso mais fácil a ele.| 
+| Critérios de Aceitação | -> Opção de favoritar [cinema](../../modelagem/lexicos/#cinema). <br/> |
 
-### Feature 09 - Sessões
+### Feature 09 - [Sessões](../../modelagem/lexicos/#usuario)
 
 | ID | US22  |
 |-----|--------|
-| Nome | Sessões do cinema. |
-| Descrição | Eu, como usuário, desejo visualizar as sessões do cinema escolhido para escolher qual filme assistir. |
-| Critérios de Aceitação | -> Opção para filtrar sessão por tipo de exibição. <br/> -> Opção para filtrar sessões por dia da semana. <br/> |
+| Nome | [Sessões](../../modelagem/lexicos/#usuario) do [cinema](../../modelagem/lexicos/#cinema). |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo visualizar as [sessões](../../modelagem/lexicos/#usuario) do [cinema](../../modelagem/lexicos/#cinema) escolhido para escolher qual [filme](../../modelagem/lexicos/#filme) assistir. |
+| Critérios de Aceitação | -> Opção para filtrar [sessão](../../modelagem/lexicos/#usuario) por tipo de exibição. <br/> -> Opção para filtrar [sessões](../../modelagem/lexicos/#usuario) por dia da semana. <br/> |
 
 | ID | US23  |
 |-----|--------|
-| Nome | Sessões do filme. |
-| Descrição | Eu, como usuário, desejo visualizar as sessões disponíveis do filme escolhido para que eu possa escolher quando e onde assistir. |
-| Critérios de Aceitação | -> Cinema e sessões disponíveis nesse cinema. <br/> -> Opção para filtrar por tipo de exibição. <br/>-> Opção para filtrar por nome do cinema. <br/> -> Opção para filtrar por proximidade do cinema. <br/> |
+| Nome | [Sessões](../../modelagem/lexicos/#usuario) do [filme](../../modelagem/lexicos/#filme). |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo visualizar as [sessões](../../modelagem/lexicos/#usuario) disponíveis do [filme](../../modelagem/lexicos/#filme) escolhido para que eu possa escolher quando e onde assistir. |
+| Critérios de Aceitação | -> [Cinema](../../modelagem/lexicos/#cinema) e [sessões](../../modelagem/lexicos/#usuario) disponíveis nesse [cinema](../../modelagem/lexicos/#cinema). <br/> -> Opção para filtrar por tipo de exibição. <br/>-> Opção para filtrar por nome do [cinema](../../modelagem/lexicos/#cinema). <br/> -> Opção para filtrar por proximidade do [cinema](../../modelagem/lexicos/#cinema). <br/> |
 
 | ID | US24  |
 |-----|--------|
-| Nome | Assentos da sessão. |
-| Descrição | Eu, como usuário, desejo visualizar os assentos disponíveis na sessão para que eu possa escolher onde sentar. |
+| Nome | Assentos da [sessão](../../modelagem/lexicos/#usuario). |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo visualizar os assentos disponíveis na [sessão](../../modelagem/lexicos/#usuario) para que eu possa escolher onde sentar. |
 | Critérios de Aceitação | -> Mapa de assentos. <br/> -> Assentos disponíveis. <br/> -> Assentos ocupados. <br/> -> Legenda. <br/>|
 
-### Feature 10 - Filmes
+### Feature 10 - [Filmes](../../modelagem/lexicos/#filme)
 
 | ID | US25  |
 |-----|--------|
-| Nome | Visualizar filmes em cartaz. |
-| Descrição | Eu, como usuário, desejo visualizar filmes que estão em cartaz para que eu possa escolher algum filme para assistir. |
-| Critérios de Aceitação | -> Listar todos os filmes em cartaz da cidade. <br/> |
+| Nome | Visualizar [filmes](../../modelagem/lexicos/#filme) em cartaz. |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo visualizar [filmes](../../modelagem/lexicos/#filme) que estão em cartaz para que eu possa escolher algum [filme](../../modelagem/lexicos/#filme) para assistir. |
+| Critérios de Aceitação | -> Listar todos os [filmes](../../modelagem/lexicos/#filme) em cartaz da cidade. <br/> |
 
 | ID | US26  |
 |-----|--------|
-| Nome | Visualizar filmes em breve. |
-| Descrição | Eu, como usuário, desejo visualizar filmes que em breve estarão nos cinemas para que eu possa me programar para assistir a ele. |
-| Critérios de Aceitação | -> Listar todos os filmes em breve da cidade. <br/> -> Data que os filmes entrarão em cartaz. <br/>|
+| Nome | Visualizar [filmes](../../modelagem/lexicos/#filme) em breve. |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo visualizar [filmes](../../modelagem/lexicos/#filme) que em breve estarão nos [cinemas](../../modelagem/lexicos/#cinema) para que eu possa me programar para assistir a ele. |
+| Critérios de Aceitação | -> Listar todos os [filmes](../../modelagem/lexicos/#filme) em breve da cidade. <br/> -> Data que os [filmes](../../modelagem/lexicos/#filme) entrarão em cartaz. <br/>|
 
 | ID | US27  |
 |-----|--------|
-| Nome | Detalhes do filme. |
-| Descrição | Eu, como usuário, desejo visualizar as informações sobre o filme para decidir se quero assistir a ele ou não. |
-| Critérios de Aceitação | -> Avaliação crítica do Roten Tomatoes. <br/> ->  Avaliação dos usuários do Roten Tomatoes. <br/> -> Classificação indicativa. <br/> -> Duração do filme. <br/> -> Data de estreia. <br/> -> Gênero do filme. <br/> -> Nome original do filme. <br/> -> Elenco. <br/> -> Sinopse. <br/> -> Direção. <br/> -> Distribuidor. <br/> -> País de origem. <br/>|
+| Nome | Detalhes do [filme](../../modelagem/lexicos/#filme). |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo visualizar as informações sobre o [filme](../../modelagem/lexicos/#filme) para decidir se quero assistir a ele ou não. |
+| Critérios de Aceitação | -> Avaliação crítica do Roten Tomatoes. <br/> ->  Avaliação dos [usuários](../../modelagem/lexicos/#usuario) do Roten Tomatoes. <br/> -> Classificação indicativa. <br/> -> Duração do [filme](../../modelagem/lexicos/#filme). <br/> -> Data de estreia. <br/> -> Gênero do [filme](../../modelagem/lexicos/#filme). <br/> -> Nome original do [filme](../../modelagem/lexicos/#filme). <br/> -> Elenco. <br/> -> Sinopse. <br/> -> Direção. <br/> -> Distribuidor. <br/> -> País de origem. <br/>|
 
 | ID | US28  |
 |-----|--------|
-| Nome | Ver trailer do filme. |
-| Descrição | Eu, como usuário, desejo visualizar o trailer do filme para descobrir do que se trata o filme. |
+| Nome | Ver trailer do [filme](../../modelagem/lexicos/#filme). |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo visualizar o trailer do [filme](../../modelagem/lexicos/#filme) para descobrir do que se trata o [filme](../../modelagem/lexicos/#filme). |
 | Critérios de Aceitação | -> Opção de reproduzir trailer. <br/>|
 
 | ID | US29  |
 |-----|--------|
 | Nome | Disponibilizar trailer. |
-| Descrição | Eu, como sistema, desejo disponibilizar trailer do filme do youtube para o aplicativo para que o usuário consiga assistir a ele. |
-| Critérios de Aceitação | -> Reproduzir trailer do filme vindo do youtube. <br/>|
+| Descrição | Eu, como sistema, desejo disponibilizar trailer do [filme](../../modelagem/lexicos/#filme) do youtube para o aplicativo para que o [usuário](../../modelagem/lexicos/#usuario) consiga assistir a ele. |
+| Critérios de Aceitação | -> Reproduzir trailer do [filme](../../modelagem/lexicos/#filme) vindo do youtube. <br/>|
 
-### Feature 11 - Ingresso
+### Feature 11 - [Ingresso](../../modelagem/lexicos/#ingresso)
 
 | ID | US30  |
 |-----|--------|
-| Nome | Tipos de ingressos da sessão. |
-| Descrição | Eu, como usuário, desejo escolher os tipos de ingressos da sessão escolhida para comprá-los. |
-| Critérios de Aceitação | -> Tipos de ingressos disponíveis. <br/> -> Campo input com informações de identificação de acordo com o tipo de ingresso escolhido. <br/>|
+| Nome | Tipos de [ingressos](../../modelagem/lexicos/#ingresso) da [sessão](../../modelagem/lexicos/#usuario). |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo escolher os tipos de [ingressos](../../modelagem/lexicos/#ingresso) da [sessão](../../modelagem/lexicos/#usuario) escolhida para comprá-los. |
+| Critérios de Aceitação | -> Tipos de [ingressos](../../modelagem/lexicos/#ingresso) disponíveis. <br/> -> Campo input com informações de identificação de acordo com o tipo de [ingresso](../../modelagem/lexicos/#ingresso) escolhido. <br/>|
 
-### Feature 12 - Acompanhamentos
+### Feature 12 - [Acompanhamentos](../../modelagem/lexicos/#acompanhamento)
 
 | ID | US31  |
 |-----|--------|
-| Nome | Escolher acompanhamentos. |
-| Descrição | Eu, como usuário, desejo escolher acompanhamentos para que eu não precise enfrentar filas no cinema. |
-| Critérios de Aceitação | -> Acompanhamentos disponíveis. <br/>|
+| Nome | Escolher [acompanhamentos](../../modelagem/lexicos/#acompanhamento). |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo escolher [acompanhamentos](../../modelagem/lexicos/#acompanhamento) para que eu não precise enfrentar filas no [cinema](../../modelagem/lexicos/#cinema). |
+| Critérios de Aceitação | -> [Acompanhamentos](../../modelagem/lexicos/#acompanhamento) disponíveis. <br/>|
 
 
 ### Feature 13 - Pagamento
 
 | ID | US32  |
 |-----|--------|
-| Nome | Pagar os ingressos. |
-| Descrição | Eu, como usuário, desejo escolher forma de pagamento disponível para pagar os ingressos que quero comprar. |
+| Nome | Pagar os [ingressos](../../modelagem/lexicos/#ingresso). |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo escolher forma de pagamento disponível para pagar os [ingressos](../../modelagem/lexicos/#ingresso) que quero comprar. |
 | Critérios de Aceitação | -> Formas de pagamento disponíveis. <br/> -> Opção para aplicar código de desconto. <br/> -> Formulário com input para dados da forma de pagamento. <br/> -> Cartões salvos. <br/>|
 
 | ID | US33  |
 |-----|--------|
 | Nome | Enviar mensagem sobre pagamento. |
-| Descrição | Eu, como sistema, desejo enviar uma mensagem para o email do usuário para informar que a compra de ingresso foi realizada.|
-| Critérios de Aceitação | -> Sistema enviar mensagem via email do usuário. <br/> |
+| Descrição | Eu, como sistema, desejo enviar uma mensagem para o email do [usuário](../../modelagem/lexicos/#usuario) para informar que a compra de [ingresso](../../modelagem/lexicos/#ingresso) foi realizada.|
+| Critérios de Aceitação | -> Sistema enviar mensagem via email do [usuário](../../modelagem/lexicos/#usuario). <br/> |
 
-### Feature 14 - Carrinho
+### Feature 14 - [Carrinho](../../modelagem/lexicos/#carrinho)
 
 | ID | US34  |
 |-----|--------|
-| Nome | Carrinho com ingresso(s). |
-| Descrição | Eu, como usuário, desejo ver quais sessões coloquei no carrinho para que eu possa remover alguma, mudar os assentos, tipo de ingresso, acompanhamentos e forma de pagamento. |
-| Critérios de Aceitação | -> Opção para mudar assentos. <br/> -> Opção para remover sessão. <br/> -> Opção para mudar tipo de ingresso. <br/> -> Opção para forma de pagamento. <br/> -> Opção para acompanhamentos. <br/> -> Informação sobre retirada disponível de ingresso. <br/> |
+| Nome | [Carrinho](../../modelagem/lexicos/#carrinho) com [ingresso](../../modelagem/lexicos/#ingresso)(s). |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo ver quais [sessões](../../modelagem/lexicos/#usuario) coloquei no [carrinho](../../modelagem/lexicos/#carrinho) para que eu possa remover alguma, mudar os assentos, tipo de [ingresso](../../modelagem/lexicos/#ingresso), [acompanhamentos](../../modelagem/lexicos/#acompanhamento) e forma de pagamento. |
+| Critérios de Aceitação | -> Opção para mudar assentos. <br/> -> Opção para remover [sessão](../../modelagem/lexicos/#usuario). <br/> -> Opção para mudar tipo de [ingresso](../../modelagem/lexicos/#ingresso). <br/> -> Opção para forma de pagamento. <br/> -> Opção para [acompanhamentos](../../modelagem/lexicos/#acompanhamento). <br/> -> Informação sobre retirada disponível de [ingresso](../../modelagem/lexicos/#ingresso). <br/> |
 
 
 ### Feature 15 - Noticia
 
 | ID | US35  |
 |-----|--------|
-| Nome | Visualizar notícias. |
-| Descrição | Eu, como usuário, desejo visualizar notícias sobre o mundo do cinema para que eu possa ficar por dentro das novidades. |
-| Critérios de Aceitação | -> Cards de notícias. <br/>|
+| Nome | Visualizar [[notícias](../../modelagem/lexicos/#noticia)](../../modelagem/lexicos/#noticia). |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo visualizar [[notícias](../../modelagem/lexicos/#noticia)](../../modelagem/lexicos/#noticia) sobre o mundo do [cinema](../../modelagem/lexicos/#cinema) para que eu possa ficar por dentro das novidades. |
+| Critérios de Aceitação | -> Cards de [[notícias](../../modelagem/lexicos/#noticia)](../../modelagem/lexicos/#noticia). <br/>|
 
 | ID | US36  |
 |-----|--------|
-| Nome | Ler notícia. |
-| Descrição | Eu, como usuário, desejo ler a notícia para que eu possa entendê-la por completo. |
-| Critérios de Aceitação | -> Contéudo da notícia. <br/>|
+| Nome | Ler [[notícia](../../modelagem/lexicos/#noticia)](../../modelagem/lexicos/#noticia). |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo ler a [[notícia](../../modelagem/lexicos/#noticia)](../../modelagem/lexicos/#noticia) para que eu possa entendê-la por completo. |
+| Critérios de Aceitação | -> Contéudo da [[notícia](../../modelagem/lexicos/#noticia)](../../modelagem/lexicos/#noticia). <br/>|
 
 | ID | US37  |
 |-----|--------|
-| Nome | Compartilhar notícia. |
-| Descrição | Eu, como usuário, desejo compartilhar uma notícia para que eu possa enviá-la para meus amigos e/ou parentes. |
-| Critérios de Aceitação | -> Opção de compartilhar notícia. <br/> -> Plataformas em que pode ser compartilhada a notícia. <br/>|
+| Nome | Compartilhar [[notícia](../../modelagem/lexicos/#noticia)](../../modelagem/lexicos/#noticia). |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo compartilhar uma [[notícia](../../modelagem/lexicos/#noticia)](../../modelagem/lexicos/#noticia) para que eu possa enviá-la para meus amigos e/ou parentes. |
+| Critérios de Aceitação | -> Opção de compartilhar [[notícia](../../modelagem/lexicos/#noticia)](../../modelagem/lexicos/#noticia). <br/> -> Plataformas em que pode ser compartilhada a [[notícia](../../modelagem/lexicos/#noticia)](../../modelagem/lexicos/#noticia). <br/>|
 
 
 ### Feature 16 - Destaques
@@ -307,8 +307,8 @@ usuário" ou "cartão (card)". [2]
 | ID | US38  |
 |-----|--------|
 | Nome | Visualizar destaques. |
-| Descrição | Eu, como usuário, desejo visualizar os destaques do aplicativo para que possa acompanhar a tendência do mundo do cinema. |
-| Critérios de Aceitação | -> Notícias em alta. <br/> -> Filmes em alta. <br/> -> Cinemas favoritos abertos. <br/> -> Filmes em breve. <br/> |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo visualizar os destaques do aplicativo para que possa acompanhar a tendência do mundo do [cinema](../../modelagem/lexicos/#cinema). |
+| Critérios de Aceitação | -> [[Notícias](../../modelagem/lexicos/#noticia)](../../modelagem/lexicos/#noticia) em alta. <br/> -> [Filmes](../../modelagem/lexicos/#filme) em alta. <br/> -> [Cinemas](../../modelagem/lexicos/#cinema) favoritos abertos. <br/> -> [Filmes](../../modelagem/lexicos/#filme) em breve. <br/> |
 
 
 ### Feature 17 - Anúncio
@@ -316,7 +316,7 @@ usuário" ou "cartão (card)". [2]
 | ID | US39  |
 |-----|--------|
 | Nome | Anúncios. |
-| Descrição | Eu, como sistema, desejo apresentar ao usuário propagandas para que seja gerada receita e lucro para minha empresa. |
+| Descrição | Eu, como sistema, desejo apresentar ao [usuário](../../modelagem/lexicos/#usuario) propagandas para que seja gerada receita e lucro para minha empresa. |
 | Critérios de Aceitação | -> Anúncios localizados em pontos estratégicos. <br/>|
 
 
