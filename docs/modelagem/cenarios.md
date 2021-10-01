@@ -4,8 +4,7 @@
 |------|----|---------|---------|
 |1.0|26/08|Abertura do documento de Cenários|Carlos Eduardo e Vitor Lamego|
 |1.1|26/08|Criação dos Cenários|Carlos Eduardo e Vitor Lamego|
-
-
+|1.2|01/10|Linkagem dos léxicos|João Pedro|
 
 ## 2. Introdução
 <p style="text-align: justify; text-indent: 20px">Dentro da Engenharia de Requisitos existe uma etapa fundamental designada para a Modelagem dos requisitos. Dentre as várias técnicas existentes, este documento irá abordar e aplicar uma técnica em específico: Cenários.</p>

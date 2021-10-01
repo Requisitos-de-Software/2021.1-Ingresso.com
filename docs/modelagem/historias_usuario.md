@@ -4,7 +4,7 @@
 | ------ | ----- | --------------------- | --------------- |
 | 1.0    | 06/09 | Abertura do documento | Carlos |
 | 1.1    | 07/09 | Adição das features   | Carlos e Victor Lima |
-
+|1.2|01/10|Linkagem dos léxicos|João Pedro|
 
 ## 2. Introdução
 

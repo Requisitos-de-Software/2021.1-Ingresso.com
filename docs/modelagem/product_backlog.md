@@ -5,7 +5,7 @@
 | 1.0    | 06/09 | Abertura do documento | Carlos |
 | 1.1    | 07/09 | Adição da tabela product backlog | Carlos e Victor Lima |
 | 1.2    | 08/09 | Adição das prioridades de cada item no backlog | Victor Lima |
-
+|1.3|01/10|Linkagem dos léxicos|João Pedro|
 
 ## 2. Introdução
 

@@ -4,7 +4,7 @@
 | ------ | ----- | --------------------- | --------------- |
 | 1.0    | 26/08 | Abertura do documento | Rafael e Thiago |
 | 1.0    | 27/08 | Adição da tabela FURPS+ | Rafael e Thiago |
-
+|1.2|01/10|Linkagem dos léxicos|João Pedro|
 
 ## 2. Introdução
 

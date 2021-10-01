@@ -6,6 +6,7 @@
 |1.1|23/08|Adição da introdução e do Diagrama de Casos de Uso|João Pedro e Victor Lima|
 |1.2|24/08|Adição das tabelas 6 a 10 de especialização|João Pedro|
 |1.3|25/08|Adição das tabelas 1 a 5 de especialização|Victor Lima|
+|1.4|01/10|Linkagem dos léxicos|João Pedro|
 
 ## 2. Introdução
 <p style="text-align: justify; text-indent: 20px"> Diversas são as formas de se modelar os requisitos elicitados de um sistema. Entre essas diversas maneiras se encontra a técnica de <b>Casos de Uso</b>, utilizada especificamente para os requisitos funcionais do software. Nesse diagrama, segundo Andrey	(2007, pág. 15)[1], são representados um conjunto de ações que um [usuário](../../modelagem/lexicos/#usuario) pode realizar em um sistema, bem como, relacionamentos entre ator e caso de uso, e entre caso de uso e caso de uso.</p>
