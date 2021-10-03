@@ -7,7 +7,7 @@
 |1.2|03/10|<center>Linkagem dos léxicos</center>|<center>Thiago</center>|
 
 ## 2. Introdução
-<p style="text-align: justify; text-indent: 20px">Entre uma das muitas técnicas citadas por Wiegers <i>et al.</i> (2013, pág. 121-128) [1], aquela que é destacada como a forma mais óbvia de obtenção de informações é a metodologia de <b>entrevistas</b>. Através de um diálogo, formal ou informal, entre o entrevistador e o entrevistado serão feitas diversas perguntas previamente planejadas, a fim de obter informações sobre a aplicação em questionamento [2]. Essa técnica, portanto, é extremamente flexivel visando aproximar o engenheiro com seus [usuários](../../modelagem/lexicos/#usuario) sendo muito utilizada para levantar requisitos.</p>
+<p style="text-align: justify; text-indent: 20px">Entre uma das muitas técnicas citadas por Wiegers <i>et al.</i> (2013, pág. 121-128) [1], aquela que é destacada como a forma mais óbvia de obtenção de informações é a metodologia de <b>entrevistas</b>. Através de um diálogo, formal ou informal, entre o entrevistador e o entrevistado serão feitas diversas perguntas previamente planejadas, a fim de obter informações sobre a aplicação em questionamento [2]. Essa técnica, portanto, é extremamente flexivel visando aproximar o engenheiro com seus <a href="../../modelagem/lexicos/#usuario">usuários</a> sendo muito utilizada para levantar requisitos.</p>
 
 ## 3. Resultados
 ### 3.1 Roteiro
