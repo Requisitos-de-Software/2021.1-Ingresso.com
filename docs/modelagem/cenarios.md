@@ -286,18 +286,18 @@
 <h6 align = "center">Tabela 16: Descrição das características do Cenário 16</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
-### C17: Ver [[Notícias](../../modelagem/lexicos/#noticia)](../../modelagem/lexicos/#noticia)
+### C17: Ver [Notícias](../../modelagem/lexicos/#noticia)
 
 <center>
 
 |Cenário 017||
 |:----:|:----------|
-|<b>Objetivo</b>| Usuário poder ler as [[notícias](../../modelagem/lexicos/#noticia)](../../modelagem/lexicos/#noticia) mais recentes disponibilizadas pelo aplicativo | 
+|<b>Objetivo</b>| Usuário poder ler as [notícias](../../modelagem/lexicos/#noticia) mais recentes disponibilizadas pelo aplicativo | 
 |<b>Contexto</b>| Pré-condição: Aplicativo aberto e acesso à internet|
 |<b>Atores</b>| Usuário | 
 |<b>Recursos</b>| Smartphone, internet e o aplicativo | 
 |<b>Exceção</b>| 1. Smartphone para de funcionar</br>2. Sem acesso à internet|
-|<b>Episódios</b>| 1. Usuário clica na aba "[[Notícias](../../modelagem/lexicos/#noticia)](../../modelagem/lexicos/#noticia)" no menu de navegação<br>2. Usuário seleciona a [[notícia](../../modelagem/lexicos/#noticia)](../../modelagem/lexicos/#noticia) que deseja ler|
+|<b>Episódios</b>| 1. Usuário clica na aba "[Notícias](../../modelagem/lexicos/#noticia)" no menu de navegação<br>2. Usuário seleciona a [notícia](../../modelagem/lexicos/#noticia) que deseja ler|
 
 </center>
 <h6 align = "center">Tabela 17: Descrição das características do Cenário 17</h6>
