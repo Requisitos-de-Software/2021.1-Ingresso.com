@@ -9,7 +9,7 @@
 |1.4|01/10|Linkagem dos léxicos|João Pedro|
 
 ## 2. Introdução
-<p style="text-align: justify; text-indent: 20px"> Diversas são as formas de se modelar os requisitos elicitados de um sistema. Entre essas diversas maneiras se encontra a técnica de <b>Casos de Uso</b>, utilizada especificamente para os requisitos funcionais do software. Nesse diagrama, segundo Andrey	(2007, pág. 15)[1], são representados um conjunto de ações que um [usuário](../../modelagem/lexicos/#usuario) pode realizar em um sistema, bem como, relacionamentos entre ator e caso de uso, e entre caso de uso e caso de uso.</p>
+<p style="text-align: justify; text-indent: 20px"> Diversas são as formas de se modelar os requisitos elicitados de um sistema. Entre essas diversas maneiras se encontra a técnica de <b>Casos de Uso</b>, utilizada especificamente para os requisitos funcionais do software. Nesse diagrama, segundo Andrey	(2007, pág. 15)[1], são representados um conjunto de ações que um <a href=../../modelagem/lexicos/#usuario>usuário</a> pode realizar em um sistema, bem como, relacionamentos entre ator e caso de uso, e entre caso de uso e caso de uso.</p>
 <p style="text-align: justify; text-indent: 20px"> Entretanto, apenas a utilização do diagrama pode deixar pontos em aberto, por isso, em conjunto com essa metodologia, se faz a utilização da <b>Especialização dos Casos de Uso</b>. Nessa especialização, ainda conforme Andrey [1], o diagrama de casos de uso será complementado buscando descrever os comportamentos dos casos de uso.</p>
 
 ## 3. Diagrama de Casos de Uso
@@ -99,7 +99,7 @@
 |Pós-condições| O ator consegue vizualizar todas as atualizações sobre os filmes |
 
 </center>
-<h6 align = "center">Tabela 5: Tabela de especialização da visualização de [notícias](../../modelagem/lexicos/#noticia).</h6>
+<h6 align = "center">Tabela 5: Tabela de especialização da visualização de <a href=../../modelagem/lexicos/#noticia>notícia</a>.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 ### UC06 Ver Filmes em Cartaz
@@ -133,7 +133,7 @@
 |Pós-condições|O ator poderá visualizar informações do [cinema](../../modelagem/lexicos/#cinema), bem como, [cinemas](../../modelagem/lexicos/#cinema) em sua região|
 
 </center>
-<h6 align = "center">Tabela 7: Tabela de especialização da visualização dos [cinemas](../../modelagem/lexicos/#cinema).</h6>
+<h6 align = "center">Tabela 7: Tabela de especialização da visualização dos <a href=../../modelagem/lexicos/#cinema>cinemas</a>.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 ### UC08 Ver Horários
@@ -183,7 +183,7 @@
 |Pós-condições|O ator terá acesso aos seus [ingressos](../../modelagem/lexicos/#ingresso) comprados|
 
 </center>
-<h6 align = "center">Tabela 10: Tabela de especialização da compra de [ingressos](../../modelagem/lexicos/#ingresso).</h6>
+<h6 align = "center">Tabela 10: Tabela de especialização da compra de <a href=../../modelagem/lexicos/#ingresso>ingressos</a>.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 ## 5. Referências

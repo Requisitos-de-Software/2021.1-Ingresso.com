@@ -285,21 +285,21 @@ usuário" ou "cartão (card)". [2]
 
 | ID | US35  |
 |-----|--------|
-| Nome | Visualizar [[notícias](../../modelagem/lexicos/#noticia)](../../modelagem/lexicos/#noticia). |
-| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo visualizar [[notícias](../../modelagem/lexicos/#noticia)](../../modelagem/lexicos/#noticia) sobre o mundo do [cinema](../../modelagem/lexicos/#cinema) para que eu possa ficar por dentro das novidades. |
-| Critérios de Aceitação | -> Cards de [[notícias](../../modelagem/lexicos/#noticia)](../../modelagem/lexicos/#noticia). <br/>|
+| Nome | Visualizar [notícias](../../modelagem/lexicos/#noticia). |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo visualizar [notícias](../../modelagem/lexicos/#noticia) sobre o mundo do [cinema](../../modelagem/lexicos/#cinema) para que eu possa ficar por dentro das novidades. |
+| Critérios de Aceitação | -> Cards de [notícias](../../modelagem/lexicos/#noticia). <br/>|
 
 | ID | US36  |
 |-----|--------|
-| Nome | Ler [[notícia](../../modelagem/lexicos/#noticia)](../../modelagem/lexicos/#noticia). |
-| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo ler a [[notícia](../../modelagem/lexicos/#noticia)](../../modelagem/lexicos/#noticia) para que eu possa entendê-la por completo. |
-| Critérios de Aceitação | -> Contéudo da [[notícia](../../modelagem/lexicos/#noticia)](../../modelagem/lexicos/#noticia). <br/>|
+| Nome | Ler [notícia](../../modelagem/lexicos/#noticia). |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo ler a [notícia](../../modelagem/lexicos/#noticia) para que eu possa entendê-la por completo. |
+| Critérios de Aceitação | -> Contéudo da [notícia](../../modelagem/lexicos/#noticia). <br/>|
 
 | ID | US37  |
 |-----|--------|
-| Nome | Compartilhar [[notícia](../../modelagem/lexicos/#noticia)](../../modelagem/lexicos/#noticia). |
-| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo compartilhar uma [[notícia](../../modelagem/lexicos/#noticia)](../../modelagem/lexicos/#noticia) para que eu possa enviá-la para meus amigos e/ou parentes. |
-| Critérios de Aceitação | -> Opção de compartilhar [[notícia](../../modelagem/lexicos/#noticia)](../../modelagem/lexicos/#noticia). <br/> -> Plataformas em que pode ser compartilhada a [[notícia](../../modelagem/lexicos/#noticia)](../../modelagem/lexicos/#noticia). <br/>|
+| Nome | Compartilhar [notícia](../../modelagem/lexicos/#noticia). |
+| Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo compartilhar uma [notícia](../../modelagem/lexicos/#noticia) para que eu possa enviá-la para meus amigos e/ou parentes. |
+| Critérios de Aceitação | -> Opção de compartilhar [notícia](../../modelagem/lexicos/#noticia). <br/> -> Plataformas em que pode ser compartilhada a [notícia](../../modelagem/lexicos/#noticia). <br/>|
 
 
 ### Feature 16 - Destaques
@@ -308,7 +308,7 @@ usuário" ou "cartão (card)". [2]
 |-----|--------|
 | Nome | Visualizar destaques. |
 | Descrição | Eu, como [usuário](../../modelagem/lexicos/#usuario), desejo visualizar os destaques do aplicativo para que possa acompanhar a tendência do mundo do [cinema](../../modelagem/lexicos/#cinema). |
-| Critérios de Aceitação | -> [[Notícias](../../modelagem/lexicos/#noticia)](../../modelagem/lexicos/#noticia) em alta. <br/> -> [Filmes](../../modelagem/lexicos/#filme) em alta. <br/> -> [Cinemas](../../modelagem/lexicos/#cinema) favoritos abertos. <br/> -> [Filmes](../../modelagem/lexicos/#filme) em breve. <br/> |
+| Critérios de Aceitação | -> [Notícias](../../modelagem/lexicos/#noticia) em alta. <br/> -> [Filmes](../../modelagem/lexicos/#filme) em alta. <br/> -> [Cinemas](../../modelagem/lexicos/#cinema) favoritos abertos. <br/> -> [Filmes](../../modelagem/lexicos/#filme) em breve. <br/> |
 
 
 ### Feature 17 - Anúncio

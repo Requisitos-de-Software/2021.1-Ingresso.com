@@ -9,7 +9,7 @@
 ## 2. Introdução
 <p style="text-align: justify; text-indent: 20px">Dentro da Engenharia de Requisitos existe uma etapa fundamental designada para a Modelagem dos requisitos. Dentre as várias técnicas existentes, este documento irá abordar e aplicar uma técnica em específico: Cenários.</p>
 
-<p style="text-align: justify; text-indent: 20px">A técnica de modelagem citada anteriormente consiste basicamente na descrição narrativa informal e concreta a respeito da interação entre um usuário e um sistema[1]. Sendo assim, nesse documento foram elaboras algumas descrições relacionadas a interação dos usuários do aplicativo [Ingresso](../../modelagem/lexicos/#ingresso).com com o sistema em questão.</p>
+<p style="text-align: justify; text-indent: 20px">A técnica de modelagem citada anteriormente consiste basicamente na descrição narrativa informal e concreta a respeito da interação entre um usuário e um sistema[1]. Sendo assim, nesse documento foram elaboras algumas descrições relacionadas a interação dos usuários do aplicativo Ingresso.com com o sistema em questão.</p>
 
 ## 3. Cenários:
 <p style="text-align: justify; text-indent: 20px">Para a aplicação da técnica, o grupo optou pela criação do primeiro(C01) cenário como uma dinâmica geral do aplicativo, que aborda as funcionalidades e ações gerais, mas que ao longo do documento foram especificadas para extrair qualquer tipo de interação existente. A partir do segundo cenário (C02), foram descritas as interações mais específicas do software. Vejamos a seguir os resultados:</p>
