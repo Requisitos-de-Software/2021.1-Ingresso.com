@@ -7,7 +7,7 @@
 | 1.2    | 17/08 | Adição da Introdução                    | Vitor Lamego                  |
 | 1.3    | 17/08 | Organização da tabela de requisitos     | Rafael Ramos                  |
 | 1.4    | 17/08 | Revisando documento                     | Thiago                        |
-|1.2     |03/10  |Linkagem dos léxicos                     | Thiago                        |
+|1.5     |03/10  |Linkagem dos léxicos                     | Thiago                        |
 
 
 
