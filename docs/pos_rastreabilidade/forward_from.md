@@ -1,16 +1,29 @@
 ## 1. Versionamento
 |Versão|Data|Descrição|Autor(es)|
 |------|----|---------|---------|
-
+|1.0|05/10|Adição da Matriz de Rastreabilidade|Thiago|
+|1.1|05/10|Adição da introdução e metodologia|Rafael|
 
 ## 2. Introdução
+<p style="text-align: justify; text-indent: 20px"> A intenção do documento de Forward-From é conectar  os requisitos elicitados durante o desenvolvimento do projeto com seus respectivos artefatos. Para isso, foi utilizada uma matriz de rastreabilidade, onde é possível ver os artefatos derivados dos requisitos, bem como o estado atual desse requisitos, se foi implementado ou não.</p>
 
+## 3. Metodologia
 
-## 3. Matriz de Rastreabilidade
+<p style="text-align: justify; text-indent: 20px">Será feita a avaliação da implementação dos requisitos elicitados durante o desenvolvimento do projeto (considerando o cumprimento dos critérios de aceitação referente a US do requisito). Como o Ingresso.com não é um projeto open source, encontrar o código referente a cada requisito é uma tarefa inviável, logo a avaliação será feita com o que já tem implementado e será apresentada as telas para comprovar a veracidade da implementação.</p>
 
-|ID|Descrição|Artefatos|
-|:--:|:--:|:--:|
-|RF01| O aplicativo deve permitir selecionar a região desejada|<a href=../../modelagem/cenarios/#c02-escolher-regiao-do-cinema>C02</a><br><a href=../../modelagem/use_case/#uc04-selecionar-regiao>UC04</a><br><a href=../../modelagem/istar/#31-cinema>Cinema</a><br><a href=../../modelagem/historias_usuario/#feature-07-localizacao>US14</a>|
+<b>Legenda:</b>
+
+|Símbolo|Descrição|
+|:--:|:--:|
+|✔|Totalmente implementado|
+|ρ|Parcialmente implementado|
+|✖|Não implementado|
+
+## 4. Matriz de Rastreabilidade
+
+|ID|Descrição|Artefatos|Foi implementado?|Tela|
+|:--:|:--:|:--:|:--:|:--:|
+|RF01| O aplicativo deve permitir selecionar a região desejada|<a href=../../modelagem/cenarios/#c02-escolher-regiao-do-cinema>C02</a><br><a href=../../modelagem/use_case/#uc04-selecionar-regiao>UC04</a><br><a href=../../modelagem/istar/#31-cinema>Cinema</a><br><a href=../../modelagem/historias_usuario/#feature-07-localizacao>US14</a>||
 |RF02| O usuário deve conseguir ver os filmes em cartaz na região desejada|<a href=../../modelagem/cenarios/#c05-consultar-filmes-em-cartaz>C05</a><br><a href=../../modelagem/use_case/#uc06-ver-filmes-em-cartaz>UC06</a><br><a href=../../modelagem/istar/#31-cinema>Cinema</a><br><a href=../../modelagem/historias_usuario/#feature-10-filmes>US25</a>|
 |RF03| O usuário deve conseguir pesquisar os filmes em cartaz na região desejada|<a href=../../modelagem/cenarios/#c05-consultar-filmes-em-cartaz>C05</a><br><a href=../../modelagem/istar/#31-cinema>Cinema</a>|
 |RF04| O usuário deve conseguir ver os cinemas na região desejada|<a href=../../modelagem/cenarios/#c03-escolher-cinema>C03</a><br><a href=../../modelagem/use_case/#uc07-ver-cinemas>UC07</a><br><a href=../../modelagem/istar/#31-cinema>Cinema</a><br><a href=../../modelagem/historias_usuario/#feature-08-cinemas>US16</a>|
@@ -99,4 +112,4 @@
 <h6 align="center">Tabela 1: Matriz de Rastreabilidade Forward-From</h6>
 <h6 align="center">Fonte: Autores</h6>
 
-## 4. Bibliografia
+## 5. Bibliografia
