@@ -3,10 +3,11 @@
 |------|----|---------|---------|
 | 1.0 | 05/10 | Criação do documento e adição das telas | Carlos, Rafael e Thiago |
 | 1.1 | 05/10 | Adição das legendas | Thiago |
+| 1.2 | 06/10 | Linkando texto | Thiago |
 
 
 ## 2. Introdução
-<p style="text-align: justify; text-indent: 20px">As telas são capturas de tela de acordo com os requisitos levantados na elicitação.</p> 
+<p style="text-align: justify; text-indent: 20px">As telas são capturas de tela de acordo com os requisitos que estão sendo rastreados por meio da técnica <a href="../forward_from">Forward From</a>.</p> 
 
 ## 3. Resultados
 <div id="Resultados"/>
