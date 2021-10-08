@@ -5,6 +5,7 @@
 | 1.0    | 19/08 | Abertura do documento | Carlos e Thiago |
 | 1.1    | 19/08 | Adição da Priorização | Carlos e Thiago |
 | 1.2    | 21/08 | Revisão do documento  | Carlos e Thiago |
+|1.3|01/10|Linkagem dos léxicos|João Pedro|
 
 ## 2. Introdução
 
@@ -92,49 +93,49 @@
 
 | Código |                                   Códigos das Funcionalidades                                   |  Tipo de Requisito  |
 | :----: | :---------------------------------------------------------------------------------------------: | :-----------------: |
-|  AP15  |                      O aplicativo deve identificar o usuário no pagamento                       | Requisito Funcional |
-|  AP14  |                O usuário deve conseguir efetuar o pagamento de diferentes formas                | Requisito Funcional |
-|  I32   |                               Apresentar informações do ingresso                                | Requisito Funcional |
-|  E01   |                    O usuário deve ser capaz de comprar tickets para o filme                     | Requisito Funcional |
-|  AP11  |                      O usuário deve poder escolher o(s) seu(s) assento(s)                       | Requisito Funcional |
-|  I16   |                               Apresentar as informações do cinema                               | Requisito Funcional |
-|  E03   |                     O usuário deve ser capaz de ver os horários dos filmes                      | Requisito Funcional |
-|  OP07  |                              O usuário deve poder ver seus Pedidos                              | Requisito Funcional |
-|  I02   |                             Apresentar os filmes que serão lançados                             | Requisito Funcional |
-|  AP01  |                     O aplicativo deve permitir selecionar a região desejada                     | Requisito Funcional |
-|  BS11  |                  O aplicativo deve permitir o cancelamento/reembolso da compra                  | Requisito Funcional |
-|  I26   |                           Mostrar o total e informações do pagamento                            | Requisito Funcional |
-|  I33   |                                  Enviar o ingresso por e-mail                                   | Requisito Funcional |
-|  OP08  |                          O usuário deve poder ver seus Cartões Salvos                           | Requisito Funcional |
-|  OP06  |                          O usuário deve poder ver seus dados pessoais                           | Requisito Funcional |
-|  OP43  |               O usuário deve poder poder ver carrinho com as sessões selecionadas               | Requisito Funcional |
-|  I25   |                                   Mostrar um resumo da compra                                   | Requisito Funcional |
-|  I24   |                                     Comprar sem o cadastro                                      | Requisito Funcional |
-|  I29   |                         O resumo do pedido deve ser enviado por e-mail                          | Requisito Funcional |
-|  OP04  |                              O usuário deve poder recuperar senha                               | Requisito Funcional |
-|  AP13  |           O usuário deve poder escolher o alimento(combo) que irá consumir na sessão            | Requisito Funcional |
-|  BS16  |        O aplicativo deve fornecer informações sobre eventos próximos a região escolhida         | Requisito Funcional |
-|  I34   |                            Notificar quando a sessão tiver chegando                             | Requisito Funcional |
-|  OP26  |                         O usuário deve poder assistir trailer do filme                          | Requisito Funcional |
-|  I10   |                              Apresentar informações sobre o filme                               | Requisito Funcional |
-|  BS12  |              O aplicativo deve informar o histórico de compra dos usuários logados              | Requisito Funcional |
-|  I31   |                              Notificar a confirmação do pagamento                               | Requisito Funcional |
-|  AP04  |                   O usuário deve conseguir ver os cinemas na região desejada                    | Requisito Funcional |
-|  OP12  |                   O usuário deve poder enviar uma solicitação de atendimento                    | Requisito Funcional |
-|  I15   |                                      Compartilhar o filme                                       | Requisito Funcional |
-|  I04   |                                       Pesquisar um filme                                        | Requisito Funcional |
-|  OP09  |                            O usuário deve poder sair da conta logada                            | Requisito Funcional |
-|  AP06  |                   O aplicativo deve recomendar os filmes em alta (destaques)                    | Requisito Funcional |
-|  AP05  |                O usuário deve conseguir pesquisar os cinemas na região desejada                 | Requisito Funcional |
-|  AP10  |                   O usuário deve se cadastrar utilizando redes sociais ou não                   | Requisito Funcional |
-|  OP42  |                  O usuário deve poder aplicar código de desconto no pagamento                   | Requisito Funcional |
-|  AP07  |                    O aplicativo deve recomendar notícias em alta (destaques)                    | Requisito Funcional |
-|  I05   |                                   Ter uma área para notícias                                    | Requisito Funcional |
-|  AP02  |               O usuário deve conseguir ver os filmes em cartaz na região desejada               | Requisito Funcional |
-|  I14   |                                    Recomendar outros filmes                                     | Requisito Funcional |
-|  AP08  | O aplicativo deve exibir as prevenções adotadas pelos cinemas referentes a pandemia do covid-19 | Requisito Funcional |
-|  OP03  |                         O usuário deve poder visualizar senha digitada                          | Requisito Funcional |
-|  I13   |                 Ter como seguir o filme para acompanhar notícias e lançamentos                  | Requisito Funcional |
+|  AP15  |O aplicativo deve identificar o [usuário](../../modelagem/lexicos/#usuario) no pagamento| Requisito Funcional |
+|  AP14  |O [usuário](../../modelagem/lexicos/#usuario) deve conseguir efetuar o pagamento de diferentes formas| Requisito Funcional |
+|  I32   |Apresentar informações do [ingresso](../../modelagem/lexicos/#ingresso)| Requisito Funcional |
+|  E01   |O [usuário](../../modelagem/lexicos/#usuario) deve ser capaz de comprar [tickets](../../modelagem/lexicos/#ingresso) para o [filme](../../modelagem/lexicos/#filme)| Requisito Funcional |
+|  AP11  |O [usuário](../../modelagem/lexicos/#usuario) deve poder escolher o(s) seu(s) [assento(s)](../../modelagem/lexicos/#assento)| Requisito Funcional |
+|  I16   |Apresentar as informações do [cinema](../../modelagem/lexicos/#cinema)| Requisito Funcional |
+|  E03   |O [usuário](../../modelagem/lexicos/#usuario) deve ser capaz de ver os horários dos [filmes](../../modelagem/lexicos/#filme)| Requisito Funcional |
+|  OP07  |O [usuário](../../modelagem/lexicos/#usuario) deve poder ver seus Pedidos| Requisito Funcional |
+|  I02   |Apresentar os [filmes](../../modelagem/lexicos/#filme) que serão lançados| Requisito Funcional |
+|  AP01  |O aplicativo deve permitir selecionar a [região](../../modelagem/lexicos/#local) desejada| Requisito Funcional |
+|  BS11  |O aplicativo deve permitir o cancelamento/reembolso da compra| Requisito Funcional |
+|  I26   |Mostrar o total e informações do pagamento| Requisito Funcional |
+|  I33   |Enviar o ingresso por e-mail| Requisito Funcional |
+|  OP08  |O [usuário](../../modelagem/lexicos/#usuario) deve poder ver seus Cartões Salvos| Requisito Funcional |
+|  OP06  |O [usuário](../../modelagem/lexicos/#usuario) deve poder ver seus dados pessoais| Requisito Funcional |
+|  OP43  |O [usuário](../../modelagem/lexicos/#usuario) deve poder poder ver [carrinho](../../modelagem/lexicos/#carrinho) com as [sessões](../../modelagem/lexicos/#sessao) selecionadas| Requisito Funcional |
+|  I25   |Mostrar um resumo da compra| Requisito Funcional |
+|  I24   |Comprar sem o cadastro| Requisito Funcional |
+|  I29   |O resumo do pedido deve ser enviado por e-mail| Requisito Funcional |
+|  OP04  |O [usuário](../../modelagem/lexicos/#usuario) deve poder recuperar senha| Requisito Funcional |
+|  AP13  |O [usuário](../../modelagem/lexicos/#usuario) deve poder escolher o [alimento(combo)](../../modelagem/lexicos/#acompanhamento) que irá consumir na [sessão](../../modelagem/lexicos/#sessao)| Requisito Funcional |
+|  BS16  |O aplicativo deve fornecer informações sobre eventos próximos a [região](../../modelagem/lexicos/#local) escolhida| Requisito Funcional |
+|  I34   |Notificar quando a [sessão](../../modelagem/lexicos/#sessao) tiver chegando| Requisito Funcional |
+|  OP26  |O [usuário](../../modelagem/lexicos/#usuario) deve poder assistir trailer do [filme](../../modelagem/lexicos/#filme)| Requisito Funcional |
+|  I10   |Apresentar informações sobre o [filme](../../modelagem/lexicos/#filme)| Requisito Funcional |
+|  BS12  |O aplicativo deve informar o histórico de compra dos [usuários](../../modelagem/lexicos/#usuario) logados| Requisito Funcional |
+|  I31   |Notificar a confirmação do pagamento| Requisito Funcional |
+|  AP04  |O [usuário](../../modelagem/lexicos/#usuario) deve conseguir ver os [cinemas](../../modelagem/lexicos/#cinema) na [região](../../modelagem/lexicos/#local) desejada| Requisito Funcional |
+|  OP12  |O [usuário](../../modelagem/lexicos/#usuario) deve poder enviar uma solicitação de atendimento| Requisito Funcional |
+|  I15   |Compartilhar o [filme](../../modelagem/lexicos/#filme)| Requisito Funcional |
+|  I04   |Pesquisar um [filme](../../modelagem/lexicos/#filme)| Requisito Funcional |
+|  OP09  |O [usuário](../../modelagem/lexicos/#usuario) deve poder sair da conta logada| Requisito Funcional |
+|  AP06  |O aplicativo deve recomendar os [filmes em alta (destaques)](../../modelagem/lexicos/#filme-em-alta)| Requisito Funcional |
+|  AP05  |O [usuário](../../modelagem/lexicos/#usuario) deve conseguir pesquisar os [cinemas](../../modelagem/lexicos/#cinema) na [região](../../modelagem/lexicos/#local) desejada| Requisito Funcional |
+|  AP10  |O [usuário](../../modelagem/lexicos/#usuario) deve se cadastrar utilizando redes sociais ou não| Requisito Funcional |
+|  OP42  |O [usuário](../../modelagem/lexicos/#usuario) deve poder aplicar código de desconto no pagamento| Requisito Funcional |
+|  AP07  |O aplicativo deve recomendar [notícias](../../modelagem/lexicos/#noticia) em alta (destaques)| Requisito Funcional |
+|  I05   |Ter uma área para [notícias](../../modelagem/lexicos/#noticia)| Requisito Funcional |
+|  AP02  |O [usuário](../../modelagem/lexicos/#usuario) deve conseguir ver os [filmes em cartaz](../../modelagem/lexicos/#filme-em-cartaz) na [região](../../modelagem/lexicos/#local) desejada| Requisito Funcional |
+|  I14   |Recomendar outros [filmes](../../modelagem/lexicos/#filme)| Requisito Funcional |
+|  AP08  |O aplicativo deve exibir as prevenções adotadas pelos [cinemas](../../modelagem/lexicos/#cinema) referentes a pandemia do covid-19| Requisito Funcional |
+|  OP03  |O [usuário](../../modelagem/lexicos/#usuario) deve poder visualizar senha digitada| Requisito Funcional |
+|  I13   |Ter como seguir o [filme](../../modelagem/lexicos/#filme) para acompanhar [notícias](../../modelagem/lexicos/#noticia) e lançamentos| Requisito Funcional |
 
 <h6 align = "center">Tabela 2: Tabela contendo a legenda da priorização First Things First.</h6>
 <h6 align = "center">Fonte: Autores</h6>
