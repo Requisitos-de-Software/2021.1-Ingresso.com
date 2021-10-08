@@ -5,9 +5,10 @@
 |1.1|05/10|Adição da introdução e metodologia|Rafael|
 |1.2|05/10|Adição das telas|Carlos, Rafael e Thiago|
 |1.3|05/10|Adição do resumo|Carlos, Rafael e Thiago|
+|1.4|08/10|Adição da categoria Nao se aplica|Thiago|
 
 ## 2. Introdução
-<p style="text-align: justify; text-indent: 20px"> A intenção do documento de Forward-From é conectar  os requisitos elicitados durante o desenvolvimento do projeto com seus respectivos artefatos. Para isso, foi utilizada uma matriz de rastreabilidade, onde é possível ver os artefatos derivados dos requisitos, bem como o estado atual desse requisitos, se foi implementado ou não.</p>
+<p style="text-align: justify; text-indent: 20px"> A intenção do documento de Forward-From é conectar  os requisitos elicitados durante o desenvolvimento do projeto com seus respectivos artefatos. Para isso, foi utilizada uma matriz de rastreabilidade, onde é possível ver os artefatos derivados dos requisitos, bem como o estado atual desses requisitos, se foi implementado ou não.</p>
 
 ## 3. Metodologia
 
@@ -18,8 +19,9 @@
 |Símbolo|Descrição|
 |:--:|:--:|
 |✔|Totalmente implementado|
-|ρ|Parcialmente implementado|
+|P|Parcialmente implementado|
 |✖|Não implementado|
+|N|Não se aplica|
 
 ## 4. Matriz de Rastreabilidade
 
@@ -64,9 +66,9 @@
 |RF37| O resumo do pedido deve ser enviado por e-mail|<a href="../../modelagem/historias_usuario/#feature-13-pagamentoo">US33</a>|✖|-|
 |RF38| Ter uma área para os pedidos|<a href="../../modelagem/cenarios/#c19-ver-ingressos-comprados">C19</a><br><a href="../../modelagem/historias_usuario/#feature-14-carrinho">US34</a>|✔|[Tela RF38](../telas/#RF38)|
 |RF39| Notificar a confirmação do pagamento|<a href="../../modelagem/historias_usuario/#feature-13-pagamento">US33</a>|✖|-|
-|RF40| Apresentar informações do ingresso|<a href="../../modelagem/istar/#34-ingressos">Ingressos</a><br><a href="../../modelagem/historias_usuario/#feature-11-ingresso">US30</a>|ρ|-|
+|RF40| Apresentar informações do ingresso|<a href="../../modelagem/istar/#34-ingressos">Ingressos</a><br><a href="../../modelagem/historias_usuario/#feature-11-ingresso">US30</a>|P|-|
 |RF41| Enviar o ingresso por e-mail|-|✖|-|
-|RF42| Notificar quando a sessão tiver chegando|-|ρ|-|
+|RF42| Notificar quando a sessão tiver chegando|-|P|-|
 |RF43| O usuário deve poder visualizar senha digitada|-|✔|[Tela RF43](../telas/#RF43)|
 |RF44| O usuário deve poder recuperar senha|<a href="../../modelagem/istar/#33-conta">Conta</a><br><a href="../../modelagem/historias_usuario/#feature-02-login">US05</a>|✔|[Tela RF44](../telas/#RF44)|
 |RF45| O sistema deve enviar um email de recuperação de senha|<a href="../../modelagem/historias_usuario/#feature-02-login">US06</a>|✔|[Tela RF45](../telas/#RF45)|
@@ -91,26 +93,26 @@
 |RF64| O usuário deve poder remover sessões do Carrinho|<a href="../../modelagem/historias_usuario/#feature-14-carrinho">US34</a>|✔|[Tela RF64](../telas/#RF64)|
 |RF65| O usuário deve poder ver cinemas favoritados|<a href="../../elicitacao/observacao_participativa/#31-requisitos">OP47</a><br><a href="../../modelagem/cenarios/#c04-favoritar-cinema">C04</a><br><a href="../../modelagem/istar/#31-cinema">Cinema</a>|✔|[Tela RF65](../telas/#RF65)|
 |RF66| O usuário deve poder comprar os acompanhamentos junto dos ingressos|<a href="../../modelagem/cenarios/#c10-escolher-o-que-vai-comer-na-sessao">C10</a><br><a href="../../modelagem/istar/#34-ingressos">Ingressos</a><br><a href="../../modelagem/historias_usuario/#feature-08-cinemas">US16</a>|✔|[Tela RF66](../telas/#RF66)|
-|RF67| O aplicativo deve permitir o cancelamento/reembolso da compra|-|ρ|-|
+|RF67| O aplicativo deve permitir o cancelamento/reembolso da compra|-|P|-|
 |RF68| O aplicativo deve informar o histórico de compra dos usuários logados|<a href="../../modelagem/historias_usuario/#feature-14-carrinho">US34</a>|✔|[Tela RF68](../telas/#RF68)|
-|RF69| O aplicativo deve fornecer informações sobre eventos próximos a região escolhida|-|ρ|-|
-|RNF01| O usuário deve poder navegar pelo aplicativo sem precisar de um cadastro|<a href="../../elicitacao/analiseProtocolo/#5-requisitos-levantados">AP16</a><br><a href="../../modelagem/istar/#34-ingressos">Ingressos</a>|✖|-|
-|RNF02| O aplicativo deve ser de fácil instalação|<a href="../../modelagem/istar/#31-cinema">Cinema</a>|✖|-|
-|RNF03| O aplicativo deve ser seguro por lidar com dados sensíveis|<a href="../../modelagem/istar/#33-conta">Conta</a><br><a href="../../modelagem/istar/#34-ingressos">Ingressos</a>|✖|-|
-|RNF04| O aplicativo deve ser monetizado através de publicidade|<a href="../../modelagem/historias_usuario/#feature-17-anuncio">US39</a>|✖|-|
-|RNF05| O aplicativo deve oferecer comodidade ao usuário|-|✖|-|
-|RNF06| O pagamento de ingressos deve ser fácil|<a href="../../modelagem/istar/#34-ingressos">Ingressos</a>|✖|-|
-|RNF07| O pagamento de ingresso deve ser rápido|<a href="../../modelagem/istar/#34-ingressos">Ingressos</a>|✖|-|
-|RNF08| A plataforma deve ser rápida|-|✖|-|
-|RNF09| Não há necessidade de autenticação para navegar entre os filmes e notícia|<a href="../../modelagem/cenarios/#c12-realizar-pagamento-sem-ser-cliente-do-ingressocom">C12</a>|✖|-|
-|RNF10| O aplicativo deve ser fácil de ser utilizado|<a href="../../modelagem/istar/#34-ingressos">Ingressos</a>|✖|-|
-|RNF11| O aplicativo deve estar sempre com os horários das sessões atualizados|<a href="../../modelagem/istar/#31-cinema">Cinema</a><br><a href="../../modelagem/istar/#34-ingressos">Ingressos</a><br><a href="../../modelagem/historias_usuario/#feature-09-sessoes">US23</a>|✖|-|
-|RNF12| O aplicativo deve estar sempre com as notícias atualizadas|<a href="../../modelagem/cenarios/#c17-ver-noticias">C17</a><br><a href="../../modelagem/istar/#32-noticia">Notícia</a><br><a href="../../modelagem/historias_usuario/#feature-15-noticia">US35</a>|✖|-|
-|RNF13| A lista de filmes e notícias devem ser claras e legíveis|<a href="../../modelagem/historias_usuario/#feature-15-noticia">US36</a>|✖|-|
-|RNF14| O aplicativo deve prover conforto e menos tempos em filas para compra de ingressos|-|✖|-|
-|RNF15| O aplicativo deve funcionar em todas as plataformas virtuais|-|✖|-|
-|RNF16| O aplicativo deve funcionar em dispositivos de tamanhos diferentes|-|✖|-|
-|RNF17| O sistema e o evento deve ter uma interface de comunicação prática|-|✖|-|
+|RF69| O aplicativo deve fornecer informações sobre eventos próximos a região escolhida|-|P|-|
+|RNF01| O usuário deve poder navegar pelo aplicativo sem precisar de um cadastro|<a href="../../elicitacao/analiseProtocolo/#5-requisitos-levantados">AP16</a><br><a href="../../modelagem/istar/#34-ingressos">Ingressos</a><br><a href="../../modelagem/especificacao/#32-usabilidade">Espec. Sup.</a><br><a href="../../modelagem/nfr_framework/#41-usabilidade">NFR</a>|N|-|
+|RNF02| O aplicativo deve ser de fácil instalação|<a href="../../modelagem/istar/#31-cinema">Cinema</a><br><a href="../../modelagem/especificacao/#32-usabilidade">Espec. Sup.</a><br><a href="../../modelagem/nfr_framework/#41-usabilidade">NFR</a>|N|-|
+|RNF03| O aplicativo deve ser seguro por lidar com dados sensíveis|<a href="../../modelagem/istar/#33-conta">Conta</a><br><a href="../../modelagem/istar/#34-ingressos">Ingressos</a>|✔|-|
+|RNF04| O aplicativo deve ser monetizado através de publicidade|<a href="../../modelagem/historias_usuario/#feature-17-anuncio">US39</a><br><a href="../../modelagem/especificacao/#33-confiabilidade">Espec. Sup.</a><br><a href="../../modelagem/especificacao/#44-confiabilidade">NFR</a>|✔|-|
+|RNF05| O aplicativo deve oferecer comodidade ao usuário|-|N|-|
+|RNF06| O pagamento de ingressos deve ser fácil|<a href="../../modelagem/istar/#34-ingressos">Ingressos</a><br><a href="../../modelagem/especificacao/#32-usabilidade">Espec. Sup.</a><br><a href="../../modelagem/nfr_framework/#41-usabilidade">NFR</a>|N|-|
+|RNF07| O pagamento de ingresso deve ser rápido|<a href="../../modelagem/istar/#34-ingressos">Ingressos</a><br><a href="../../modelagem/especificacao/#34-desempenho">Espec. Sup.</a><br><a href="../../modelagem/nfr_framework/#45-desempenho">NFR</a>|N|-|
+|RNF08| A plataforma deve ser rápida|<a href="../../modelagem/especificacao/#34-desempenho">Espec. Sup.</a><br><a href="../../modelagem/nfr_framework/#45-desempenho">NFR</a>|✔|-|
+|RNF09| Não há necessidade de autenticação para navegar entre os filmes e notícia|<a href="../../modelagem/cenarios/#c12-realizar-pagamento-sem-ser-cliente-do-ingressocom">C12</a><br><a href="../../modelagem/especificacao/#32-usabilidade">Espec. Sup.</a><br><a href="../../modelagem/nfr_framework/#41-usabilidade">NFR</a>|✔|-|
+|RNF10| O aplicativo deve ser fácil de ser utilizado|<a href="../../modelagem/istar/#34-ingressos">Ingressos</a><br><a href="../../modelagem/especificacao/#32-usabilidade">Espec. Sup.</a><br><a href="../../modelagem/nfr_framework/#41-usabilidade">NFR</a>|N|-|
+|RNF11| O aplicativo deve estar sempre com os horários das sessões atualizados|<a href="../../modelagem/istar/#31-cinema">Cinema</a><br><a href="../../modelagem/istar/#34-ingressos">Ingressos</a><br><a href="../../modelagem/historias_usuario/#feature-09-sessoes">US23</a><br><a href="../../modelagem/especificacao/#33-confiabilidade">Espec. Sup.</a><br><a href="../../modelagem/especificacao/#44-confiabilidade">NFR</a>|✔|-|
+|RNF12| O aplicativo deve estar sempre com as notícias atualizadas|<a href="../../modelagem/cenarios/#c17-ver-noticias">C17</a><br><a href="../../modelagem/istar/#32-noticia">Notícia</a><br><a href="../../modelagem/historias_usuario/#feature-15-noticia">US35</a><br><a href="../../modelagem/especificacao/#33-confiabilidade">Espec. Sup.</a><br><a href="../../modelagem/especificacao/#44-confiabilidade">NFR</a>|✔|-|
+|RNF13| A lista de filmes e notícias devem ser claras e legíveis|<a href="../../modelagem/historias_usuario/#feature-15-noticia">US36</a><br><a href="../../modelagem/especificacao/#33-confiabilidade">Espec. Sup.</a><br><a href="../../modelagem/especificacao/#44-confiabilidade">NFR</a>|N|-|
+|RNF14| O aplicativo deve prover conforto e menos tempos em filas para compra de ingressos|<a href="../../modelagem/especificacao/#34-desempenho">Espec. Sup.</a><br><a href="../../modelagem/nfr_framework/#45-desempenho">NFR</a>|N|-|
+|RNF15| O aplicativo deve funcionar em todas as plataformas virtuais|<a href="../../modelagem/especificacao/#35-suportabilidade">Espec. Sup.</a><br><a href="../../modelagem/especificacao/#47-suportabilidade">NFR</a>|✔|-|
+|RNF16| O aplicativo deve funcionar em dispositivos de tamanhos diferentes|<a href="../../modelagem/especificacao/#35-suportabilidade">Espec. Sup.</a><br><a href="../../modelagem/especificacao/#47-suportabilidade">NFR</a>|✔|-|
+|RNF17| O sistema e o evento deve ter uma interface de comunicação prática|<a href="../../modelagem/especificacao/#32-usabilidade">Espec. Sup.</a><br><a href="../../modelagem/nfr_framework/#41-usabilidade">NFR</a>|N|-|
 <h6 align="center">Tabela 1: Matriz de Rastreabilidade Forward-From</h6>
 <h6 align="center">Fonte: Autores</h6>
 
