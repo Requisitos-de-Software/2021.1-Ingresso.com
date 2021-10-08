@@ -56,6 +56,8 @@ nav:
       - Protótipo: "validacao/prototipo.md"
       - Viewpoint: "validacao/viewpoint.md"
       - Validação Informal: "validacao/validacao_informal.md"
+  - Pós Rastreabilidade:
+    - Backward From: "pos_rastreabilidade/backward_from.md"
   - Apresentações:
     - Ponto de Controle 1: "apresentacoes/p1.md"
     - Ponto de Controle 2: "apresentacoes/p2.md"
