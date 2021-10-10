@@ -11,6 +11,7 @@
 |2.1|24/08|<center>Adição de datas no Cronograma</center>|<center>João Pedro</center>|
 |3.0|10/09|<center>Adição de datas no Cronograma (4 entrega)</center>|<center>João Pedro</center>|
 |4.0|19/09|<center>Adição de datas no Cronograma (5 entrega)</center>|<center>João Pedro</center>|
+|5.0|09/10|<center>Adição de datas no Cronograma (6 entrega)</center>|<center>João Pedro</center>|
 
 ## 2. Cronograma
 
@@ -70,6 +71,9 @@ VI - Pós-Rastreabilidade            | 19/09 - 09/10 | Gerência de Desenvolvime
 |V. Verificação e Validação|Validação Viewpoint|20/09|João e Thiago|Rafael e Victor Lima|
 |V. Verificação e Validação|Validação Protótipo|20/09|Rafael e Victor Lima|Carlos e Thiago
 |V. Verificação e Validação|Validação Informal|20/09|Vitor Lamego|Victor Lima e Carlos|
+|||<b>Sexta Entrega</b>|||
+|VI. Pós-Rastreabilidade|Backward From|08/09|João Pedro, Vitor Lamego e Victor Lima|Carlos, Thiago e Rafael
+|VI. Pós-Rastreabilidade|Foward From|08/09|Carlos, Thiago e Rafael|João Pedro, Vitor Lamego e Victor Lima|
 <h6 align = "center">Tabela 2: Tabela específica contendo data de entrega, responsáveis e revisores</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
