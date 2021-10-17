@@ -59,6 +59,7 @@ nav:
   - Pós Rastreabilidade:
     - Backward From: "pos_rastreabilidade/backward_from.md"
     - Forward From: "pos_rastreabilidade/forward_from.md"
+    - Matriz Geral: "pos_rastreabilidade/matriz_geral.md"
     - Telas: "pos_rastreabilidade/telas.md"
   - Apresentações:
     - Ponto de Controle 1: "apresentacoes/p1.md"
