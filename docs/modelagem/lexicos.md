@@ -129,7 +129,7 @@
 |**Impacto**|O <a href=.#usuario>usuário</a> pode <a href=.#visualizar-avaliacao>visualizar avaliações</a> de um filme|
 
 <div id="pedido"/>
-|LO13|**Pedido**|
+|LO14|**Pedido**|
 |---|------------------|
 |**Sinônimos**|Pedido de compra|
 |**Noção**|Conjunto de produtos, quantidades, preços e condições que o <a href=.#usuario>usuário</a> está comprando ou comprou|
@@ -224,7 +224,7 @@
 |**Impacto**|O <a href=.#usuario>usuário</a> pode escolher a <a href=.#sessao>sessão</a>|
 
 <div id="selecionar-sessao"/>
-|LV12|**Selecionar sessão**|
+|LV13|**Selecionar sessão**|
 |---|------------------|
 |**Sinônimos**|-|
 |**Noção**|O <a href=.#usuario>usuário</a> pode escolher a <a href=.#sessao>sessão</a> do <a href=.#cinema>cinema</a>|
