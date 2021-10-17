@@ -2,6 +2,7 @@
 | Versão | Data  | Descrição                                     | Autor(es) |
 | ------ | ----- | --------------------------------------------- | --------- |
 | 1.0    | 14/09 | Abertura do documento e adição da verificação | Rafael    |
+| 1.1    | 17/10 | Adição do gráfico de resumo                   | Rafael    |
 
 ## 2. Introdução
 <p style="text-align: justify; text-indent: 20px"> A verificação corresponde a uma metodologia que visa garantir que os produtos de um trabalho selecionado cumpram com seus requisitos especificados. Essa etapa, também consiste de uma técnica que não depende da intervenção humana dos usuários, sendo feita através do viés do desenvolvedor.</p>
@@ -38,7 +39,13 @@
 
 
 ## 5. Conclusão
-<p style="text-align: justify; text-indent: 20px"> A partir da verificação do artefato de léxicos foram percebidos alguns problemas que podem ser corrigidos. Os léxicos estão em uma linguagem bem concisa propiciando facilidade de entendimento sobre o universo de informações do sistema do <i>Ingresso.com</i>.</p>
+<p style="text-align: justify; text-indent: 20px"> A partir da verificação do artefato de léxicos foram percebidos alguns problemas que podem ser corrigidos. Os léxicos estão em uma linguagem bem concisa propiciando facilidade de entendimento sobre o universo de informações do sistema do <i>Ingresso.com</i>, como pode ser visto no gráfico de resumos abaixo:</p>
+
+<center>
+<iframe width="600" height="360" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ9MTIOOoDp3Ict7aPCGTkI5MhpFi9Vw8ib5_SqdF9RM2ymcUPJwi_W9jkJeVoy4g5zv9DbLMepLuyY/pubchart?oid=586271074&format=interactive"></iframe>
+<h6 align="center">Figura 1: Resumo da Verificação dos Léxicos</h6>
+<h6 align="center">Fonte: Autor</h6>
+</center>
 
 <b>Possíveis correções:</b>
 

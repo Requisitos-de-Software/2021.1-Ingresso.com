@@ -1,10 +1,11 @@
 ## 1. Versionamento
 
-|Versão|Data|Descrição|Autor(es)|
-|------|----|---------|---------|
-|1.0|16/09|Abertura do documento|Vitor Lamego|
-|1.1|16/09|Adição das tabelas de verificação|Vitor Lamego|
-|1.2|16/09|Adição do resultado|Vitor Lamego|
+| Versão | Data  | Descrição                         | Autor(es)    |
+| ------ | ----- | --------------------------------- | ------------ |
+| 1.0    | 16/09 | Abertura do documento             | Vitor Lamego |
+| 1.1    | 16/09 | Adição das tabelas de verificação | Vitor Lamego |
+| 1.2    | 16/09 | Adição do resultado               | Vitor Lamego |
+| 1.3    | 17/10 | Adição do gráfico de resumo       | Rafael       |
 
 
 
@@ -16,15 +17,15 @@
 
 <center>
 
-|Número|Questão|Avaliação| 
-|:----:|:----------|:----:| 
-|<b>1</b>| É possível associar o título ao objetivo ? |✔️/❌|
-|<b>2</b>| O objetivo foi definido de maneira direta e clara ? |✔️/❌|
-|<b>3</b>| O contexto foi bem definido (Pré-condição e Pós-Condição) ? |✔️/❌|
-|<b>4</b>| Foram colocados todos os atores do cenário ?|✔️/❌|
-|<b>5</b>| Os recursos são realmente necessários e estão todos presentes ?|✔️/❌|
-|<b>6</b>| A exceção é condizente com a realidade ?|✔️/❌|
-|<b>7</b>| Os episódios realmente ajudam a atingir o objetivo descrito ?|✔️/❌|
+|  Número  | Questão                                                         | Avaliação |
+| :------: | :-------------------------------------------------------------- | :-------: |
+| <b>1</b> | É possível associar o título ao objetivo ?                      |    ✔️/❌    |
+| <b>2</b> | O objetivo foi definido de maneira direta e clara ?             |    ✔️/❌    |
+| <b>3</b> | O contexto foi bem definido (Pré-condição e Pós-Condição) ?     |    ✔️/❌    |
+| <b>4</b> | Foram colocados todos os atores do cenário ?                    |    ✔️/❌    |
+| <b>5</b> | Os recursos são realmente necessários e estão todos presentes ? |    ✔️/❌    |
+| <b>6</b> | A exceção é condizente com a realidade ?                        |    ✔️/❌    |
+| <b>7</b> | Os episódios realmente ajudam a atingir o objetivo descrito ?   |    ✔️/❌    |
 
 </center>
 
@@ -35,15 +36,15 @@
 
 ### C01: Dinâmica do Ingresso.com
 
-|Número|Questão|Avaliação| 
-|:----:|:----------|:----:| 
-|<b>1</b>| É possível associar o título ao objetivo ? |✔️|
-|<b>2</b>| O objetivo foi definido de maneira direta e clara ? |❌|
-|<b>3</b>| O contexto foi bem definido (Pré-condição e Pós-Condição) ? |✔️|
-|<b>4</b>| Foram colocados todos os atores do cenário ?|✔️|
-|<b>5</b>| Os recursos são realmente necessários e estão todos presentes ?|✔️|
-|<b>6</b>| A exceção é condizente com a realidade ?|✔️|
-|<b>7</b>| Os episódios realmente ajudam a atingir o objetivo descrito ?|✔️|
+|  Número  | Questão                                                         | Avaliação |
+| :------: | :-------------------------------------------------------------- | :-------: |
+| <b>1</b> | É possível associar o título ao objetivo ?                      |     ✔️     |
+| <b>2</b> | O objetivo foi definido de maneira direta e clara ?             |     ❌     |
+| <b>3</b> | O contexto foi bem definido (Pré-condição e Pós-Condição) ?     |     ✔️     |
+| <b>4</b> | Foram colocados todos os atores do cenário ?                    |     ✔️     |
+| <b>5</b> | Os recursos são realmente necessários e estão todos presentes ? |     ✔️     |
+| <b>6</b> | A exceção é condizente com a realidade ?                        |     ✔️     |
+| <b>7</b> | Os episódios realmente ajudam a atingir o objetivo descrito ?   |     ✔️     |
 
 </center>
 
@@ -55,15 +56,15 @@
 
 ### C02: Escolher região do cinema
 
-|Número|Questão|Avaliação| 
-|:----:|:----------|:----:| 
-|<b>1</b>| É possível associar o título ao objetivo ? |✔️|
-|<b>2</b>| O objetivo foi definido de maneira direta e clara ? |✔️|
-|<b>3</b>| O contexto foi bem definido (Pré-condição e Pós-Condição) ? |✔️|
-|<b>4</b>| Foram colocados todos os atores do cenário ?|✔️|
-|<b>5</b>| Os recursos são realmente necessários e estão todos presentes ?|✔️|
-|<b>6</b>| A exceção é condizente com a realidade ?|✔️|
-|<b>7</b>| Os episódios realmente ajudam a atingir o objetivo descrito ?|✔️|
+|  Número  | Questão                                                         | Avaliação |
+| :------: | :-------------------------------------------------------------- | :-------: |
+| <b>1</b> | É possível associar o título ao objetivo ?                      |     ✔️     |
+| <b>2</b> | O objetivo foi definido de maneira direta e clara ?             |     ✔️     |
+| <b>3</b> | O contexto foi bem definido (Pré-condição e Pós-Condição) ?     |     ✔️     |
+| <b>4</b> | Foram colocados todos os atores do cenário ?                    |     ✔️     |
+| <b>5</b> | Os recursos são realmente necessários e estão todos presentes ? |     ✔️     |
+| <b>6</b> | A exceção é condizente com a realidade ?                        |     ✔️     |
+| <b>7</b> | Os episódios realmente ajudam a atingir o objetivo descrito ?   |     ✔️     |
 </center>
 
 <h6 align = "center">Tabela 2: Verificação do Cenário 02</h6>
@@ -73,15 +74,15 @@
 
 ### C03: Escolher cinema
 
-|Número|Questão|Avaliação| 
-|:----:|:----------|:----:| 
-|<b>1</b>| É possível associar o título ao objetivo ? |✔️|
-|<b>2</b>| O objetivo foi definido de maneira direta e clara ? |✔️|
-|<b>3</b>| O contexto foi bem definido (Pré-condição e Pós-Condição) ? |✔️|
-|<b>4</b>| Foram colocados todos os atores do cenário ?|✔️|
-|<b>5</b>| Os recursos são realmente necessários e estão todos presentes ?|✔️|
-|<b>6</b>| A exceção é condizente com a realidade ?|✔️|
-|<b>7</b>| Os episódios realmente ajudam a atingir o objetivo descrito ?|❌|
+|  Número  | Questão                                                         | Avaliação |
+| :------: | :-------------------------------------------------------------- | :-------: |
+| <b>1</b> | É possível associar o título ao objetivo ?                      |     ✔️     |
+| <b>2</b> | O objetivo foi definido de maneira direta e clara ?             |     ✔️     |
+| <b>3</b> | O contexto foi bem definido (Pré-condição e Pós-Condição) ?     |     ✔️     |
+| <b>4</b> | Foram colocados todos os atores do cenário ?                    |     ✔️     |
+| <b>5</b> | Os recursos são realmente necessários e estão todos presentes ? |     ✔️     |
+| <b>6</b> | A exceção é condizente com a realidade ?                        |     ✔️     |
+| <b>7</b> | Os episódios realmente ajudam a atingir o objetivo descrito ?   |     ❌     |
 
 </center>
 
@@ -92,15 +93,15 @@
 
 ### C04: Favoritar cinema
 
-|Número|Questão|Avaliação| 
-|:----:|:----------|:----:| 
-|<b>1</b>| É possível associar o título ao objetivo ? |✔️|
-|<b>2</b>| O objetivo foi definido de maneira direta e clara ? |✔️|
-|<b>3</b>| O contexto foi bem definido (Pré-condição e Pós-Condição) ? |❌|
-|<b>4</b>| Foram colocados todos os atores do cenário ?|✔️|
-|<b>5</b>| Os recursos são realmente necessários e estão todos presentes ?|✔️|
-|<b>6</b>| A exceção é condizente com a realidade ?|✔️|
-|<b>7</b>| Os episódios realmente ajudam a atingir o objetivo descrito ?|✔️|
+|  Número  | Questão                                                         | Avaliação |
+| :------: | :-------------------------------------------------------------- | :-------: |
+| <b>1</b> | É possível associar o título ao objetivo ?                      |     ✔️     |
+| <b>2</b> | O objetivo foi definido de maneira direta e clara ?             |     ✔️     |
+| <b>3</b> | O contexto foi bem definido (Pré-condição e Pós-Condição) ?     |     ❌     |
+| <b>4</b> | Foram colocados todos os atores do cenário ?                    |     ✔️     |
+| <b>5</b> | Os recursos são realmente necessários e estão todos presentes ? |     ✔️     |
+| <b>6</b> | A exceção é condizente com a realidade ?                        |     ✔️     |
+| <b>7</b> | Os episódios realmente ajudam a atingir o objetivo descrito ?   |     ✔️     |
 
 </center>
 
@@ -111,15 +112,15 @@
 
 ### C05: Consultar filmes em cartaz
 
-|Número|Questão|Avaliação| 
-|:----:|:----------|:----:| 
-|<b>1</b>| É possível associar o título ao objetivo ? |✔️|
-|<b>2</b>| O objetivo foi definido de maneira direta e clara ? |✔️|
-|<b>3</b>| O contexto foi bem definido (Pré-condição e Pós-Condição) ? |✔️|
-|<b>4</b>| Foram colocados todos os atores do cenário ?|✔️|
-|<b>5</b>| Os recursos são realmente necessários e estão todos presentes ?|✔️|
-|<b>6</b>| A exceção é condizente com a realidade ?|✔️|
-|<b>7</b>| Os episódios realmente ajudam a atingir o objetivo descrito ?|✔️|
+|  Número  | Questão                                                         | Avaliação |
+| :------: | :-------------------------------------------------------------- | :-------: |
+| <b>1</b> | É possível associar o título ao objetivo ?                      |     ✔️     |
+| <b>2</b> | O objetivo foi definido de maneira direta e clara ?             |     ✔️     |
+| <b>3</b> | O contexto foi bem definido (Pré-condição e Pós-Condição) ?     |     ✔️     |
+| <b>4</b> | Foram colocados todos os atores do cenário ?                    |     ✔️     |
+| <b>5</b> | Os recursos são realmente necessários e estão todos presentes ? |     ✔️     |
+| <b>6</b> | A exceção é condizente com a realidade ?                        |     ✔️     |
+| <b>7</b> | Os episódios realmente ajudam a atingir o objetivo descrito ?   |     ✔️     |
 
 </center>
 
@@ -130,15 +131,15 @@
 
 ### C06: Consultar filmes em breve
 
-|Número|Questão|Avaliação| 
-|:----:|:----------|:----:| 
-|<b>1</b>| É possível associar o título ao objetivo ? |✔️|
-|<b>2</b>| O objetivo foi definido de maneira direta e clara ? |✔️|
-|<b>3</b>| O contexto foi bem definido (Pré-condição e Pós-Condição) ? |✔️|
-|<b>4</b>| Foram colocados todos os atores do cenário ?|✔️|
-|<b>5</b>| Os recursos são realmente necessários e estão todos presentes ?|✔️|
-|<b>6</b>| A exceção é condizente com a realidade ?|✔️|
-|<b>7</b>| Os episódios realmente ajudam a atingir o objetivo descrito ?|✔️|
+|  Número  | Questão                                                         | Avaliação |
+| :------: | :-------------------------------------------------------------- | :-------: |
+| <b>1</b> | É possível associar o título ao objetivo ?                      |     ✔️     |
+| <b>2</b> | O objetivo foi definido de maneira direta e clara ?             |     ✔️     |
+| <b>3</b> | O contexto foi bem definido (Pré-condição e Pós-Condição) ?     |     ✔️     |
+| <b>4</b> | Foram colocados todos os atores do cenário ?                    |     ✔️     |
+| <b>5</b> | Os recursos são realmente necessários e estão todos presentes ? |     ✔️     |
+| <b>6</b> | A exceção é condizente com a realidade ?                        |     ✔️     |
+| <b>7</b> | Os episódios realmente ajudam a atingir o objetivo descrito ?   |     ✔️     |
 
 </center>
 
@@ -149,15 +150,15 @@
 
 ### C07: Escolher sessão do filme
 
-|Número|Questão|Avaliação| 
-|:----:|:----------|:----:| 
-|<b>1</b>| É possível associar o título ao objetivo ? |✔️|
-|<b>2</b>| O objetivo foi definido de maneira direta e clara ? |❌|
-|<b>3</b>| O contexto foi bem definido (Pré-condição e Pós-Condição) ? |✔️|
-|<b>4</b>| Foram colocados todos os atores do cenário ?|✔️|
-|<b>5</b>| Os recursos são realmente necessários e estão todos presentes ?|✔️|
-|<b>6</b>| A exceção é condizente com a realidade ?|✔️|
-|<b>7</b>| Os episódios realmente ajudam a atingir o objetivo descrito ?|✔️|
+|  Número  | Questão                                                         | Avaliação |
+| :------: | :-------------------------------------------------------------- | :-------: |
+| <b>1</b> | É possível associar o título ao objetivo ?                      |     ✔️     |
+| <b>2</b> | O objetivo foi definido de maneira direta e clara ?             |     ❌     |
+| <b>3</b> | O contexto foi bem definido (Pré-condição e Pós-Condição) ?     |     ✔️     |
+| <b>4</b> | Foram colocados todos os atores do cenário ?                    |     ✔️     |
+| <b>5</b> | Os recursos são realmente necessários e estão todos presentes ? |     ✔️     |
+| <b>6</b> | A exceção é condizente com a realidade ?                        |     ✔️     |
+| <b>7</b> | Os episódios realmente ajudam a atingir o objetivo descrito ?   |     ✔️     |
 
 </center>
 
@@ -168,15 +169,15 @@
 
 ### C08: Escolher assentos da sessão
 
-|Número|Questão|Avaliação| 
-|:----:|:----------|:----:| 
-|<b>1</b>| É possível associar o título ao objetivo ? |✔️|
-|<b>2</b>| O objetivo foi definido de maneira direta e clara ? |✔️|
-|<b>3</b>| O contexto foi bem definido (Pré-condição e Pós-Condição) ? |✔️|
-|<b>4</b>| Foram colocados todos os atores do cenário ?|✔️|
-|<b>5</b>| Os recursos são realmente necessários e estão todos presentes ?|✔️|
-|<b>6</b>| A exceção é condizente com a realidade ?|✔️|
-|<b>7</b>| Os episódios realmente ajudam a atingir o objetivo descrito ?|❌|
+|  Número  | Questão                                                         | Avaliação |
+| :------: | :-------------------------------------------------------------- | :-------: |
+| <b>1</b> | É possível associar o título ao objetivo ?                      |     ✔️     |
+| <b>2</b> | O objetivo foi definido de maneira direta e clara ?             |     ✔️     |
+| <b>3</b> | O contexto foi bem definido (Pré-condição e Pós-Condição) ?     |     ✔️     |
+| <b>4</b> | Foram colocados todos os atores do cenário ?                    |     ✔️     |
+| <b>5</b> | Os recursos são realmente necessários e estão todos presentes ? |     ✔️     |
+| <b>6</b> | A exceção é condizente com a realidade ?                        |     ✔️     |
+| <b>7</b> | Os episódios realmente ajudam a atingir o objetivo descrito ?   |     ❌     |
 
 </center>
 
@@ -187,15 +188,15 @@
 
 ### C09: Escolher o tipo de ingresso
 
-|Número|Questão|Avaliação| 
-|:----:|:----------|:----:| 
-|<b>1</b>| É possível associar o título ao objetivo ? |✔️|
-|<b>2</b>| O objetivo foi definido de maneira direta e clara ? |❌|
-|<b>3</b>| O contexto foi bem definido (Pré-condição e Pós-Condição) ? |✔️|
-|<b>4</b>| Foram colocados todos os atores do cenário ?|✔️|
-|<b>5</b>| Os recursos são realmente necessários e estão todos presentes ?|✔️|
-|<b>6</b>| A exceção é condizente com a realidade ?|✔️|
-|<b>7</b>| Os episódios realmente ajudam a atingir o objetivo descrito ?|❌|
+|  Número  | Questão                                                         | Avaliação |
+| :------: | :-------------------------------------------------------------- | :-------: |
+| <b>1</b> | É possível associar o título ao objetivo ?                      |     ✔️     |
+| <b>2</b> | O objetivo foi definido de maneira direta e clara ?             |     ❌     |
+| <b>3</b> | O contexto foi bem definido (Pré-condição e Pós-Condição) ?     |     ✔️     |
+| <b>4</b> | Foram colocados todos os atores do cenário ?                    |     ✔️     |
+| <b>5</b> | Os recursos são realmente necessários e estão todos presentes ? |     ✔️     |
+| <b>6</b> | A exceção é condizente com a realidade ?                        |     ✔️     |
+| <b>7</b> | Os episódios realmente ajudam a atingir o objetivo descrito ?   |     ❌     |
 
 </center>
 
@@ -206,15 +207,15 @@
 
 ### C10: Escolher o que vai comer na sessão
 
-|Número|Questão|Avaliação| 
-|:----:|:----------|:----:| 
-|<b>1</b>| É possível associar o título ao objetivo ? |✔️|
-|<b>2</b>| O objetivo foi definido de maneira direta e clara ? |✔️|
-|<b>3</b>| O contexto foi bem definido (Pré-condição e Pós-Condição) ? |✔️|
-|<b>4</b>| Foram colocados todos os atores do cenário ?|✔️|
-|<b>5</b>| Os recursos são realmente necessários e estão todos presentes ?|✔️|
-|<b>6</b>| A exceção é condizente com a realidade ?|✔️|
-|<b>7</b>| Os episódios realmente ajudam a atingir o objetivo descrito ?|❌|
+|  Número  | Questão                                                         | Avaliação |
+| :------: | :-------------------------------------------------------------- | :-------: |
+| <b>1</b> | É possível associar o título ao objetivo ?                      |     ✔️     |
+| <b>2</b> | O objetivo foi definido de maneira direta e clara ?             |     ✔️     |
+| <b>3</b> | O contexto foi bem definido (Pré-condição e Pós-Condição) ?     |     ✔️     |
+| <b>4</b> | Foram colocados todos os atores do cenário ?                    |     ✔️     |
+| <b>5</b> | Os recursos são realmente necessários e estão todos presentes ? |     ✔️     |
+| <b>6</b> | A exceção é condizente com a realidade ?                        |     ✔️     |
+| <b>7</b> | Os episódios realmente ajudam a atingir o objetivo descrito ?   |     ❌     |
 
 </center>
 
@@ -225,15 +226,15 @@
 
 ### C11: Realizar pagamento como cliente do Ingresso.com
 
-|Número|Questão|Avaliação| 
-|:----:|:----------|:----:| 
-|<b>1</b>| É possível associar o título ao objetivo ? |✔️|
-|<b>2</b>| O objetivo foi definido de maneira direta e clara ? |✔️|
-|<b>3</b>| O contexto foi bem definido (Pré-condição e Pós-Condição) ? |✔️|
-|<b>4</b>| Foram colocados todos os atores do cenário ?|✔️|
-|<b>5</b>| Os recursos são realmente necessários e estão todos presentes ?|❌|
-|<b>6</b>| A exceção é condizente com a realidade ?|✔️|
-|<b>7</b>| Os episódios realmente ajudam a atingir o objetivo descrito ?|❌|
+|  Número  | Questão                                                         | Avaliação |
+| :------: | :-------------------------------------------------------------- | :-------: |
+| <b>1</b> | É possível associar o título ao objetivo ?                      |     ✔️     |
+| <b>2</b> | O objetivo foi definido de maneira direta e clara ?             |     ✔️     |
+| <b>3</b> | O contexto foi bem definido (Pré-condição e Pós-Condição) ?     |     ✔️     |
+| <b>4</b> | Foram colocados todos os atores do cenário ?                    |     ✔️     |
+| <b>5</b> | Os recursos são realmente necessários e estão todos presentes ? |     ❌     |
+| <b>6</b> | A exceção é condizente com a realidade ?                        |     ✔️     |
+| <b>7</b> | Os episódios realmente ajudam a atingir o objetivo descrito ?   |     ❌     |
 
 </center>
 
@@ -244,15 +245,15 @@
 
 ### C12: Realizar pagamento sem ser cliente do Ingresso.com
 
-|Número|Questão|Avaliação| 
-|:----:|:----------|:----:| 
-|<b>1</b>| É possível associar o título ao objetivo ? |✔️|
-|<b>2</b>| O objetivo foi definido de maneira direta e clara ? |✔️|
-|<b>3</b>| O contexto foi bem definido (Pré-condição e Pós-Condição) ? |✔️|
-|<b>4</b>| Foram colocados todos os atores do cenário ?|✔️|
-|<b>5</b>| Os recursos são realmente necessários e estão todos presentes ?|✔️|
-|<b>6</b>| A exceção é condizente com a realidade ?|✔️|
-|<b>7</b>| Os episódios realmente ajudam a atingir o objetivo descrito ?|❌|
+|  Número  | Questão                                                         | Avaliação |
+| :------: | :-------------------------------------------------------------- | :-------: |
+| <b>1</b> | É possível associar o título ao objetivo ?                      |     ✔️     |
+| <b>2</b> | O objetivo foi definido de maneira direta e clara ?             |     ✔️     |
+| <b>3</b> | O contexto foi bem definido (Pré-condição e Pós-Condição) ?     |     ✔️     |
+| <b>4</b> | Foram colocados todos os atores do cenário ?                    |     ✔️     |
+| <b>5</b> | Os recursos são realmente necessários e estão todos presentes ? |     ✔️     |
+| <b>6</b> | A exceção é condizente com a realidade ?                        |     ✔️     |
+| <b>7</b> | Os episódios realmente ajudam a atingir o objetivo descrito ?   |     ❌     |
 
 </center>
 
@@ -263,15 +264,15 @@
 
 ### C13: Criar conta sem integração com outro aplicativo
 
-|Número|Questão|Avaliação| 
-|:----:|:----------|:----:| 
-|<b>1</b>| É possível associar o título ao objetivo ? |✔️|
-|<b>2</b>| O objetivo foi definido de maneira direta e clara ? |❌|
-|<b>3</b>| O contexto foi bem definido (Pré-condição e Pós-Condição) ? |✔️|
-|<b>4</b>| Foram colocados todos os atores do cenário ?|✔️|
-|<b>5</b>| Os recursos são realmente necessários e estão todos presentes ?|✔️|
-|<b>6</b>| A exceção é condizente com a realidade ?|✔️|
-|<b>7</b>| Os episódios realmente ajudam a atingir o objetivo descrito ?|✔️|
+|  Número  | Questão                                                         | Avaliação |
+| :------: | :-------------------------------------------------------------- | :-------: |
+| <b>1</b> | É possível associar o título ao objetivo ?                      |     ✔️     |
+| <b>2</b> | O objetivo foi definido de maneira direta e clara ?             |     ❌     |
+| <b>3</b> | O contexto foi bem definido (Pré-condição e Pós-Condição) ?     |     ✔️     |
+| <b>4</b> | Foram colocados todos os atores do cenário ?                    |     ✔️     |
+| <b>5</b> | Os recursos são realmente necessários e estão todos presentes ? |     ✔️     |
+| <b>6</b> | A exceção é condizente com a realidade ?                        |     ✔️     |
+| <b>7</b> | Os episódios realmente ajudam a atingir o objetivo descrito ?   |     ✔️     |
 
 </center>
 
@@ -282,15 +283,15 @@
 
 ### C14: Criar conta a partir do Facebook
 
-|Número|Questão|Avaliação| 
-|:----:|:----------|:----:| 
-|<b>1</b>| É possível associar o título ao objetivo ? |✔️|
-|<b>2</b>| O objetivo foi definido de maneira direta e clara ? |✔️|
-|<b>3</b>| O contexto foi bem definido (Pré-condição e Pós-Condição) ? |✔️|
-|<b>4</b>| Foram colocados todos os atores do cenário ?|✔️|
-|<b>5</b>| Os recursos são realmente necessários e estão todos presentes ?|✔️|
-|<b>6</b>| A exceção é condizente com a realidade ?|✔️|
-|<b>7</b>| Os episódios realmente ajudam a atingir o objetivo descrito ?|✔️|
+|  Número  | Questão                                                         | Avaliação |
+| :------: | :-------------------------------------------------------------- | :-------: |
+| <b>1</b> | É possível associar o título ao objetivo ?                      |     ✔️     |
+| <b>2</b> | O objetivo foi definido de maneira direta e clara ?             |     ✔️     |
+| <b>3</b> | O contexto foi bem definido (Pré-condição e Pós-Condição) ?     |     ✔️     |
+| <b>4</b> | Foram colocados todos os atores do cenário ?                    |     ✔️     |
+| <b>5</b> | Os recursos são realmente necessários e estão todos presentes ? |     ✔️     |
+| <b>6</b> | A exceção é condizente com a realidade ?                        |     ✔️     |
+| <b>7</b> | Os episódios realmente ajudam a atingir o objetivo descrito ?   |     ✔️     |
 
 </center>
 
@@ -301,15 +302,15 @@
 
 ### C15: Criar conta a partir do Google
 
-|Número|Questão|Avaliação| 
-|:----:|:----------|:----:| 
-|<b>1</b>| É possível associar o título ao objetivo ? |✔️|
-|<b>2</b>| O objetivo foi definido de maneira direta e clara ? |✔️|
-|<b>3</b>| O contexto foi bem definido (Pré-condição e Pós-Condição) ? |✔️|
-|<b>4</b>| Foram colocados todos os atores do cenário ?|✔️|
-|<b>5</b>| Os recursos são realmente necessários e estão todos presentes ?|✔️|
-|<b>6</b>| A exceção é condizente com a realidade ?|✔️|
-|<b>7</b>| Os episódios realmente ajudam a atingir o objetivo descrito ?|✔️|
+|  Número  | Questão                                                         | Avaliação |
+| :------: | :-------------------------------------------------------------- | :-------: |
+| <b>1</b> | É possível associar o título ao objetivo ?                      |     ✔️     |
+| <b>2</b> | O objetivo foi definido de maneira direta e clara ?             |     ✔️     |
+| <b>3</b> | O contexto foi bem definido (Pré-condição e Pós-Condição) ?     |     ✔️     |
+| <b>4</b> | Foram colocados todos os atores do cenário ?                    |     ✔️     |
+| <b>5</b> | Os recursos são realmente necessários e estão todos presentes ? |     ✔️     |
+| <b>6</b> | A exceção é condizente com a realidade ?                        |     ✔️     |
+| <b>7</b> | Os episódios realmente ajudam a atingir o objetivo descrito ?   |     ✔️     |
 
 </center>
 
@@ -320,15 +321,15 @@
 
 ### C16: Fazer Login
 
-|Número|Questão|Avaliação| 
-|:----:|:----------|:----:| 
-|<b>1</b>| É possível associar o título ao objetivo ? |✔️|
-|<b>2</b>| O objetivo foi definido de maneira direta e clara ? |✔️|
-|<b>3</b>| O contexto foi bem definido (Pré-condição e Pós-Condição) ? |✔️|
-|<b>4</b>| Foram colocados todos os atores do cenário ?|✔️|
-|<b>5</b>| Os recursos são realmente necessários e estão todos presentes ?|✔️|
-|<b>6</b>| A exceção é condizente com a realidade ?|✔️|
-|<b>7</b>| Os episódios realmente ajudam a atingir o objetivo descrito ?|✔️|
+|  Número  | Questão                                                         | Avaliação |
+| :------: | :-------------------------------------------------------------- | :-------: |
+| <b>1</b> | É possível associar o título ao objetivo ?                      |     ✔️     |
+| <b>2</b> | O objetivo foi definido de maneira direta e clara ?             |     ✔️     |
+| <b>3</b> | O contexto foi bem definido (Pré-condição e Pós-Condição) ?     |     ✔️     |
+| <b>4</b> | Foram colocados todos os atores do cenário ?                    |     ✔️     |
+| <b>5</b> | Os recursos são realmente necessários e estão todos presentes ? |     ✔️     |
+| <b>6</b> | A exceção é condizente com a realidade ?                        |     ✔️     |
+| <b>7</b> | Os episódios realmente ajudam a atingir o objetivo descrito ?   |     ✔️     |
 
 </center>
 
@@ -339,15 +340,15 @@
 
 ### C17: Ver Notícias
 
-|Número|Questão|Avaliação| 
-|:----:|:----------|:----:| 
-|<b>1</b>| É possível associar o título ao objetivo ? |✔️|
-|<b>2</b>| O objetivo foi definido de maneira direta e clara ? |✔️|
-|<b>3</b>| O contexto foi bem definido (Pré-condição e Pós-Condição) ? |✔️|
-|<b>4</b>| Foram colocados todos os atores do cenário ?|✔️|
-|<b>5</b>| Os recursos são realmente necessários e estão todos presentes ?|✔️|
-|<b>6</b>| A exceção é condizente com a realidade ?|✔️|
-|<b>7</b>| Os episódios realmente ajudam a atingir o objetivo descrito ?|✔️|
+|  Número  | Questão                                                         | Avaliação |
+| :------: | :-------------------------------------------------------------- | :-------: |
+| <b>1</b> | É possível associar o título ao objetivo ?                      |     ✔️     |
+| <b>2</b> | O objetivo foi definido de maneira direta e clara ?             |     ✔️     |
+| <b>3</b> | O contexto foi bem definido (Pré-condição e Pós-Condição) ?     |     ✔️     |
+| <b>4</b> | Foram colocados todos os atores do cenário ?                    |     ✔️     |
+| <b>5</b> | Os recursos são realmente necessários e estão todos presentes ? |     ✔️     |
+| <b>6</b> | A exceção é condizente com a realidade ?                        |     ✔️     |
+| <b>7</b> | Os episódios realmente ajudam a atingir o objetivo descrito ?   |     ✔️     |
 
 </center>
 
@@ -358,15 +359,15 @@
 
 ### C18: Ver Prevenções
 
-|Número|Questão|Avaliação| 
-|:----:|:----------|:----:| 
-|<b>1</b>| É possível associar o título ao objetivo ? |❌|
-|<b>2</b>| O objetivo foi definido de maneira direta e clara ? |✔️|
-|<b>3</b>| O contexto foi bem definido (Pré-condição e Pós-Condição) ? |✔️|
-|<b>4</b>| Foram colocados todos os atores do cenário ?|✔️|
-|<b>5</b>| Os recursos são realmente necessários e estão todos presentes ?|✔️|
-|<b>6</b>| A exceção é condizente com a realidade ?|❌|
-|<b>7</b>| Os episódios realmente ajudam a atingir o objetivo descrito ?|✔️|
+|  Número  | Questão                                                         | Avaliação |
+| :------: | :-------------------------------------------------------------- | :-------: |
+| <b>1</b> | É possível associar o título ao objetivo ?                      |     ❌     |
+| <b>2</b> | O objetivo foi definido de maneira direta e clara ?             |     ✔️     |
+| <b>3</b> | O contexto foi bem definido (Pré-condição e Pós-Condição) ?     |     ✔️     |
+| <b>4</b> | Foram colocados todos os atores do cenário ?                    |     ✔️     |
+| <b>5</b> | Os recursos são realmente necessários e estão todos presentes ? |     ✔️     |
+| <b>6</b> | A exceção é condizente com a realidade ?                        |     ❌     |
+| <b>7</b> | Os episódios realmente ajudam a atingir o objetivo descrito ?   |     ✔️     |
 
 </center>
 
@@ -377,15 +378,15 @@
 
 ### C19: Ver Ingressos comprados
 
-|Número|Questão|Avaliação| 
-|:----:|:----------|:----:| 
-|<b>1</b>| É possível associar o título ao objetivo ? |✔️|
-|<b>2</b>| O objetivo foi definido de maneira direta e clara ? |✔️|
-|<b>3</b>| O contexto foi bem definido (Pré-condição e Pós-Condição) ? |✔️|
-|<b>4</b>| Foram colocados todos os atores do cenário ?|✔️|
-|<b>5</b>| Os recursos são realmente necessários e estão todos presentes ?|✔️|
-|<b>6</b>| A exceção é condizente com a realidade ?|✔️|
-|<b>7</b>| Os episódios realmente ajudam a atingir o objetivo descrito ?|✔️|
+|  Número  | Questão                                                         | Avaliação |
+| :------: | :-------------------------------------------------------------- | :-------: |
+| <b>1</b> | É possível associar o título ao objetivo ?                      |     ✔️     |
+| <b>2</b> | O objetivo foi definido de maneira direta e clara ?             |     ✔️     |
+| <b>3</b> | O contexto foi bem definido (Pré-condição e Pós-Condição) ?     |     ✔️     |
+| <b>4</b> | Foram colocados todos os atores do cenário ?                    |     ✔️     |
+| <b>5</b> | Os recursos são realmente necessários e estão todos presentes ? |     ✔️     |
+| <b>6</b> | A exceção é condizente com a realidade ?                        |     ✔️     |
+| <b>7</b> | Os episódios realmente ajudam a atingir o objetivo descrito ?   |     ✔️     |
 
 </center>
 
@@ -396,15 +397,15 @@
 
 ### C20: Visualizar detalhes de um filme
 
-|Número|Questão|Avaliação| 
-|:----:|:----------|:----:| 
-|<b>1</b>| É possível associar o título ao objetivo ? |✔️|
-|<b>2</b>| O objetivo foi definido de maneira direta e clara ? |✔️|
-|<b>3</b>| O contexto foi bem definido (Pré-condição e Pós-Condição) ? |✔️|
-|<b>4</b>| Foram colocados todos os atores do cenário ?|✔️|
-|<b>5</b>| Os recursos são realmente necessários e estão todos presentes ?|✔️|
-|<b>6</b>| A exceção é condizente com a realidade ?|✔️|
-|<b>7</b>| Os episódios realmente ajudam a atingir o objetivo descrito ?|❌|
+|  Número  | Questão                                                         | Avaliação |
+| :------: | :-------------------------------------------------------------- | :-------: |
+| <b>1</b> | É possível associar o título ao objetivo ?                      |     ✔️     |
+| <b>2</b> | O objetivo foi definido de maneira direta e clara ?             |     ✔️     |
+| <b>3</b> | O contexto foi bem definido (Pré-condição e Pós-Condição) ?     |     ✔️     |
+| <b>4</b> | Foram colocados todos os atores do cenário ?                    |     ✔️     |
+| <b>5</b> | Os recursos são realmente necessários e estão todos presentes ? |     ✔️     |
+| <b>6</b> | A exceção é condizente com a realidade ?                        |     ✔️     |
+| <b>7</b> | Os episódios realmente ajudam a atingir o objetivo descrito ?   |     ❌     |
 
 </center>
 
@@ -414,19 +415,26 @@
 </center>
 
 ## 5. Resultados
-<p style="text-align: justify; text-indent: 20px">A seguir vamos apresentar em percentual o resultado obtido a partir de cada questão do checklist apresentado, demonstrando o percentual de acerto e de erro de cada questão em especiífico. Segue o resultado a seguir:</p>
+<p style="text-align: justify; text-indent: 20px">A seguir vamos apresentar em percentual o resultado obtido a partir de cada questão do checklist apresentado, bem como um gráfico representativo, demonstrando o percentual de acerto e de erro de cada questão em especiífico. Segue o resultado a seguir:</p>
 
-|Número|Questão|✔️|❌|
-|:----:|:----------|:----:|:-----:| 
-|<b>1</b>| É possível associar o título ao objetivo ? |95%|5%|
-|<b>2</b>| O objetivo foi definido de maneira direta e clara ? |80%|20%|
-|<b>3</b>| O contexto foi bem definido (Pré-condição e Pós-Condição) ? |95%|5%|
-|<b>4</b>| Foram colocados todos os atores do cenário ?|100%|0%|
-|<b>5</b>| Os recursos são realmente necessários e estão todos presentes ?|95%|5%|
-|<b>6</b>| A exceção é condizente com a realidade ?|95%|5%|
-|<b>7</b>| Os episódios realmente ajudam a atingir o objetivo descrito ?|65%|35%|
+|  Número  | Questão                                                         |   ✔️   |   ❌   |
+| :------: | :-------------------------------------------------------------- | :---: | :---: |
+| <b>1</b> | É possível associar o título ao objetivo ?                      |  95%  |  5%   |
+| <b>2</b> | O objetivo foi definido de maneira direta e clara ?             |  80%  |  20%  |
+| <b>3</b> | O contexto foi bem definido (Pré-condição e Pós-Condição) ?     |  95%  |  5%   |
+| <b>4</b> | Foram colocados todos os atores do cenário ?                    | 100%  |  0%   |
+| <b>5</b> | Os recursos são realmente necessários e estão todos presentes ? |  95%  |  5%   |
+| <b>6</b> | A exceção é condizente com a realidade ?                        |  95%  |  5%   |
+| <b>7</b> | Os episódios realmente ajudam a atingir o objetivo descrito ?   |  65%  |  35%  |
+
+<center>
+<iframe width="600" height="360" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ9MTIOOoDp3Ict7aPCGTkI5MhpFi9Vw8ib5_SqdF9RM2ymcUPJwi_W9jkJeVoy4g5zv9DbLMepLuyY/pubchart?oid=1906781167&format=interactive"></iframe>
+<h6 align="center">Figura 1: Resumo da verificação dos cenários</h6>
+<h6 align="center">Fonte: Autores</h6>
+</center>
 
 <p style="text-align: justify; text-indent: 20px">Dessa maneira, podemos perceber que a questão de número 7 foi a que obteve uma maior porcentagem de erros, os quais a maioria são devido a falta de detalhamento de alguns episódios necessários antes dos episódios que efetivamente atingem o objetivo do cenário, sendo então um foco de revisão para o projeto. A questão de número 2 também obteve uma taxa de 20% de cenários com problemas na descrição do objetivo, o que por sua maioria se deve a falta de objetividade e clareza na descrição de qual era o objetivo do cenário, colocando alguns detalhes e informações que vão além do que realmente é o objetivo principal.</p>
+
 
 
 ## 6. Referências

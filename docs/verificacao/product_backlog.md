@@ -4,6 +4,8 @@
 | ------ | ----- | --------------------- | --------------- |
 | 1.0    | 13/09 | Abertura do documento | Carlos |
 | 1.1    | 13/09 | Adição da Verificação | Carlos |
+| 1.2    | 17/10 | Adição do gráfico de resumo  | Rafael    |
+
 
 ## 2. Introdução
 
@@ -601,6 +603,16 @@ Usando como método a Inspeção, onde o objetivo é encontrar problemas no docu
 <h6 align = "center">Fonte: Autor</h6>
 
 ## 5. Conclusão
+
+<p style="text-align: justify; text-indent: 20px">
+A maioria dos critérios foram satisfeitos, conforme mostra o gráfico abaixo:
+</p>
+
+<center>
+<iframe width="600" height="360" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ9MTIOOoDp3Ict7aPCGTkI5MhpFi9Vw8ib5_SqdF9RM2ymcUPJwi_W9jkJeVoy4g5zv9DbLMepLuyY/pubchart?oid=720399824&format=interactive"></iframe>
+<h6 align="center">Figura 1: Resumo da Verificação do Product Backlog</h6>
+<h6 align="center">Fonte: Autores</h6>
+</center>
 
 <p style="text-align: justify; text-indent: 20px">
 Problemas e erros encontrados:

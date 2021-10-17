@@ -5,6 +5,7 @@
 | 1.0    | 24/08 | Abertura do documento | Rafael e Thiago|
 | 1.1    | 24/08 | Adição dos léxicos | Rafael e Thiago|
 | 1.2	 | 28/09 | Linkagem dos léxicos | João Pedro|
+| 1.3	 | 17/10 | Correções levantadas na verificação| Rafael|
 
 <hr>
 

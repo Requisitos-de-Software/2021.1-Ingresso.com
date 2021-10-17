@@ -56,7 +56,7 @@ Justificativas baseadas em: [Complexity and rich pictures](http://leadershipforc
 |Versão 2.0|<ul><li>Não possui um título posicionado na imagem.</li><li>Deveria estar mais segregado para que as setas não fiquem confusas.</li><li>Setas assumindo responsabilidades erradas como por exemplo filmes em cartaz.</li><li>Algumas setas indicando o sentido errado como por exemplo cinema -> monitora -> ingresso e não como está representado.</li><li> A posição dos rótulos deveria ser abaixo dos símbolos, e não nas setas.</ul>|
 
 ## 8. Conclusão
-<p align = "justify">
+<p style="text-align: justify; text-indent: 20px">
 A partir da verificação feita com a técnica de inspeção, foram observadas inconsistências, grande parte cosméticas, por exemplo: falta de títulos nos diagramas, rótulos mal posicionados e fluxo confuso em algumas situações.
 </p>
 
