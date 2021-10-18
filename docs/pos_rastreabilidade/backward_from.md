@@ -5,6 +5,7 @@
 |1.1|27/09|Adição dos requisitos e definição dos tópicos da matriz|João Pedro, Vitor Lamego e Victor Lima|
 |1.2|27/09|Linkagem dos artefatos|João Pedro, Vitor Lamego e Victor Lima|
 |1.3|08/10|Retirando artefatos de modelagem|João Pedro|
+|1.4|18/10|Adicionando elos|Carlos Fiuza|
 
 ## 2. Introdução
 <p style="text-align: justify; text-indent: 20px"> A intenção do documento de Backward-From é ligar todos os requisitos elicitados durante o desenvolvimento do projeto no contexto da matéria aos respectivos métodos de elicitação e modelagem. Para isso, foi utilizada uma matriz de rastreabilidade, onde é possível ver de qual artefato um requisito funcional (RF) ou não funcional (RNF) provêm.</p>
@@ -101,6 +102,1366 @@
 |RNF17| O sistema e o evento deve ter uma interface de comunicação prática|<a href=../../elicitacao/brainstorming>BS21</a>|
 <h6 align="center">Tabela 1: Matriz de Rastreabilidade Backward-From</h6>
 <h6 align="center">Fonte: Autores</h6>
+
+
+--------------------------
+### RF01
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP01</a>
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I08</a>
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP10</a>
+
+<b>Elo</b>:
+
+- Recurso: OP10 depende dos recursos de AP01 e I08
+
+
+--------------------------
+### RF02
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS04</a>
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I01</a>
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP50</a>
+- Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP02</a>
+- Questionário <a href=../../elicitacao/questionario/#5-requisitos-elicitados>Q02</a>
+- Storytelling <a href=../../elicitacao/storytelling/#4-requisitos>ST06</a>
+
+<b>Elo</b>:
+ 
+- Agregação: AP02 agregra Q02
+- Recurso: OP50 depende de um recurso de I01
+- Representa: BS04 representa ST06
+
+--------------------------
+### RF03
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I04</a>
+- Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP03</a>
+
+<b>Elo</b>:
+
+- Recurso: AP03 depende de um recurso de I04
+
+--------------------------
+### RF04
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS03</a>
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I03</a>
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP18</a>
+- Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP04</a>
+- Questionário <a href=../../elicitacao/questionario/#5-requisitos-elicitados>Q03</a>
+
+<b>Elo</b>:
+ 
+- Agregação: AP04 agregra Q03
+- Representa: BS03 e OP18 representam ST06
+
+--------------------------
+### RF05
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP05</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF06
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I14</a>
+- Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP06</a>
+
+<b>Elo</b>:
+ 
+- Recurso: AP06 depende de um recurso de I14
+
+--------------------------
+### RF07
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP07</a>
+
+<b>Elo</b>:
+
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF08
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS15</a>
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I07</a>
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP31, OP49</a>
+- Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP08</a>
+
+<b>Elo</b>:
+ 
+- Agregação: BS15 agregra AP08
+- Recurso: OP31, OP49 depende de um recurso de I07
+
+--------------------------
+### RF09
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP09</a>
+ 
+<b>Elo</b>:
+
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF10
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP10</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF11
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP35</a>
+- Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP11</a>
+- Storytelling <a href=../../elicitacao/storytelling/#4-requisitos>ST09</a>
+
+<b>Elo</b>:
+ 
+- Representa: AP11 e OP35 representam ST09
+
+--------------------------
+### RF12
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP12</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF13
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS10</a>
+- Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP13</a>
+
+<b>Elo</b>:
+ 
+- Agregação: BS10 depende de um recurso de AP13
+
+--------------------------
+### RF14
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS09</a>
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I27</a>
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP40</a>
+- Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP14</a>
+
+<b>Elo</b>:
+
+- Agregação: BS09 agregra AP14
+- Recurso: OP40 e BS09 dependem de um recurso de I27
+
+--------------------------
+### RF15
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP15</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF16
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Entrevista <a href=../../elicitacao/entrevistas/#4-requisitos>E01</a>
+- Storytelling <a href=../../elicitacao/storytelling/#4-requisitos>ST08</a>
+
+<b>Elo</b>:
+ 
+- Representação: E01 representa ST08
+
+--------------------------
+### RF17
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Entrevista <a href=../../elicitacao/entrevistas/#4-requisitos>E03</a>
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I12, I17</a>
+- Storytelling <a href=../../elicitacao/storytelling/#4-requisitos>ST02</a>
+
+<b>Elo</b>:
+ 
+- Representação: E03 e I12 representam ST02
+
+--------------------------
+### RF18
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS05</a>
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I02</a>
+
+<b>Elo</b>:
+
+- Agregação: BS05 agrega I02
+
+--------------------------
+### RF19
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I04</a>
+- Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP03</a>
+
+<b>Elo</b>:
+ 
+- Recurso: AP03 depende de um recurso de I04
+
+--------------------------
+### RF20
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS13</a>
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I05</a>
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP48</a>
+- Questionário <a href=../../elicitacao/questionario/#5-requisitos-elicitados>Q01</a>
+- Storytelling <a href=../../elicitacao/storytelling/#4-requisitos>ST04</a>
+
+<b>Elo</b>:
+ 
+- Agregação: I05 agregra Q01
+- Representa: BS13 e OP48 representam ST04
+
+--------------------------
+### RF21
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS06</a>
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I10</a>
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OB20</a>
+
+<b>Elo</b>:
+ 
+- Agregração: BS06 e I10 agregam OB20
+
+--------------------------
+### RF22
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Entrevista <a href=../../elicitacao/entrevistas/#4-requisitos>E03</a>
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I12</a>
+- Storytelling <a href=../../elicitacao/storytelling/#4-requisitos>ST02</a>
+
+<b>Elo</b>:
+ 
+- Representação: E03 e I12 representa ST02
+
+--------------------------
+### RF23
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I13</a>
+
+<b>Elo</b>:
+ 
+--------------------------
+### RF24
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I14</a>
+- Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP06</a>
+
+<b>Elo</b>:
+
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF25
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I15</a>
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP25</a>
+
+<b>Elo</b>:
+ 
+- Satisfação: I15 satisfaz OP25
+
+--------------------------
+### RF26
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I16</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+
+--------------------------
+### RF27
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS07</a>
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I17</a>
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP22, OP30</a>
+- Questionário <a href=../../elicitacao/questionario/#5-requisitos-elicitados>Q07</a>
+- Storytelling <a href=../../elicitacao/storytelling/#4-requisitos>ST03</a>
+
+<b>Elo</b>:
+ 
+- Agregação: I17 agregra Q07
+- Representa: BS07, OP22 e OP30 representam ST03
+
+--------------------------
+### RF28
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I18</a>
+- Storytelling <a href=../../elicitacao/storytelling/#4-requisitos>ST02</a>
+
+<b>Elo</b>:
+ 
+- Representação: I18 representa ST02
+
+--------------------------
+### RF29
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I19</a>
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP35</a>
+- Storytelling <a href=../../elicitacao/storytelling/#4-requisitos>ST09</a>
+
+<b>Elo</b>:
+ 
+- Representação: I19 e OP35 representam ST09
+
+--------------------------
+### RF30
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I20</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF31
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I21</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF32
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I22</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF33
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I23</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF34
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I24</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF35
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I25</a>
+
+<b>Elo</b>:
+
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF36
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I26</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF37
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I29</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF38
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I30</a>
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP07</a>
+
+<b>Elo</b>:
+ 
+- Satisfação: I30 satisfaz OP07
+
+--------------------------
+### RF39
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I31</a>
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP58</a>
+
+<b>Elo</b>:
+ 
+- Satisfação: I31 satisfaz OP58
+
+--------------------------
+### RF40
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I32</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF41
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I33</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF42
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I34</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF43
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP03</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF44
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP04</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF45
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP05</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF46
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP06</a>
+<b>Elo</b>:
+ 
+
+<b>Elo</b>:
+
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF47
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP07</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF48
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP08</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF49
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP09, OP51</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF50
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS17</a>
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP12</a>
+
+<b>Elo</b>:
+ 
+- Recurso: OP12 depende de um recurso de BS17
+
+--------------------------
+### RF51
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS05</a>
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP19</a>
+- Questionário <a href=../../elicitacao/questionario/#5-requisitos-elicitados>Q05</a>
+
+<b>Elo</b>:
+ 
+- Recurso: Q05 depende de recursos de BS05 e OP19
+
+--------------------------
+### RF52
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP20</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF53
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP22</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF54
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP23</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF55
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP24</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF56
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP26</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF57
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP27</a>
+<b>Elo</b>:
+ 
+
+<b>Elo</b>:
+
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF58
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP28</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF59
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP29</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF60
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP36</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF61
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP37</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF62
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP42</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF63
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP43</a>
+<b>Elo</b>:
+ 
+
+<b>Elo</b>:
+
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF64
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP45</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF65
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP47</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF66
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS10</a>
+- Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I21</a>
+- Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP13</a>
+
+<b>Elo</b>:
+ 
+- Recurso: AP13 e BS10 dependem de um recurso de I21
+
+--------------------------
+### RF67
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS11</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF68
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS12</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+--------------------------
+### RF69
+
+<b>Categoria:</b>
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis:</b>
+
+- Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS16</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+
+---------------------------
+### RNF01
+
+<b>Categoria</b>:
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis</b>:
+
+- Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP16</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+---------------------------
+### RNF02
+
+<b>Categoria</b>:
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis</b>:
+
+- Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP18</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+
+---------------------------
+### RNF03
+
+<b>Categoria</b>:
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis</b>:
+
+- Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP19</a>
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+---------------------------
+### RNF04
+
+<b>Categoria</b>:
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis</b>:
+
+- Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP20</a>
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+---------------------------
+### RNF05
+
+<b>Categoria</b>:
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis</b>:
+
+- Entrevista <a href=../../elicitacao/entrevistas>E05</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+---------------------------
+### RNF06
+
+<b>Categoria</b>:
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis</b>:
+
+- Entrevista <a href=../../elicitacao/entrevistas>E06</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+---------------------------
+### RNF07
+
+<b>Categoria</b>:
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis</b>:
+
+- Entrevista <a href=../../elicitacao/entrevistas>E07</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+---------------------------
+### RNF08
+
+<b>Categoria</b>:
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis</b>:
+
+- Entrevista <a href=../../elicitacao/entrevistas>E10</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+---------------------------
+### RNF09
+
+<b>Categoria</b>:
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis</b>:
+
+- Introspecção <a href=../../elicitacao/introspeccao>I09</a>
+- Análise de Protocolo <a href=../../elicitacao/analiseProtocolo>AP16</a>
+
+<b>Elo</b>:
+
+- Recurso: AP16 depende de um recurso de I09 
+
+---------------------------
+### RNF10
+
+<b>Categoria</b>:
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis</b>:
+
+- Análise de Protocolo <a href=../../elicitacao/analiseProtocolo>AP17</a>
+- Storytelling <a href=../../elicitacao/storytelling>ST01</a>
+
+<b>Elo</b>:
+ 
+- Representação: AP17 representa ST01
+
+---------------------------
+### RNF11
+
+<b>Categoria</b>:
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis</b>:
+
+- Storytelling <a href=../../elicitacao/storytelling>ST03</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+---------------------------
+### RNF12
+
+<b>Categoria</b>:
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis</b>:
+
+- Storytelling <a href=../../elicitacao/storytelling>ST07</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+---------------------------
+### RNF13
+
+<b>Categoria</b>:
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis</b>:
+
+- Storytelling <a href=../../elicitacao/storytelling>ST10</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+---------------------------
+### RNF14
+
+<b>Categoria</b>:
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis</b>:
+
+- Storytelling <a href=../../elicitacao/storytelling>ST10</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+---------------------------
+### RNF15
+
+<b>Categoria</b>:
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis</b>:
+
+- Brainstorming <a href=../../elicitacao/brainstorming>BS19</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo
+
+---------------------------
+### RNF16
+
+<b>Categoria</b>:
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis</b>:
+
+- Brainstorming <a href=../../elicitacao/brainstorming>BS20</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo 
+
+---------------------------
+### RNF17
+
+<b>Categoria</b>:
+
+- Desenvolvimento
+
+<b>Elementos Rastreáveis</b>:
+
+- Brainstorming <a href=../../elicitacao/brainstorming>BS21</a>
+
+<b>Elo</b>:
+ 
+- Não existem artefatos para moldar o elo 
+
+-----------------------
+
 
 ## 4. Bibliografia
 <p style="text-align: justify; text-indent: 20px">SERRANO, Milene; SERRANO, Maurício. <b>Requisitos - Aula 24</b>. 2019. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.</p>
