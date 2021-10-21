@@ -1,0 +1,1922 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/ingresso-logo.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.4">
+    
+    
+      
+        <title>Product Backlog - Ingresso.com</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.db9e7362.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#000000">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="black" data-md-color-accent="blue">
+  
+    
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#1-versionamento" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Ingresso.com" class="md-header__button md-logo" aria-label="Ingresso.com" data-md-component="logo">
+      
+  <img src="../../assets/ingresso-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Ingresso.com
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Product Backlog
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/Requisitos-de-Software/2021.1-Ingresso.com/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Inicio
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../planejamento/" class="md-tabs__link">
+      Planejamento
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../pre_rastreabilidade/rich_picture/" class="md-tabs__link">
+        Pré Rastreabilidade
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../elicitacao/analiseProtocolo/" class="md-tabs__link">
+        Elicitação
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../priorizacao/first_things_first/" class="md-tabs__link">
+        Priorização
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../use_case/" class="md-tabs__link md-tabs__link--active">
+        Modelagem
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../verificacao/cenarios/" class="md-tabs__link">
+        Análise
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../pos_rastreabilidade/backward_from/" class="md-tabs__link">
+        Pós Rastreabilidade
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../apresentacoes/p1/" class="md-tabs__link">
+        Apresentações
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../atas/ata27_07/" class="md-tabs__link">
+        Atas
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Ingresso.com" class="md-nav__button md-logo" aria-label="Ingresso.com" data-md-component="logo">
+      
+  <img src="../../assets/ingresso-logo.png" alt="logo">
+
+    </a>
+    Ingresso.com
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/Requisitos-de-Software/2021.1-Ingresso.com/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Inicio
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/" class="md-nav__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Pré Rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Pré Rastreabilidade" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Pré Rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre_rastreabilidade/rich_picture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/5w2h/" class="md-nav__link">
+        5W2H
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Elicitação" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/analiseProtocolo/" class="md-nav__link">
+        Análise de Protocolo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/brainstorming/" class="md-nav__link">
+        Brainstorming
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/entrevistas/" class="md-nav__link">
+        Entrevistas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/observacao_participativa/" class="md-nav__link">
+        Observação Participativa
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/questionario/" class="md-nav__link">
+        Questionário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/storytelling/" class="md-nav__link">
+        Storytelling
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Priorização
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Priorização" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Priorização
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../priorizacao/first_things_first/" class="md-nav__link">
+        First Things First
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../priorizacao/house_of_quality/" class="md-nav__link">
+        House of Quality
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../priorizacao/moscow/" class="md-nav__link">
+        MoSCoW
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Modelagem" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../use_case/" class="md-nav__link">
+        Casos de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/" class="md-nav__link">
+        Cenários
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../especificacao/" class="md-nav__link">
+        Especificacão Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../historias_usuario/" class="md-nav__link">
+        Histórias de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../istar/" class="md-nav__link">
+        iStar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nfr_framework/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Product Backlog
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Product Backlog
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-versionamento" class="md-nav__link">
+    1. Versionamento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-introducao" class="md-nav__link">
+    2. Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-product-backlog-ingressocom" class="md-nav__link">
+    3. Product Backlog Ingresso.com
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-referencia" class="md-nav__link">
+    4. Referência
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          Análise
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Análise" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Análise
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_1" type="checkbox" id="__nav_7_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_1">
+          Verificação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Verificação" data-md-level="2">
+        <label class="md-nav__title" for="__nav_7_1">
+          <span class="md-nav__icon md-icon"></span>
+          Verificação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/cenarios/" class="md-nav__link">
+        Cenários
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/istar/" class="md-nav__link">
+        iStar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/casos_de_uso/" class="md-nav__link">
+        Casos de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/product_backlog/" class="md-nav__link">
+        Product Backlog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/nfr/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/rich_picture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_2" type="checkbox" id="__nav_7_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_2">
+          Validação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Validação" data-md-level="2">
+        <label class="md-nav__title" for="__nav_7_2">
+          <span class="md-nav__icon md-icon"></span>
+          Validação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../validacao/prototipo/" class="md-nav__link">
+        Protótipo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../validacao/viewpoint/" class="md-nav__link">
+        Viewpoint
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../validacao/validacao_informal/" class="md-nav__link">
+        Validação Informal
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          Pós Rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Pós Rastreabilidade" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Pós Rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pos_rastreabilidade/backward_from/" class="md-nav__link">
+        Backward From
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pos_rastreabilidade/forward_from/" class="md-nav__link">
+        Forward From
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pos_rastreabilidade/matriz_geral/" class="md-nav__link">
+        Matriz Geral
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pos_rastreabilidade/telas/" class="md-nav__link">
+        Telas
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9">
+          Apresentações
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Apresentações" data-md-level="1">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Apresentações
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/p1/" class="md-nav__link">
+        Ponto de Controle 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/p2/" class="md-nav__link">
+        Ponto de Controle 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/p3/" class="md-nav__link">
+        Ponto de Controle 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/p4/" class="md-nav__link">
+        Ponto de Controle 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/p5/" class="md-nav__link">
+        Ponto de Controle 5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/p6/" class="md-nav__link">
+        Ponto de Controle 6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/p7/" class="md-nav__link">
+        Ponto de Controle 7
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10">
+          Atas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Atas" data-md-level="1">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          Atas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata27_07/" class="md-nav__link">
+        27/07/2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata05_08/" class="md-nav__link">
+        05/08/2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata24_08/" class="md-nav__link">
+        24/08/2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata31_08/" class="md-nav__link">
+        31/08/2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata13_09/" class="md-nav__link">
+        13/09/2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata22_09/" class="md-nav__link">
+        22/09/2021
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-versionamento" class="md-nav__link">
+    1. Versionamento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-introducao" class="md-nav__link">
+    2. Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-product-backlog-ingressocom" class="md-nav__link">
+    3. Product Backlog Ingresso.com
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-referencia" class="md-nav__link">
+    4. Referência
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/Requisitos-de-Software/2021.1-Ingresso.com/edit/master/docs/modelagem/product_backlog.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                  <h1>Product Backlog</h1>
+                
+                <h2 id="1-versionamento">1. Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>06/09</td>
+<td>Abertura do documento</td>
+<td>Carlos</td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>07/09</td>
+<td>Adição da tabela product backlog</td>
+<td>Carlos e Victor Lima</td>
+</tr>
+<tr>
+<td>1.2</td>
+<td>08/09</td>
+<td>Adição das prioridades de cada item no backlog</td>
+<td>Victor Lima</td>
+</tr>
+<tr>
+<td>1.3</td>
+<td>01/10</td>
+<td>Linkagem dos léxicos</td>
+<td>João Pedro</td>
+</tr>
+</tbody>
+</table>
+<h2 id="2-introducao">2. Introdução</h2>
+<p style="text-align: justify; text-indent: 20px">
+O Product Backlog é uma lista contendo todas as funcionalidades desejadas para
+um produto. O conteúdo desta lista é definido pelo Product Owner. O Product
+Backlog não precisa estar completo no início de um projeto. Pode-se começar
+com tudo aquilo que é mais óbvio em um primeiro momento. Com o tempo, o
+Product Backlog cresce e muda à medida que se aprende mais sobre o produto e
+seus usuários.
+</p>
+
+<h2 id="3-product-backlog-ingressocom">3. Product Backlog Ingresso.com</h2>
+<p><b>Legenda:</b></p>
+<ul>
+<li>E: Épico.</li>
+<li>F: Feature.</li>
+<li>US: Histórias de Usuário.</li>
+</ul>
+<style>
+    #celula {
+        vertical-align: middle;
+        text-align: center;
+        border: 0.5px solid rgba(0,0,0,0.2);
+    }
+</style>
+
+<table>
+    <thead>
+        <tr>
+            <th>Épico</th>
+            <th>Feature</th>
+            <th>ID / Rastreabilidade</th>
+            <th>História de Usuário</th>
+            <th>Prioridade</th>
+        </tr>
+    </thead>
+    <tbody >
+        <tr>
+            <td id="celula" rowspan="7">E01<br>Cadastro e Autenticação</td>
+            <td id="celula" rowspan="2"> <a href="../historias_usuario/#feature-01-cadastro"> F01 </a><br>Cadastro</td>
+            <td id="celula">US01 / AP10</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo criar uma conta para eu ter acesso às funcionalidades completas do aplicativo.</td>
+            <td id="celula">MUST</td>
+        </tr>
+        <tr>
+            <td id="celula">US02</td>
+            <td id="celula">Eu, como sistema, desejo realizar a validadação dos dados preenchidos no formulário de cadastramento para garantir que são reais.</td>
+            <td id="celula">MUST</td>
+        </tr>
+        <tr>
+            <td id="celula" rowspan="4"><a href="../historias_usuario/#feature-02-login"> F02 </a><br>Login</td>
+            <td id="celula">US03 / AP16</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo fazer login para entrar na minha conta e aproveitar as funcionalidades do Ingresso.com</td>
+            <td id="celula">MUST</td>
+        </tr>
+        <tr>
+            <td id="celula">US04</td>
+            <td id="celula">Eu, como sistema, desejo realizar a validadação dos dados preenchidos no formulário de login para que possa autenticá-lo.</td>
+            <td id="celula">MUST</td>
+        </tr>
+        <tr>
+            <td id="celula">US05 / OP04</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo redefinir a senha da minha conta que esqueci para fazer login.</td>
+            <td id="celula">MUST</td>
+        </tr>
+        <tr>
+            <td id="celula">US06 / OP05</td>
+            <td id="celula">Eu, como sistema, desejo enviar email para que o <a href=../../modelagem/lexicos/#usuario>usuário</a> redefina a senha.</td>
+            <td id="celula">MUST</td>
+        </tr>
+        <tr>
+            <td id="celula" rowspan="1"><a href="../historias_usuario/#feature-03-logout"> F03 </a><br>Logout</td>
+            <td id="celula">US07 / OP09</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo realizar logout do aplicativo para que minha conta não esteja mais vinculada com o app.</td>
+            <td id="celula">MUST</td>
+        </tr>
+        <tr>
+            <td id="celula" rowspan="6">E02<br>Perfil</td>
+            <td id="celula" rowspan="4"><a href="../historias_usuario/#feature-04-perfil"> F04 </a><br>Perfil</td>
+            <td id="celula">US08 / OP53</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo alterar a senha da minha conta para uma de minha preferência.</td>
+            <td id="celula">MUST</td>
+        </tr>
+        <tr>
+            <td id="celula">US09 / OP06</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo alterar os dados pessoais da minha conta caso algum dado tenha mudado.</td>
+            <td id="celula">MUST</td>
+        </tr>
+        <tr>
+            <td id="celula">US10 / OP08</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo visualizar cartões salvos para que eu possa excluir algum ou alterá-lo.</td>
+            <td id="celula">MUST</td>
+        </tr>
+        <tr>
+            <td id="celula">US11 / OP07</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo visualizar meu pedidos realizados para que possa acompanhar quais <a href=../../modelagem/lexicos/#ingresso>ingressos</a> e <a href=../../modelagem/lexicos/#sessao>sessões</a> já assisti.</td>
+            <td id="celula">SHOULD</td>
+        </tr>
+        <tr>
+            <td id="celula" rowspan="1"><a href="../historias_usuario/#feature-05-atendimento"> F05 </a><br>Atendimento</td>
+            <td id="celula">US12 / OP12</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo esclarecer dúvidas e/ou enviar solicitações de atendimento para o Ingresso.com para compreender melhor o aplicativo.</td>
+            <td id="celula">MUST</td>
+        </tr>
+        <tr>
+            <td id="celula" rowspan="1"><a href="../historias_usuario/#feature-06-sobre-o-app"> F06 </a><br>Sobre o App</td>
+            <td id="celula">US13 / OP13</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo visualizar informações sobre o aplicativo para saber qual a versão que está instalada em meu smartphone.</td>
+            <td id="celula">SHOULD</td>
+        </tr>
+        <tr>
+            <td id="celula" rowspan="11">E03<br><a href=../../modelagem/lexicos/#cinema>Cinemas</a></td>
+            <td id="celula" rowspan="2"><a href="../historias_usuario/#feature-06-sobre-o-app"> F07 </a><br><a href=../../modelagem/lexicos/#local>Localização</a></td>
+            <td id="celula">US14 / AP01</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo adicionar minha <a href=../../modelagem/lexicos/#local>localização</a> ou escolher a cidade para que eu possa ver os <a href=../../modelagem/lexicos/#cinema>cinemas</a> da minha região.</td>
+            <td id="celula">MUST</td>
+        </tr>
+        <tr>
+            <td id="celula">US15 / AP01</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo alterar a <a href=../../modelagem/lexicos/#local>localização</a> ou cidade para que eu possa ver os <a href=../../modelagem/lexicos/#cinema>cinemas</a> da cidade em que estou.</td>
+            <td id="celula">MUST</td>
+        </tr>
+        <tr>
+            <td id="celula" rowspan="6"><a href="../historias_usuario/#feature-08-<a href=../../modelagem/lexicos/#cinema>cinemas</a>"> F08 </a><br><a href=../../modelagem/lexicos/#cinema>Cinemas</a></td>
+            <td id="celula">US16 / AP04</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo visualizar <a href=../../modelagem/lexicos/#cinema>cinemas</a> da minha cidade para que eu possa escolher algum para ir.</td>
+            <td id="celula">MUST</td>
+        </tr>
+        <tr>
+            <td id="celula">US17 / AP05</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo pesquisar <a href=../../modelagem/lexicos/#cinema>cinemas</a> para ver se está aberto ou se vende <a href=../../modelagem/lexicos/#ingresso>ingressos</a> pelo app.</td>
+            <td id="celula">MUST</td>
+        </tr>
+        <tr>
+            <td id="celula">US18/ I16</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo visualizar informações sobre o <a href=../../modelagem/lexicos/#cinema>cinema</a> para que eu possa saber como chegar nele e entrar em contato.</td>
+            <td id="celula">MUST</td>
+        </tr>
+        <tr>
+            <td id="celula">US19 / AP08</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo visualizar as medidas preventivas adotadas pelo <a href=../../modelagem/lexicos/#cinema>cinema</a> para que eu possa me previnir melhor.</td>
+            <td id="celula">MUST</td>
+        </tr>
+        <tr>
+            <td id="celula">US20 / I15</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo compartilhar um <a href=../../modelagem/lexicos/#cinema>cinema</a> para meus amigos e/ou familiares para mostrar que tenho interesse nesse <a href=../../modelagem/lexicos/#cinema>cinema</a>.</td>
+            <td id="celula">COULD</td>
+        </tr>
+         <tr>
+            <td id="celula">US21 / OP28</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo favoritar um <a href=../../modelagem/lexicos/#cinema>cinema</a> para adicioná-lo a minha lista de <a href=../../modelagem/lexicos/#cinema>cinemas</a> favoritos e ter acesso mais fácil a ele.</td>
+            <td id="celula">WOULD</td>
+        </tr>
+        <tr>
+            <td id="celula" rowspan="3"><a href="../historias_usuario/#feature-08-<a href=../../modelagem/lexicos/#cinema>cinemas</a>"> F09 </a><br><a href=../../modelagem/lexicos/#sessao>Sessões</a></td>
+            <td id="celula">US22 / I17</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo visualizar as <a href=../../modelagem/lexicos/#sessao>sessões</a> do <a href=../../modelagem/lexicos/#cinema>cinema</a> escolhido para escolher qual <a href=../../modelagem/lexicos/#filme>filme</a> assistir.</td>
+            <td id="celula">MUST</td>
+        </tr>
+        <tr>
+            <td id="celula">US23 / OP22</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo visualizar as <a href=../../modelagem/lexicos/#sessao>sessões</a> disponíveis do <a href=../../modelagem/lexicos/#filme>filme</a> escolhido para que eu possa escolher quando e onde assistir.</td>
+            <td id="celula">MUST</td>
+        </tr>
+        <tr>
+            <td id="celula">US24 / I19</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo visualizar os <a href=../../modelagem/lexicos/#assento>assentos</a> disponíveis na <a href=../../modelagem/lexicos/#sessao>sessão</a> para que eu possa escolher onde sentar.</td>
+            <td id="celula">MUST</td>
+        </tr>
+        <tr>
+            <td id="celula" rowspan="5">E04<br><a href=../../modelagem/lexicos/#filme>Filmes</a></td>
+            <td id="celula" rowspan="5"><a href="../historias_usuario/#feature-10-<a href=../../modelagem/lexicos/#filme>filmes</a>"> F10 </a><br><a href=../../modelagem/lexicos/#filme>Filmes</a></td>
+            <td id="celula">US25 / AP02</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo visualizar <a href=../../modelagem/lexicos/#filme>filmes</a> que estão em cartaz para que eu possa escolher algum <a href=../../modelagem/lexicos/#filme>filme</a> para assistir.</td>
+            <td id="celula">MUST</td>
+        </tr>
+        <tr>
+            <td id="celula">US26 / OP19</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo visualizar <a href=../../modelagem/lexicos/#filme>filmes</a> que em breve estarão nos <a href=../../modelagem/lexicos/#cinema>cinemas</a> para que eu possa me programar para assistir a ele.</td>
+            <td id="celula">SHOULD</td>
+        </tr>
+        <tr>
+            <td id="celula">US27 / OP20</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo visualizar as informações sobre o <a href=../../modelagem/lexicos/#filme>filme</a> para decidir se quero assistir a ele ou não.</td>
+            <td id="celula">MUST</td>
+        </tr>
+        <tr>
+            <td id="celula">US28 / OP26</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo visualizar o trailer do <a href=../../modelagem/lexicos/#filme>filme</a> para descobrir do que se trata o <a href=../../modelagem/lexicos/#filme>filme</a>.</td>
+            <td id="celula">COULD</td>
+        </tr>
+        <tr>
+            <td id="celula">US29 / OP26</td>
+            <td id="celula">Eu, como sistema, desejo disponibilizar trailer do <a href=../../modelagem/lexicos/#filme>filme</a> do youtube para o aplicativo para que o <a href=../../modelagem/lexicos/#usuario>usuário</a> consiga assistir a ele.</td>
+            <td id="celula">COULD</td>
+        </tr>
+        <tr>
+            <td id="celula" rowspan="5">E05<br>Compra</td>
+            <td id="celula" rowspan="1"><a href="../historias_usuario/#feature-11-<a href=../../modelagem/lexicos/#ingresso>ingresso</a>"> F11 </a><br><a href=../../modelagem/lexicos/#ingresso>Ingresso</a></td>
+            <td id="celula">US30 / AP12</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo escolher os tipos de <a href=../../modelagem/lexicos/#ingresso>ingressos</a> da <a href=../../modelagem/lexicos/#sessao>sessão</a> escolhida para comprá-los.</td>
+            <td id="celula">MUST</td>
+        </tr>
+        <tr>
+            <td id="celula" rowspan="1"><a href="../historias_usuario/#feature-12-acompanhamentos"> F12 </a><br>Acompanhamentos</td>
+            <td id="celula">US31 / BS10</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo escolher acompanhamentos para que eu não precise enfrentar filas no <a href=../../modelagem/lexicos/#cinema>cinema</a>.</td>
+            <td id="celula">COULD</td>
+        </tr>
+        <tr>
+            <td id="celula" rowspan="2"><a href="../historias_usuario/#feature-13-pagamento"> F13 </a><br>Pagamento</td>
+            <td id="celula">US32 / AP14</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo escolher forma de pagamento disponível para pagar os <a href=../../modelagem/lexicos/#ingresso>ingressos</a> que quero comprar.</td>
+            <td id="celula">MUST</td>
+        </tr>
+        <tr>
+            <td id="celula">US33 / OP58</td>
+            <td id="celula">Eu, como sistema, desejo enviar uma mensagem para o email do <a href=../../modelagem/lexicos/#usuario>usuário</a> para informar que a compra de <a href=../../modelagem/lexicos/#ingresso>ingresso</a> foi realizada.</td>
+            <td id="celula">MUST</td>
+        </tr>
+        <tr>
+            <td id="celula" rowspan="1"><a href="../historias_usuario/#feature-14-<a href=../../modelagem/lexicos/#carrinho>carrinho</a>"> F14 </a><br><a href=../../modelagem/lexicos/#carrinho>Carrinho</a></td>
+            <td id="celula">US34 / OP43</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo ver quais <a href=../../modelagem/lexicos/#sessao>sessões</a> coloquei no <a href=../../modelagem/lexicos/#carrinho>carrinho</a> para que eu possa remover alguma, mudar os <a href=../../modelagem/lexicos/#assento>assentos</a>, tipo de <a href=../../modelagem/lexicos/#ingresso>ingresso</a>, acompanhamentos e forma de pagamento.</td>
+            <td id="celula">MUST</td>
+        </tr>
+        <tr>
+            <td id="celula" rowspan="4">E06<br>Engajamento</td>
+            <td id="celula" rowspan="3"><a href="../historias_usuario/#feature-15-noticia"> F15 </a><br><a href=../../modelagem/lexicos/#noticia>Notícia</a></td>
+            <td id="celula">US35 / I05</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo visualizar <a href=../../modelagem/lexicos/#noticia>notícias</a> sobre o mundo do <a href=../../modelagem/lexicos/#cinema>cinema</a> para que eu possa ficar por dentro das novidades.</td>
+            <td id="celula">COULD</td>
+        </tr>
+        <tr>
+            <td id="celula">US36 / ST07, I05 </td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo ler a <a href=../../modelagem/lexicos/#noticia>notícia</a> para que eu possa entendê-la por completo.</td>
+            <td id="celula">COULD</td>
+        </tr>
+        <tr>
+            <td id="celula">US37 / OP48</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo compartilhar uma <a href=../../modelagem/lexicos/#noticia>notícia</a> para que eu possa enviá-la para meus amigos e/ou parentes.</td>
+            <td id="celula">WOULD</td>
+        </tr>
+        <tr>
+            <td id="celula" rowspan="1"><a href="../historias_usuario/#feature-16-destaques"> F16 </a><br>Destaques</td>
+            <td id="celula">US38 / AP06</td>
+            <td id="celula">Eu, como <a href=../../modelagem/lexicos/#usuario>usuário</a>, desejo visualizar os destaques do aplicativo para que possa acompanhar a tendência do mundo do <a href=../../modelagem/lexicos/#cinema>cinema</a>.</td>
+            <td id="celula">COULD</td>
+        </tr>
+        <tr>
+            <td id="celula" rowspan="1">E07<br>Lucro</td>
+            <td id="celula" rowspan="1"><a href="../historias_usuario/#feature-16-destaques"> F17 </a><br>Anúncio</td>
+            <td id="celula">US39</td>
+            <td id="celula">Eu, como sistema, desejo apresentar ao <a href=../../modelagem/lexicos/#usuario>usuário</a> propagandas para que seja gerada receita e lucro para minha empresa.</td>
+            <td id="celula">MUST</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2 id="4-referencia">4. Referência</h2>
+<p style="text-align: justify; text-indent: 20px">[1] SERRANO, Milene; SERRANO, Maurício. <b>Requisitos - Aula 15</b>. 2019. 46 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../nfr_framework/" class="md-footer__link md-footer__link--prev" aria-label="Previous: NFR Framework" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              NFR Framework
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../verificacao/cenarios/" class="md-footer__link md-footer__link--next" aria-label="Next: Cenários" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Cenários
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        
+          Made with
+          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+            Material for MkDocs
+          </a>
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": "navigation.tabs", "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.1e84347e.min.js"></script>
+      
+    
+  </body>
+</html>

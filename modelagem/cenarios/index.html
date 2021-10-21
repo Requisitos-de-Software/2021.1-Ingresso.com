@@ -1,0 +1,2763 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/ingresso-logo.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.4">
+    
+    
+      
+        <title>Cenários - Ingresso.com</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.db9e7362.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#000000">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="black" data-md-color-accent="blue">
+  
+    
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#1-versionamento" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Ingresso.com" class="md-header__button md-logo" aria-label="Ingresso.com" data-md-component="logo">
+      
+  <img src="../../assets/ingresso-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Ingresso.com
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Cenários
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/Requisitos-de-Software/2021.1-Ingresso.com/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Inicio
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../planejamento/" class="md-tabs__link">
+      Planejamento
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../pre_rastreabilidade/rich_picture/" class="md-tabs__link">
+        Pré Rastreabilidade
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../elicitacao/analiseProtocolo/" class="md-tabs__link">
+        Elicitação
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../priorizacao/first_things_first/" class="md-tabs__link">
+        Priorização
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../use_case/" class="md-tabs__link md-tabs__link--active">
+        Modelagem
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../verificacao/cenarios/" class="md-tabs__link">
+        Análise
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../pos_rastreabilidade/backward_from/" class="md-tabs__link">
+        Pós Rastreabilidade
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../apresentacoes/p1/" class="md-tabs__link">
+        Apresentações
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../atas/ata27_07/" class="md-tabs__link">
+        Atas
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Ingresso.com" class="md-nav__button md-logo" aria-label="Ingresso.com" data-md-component="logo">
+      
+  <img src="../../assets/ingresso-logo.png" alt="logo">
+
+    </a>
+    Ingresso.com
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/Requisitos-de-Software/2021.1-Ingresso.com/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Inicio
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/" class="md-nav__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Pré Rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Pré Rastreabilidade" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Pré Rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre_rastreabilidade/rich_picture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/5w2h/" class="md-nav__link">
+        5W2H
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Elicitação" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/analiseProtocolo/" class="md-nav__link">
+        Análise de Protocolo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/brainstorming/" class="md-nav__link">
+        Brainstorming
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/entrevistas/" class="md-nav__link">
+        Entrevistas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/observacao_participativa/" class="md-nav__link">
+        Observação Participativa
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/questionario/" class="md-nav__link">
+        Questionário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/storytelling/" class="md-nav__link">
+        Storytelling
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Priorização
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Priorização" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Priorização
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../priorizacao/first_things_first/" class="md-nav__link">
+        First Things First
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../priorizacao/house_of_quality/" class="md-nav__link">
+        House of Quality
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../priorizacao/moscow/" class="md-nav__link">
+        MoSCoW
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Modelagem" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../use_case/" class="md-nav__link">
+        Casos de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Cenários
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Cenários
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-versionamento" class="md-nav__link">
+    1. Versionamento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-introducao" class="md-nav__link">
+    2. Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-cenarios" class="md-nav__link">
+    3. Cenários:
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Cenários:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#c01-dinamica-do-ingressocom" class="md-nav__link">
+    C01: Dinâmica do Ingresso.com
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c02-escolher-regiao-do-cinema" class="md-nav__link">
+    C02: Escolher região do cinema
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c03-escolher-cinema" class="md-nav__link">
+    C03: Escolher cinema
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c04-favoritar-cinema" class="md-nav__link">
+    C04: Favoritar cinema
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c05-consultar-filmes-em-cartaz" class="md-nav__link">
+    C05: Consultar filmes em cartaz
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c06-consultar-filmes-em-breve" class="md-nav__link">
+    C06: Consultar filmes em breve
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c07-escolher-sessao-do-filme" class="md-nav__link">
+    C07: Escolher sessão do filme
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c08-escolher-assentos-da-sessao" class="md-nav__link">
+    C08: Escolher assentos da sessão
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c09-escolher-o-tipo-de-ingresso" class="md-nav__link">
+    C09: Escolher o tipo de ingresso
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c10-escolher-o-que-vai-comer-na-sessao" class="md-nav__link">
+    C10: Escolher o que vai comer na sessão
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c11-realizar-pagamento-como-cliente-do-ingressocom" class="md-nav__link">
+    C11: Realizar pagamento como cliente do Ingresso.com
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c12-realizar-pagamento-sem-ser-cliente-do-ingressocom" class="md-nav__link">
+    C12: Realizar pagamento sem ser cliente do Ingresso.com
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c13-criar-conta-sem-integracao-com-outro-aplicativo" class="md-nav__link">
+    C13: Criar conta sem integração com outro aplicativo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c14-criar-conta-a-partir-do-facebook" class="md-nav__link">
+    C14: Criar conta a partir do Facebook
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c15-criar-conta-a-partir-do-google" class="md-nav__link">
+    C15: Criar conta a partir do Google
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c16-fazer-login" class="md-nav__link">
+    C16: Fazer Login
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c17-ver-noticias" class="md-nav__link">
+    C17: Ver Notícias
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c18-ver-prevencoes-de-saude" class="md-nav__link">
+    C18: Ver Prevenções de Saúde
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c19-ver-ingressos-comprados" class="md-nav__link">
+    C19: Ver Ingressos comprados
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c20-visualizar-detalhes-de-um-filme" class="md-nav__link">
+    C20: Visualizar detalhes de um filme
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-referencias" class="md-nav__link">
+    4. Referências
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../especificacao/" class="md-nav__link">
+        Especificacão Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../historias_usuario/" class="md-nav__link">
+        Histórias de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../istar/" class="md-nav__link">
+        iStar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nfr_framework/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product_backlog/" class="md-nav__link">
+        Product Backlog
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          Análise
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Análise" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Análise
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_1" type="checkbox" id="__nav_7_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_1">
+          Verificação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Verificação" data-md-level="2">
+        <label class="md-nav__title" for="__nav_7_1">
+          <span class="md-nav__icon md-icon"></span>
+          Verificação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/cenarios/" class="md-nav__link">
+        Cenários
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/istar/" class="md-nav__link">
+        iStar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/casos_de_uso/" class="md-nav__link">
+        Casos de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/product_backlog/" class="md-nav__link">
+        Product Backlog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/nfr/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/rich_picture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_2" type="checkbox" id="__nav_7_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_2">
+          Validação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Validação" data-md-level="2">
+        <label class="md-nav__title" for="__nav_7_2">
+          <span class="md-nav__icon md-icon"></span>
+          Validação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../validacao/prototipo/" class="md-nav__link">
+        Protótipo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../validacao/viewpoint/" class="md-nav__link">
+        Viewpoint
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../validacao/validacao_informal/" class="md-nav__link">
+        Validação Informal
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          Pós Rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Pós Rastreabilidade" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Pós Rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pos_rastreabilidade/backward_from/" class="md-nav__link">
+        Backward From
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pos_rastreabilidade/forward_from/" class="md-nav__link">
+        Forward From
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pos_rastreabilidade/matriz_geral/" class="md-nav__link">
+        Matriz Geral
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pos_rastreabilidade/telas/" class="md-nav__link">
+        Telas
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9">
+          Apresentações
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Apresentações" data-md-level="1">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Apresentações
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/p1/" class="md-nav__link">
+        Ponto de Controle 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/p2/" class="md-nav__link">
+        Ponto de Controle 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/p3/" class="md-nav__link">
+        Ponto de Controle 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/p4/" class="md-nav__link">
+        Ponto de Controle 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/p5/" class="md-nav__link">
+        Ponto de Controle 5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/p6/" class="md-nav__link">
+        Ponto de Controle 6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/p7/" class="md-nav__link">
+        Ponto de Controle 7
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10">
+          Atas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Atas" data-md-level="1">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          Atas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata27_07/" class="md-nav__link">
+        27/07/2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata05_08/" class="md-nav__link">
+        05/08/2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata24_08/" class="md-nav__link">
+        24/08/2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata31_08/" class="md-nav__link">
+        31/08/2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata13_09/" class="md-nav__link">
+        13/09/2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata22_09/" class="md-nav__link">
+        22/09/2021
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-versionamento" class="md-nav__link">
+    1. Versionamento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-introducao" class="md-nav__link">
+    2. Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-cenarios" class="md-nav__link">
+    3. Cenários:
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Cenários:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#c01-dinamica-do-ingressocom" class="md-nav__link">
+    C01: Dinâmica do Ingresso.com
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c02-escolher-regiao-do-cinema" class="md-nav__link">
+    C02: Escolher região do cinema
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c03-escolher-cinema" class="md-nav__link">
+    C03: Escolher cinema
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c04-favoritar-cinema" class="md-nav__link">
+    C04: Favoritar cinema
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c05-consultar-filmes-em-cartaz" class="md-nav__link">
+    C05: Consultar filmes em cartaz
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c06-consultar-filmes-em-breve" class="md-nav__link">
+    C06: Consultar filmes em breve
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c07-escolher-sessao-do-filme" class="md-nav__link">
+    C07: Escolher sessão do filme
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c08-escolher-assentos-da-sessao" class="md-nav__link">
+    C08: Escolher assentos da sessão
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c09-escolher-o-tipo-de-ingresso" class="md-nav__link">
+    C09: Escolher o tipo de ingresso
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c10-escolher-o-que-vai-comer-na-sessao" class="md-nav__link">
+    C10: Escolher o que vai comer na sessão
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c11-realizar-pagamento-como-cliente-do-ingressocom" class="md-nav__link">
+    C11: Realizar pagamento como cliente do Ingresso.com
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c12-realizar-pagamento-sem-ser-cliente-do-ingressocom" class="md-nav__link">
+    C12: Realizar pagamento sem ser cliente do Ingresso.com
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c13-criar-conta-sem-integracao-com-outro-aplicativo" class="md-nav__link">
+    C13: Criar conta sem integração com outro aplicativo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c14-criar-conta-a-partir-do-facebook" class="md-nav__link">
+    C14: Criar conta a partir do Facebook
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c15-criar-conta-a-partir-do-google" class="md-nav__link">
+    C15: Criar conta a partir do Google
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c16-fazer-login" class="md-nav__link">
+    C16: Fazer Login
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c17-ver-noticias" class="md-nav__link">
+    C17: Ver Notícias
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c18-ver-prevencoes-de-saude" class="md-nav__link">
+    C18: Ver Prevenções de Saúde
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c19-ver-ingressos-comprados" class="md-nav__link">
+    C19: Ver Ingressos comprados
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c20-visualizar-detalhes-de-um-filme" class="md-nav__link">
+    C20: Visualizar detalhes de um filme
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-referencias" class="md-nav__link">
+    4. Referências
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/Requisitos-de-Software/2021.1-Ingresso.com/edit/master/docs/modelagem/cenarios.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                  <h1>Cenários</h1>
+                
+                <h2 id="1-versionamento">1. Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>26/08</td>
+<td>Abertura do documento de Cenários</td>
+<td>Carlos Eduardo e Vitor Lamego</td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>26/08</td>
+<td>Criação dos Cenários</td>
+<td>Carlos Eduardo e Vitor Lamego</td>
+</tr>
+<tr>
+<td>1.2</td>
+<td>01/10</td>
+<td>Linkagem dos léxicos</td>
+<td>João Pedro</td>
+</tr>
+<tr>
+<td>1.3</td>
+<td>18/10</td>
+<td>Correção dos erros apontados na Análise do Documento (Verificação)</td>
+<td>Vitor Lamego</td>
+</tr>
+</tbody>
+</table>
+<h2 id="2-introducao">2. Introdução</h2>
+<p style="text-align: justify; text-indent: 20px">Dentro da Engenharia de Requisitos existe uma etapa fundamental designada para a Modelagem dos requisitos. Dentre as várias técnicas existentes, este documento irá abordar e aplicar uma técnica em específico: Cenários.</p>
+
+<p style="text-align: justify; text-indent: 20px">A técnica de modelagem citada anteriormente consiste basicamente na descrição narrativa informal e concreta a respeito da interação entre um usuário e um sistema[1]. Sendo assim, nesse documento foram elaboras algumas descrições relacionadas a interação dos usuários do aplicativo Ingresso.com com o sistema em questão.</p>
+
+<h2 id="3-cenarios">3. Cenários:</h2>
+<p style="text-align: justify; text-indent: 20px">Para a aplicação da técnica, o grupo optou pela criação do primeiro(C01) cenário como uma dinâmica geral do aplicativo, que aborda as funcionalidades e ações gerais, mas que ao longo do documento foram especificadas para extrair qualquer tipo de interação existente. A partir do segundo cenário (C02), foram descritas as interações mais específicas do software. Vejamos a seguir os resultados:</p>
+
+<h3 id="c01-dinamica-do-ingressocom">C01: Dinâmica do <a href="../../modelagem/lexicos/#ingresso">Ingresso</a>.com</h3>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 001</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">Apresentar principais cenários do aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">Abertura do aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">Comprador/Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">1. Smartphone para de funcionar</br>2. Sem acesso à internet</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">1. Usuário abre o aplicativo </br>2. Usuário ESCOLHE REGIÃO DO CINEMA</br>3. Usuário ESCOLHE CINEMA.</br>4. Usuário FAVORITA CINEMA</br>5. Usuário CONSULTA FILMES EM CARTAZ</br>6. Usuário CONSULTA FILMES EM BREVE</br>7. Usuário ESCOLHE SESSÃO DO FILME</br>8. Usuário ESCOLHE ASSENTOS DA SESSÃO</br>9. Usuário ESCOLHE TIPO DE INGRESSO</br>10. Usuário CRIA CONTA</br>11. Usuário FAZ LOGIN</br>12. Usuário ESCOLHE FORMA DE PAGAMENTO</br>13. Usuário COMPRA INGRESSO</br>14. Usuário OLHA NOTÍCIAS</br>15. Usuário CONSULTA MEDIDAS DE PREVENÇÃO DO CINEMA</td>
+</tr>
+</tbody>
+</table>
+<h6 align = "center">Tabela 1: Descrição das características do Cenário 01</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+<h3 id="c02-escolher-regiao-do-cinema">C02: Escolher região do <a href="../../modelagem/lexicos/#cinema">cinema</a></h3>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 002</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">Filtrar os <a href="../../modelagem/lexicos/#cinema">cinemas</a> pela região que o usuário se encontra, a fim de ter um serviço mais focado na sua área</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">Pré-condição: Aplicativo aberto, acesso à internet e smartphone com gps<br>Pós-condição: O usuário possui um serviço direcionado para onde ele se encontra</td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">1. Smartphone para de funcionar</br>2. Sem acesso à internet<br>3. Usuário não libera o uso da <a href="../../modelagem/lexicos/#local">localização</a> pelo aplicativo <a href="../../modelagem/lexicos/#ingresso">Ingresso</a></td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">1.Usuário acessa o aplicativo<br>2.Usuário clica no ícone de <a href="../../modelagem/lexicos/#local">localização</a><br>3.Usuário escolhe a sua cidade ou atualiza a sua <a href="../../modelagem/lexicos/#local">localização</a></td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<h6 align = "center">Tabela 2: Descrição das características do Cenário 02</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+<h3 id="c03-escolher-cinema">C03: Escolher <a href="../../modelagem/lexicos/#cinema">cinema</a></h3>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 003</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">Visualizar informações específicas de um <a href="../../modelagem/lexicos/#cinema">cinema</a> desejado</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">Pré-condição: Região do <a href="../../modelagem/lexicos/#cinema">cinema</a> escolhida<br>Pós-condição: O usuário verifica as informações de um <a href="../../modelagem/lexicos/#cinema">cinema</a> em específico</td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">1. Smartphone para de funcionar</br>2. Sem acesso à internet<br>3. Não existem <a href="../../modelagem/lexicos/#cinema">cinemas</a> disponíveis na região desejada</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">1. Usuário acessa o aplicativo </br>2. Usuário seleciona opção '<a href="../../modelagem/lexicos/#cinema">Cinemas</a>' no Menu de Navegação<br>3. Usuário escolhe um <a href="../../modelagem/lexicos/#cinema">cinema</a> desejado</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<h6 align = "center">Tabela 3: Descrição das características do Cenário 03</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+<h3 id="c04-favoritar-cinema">C04: Favoritar <a href="../../modelagem/lexicos/#cinema">cinema</a></h3>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 004</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">Criar uma lista de <a href="../../modelagem/lexicos/#cinema">cinemas</a> favoritos para os usuários que possuem conta</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">Pré-condição: Aplicativo aberto, acesso à internet e ter uma conta no aplicativo<br>Pós-condição: O usuário adiciona o <a href="../../modelagem/lexicos/#cinema">cinema</a> a sua lista de favoritos</td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">1. Smartphone para de funcionar</br>2. Sem acesso à internet<br>3. Usuário não possui conta</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">1. Usuário navega até a lista de <a href="../../modelagem/lexicos/#cinema">cinemas</a><br>2. Usuário escolhe um <a href="../../modelagem/lexicos/#cinema">cinema</a> desejado<br>3. Usuário clica no ícone de coração<br>4. Usuário faz login, caso não tenha feito anteriormente.<br>5. <a href="../../modelagem/lexicos/#cinema">Cinema</a> é adicionado à lista de favoritos</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<h6 align = "center">Tabela 4: Descrição das características do Cenário 04</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+<h3 id="c05-consultar-filmes-em-cartaz">C05: Consultar <a href="../../modelagem/lexicos/#filme">filmes</a> em cartaz</h3>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 005</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">Usuário ter conhecimento do que está passando nos <a href="../../modelagem/lexicos/#cinema">cinemas</a>, para então saber se quer assistir ou não</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">Pré-condição: Aplicativo aberto, acesso à internet e região escolhida</td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">1. Smartphone para de funcionar</br>2. Sem acesso à internet</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">1. Usuário abre o aplicativo<br>2. Usuário clica na aba "<a href="../../modelagem/lexicos/#filme">Filmes</a>" do menu de navegação<br> 3. Usuário seleciona <a href="../../modelagem/lexicos/#filme">filme</a> do seu interesse</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<h6 align = "center">Tabela 5: Descrição das características do Cenário 05</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+<h3 id="c06-consultar-filmes-em-breve">C06: Consultar <a href="../../modelagem/lexicos/#filme">filmes</a> em breve</h3>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 006</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">Usuário ter conhecimento de quais <a href="../../modelagem/lexicos/#filme">filmes</a> chegarão em breve nos <a href="../../modelagem/lexicos/#cinema">cinemas</a>.</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">Pré-condição: Aplicativo aberto, acesso à internet e região escolhida</td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">1. Smartphone para de funcionar</br>2. Sem acesso à internet<br>3. Não ter <a href="../../modelagem/lexicos/#filme">filmes</a> em breve</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">1. Usuário abre o aplicativo<br>2. Usuário clica na aba "<a href="../../modelagem/lexicos/#filme">Filmes</a>" do menu de navegação<br> 3. Usuário seleciona a opção "Em Breve"<br>4. Usuário escolhe e consulta <a href="../../modelagem/lexicos/#filme">filme</a> que deseja</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<h6 align = "center">Tabela 6: Descrição das características do Cenário 06</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+<h3 id="c07-escolher-sessao-do-filme">C07: Escolher sessão do <a href="../../modelagem/lexicos/#filme">filme</a></h3>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 007</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">Usuário escolher qual o <a href="../../modelagem/lexicos/#filme">filme</a> ele quer assistir, assim como o <a href="../../modelagem/lexicos/#cinema">cinema</a> e o horário.</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">Pré-condição: <a href="../../modelagem/lexicos/#cinema">Cinema</a> escolhido<br>Pós-condição: Usuário é direcionado para a escolha dos <a href="../../modelagem/lexicos/#assento">assentos</a></td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">1. Smartphone para de funcionar</br>2. Sem acesso à internet<br>3. Não ter mais sessões disponíveis</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">1. Usuário abre o aplicativo<br>2. Usuário seleciona o <a href="../../modelagem/lexicos/#filme">filme</a> ou <a href="../../modelagem/lexicos/#cinema">cinema</a> que deseja<br>3. Usuário escolhe o horário (sessão) que deseja</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<h6 align = "center">Tabela 7: Descrição das características do Cenário 07</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+<h3 id="c08-escolher-assentos-da-sessao">C08: Escolher <a href="../../modelagem/lexicos/#assento">assentos</a> da sessão</h3>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 008</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">Usuário escolher onde irá sentar para assistir o <a href="../../modelagem/lexicos/#filme">filme</a>.</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">Pré-condição: Sessão escolhida<br>Pós-condição: Usuário é direcionado para a seleção do tipo de <a href="../../modelagem/lexicos/#ingresso">ingresso</a></td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">1. Smartphone para de funcionar</br>2. Sem acesso à internet<br>3. Não ter mais <a href="../../modelagem/lexicos/#assento">assento</a> disponível</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">1. Usuário abre o aplicativo </br>2. Usuário escolhe o <a href="../../modelagem/lexicos/#filme">filme</a><br>3. Usuário escolhe a sessão<br>4.Sistema apresenta os <a href="../../modelagem/lexicos/#assento">assentos</a> disponíveis<br>5. Usuário escolhe o(s) seu(s) <a href="../../modelagem/lexicos/#assento">assento</a>(s) de acordo com o seu número de <a href="../../modelagem/lexicos/#ingresso">ingressos</a></td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<h6 align = "center">Tabela 8: Descrição das características do Cenário 08</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+<h3 id="c09-escolher-o-tipo-de-ingresso">C09: Escolher o tipo de <a href="../../modelagem/lexicos/#ingresso">ingresso</a></h3>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 009</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">Usuário escolher qual o tipo de <a href="../../modelagem/lexicos/#ingresso">ingresso</a> ele vai comprar entre os disponíveis</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">Pré-condição: <a href="../../modelagem/lexicos/#assento">Assentos</a> escolhidos<br>Pós-condição: Usuário é direcionado para a compra de comidas e snacks no <a href="../../modelagem/lexicos/#cinema">cinema</a></td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">1. Smartphone para de funcionar</br>2. Sem acesso à internet</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">1. Usuário escolhe os <a href="../../modelagem/lexicos/#assento">assentos</a> da sessão<br>2. Sistema apresenta os tipos de <a href="../../modelagem/lexicos/#ingresso">ingresso</a> disponíveis e seus respectivos valores<br>3. Usuário escolhe o(s) seu(s) tipo(s) de <a href="../../modelagem/lexicos/#ingresso">ingresso</a>(s)<br>4. Se usuário escoher tipo meia, sistema pede mais informações para comprovação<br>5. Usuário preeenche suas informações para utilizar a meia entrada</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<h6 align = "center">Tabela 9: Descrição das características do Cenário 09</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+<h3 id="c10-escolher-o-que-vai-comer-na-sessao">C10: Escolher o que vai comer na sessão</h3>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 010</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">Permitir que o usuário compre os <a href="../../modelagem/lexicos/#acompanhamento">acompanhamentos</a> junto aos <a href="../../modelagem/lexicos/#ingresso">ingressos</a>, evitando que ele enfrente mais filas</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">Pré-condição: Tipo de <a href="../../modelagem/lexicos/#ingresso">ingresso</a> escolhido<br>Pós-condição: Usuário é direcionado para o pagamento do que foi escolhido</td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">1. Smartphone para de funcionar</br>2. Sem acesso à internet<br>3. Usuário não deseja comprar a comida do <a href="../../modelagem/lexicos/#cinema">cinema</a></td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">1. Usuário escolhe o tipo de <a href="../../modelagem/lexicos/#ingresso">ingresso</a><br>2. Sistema apresenta as opções disponíveis<br>3. Se o usuário desejar, escolhe a quantidade de cada opção que deseja<br>4. Se o usuário não desejar, pula para a próxima etapa</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<h6 align = "center">Tabela 10: Descrição das características do Cenário 10</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+<h3 id="c11-realizar-pagamento-como-cliente-do-ingressocom">C11: Realizar pagamento como cliente do <a href="../../modelagem/lexicos/#ingresso">Ingresso</a>.com</h3>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 011</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">Permitir que o usuário escolha alguma forma de pagamento já salva em sua conta, ou que fique salvo o histórico de compra, pelo menos.</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">Pré-condição: Tipo de <a href="../../modelagem/lexicos/#ingresso">ingresso</a> e comida para a sessão escolhidos e ter uma conta no aplicativo<br>Pós-condição: Aprovar o pagamento do <a href="../../modelagem/lexicos/#ingresso">ingresso</a></td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">Smartphone, internet, aplicativo, conta Ingresso.com</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">1. Smartphone para de funcionar</br>2. Sem acesso à internet<br>3. Usuário não possui cartão válido e não possui conta PayPal</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">1. Usuário escolhe o que vai comer na sessão<br>2. Se não estiver logado ainda, usuário insere suas informações de login<br>3. Usuário escolhe qual a forma de pagamento deseja utilizar<br>4. Se os dados da forma de pagamento não estão salvas, usuário insere os dados<br>5. Se o usuário possuir, insere código de desconto para a compra<br>6. Usuário prossegue para a verificação do pagamento<br>7. Se aprovado, usuário recebe os <a href="../../modelagem/lexicos/#ingresso">ingressos</a> no endereço de email cadastrado</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<h6 align = "center">Tabela 11: Descrição das características do Cenário 11</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+<h3 id="c12-realizar-pagamento-sem-ser-cliente-do-ingressocom">C12: Realizar pagamento sem ser cliente do <a href="../../modelagem/lexicos/#ingresso">Ingresso</a>.com</h3>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 012</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">Permitir que usuários que não possuem conta no aplicativo também comprem <a href="../../modelagem/lexicos/#ingresso">ingressos</a></td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">Pré-condição: Tipo de <a href="../../modelagem/lexicos/#ingresso">ingresso</a> e comida para a sessão escolhidos e ter um email e CPF válido para a compra<br>Pós-condição: Aprovar o pagamento do <a href="../../modelagem/lexicos/#ingresso">ingresso</a></td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">1. Smartphone para de funcionar</br>2. Sem acesso à internet<br>3. Usuário não possui cartão válido e não possui conta PayPal</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">1. Usuário escolhe o que vai comer na sessão<br>2. Usuário informa o seu email<br>3. Usuário confirma o email inserido<br>4. Usuário informa o seu CPF<br>5. Usuário informa as informações de pagamento<br>6. Usuário prossegue para a verificação do pagamento<br>7. Se aprovado, usuário recebe os <a href="../../modelagem/lexicos/#ingresso">ingressos</a> no endereço de email informado.</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<h6 align = "center">Tabela 12: Descrição das características do Cenário 12</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+<h3 id="c13-criar-conta-sem-integracao-com-outro-aplicativo">C13: Criar conta sem integração com outro aplicativo</h3>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 013</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">Permitir que o usuário crie uma conta para salvar seu histórico no aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">Pré-condição: Possuir um email válido e o aplicativo<br>Pós-condição: Usuário é logado no aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">1. Smartphone para de funcionar</br>2. Sem acesso à internet<br>3. Usuário não confirma o email</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">1. Usuário clica no ícone de perfil na tela incial<br>2. Usuário clica em "Entrar"<br>3. Usuário clica em "CRIAR CONTA"<br>4. Usuário informa o seu email ou CPF<br>5. Usuário cria uma senha<br>6. Usuário clica em "ENTRAR"</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<h6 align = "center">Tabela 13: Descrição das características do Cenário 13</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+<h3 id="c14-criar-conta-a-partir-do-facebook">C14: Criar conta a partir do Facebook</h3>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 014</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">Permitir que usuários que possuam conta no Facebook façam login no aplicativo a partir dessa mesma conta</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">Pré-condição: Possuir uma conta válida no Facebook<br>Pós-condição: Usuário é logado no aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">1. Smartphone para de funcionar</br>2. Sem acesso à internet<br>3. Usuário não possui conta válida no Facebook</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">1. Usuário clica no ícone de perfil na tela incial<br>2. Usuário clica em "Entrar"<br>3. Usuário clica em "CRIAR CONTA"<br>4. Usuário clica em "Entrar com o Facebook"<br>5. Usuário insere o seu email cadastrado no Facebook<br>6. Usuário informa a sua senha cadastrada no Facebook</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<h6 align = "center">Tabela 14: Descrição das características do Cenário 14</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+<h3 id="c15-criar-conta-a-partir-do-google">C15: Criar conta a partir do Google</h3>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 015</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">Permitir que usuários que possuam conta na Google façam login no aplicativo a partir dessa mesma conta</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">Pré-condição: Possuir uma conta Google válida<br>Pós-condição: Usuário é logado no aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">1. Smartphone para de funcionar</br>2. Sem acesso à internet<br>3. Usuário não possui conta válida na Google</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">1. Usuário clica no ícone de perfil na tela incial<br>2. Usuário clica em "Entrar"<br>3. Usuário clica em "CRIAR CONTA"<br>4. Usuário clica em "Entrar com Google"<br>5. Usuário insere o seu email cadastrado na Google<br>6. Usuário informa a sua senha cadastrada na Google</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<h6 align = "center">Tabela 15: Descrição das características do Cenário 15</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+<h3 id="c16-fazer-login">C16: Fazer Login</h3>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 016</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">Permitir que o usuário esteja logado na aplicação</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">Pré-condição: Possuir uma conta no aplicativo<br>Pós-condição: Usuário é logado no aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">1. Smartphone para de funcionar</br>2. Sem acesso à internet<br>3. Usuário não possui mais uma conta válida</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">1. Usuário clica no ícone de perfil na página principal<br>2. Usuário clica em "Entrar"<br>3. Usuário insere o seu CPF ou e-mail cadastrado<br>4. Usuário informa a sua senha cadastrada<br>5. Usuário clica no botão "ENTRAR"</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<h6 align = "center">Tabela 16: Descrição das características do Cenário 16</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+<h3 id="c17-ver-noticias">C17: Ver <a href="../../modelagem/lexicos/#noticia">Notícias</a></h3>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 017</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">Usuário poder ler as <a href="../../modelagem/lexicos/#noticia">notícias</a> mais recentes disponibilizadas pelo aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">Pré-condição: Aplicativo aberto e acesso à internet</td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">1. Smartphone para de funcionar</br>2. Sem acesso à internet</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">1. Usuário clica na aba "<a href="../../modelagem/lexicos/#noticia">Notícias</a>" no menu de navegação<br>2. Usuário seleciona a <a href="../../modelagem/lexicos/#noticia">notícia</a> que deseja ler</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<h6 align = "center">Tabela 17: Descrição das características do Cenário 17</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+<h3 id="c18-ver-prevencoes-de-saude">C18: Ver Prevenções de Saúde</h3>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 018</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">Usuário poder se informar sobre quais medidas de seguranças estão sendo realizadas por cada <a href="../../modelagem/lexicos/#cinema">cinema</a> da região devido à pandemia ocasionada pelo vírus Sars-CoV-2</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">Pré-condição: Aplicativo aberto e acesso à internet</td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">1. Smartphone para de funcionar</br>2. Sem acesso à internet<br>3. Cinema não informa as prevenções adotadas</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">1. Usuário clica na aba "Prevenções" no menu de navegação<br>2. Usuário pesquisa por <a href="../../modelagem/lexicos/#cinema">cinema</a> desejado<br>3. Usuário seleciona o <a href="../../modelagem/lexicos/#cinema">cinema</a> desejado apresentado na lista</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<h6 align = "center">Tabela 18: Descrição das características do Cenário 18</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+<h3 id="c19-ver-ingressos-comprados">C19: Ver <a href="../../modelagem/lexicos/#ingresso">Ingressos</a> comprados</h3>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 019</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">Usuário visualiza os seus <a href="../../modelagem/lexicos/#ingresso">ingressos</a> comprados</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">Pré-condição: Aplicativo aberto, acesso à internet e conta no aplicativo <a href="../../modelagem/lexicos/#ingresso">Ingresso</a></td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">1. Smartphone para de funcionar</br>2. Sem acesso à internet<br>3. Usuário não possuir conta no app</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">1. Usuário clica no ícone de <a href="../../modelagem/lexicos/#ingresso">ingresso</a> na tela principal<br>2. Usuário, se já não estiver logado, insere o seu CPF e a sua senha<br>3. Usuário visualiza os seus <a href="../../modelagem/lexicos/#ingresso">ingressos</a> disponíveis</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<h6 align = "center">Tabela 19: Descrição das características do Cenário 19</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+<h3 id="c20-visualizar-detalhes-de-um-filme">C20: Visualizar detalhes de um <a href="../../modelagem/lexicos/#filme">filme</a></h3>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 020</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">Usuário poder visualizar detalhes como duração, sinopse, diretor, país de origem e algumas outras informações de algum <a href="../../modelagem/lexicos/#filme">filme</a> em específico.</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">Pré-condição: Aplicativo aberto, acesso à internet</td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">1. Smartphone para de funcionar</br>2. Sem acesso à internet<br> 3. Distribuidor não oferecer os detalhes do <a href="../../modelagem/lexicos/#filme">filme</a></td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">1. Usuário abre o aplicativo<br>2. Usuário escolhe a opção 'Filmes' no Menu de Navegação<br>3. Usuário escolhe o <a href="../../modelagem/lexicos/#filme">filme</a> desejado<br>3. Usuário clica na aba "Detalhes"</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<h6 align = "center">Tabela 20: Descrição das características do Cenário 20</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+<h2 id="4-referencias">4. Referências</h2>
+<p style="text-align: justify;">[1] DevMedia. <b>Artigo Engenharia de Software 16 - Cenários e Casos de Uso: Fundamentos e Conceitos</b>. 2009. Disponível em: <a href="https://www.devmedia.com.br/artigo-engenharia-de-software-16-cenarios-e-casos-de-uso-fundamentos-e-conceitos/14186" target="_blank">DevMedia</a>. Acesso em: 26 de agosto de 2021</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../use_case/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Casos de Uso" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Casos de Uso
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../especificacao/" class="md-footer__link md-footer__link--next" aria-label="Next: Especificacão Suplementar" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Especificacão Suplementar
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        
+          Made with
+          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+            Material for MkDocs
+          </a>
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": "navigation.tabs", "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.1e84347e.min.js"></script>
+      
+    
+  </body>
+</html>

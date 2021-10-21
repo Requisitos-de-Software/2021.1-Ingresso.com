@@ -1,0 +1,4603 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/ingresso-logo.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.4">
+    
+    
+      
+        <title>Backward From - Ingresso.com</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.db9e7362.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#000000">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="black" data-md-color-accent="blue">
+  
+    
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#1-versionamento" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Ingresso.com" class="md-header__button md-logo" aria-label="Ingresso.com" data-md-component="logo">
+      
+  <img src="../../assets/ingresso-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Ingresso.com
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Backward From
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/Requisitos-de-Software/2021.1-Ingresso.com/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Inicio
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../planejamento/" class="md-tabs__link">
+      Planejamento
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../pre_rastreabilidade/rich_picture/" class="md-tabs__link">
+        Pré Rastreabilidade
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../elicitacao/analiseProtocolo/" class="md-tabs__link">
+        Elicitação
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../priorizacao/first_things_first/" class="md-tabs__link">
+        Priorização
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../modelagem/use_case/" class="md-tabs__link">
+        Modelagem
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../verificacao/cenarios/" class="md-tabs__link">
+        Análise
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
+        Pós Rastreabilidade
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../apresentacoes/p1/" class="md-tabs__link">
+        Apresentações
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../atas/ata27_07/" class="md-tabs__link">
+        Atas
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Ingresso.com" class="md-nav__button md-logo" aria-label="Ingresso.com" data-md-component="logo">
+      
+  <img src="../../assets/ingresso-logo.png" alt="logo">
+
+    </a>
+    Ingresso.com
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/Requisitos-de-Software/2021.1-Ingresso.com/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Inicio
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/" class="md-nav__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Pré Rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Pré Rastreabilidade" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Pré Rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre_rastreabilidade/rich_picture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/5w2h/" class="md-nav__link">
+        5W2H
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Elicitação" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/analiseProtocolo/" class="md-nav__link">
+        Análise de Protocolo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/brainstorming/" class="md-nav__link">
+        Brainstorming
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/entrevistas/" class="md-nav__link">
+        Entrevistas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/observacao_participativa/" class="md-nav__link">
+        Observação Participativa
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/questionario/" class="md-nav__link">
+        Questionário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/storytelling/" class="md-nav__link">
+        Storytelling
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Priorização
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Priorização" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Priorização
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../priorizacao/first_things_first/" class="md-nav__link">
+        First Things First
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../priorizacao/house_of_quality/" class="md-nav__link">
+        House of Quality
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../priorizacao/moscow/" class="md-nav__link">
+        MoSCoW
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Modelagem" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/use_case/" class="md-nav__link">
+        Casos de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/cenarios/" class="md-nav__link">
+        Cenários
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/especificacao/" class="md-nav__link">
+        Especificacão Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/historias_usuario/" class="md-nav__link">
+        Histórias de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/istar/" class="md-nav__link">
+        iStar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/nfr_framework/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/product_backlog/" class="md-nav__link">
+        Product Backlog
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          Análise
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Análise" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Análise
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_1" type="checkbox" id="__nav_7_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_1">
+          Verificação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Verificação" data-md-level="2">
+        <label class="md-nav__title" for="__nav_7_1">
+          <span class="md-nav__icon md-icon"></span>
+          Verificação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/cenarios/" class="md-nav__link">
+        Cenários
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/istar/" class="md-nav__link">
+        iStar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/casos_de_uso/" class="md-nav__link">
+        Casos de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/product_backlog/" class="md-nav__link">
+        Product Backlog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/nfr/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/rich_picture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_2" type="checkbox" id="__nav_7_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_2">
+          Validação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Validação" data-md-level="2">
+        <label class="md-nav__title" for="__nav_7_2">
+          <span class="md-nav__icon md-icon"></span>
+          Validação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../validacao/prototipo/" class="md-nav__link">
+        Protótipo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../validacao/viewpoint/" class="md-nav__link">
+        Viewpoint
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../validacao/validacao_informal/" class="md-nav__link">
+        Validação Informal
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          Pós Rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Pós Rastreabilidade" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Pós Rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Backward From
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Backward From
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-versionamento" class="md-nav__link">
+    1. Versionamento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-introducao" class="md-nav__link">
+    2. Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-matriz-de-rastreabilidade" class="md-nav__link">
+    3. Matriz de Rastreabilidade
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Matriz de Rastreabilidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rf01" class="md-nav__link">
+    RF01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf02" class="md-nav__link">
+    RF02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf03" class="md-nav__link">
+    RF03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf04" class="md-nav__link">
+    RF04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf05" class="md-nav__link">
+    RF05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf06" class="md-nav__link">
+    RF06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf07" class="md-nav__link">
+    RF07
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf08" class="md-nav__link">
+    RF08
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf09" class="md-nav__link">
+    RF09
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf10" class="md-nav__link">
+    RF10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf11" class="md-nav__link">
+    RF11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf12" class="md-nav__link">
+    RF12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf13" class="md-nav__link">
+    RF13
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf14" class="md-nav__link">
+    RF14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf15" class="md-nav__link">
+    RF15
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf16" class="md-nav__link">
+    RF16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf17" class="md-nav__link">
+    RF17
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf18" class="md-nav__link">
+    RF18
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf19" class="md-nav__link">
+    RF19
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf20" class="md-nav__link">
+    RF20
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf21" class="md-nav__link">
+    RF21
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf22" class="md-nav__link">
+    RF22
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf23" class="md-nav__link">
+    RF23
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf24" class="md-nav__link">
+    RF24
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf25" class="md-nav__link">
+    RF25
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf26" class="md-nav__link">
+    RF26
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf27" class="md-nav__link">
+    RF27
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf28" class="md-nav__link">
+    RF28
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf29" class="md-nav__link">
+    RF29
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf30" class="md-nav__link">
+    RF30
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf31" class="md-nav__link">
+    RF31
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf32" class="md-nav__link">
+    RF32
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf33" class="md-nav__link">
+    RF33
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf34" class="md-nav__link">
+    RF34
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf35" class="md-nav__link">
+    RF35
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf36" class="md-nav__link">
+    RF36
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf37" class="md-nav__link">
+    RF37
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf38" class="md-nav__link">
+    RF38
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf39" class="md-nav__link">
+    RF39
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf40" class="md-nav__link">
+    RF40
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf41" class="md-nav__link">
+    RF41
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf42" class="md-nav__link">
+    RF42
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf43" class="md-nav__link">
+    RF43
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf44" class="md-nav__link">
+    RF44
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf45" class="md-nav__link">
+    RF45
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf46" class="md-nav__link">
+    RF46
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf47" class="md-nav__link">
+    RF47
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf48" class="md-nav__link">
+    RF48
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf49" class="md-nav__link">
+    RF49
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf50" class="md-nav__link">
+    RF50
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf51" class="md-nav__link">
+    RF51
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf52" class="md-nav__link">
+    RF52
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf53" class="md-nav__link">
+    RF53
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf54" class="md-nav__link">
+    RF54
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf55" class="md-nav__link">
+    RF55
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf56" class="md-nav__link">
+    RF56
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf57" class="md-nav__link">
+    RF57
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf58" class="md-nav__link">
+    RF58
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf59" class="md-nav__link">
+    RF59
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf60" class="md-nav__link">
+    RF60
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf61" class="md-nav__link">
+    RF61
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf62" class="md-nav__link">
+    RF62
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf63" class="md-nav__link">
+    RF63
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf64" class="md-nav__link">
+    RF64
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf65" class="md-nav__link">
+    RF65
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf66" class="md-nav__link">
+    RF66
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf67" class="md-nav__link">
+    RF67
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf68" class="md-nav__link">
+    RF68
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf69" class="md-nav__link">
+    RF69
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf01" class="md-nav__link">
+    RNF01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf02" class="md-nav__link">
+    RNF02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf03" class="md-nav__link">
+    RNF03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf04" class="md-nav__link">
+    RNF04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf05" class="md-nav__link">
+    RNF05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf06" class="md-nav__link">
+    RNF06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf07" class="md-nav__link">
+    RNF07
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf08" class="md-nav__link">
+    RNF08
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf09" class="md-nav__link">
+    RNF09
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf10" class="md-nav__link">
+    RNF10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf11" class="md-nav__link">
+    RNF11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf12" class="md-nav__link">
+    RNF12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf13" class="md-nav__link">
+    RNF13
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf14" class="md-nav__link">
+    RNF14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf15" class="md-nav__link">
+    RNF15
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf16" class="md-nav__link">
+    RNF16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf17" class="md-nav__link">
+    RNF17
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-bibliografia" class="md-nav__link">
+    4. Bibliografia
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../forward_from/" class="md-nav__link">
+        Forward From
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../matriz_geral/" class="md-nav__link">
+        Matriz Geral
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../telas/" class="md-nav__link">
+        Telas
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9">
+          Apresentações
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Apresentações" data-md-level="1">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Apresentações
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/p1/" class="md-nav__link">
+        Ponto de Controle 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/p2/" class="md-nav__link">
+        Ponto de Controle 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/p3/" class="md-nav__link">
+        Ponto de Controle 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/p4/" class="md-nav__link">
+        Ponto de Controle 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/p5/" class="md-nav__link">
+        Ponto de Controle 5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/p6/" class="md-nav__link">
+        Ponto de Controle 6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/p7/" class="md-nav__link">
+        Ponto de Controle 7
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10">
+          Atas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Atas" data-md-level="1">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          Atas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata27_07/" class="md-nav__link">
+        27/07/2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata05_08/" class="md-nav__link">
+        05/08/2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata24_08/" class="md-nav__link">
+        24/08/2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata31_08/" class="md-nav__link">
+        31/08/2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata13_09/" class="md-nav__link">
+        13/09/2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata22_09/" class="md-nav__link">
+        22/09/2021
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-versionamento" class="md-nav__link">
+    1. Versionamento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-introducao" class="md-nav__link">
+    2. Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-matriz-de-rastreabilidade" class="md-nav__link">
+    3. Matriz de Rastreabilidade
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Matriz de Rastreabilidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rf01" class="md-nav__link">
+    RF01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf02" class="md-nav__link">
+    RF02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf03" class="md-nav__link">
+    RF03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf04" class="md-nav__link">
+    RF04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf05" class="md-nav__link">
+    RF05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf06" class="md-nav__link">
+    RF06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf07" class="md-nav__link">
+    RF07
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf08" class="md-nav__link">
+    RF08
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf09" class="md-nav__link">
+    RF09
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf10" class="md-nav__link">
+    RF10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf11" class="md-nav__link">
+    RF11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf12" class="md-nav__link">
+    RF12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf13" class="md-nav__link">
+    RF13
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf14" class="md-nav__link">
+    RF14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf15" class="md-nav__link">
+    RF15
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf16" class="md-nav__link">
+    RF16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf17" class="md-nav__link">
+    RF17
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf18" class="md-nav__link">
+    RF18
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf19" class="md-nav__link">
+    RF19
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf20" class="md-nav__link">
+    RF20
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf21" class="md-nav__link">
+    RF21
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf22" class="md-nav__link">
+    RF22
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf23" class="md-nav__link">
+    RF23
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf24" class="md-nav__link">
+    RF24
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf25" class="md-nav__link">
+    RF25
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf26" class="md-nav__link">
+    RF26
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf27" class="md-nav__link">
+    RF27
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf28" class="md-nav__link">
+    RF28
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf29" class="md-nav__link">
+    RF29
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf30" class="md-nav__link">
+    RF30
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf31" class="md-nav__link">
+    RF31
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf32" class="md-nav__link">
+    RF32
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf33" class="md-nav__link">
+    RF33
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf34" class="md-nav__link">
+    RF34
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf35" class="md-nav__link">
+    RF35
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf36" class="md-nav__link">
+    RF36
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf37" class="md-nav__link">
+    RF37
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf38" class="md-nav__link">
+    RF38
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf39" class="md-nav__link">
+    RF39
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf40" class="md-nav__link">
+    RF40
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf41" class="md-nav__link">
+    RF41
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf42" class="md-nav__link">
+    RF42
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf43" class="md-nav__link">
+    RF43
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf44" class="md-nav__link">
+    RF44
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf45" class="md-nav__link">
+    RF45
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf46" class="md-nav__link">
+    RF46
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf47" class="md-nav__link">
+    RF47
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf48" class="md-nav__link">
+    RF48
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf49" class="md-nav__link">
+    RF49
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf50" class="md-nav__link">
+    RF50
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf51" class="md-nav__link">
+    RF51
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf52" class="md-nav__link">
+    RF52
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf53" class="md-nav__link">
+    RF53
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf54" class="md-nav__link">
+    RF54
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf55" class="md-nav__link">
+    RF55
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf56" class="md-nav__link">
+    RF56
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf57" class="md-nav__link">
+    RF57
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf58" class="md-nav__link">
+    RF58
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf59" class="md-nav__link">
+    RF59
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf60" class="md-nav__link">
+    RF60
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf61" class="md-nav__link">
+    RF61
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf62" class="md-nav__link">
+    RF62
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf63" class="md-nav__link">
+    RF63
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf64" class="md-nav__link">
+    RF64
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf65" class="md-nav__link">
+    RF65
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf66" class="md-nav__link">
+    RF66
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf67" class="md-nav__link">
+    RF67
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf68" class="md-nav__link">
+    RF68
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf69" class="md-nav__link">
+    RF69
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf01" class="md-nav__link">
+    RNF01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf02" class="md-nav__link">
+    RNF02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf03" class="md-nav__link">
+    RNF03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf04" class="md-nav__link">
+    RNF04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf05" class="md-nav__link">
+    RNF05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf06" class="md-nav__link">
+    RNF06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf07" class="md-nav__link">
+    RNF07
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf08" class="md-nav__link">
+    RNF08
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf09" class="md-nav__link">
+    RNF09
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf10" class="md-nav__link">
+    RNF10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf11" class="md-nav__link">
+    RNF11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf12" class="md-nav__link">
+    RNF12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf13" class="md-nav__link">
+    RNF13
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf14" class="md-nav__link">
+    RNF14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf15" class="md-nav__link">
+    RNF15
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf16" class="md-nav__link">
+    RNF16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf17" class="md-nav__link">
+    RNF17
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-bibliografia" class="md-nav__link">
+    4. Bibliografia
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/Requisitos-de-Software/2021.1-Ingresso.com/edit/master/docs/pos_rastreabilidade/backward_from.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                  <h1>Backward From</h1>
+                
+                <h2 id="1-versionamento">1. Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>27/09</td>
+<td>Criação do documento</td>
+<td>João Pedro, Vitor Lamego e Victor Lima</td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>27/09</td>
+<td>Adição dos requisitos e definição dos tópicos da matriz</td>
+<td>João Pedro, Vitor Lamego e Victor Lima</td>
+</tr>
+<tr>
+<td>1.2</td>
+<td>27/09</td>
+<td>Linkagem dos artefatos</td>
+<td>João Pedro, Vitor Lamego e Victor Lima</td>
+</tr>
+<tr>
+<td>1.3</td>
+<td>08/10</td>
+<td>Retirando artefatos de modelagem</td>
+<td>João Pedro</td>
+</tr>
+<tr>
+<td>1.4</td>
+<td>18/10</td>
+<td>Adicionando elos</td>
+<td>Carlos Fiuza</td>
+</tr>
+</tbody>
+</table>
+<h2 id="2-introducao">2. Introdução</h2>
+<p style="text-align: justify; text-indent: 20px"> A intenção do documento de Backward-From é ligar todos os requisitos elicitados durante o desenvolvimento do projeto no contexto da matéria aos respectivos métodos de elicitação e modelagem. Para isso, foi utilizada uma matriz de rastreabilidade, onde é possível ver de qual artefato um requisito funcional (RF) ou não funcional (RNF) provêm.</p>
+
+<h2 id="3-matriz-de-rastreabilidade">3. Matriz de Rastreabilidade</h2>
+<table>
+<thead>
+<tr>
+<th align="center">ID</th>
+<th align="center">Descrição</th>
+<th align="center">Técnicas de Elicitação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">RF01</td>
+<td align="center">O aplicativo deve permitir selecionar a região desejada</td>
+<td align="center"><a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP01</a><br><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I08</a><br><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP10</a></td>
+</tr>
+<tr>
+<td align="center">RF02</td>
+<td align="center">O usuário deve conseguir ver os filmes em cartaz na região desejada</td>
+<td align="center"><a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP02</a><br><a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS04</a><br><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I01</a><br><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP50</a><br><a href=../../elicitacao/questionario/#5-requisitos-elicitados>Q02</a><br><a href=../../elicitacao/storytelling/#4-requisitos>ST06</a></td>
+</tr>
+<tr>
+<td align="center">RF03</td>
+<td align="center">O usuário deve conseguir pesquisar os filmes em cartaz na região desejada</td>
+<td align="center"><a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP03</a><br><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I04</a></td>
+</tr>
+<tr>
+<td align="center">RF04</td>
+<td align="center">O usuário deve conseguir ver os cinemas na região desejada</td>
+<td align="center"><a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP04</a><br><a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS03</a><br><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I03</a><br><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP18</a><br><a href=../../elicitacao/questionario/#5-requisitos-elicitados>Q03</a></td>
+</tr>
+<tr>
+<td align="center">RF05</td>
+<td align="center">O usuário deve conseguir pesquisar os cinemas na região desejada</td>
+<td align="center"><a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP05</a></td>
+</tr>
+<tr>
+<td align="center">RF06</td>
+<td align="center">O aplicativo deve recomendar os filmes em alta (destaques)</td>
+<td align="center"><a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP06</a><br><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I14</a></td>
+</tr>
+<tr>
+<td align="center">RF07</td>
+<td align="center">O aplicativo deve recomendar notícias em alta (destaques)</td>
+<td align="center"><a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP07</a></td>
+</tr>
+<tr>
+<td align="center">RF08</td>
+<td align="center">O aplicativo deve exibir as prevenções adotadas pelos cinemas referentes a pandemia do covid-19</td>
+<td align="center"><a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP08</a><br><a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS15</a><br><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I07</a><br><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP31, OP49</a></td>
+</tr>
+<tr>
+<td align="center">RF09</td>
+<td align="center">O aplicativo deve deixar claro o que cada medida de prevenção significa</td>
+<td align="center"><a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP09</a></td>
+</tr>
+<tr>
+<td align="center">RF10</td>
+<td align="center">O usuário deve se cadastrar utilizando redes sociais ou não</td>
+<td align="center"><a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP10</a></td>
+</tr>
+<tr>
+<td align="center">RF11</td>
+<td align="center">O usuário deve poder escolher o(s) seu(s) assento(s)</td>
+<td align="center"><a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP11</a><br><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP35</a><br><a href=../../elicitacao/storytelling/#4-requisitos>ST09</a></td>
+</tr>
+<tr>
+<td align="center">RF12</td>
+<td align="center">O usuário deve poder escolher qual tipo de ingresso vai querer</td>
+<td align="center"><a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP12</a></td>
+</tr>
+<tr>
+<td align="center">RF13</td>
+<td align="center">O usuário deve poder escolher o alimento(combo) que irá consumir na sessão</td>
+<td align="center"><a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP13</a><br><a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS10</a></td>
+</tr>
+<tr>
+<td align="center">RF14</td>
+<td align="center">O usuário deve conseguir efetuar o pagamento de diferentes formas</td>
+<td align="center"><a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP14</a><br><a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS09</a><br><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I27</a><br><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP40</a></td>
+</tr>
+<tr>
+<td align="center">RF15</td>
+<td align="center">O aplicativo deve identificar o usuário no pagamento</td>
+<td align="center"><a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP15</a></td>
+</tr>
+<tr>
+<td align="center">RF16</td>
+<td align="center">O usuário deve ser capaz de comprar ingressos para o filme</td>
+<td align="center"><a href=../../elicitacao/entrevistas/#4-requisitos>E01</a><br><a href=../../elicitacao/storytelling/#4-requisitos>ST08</a></td>
+</tr>
+<tr>
+<td align="center">RF17</td>
+<td align="center">O usuário deve ser capaz de ver os horários dos filmes</td>
+<td align="center"><a href=../../elicitacao/entrevistas/#4-requisitos>E03</a><br><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I12, I17</a><br><a href=../../elicitacao/storytelling/#4-requisitos>ST02</a></td>
+</tr>
+<tr>
+<td align="center">RF18</td>
+<td align="center">Apresentar os filmes que serão lançados</td>
+<td align="center"><a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS05</a><br><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I02</a></td>
+</tr>
+<tr>
+<td align="center">RF19</td>
+<td align="center">Pesquisar um filme</td>
+<td align="center"><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I04</a><br><a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP03</a></td>
+</tr>
+<tr>
+<td align="center">RF20</td>
+<td align="center">Ter uma área para notícias</td>
+<td align="center"><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I05</a><br><a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS13</a><br><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP48</a><br><a href=../../elicitacao/questionario/#5-requisitos-elicitados>Q01</a><br><a href=../../elicitacao/storytelling/#4-requisitos>ST04</a></td>
+</tr>
+<tr>
+<td align="center">RF21</td>
+<td align="center">Apresentar informações sobre o filme</td>
+<td align="center"><a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS06</a><br><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I10</a><br><a href=../../elicitacao/observacao_participativa/#31-requisitos>OB20</a></td>
+</tr>
+<tr>
+<td align="center">RF22</td>
+<td align="center">Os cinemas devem apresentar os horários das sessões do filme nos próximos dois dias</td>
+<td align="center"><a href=../../elicitacao/entrevistas/#4-requisitos>E03</a><br><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I12</a><br><a href=../../elicitacao/storytelling/#4-requisitos>ST02</a></td>
+</tr>
+<tr>
+<td align="center">RF23</td>
+<td align="center">Ter como seguir o filme para acompanhar notícias e lançamentos</td>
+<td align="center"><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I13</a></td>
+</tr>
+<tr>
+<td align="center">RF24</td>
+<td align="center">Recomendar outros filmes</td>
+<td align="center"><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I14</a><br><a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP06</a></td>
+</tr>
+<tr>
+<td align="center">RF25</td>
+<td align="center">Compartilhar o filme</td>
+<td align="center"><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I15</a><br><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP25</a></td>
+</tr>
+<tr>
+<td align="center">RF26</td>
+<td align="center">Apresentar as informações do cinema</td>
+<td align="center"><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I16</a></td>
+</tr>
+<tr>
+<td align="center">RF27</td>
+<td align="center">Apresentar as sessões com os horários e dias com vagas</td>
+<td align="center"><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I17</a><br><a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS07</a><br><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP22, OP30</a><br><a href=../../elicitacao/questionario/#5-requisitos-elicitados>Q07</a><br><a href=../../elicitacao/storytelling/#4-requisitos>ST03</a></td>
+</tr>
+<tr>
+<td align="center">RF28</td>
+<td align="center">Apresentar informações da sessão</td>
+<td align="center"><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I18</a><br><a href=../../elicitacao/storytelling/#4-requisitos>ST02</a></td>
+</tr>
+<tr>
+<td align="center">RF29</td>
+<td align="center">Mostrar os assentos disponíves</td>
+<td align="center"><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I19</a><br><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP35</a><br><a href=../../elicitacao/storytelling/#4-requisitos>ST09</a></td>
+</tr>
+<tr>
+<td align="center">RF30</td>
+<td align="center">Apresentar os tipos de ingressos</td>
+<td align="center"><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I20</a></td>
+</tr>
+<tr>
+<td align="center">RF31</td>
+<td align="center">Oferecer acompanhamentos</td>
+<td align="center"><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I21</a></td>
+</tr>
+<tr>
+<td align="center">RF32</td>
+<td align="center">Comprar com uma conta criada no domínio</td>
+<td align="center"><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I22</a></td>
+</tr>
+<tr>
+<td align="center">RF33</td>
+<td align="center">Comprar com uma conta do Google ou Facebook</td>
+<td align="center"><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I23</a></td>
+</tr>
+<tr>
+<td align="center">RF34</td>
+<td align="center">Comprar sem o cadastro</td>
+<td align="center"><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I24</a></td>
+</tr>
+<tr>
+<td align="center">RF35</td>
+<td align="center">Mostrar um resumo da compra</td>
+<td align="center"><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I25</a></td>
+</tr>
+<tr>
+<td align="center">RF36</td>
+<td align="center">Mostrar o total e informações do pagamento</td>
+<td align="center"><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I26</a></td>
+</tr>
+<tr>
+<td align="center">RF37</td>
+<td align="center">O resumo do pedido deve ser enviado por e-mail</td>
+<td align="center"><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I29</a></td>
+</tr>
+<tr>
+<td align="center">RF38</td>
+<td align="center">Ter uma área para os pedidos</td>
+<td align="center"><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I30</a><br><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP07</a></td>
+</tr>
+<tr>
+<td align="center">RF39</td>
+<td align="center">Notificar a confirmação do pagamento</td>
+<td align="center"><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I31</a><br><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP58</a></td>
+</tr>
+<tr>
+<td align="center">RF40</td>
+<td align="center">Apresentar informações do ingresso</td>
+<td align="center"><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I32</a></td>
+</tr>
+<tr>
+<td align="center">RF41</td>
+<td align="center">Enviar o ingresso por e-mail</td>
+<td align="center"><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I33</a></td>
+</tr>
+<tr>
+<td align="center">RF42</td>
+<td align="center">Notificar quando a sessão tiver chegando</td>
+<td align="center"><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I34</a></td>
+</tr>
+<tr>
+<td align="center">RF43</td>
+<td align="center">O usuário deve poder visualizar senha digitada</td>
+<td align="center"><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP03</a></td>
+</tr>
+<tr>
+<td align="center">RF44</td>
+<td align="center">O usuário deve poder recuperar senha</td>
+<td align="center"><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP04</a></td>
+</tr>
+<tr>
+<td align="center">RF45</td>
+<td align="center">O sistema deve enviar um email de recuperação de senha</td>
+<td align="center"><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP05</a></td>
+</tr>
+<tr>
+<td align="center">RF46</td>
+<td align="center">O usuário deve poder ver seus dados pessoais</td>
+<td align="center"><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP06</a></td>
+</tr>
+<tr>
+<td align="center">RF47</td>
+<td align="center">O usuário deve poder ver seus Pedidos</td>
+<td align="center"><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP07</a></td>
+</tr>
+<tr>
+<td align="center">RF48</td>
+<td align="center">O usuário deve poder ver seus Cartões Salvo</td>
+<td align="center"><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP08</a></td>
+</tr>
+<tr>
+<td align="center">RF49</td>
+<td align="center">O usuário deve poder sair da conta logada</td>
+<td align="center"><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP09, OP51</a></td>
+</tr>
+<tr>
+<td align="center">RF50</td>
+<td align="center">O usuário deve poder enviar uma solicitação de atendimento</td>
+<td align="center"><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP12</a><br><a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS17</a></td>
+</tr>
+<tr>
+<td align="center">RF51</td>
+<td align="center">O usuário deve poder ver filmes que vão estar nos cinemas em breve</td>
+<td align="center"><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP19</a><br><a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS05</a><br><a href=../../elicitacao/questionario/#5-requisitos-elicitados>Q05</a></td>
+</tr>
+<tr>
+<td align="center">RF52</td>
+<td align="center">O usuário deve poder ver título, categoria, classificação indicativa, avaliação, duração, elenco, sinopse, direção, distribuidor e país de origem do filme selecionado</td>
+<td align="center"><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP20</a></td>
+</tr>
+<tr>
+<td align="center">RF53</td>
+<td align="center">O usuário deve poder ver as sessões do filme selecionado por dia da semana</td>
+<td align="center"><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP22</a></td>
+</tr>
+<tr>
+<td align="center">RF54</td>
+<td align="center">O usuário deve poder filtrar sessões do filme selecionado por Tipos de Exibição</td>
+<td align="center"><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP23</a></td>
+</tr>
+<tr>
+<td align="center">RF55</td>
+<td align="center">O usuário deve poder limpar filtros selecionados</td>
+<td align="center"><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP24</a></td>
+</tr>
+<tr>
+<td align="center">RF56</td>
+<td align="center">O usuário deve poder assistir trailer do filme</td>
+<td align="center"><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP26</a></td>
+</tr>
+<tr>
+<td align="center">RF57</td>
+<td align="center">O usuário deve poder ordenar cinemas por nome ou proximidade</td>
+<td align="center"><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP27</a></td>
+</tr>
+<tr>
+<td align="center">RF58</td>
+<td align="center">O usuário deve poder favoritar cinemas</td>
+<td align="center"><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP28</a></td>
+</tr>
+<tr>
+<td align="center">RF59</td>
+<td align="center">O usuário deve poder ver nome, logo e endereço do cinema</td>
+<td align="center"><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP29</a></td>
+</tr>
+<tr>
+<td align="center">RF60</td>
+<td align="center">O usuário deve poder ver a Legenda da Escolha de Assentos</td>
+<td align="center"><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP36</a></td>
+</tr>
+<tr>
+<td align="center">RF61</td>
+<td align="center">O usuário deve poder ver os números dos assentos</td>
+<td align="center"><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP37</a></td>
+</tr>
+<tr>
+<td align="center">RF62</td>
+<td align="center">O usuário deve poder aplicar código de desconto no pagamento</td>
+<td align="center"><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP42</a></td>
+</tr>
+<tr>
+<td align="center">RF63</td>
+<td align="center">O usuário deve poder ver Carrinho com as sessões selecionadas</td>
+<td align="center"><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP43</a></td>
+</tr>
+<tr>
+<td align="center">RF64</td>
+<td align="center">O usuário deve poder remover sessões do Carrinho</td>
+<td align="center"><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP45</a></td>
+</tr>
+<tr>
+<td align="center">RF65</td>
+<td align="center">O usuário deve poder ver cinemas favoritados</td>
+<td align="center"><a href=../../elicitacao/observacao_participativa/#31-requisitos>OP47</a></td>
+</tr>
+<tr>
+<td align="center">RF66</td>
+<td align="center">O usuário deve poder comprar os acompanhamentos junto dos ingressos</td>
+<td align="center"><a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP13</a><br><a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS10</a><br><a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I21</a></td>
+</tr>
+<tr>
+<td align="center">RF67</td>
+<td align="center">O aplicativo deve permitir o cancelamento/reembolso da compra</td>
+<td align="center"><a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS11</a></td>
+</tr>
+<tr>
+<td align="center">RF68</td>
+<td align="center">O aplicativo deve informar o histórico de compra dos usuários logados</td>
+<td align="center"><a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS12</a></td>
+</tr>
+<tr>
+<td align="center">RF69</td>
+<td align="center">O aplicativo deve fornecer informações sobre eventos próximos a região escolhida</td>
+<td align="center"><a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS16</a></td>
+</tr>
+<tr>
+<td align="center">RNF01</td>
+<td align="center">O usuário deve poder navegar pelo aplicativo sem precisar de um cadastro</td>
+<td align="center"><a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP16</a></td>
+</tr>
+<tr>
+<td align="center">RNF02</td>
+<td align="center">O aplicativo deve ser de fácil instalação</td>
+<td align="center"><a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP18</a></td>
+</tr>
+<tr>
+<td align="center">RNF03</td>
+<td align="center">O aplicativo deve ser seguro por lidar com dados sensíveis</td>
+<td align="center"><a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP19</a></td>
+</tr>
+<tr>
+<td align="center">RNF04</td>
+<td align="center">O aplicativo deve ser monetizado através de publicidade</td>
+<td align="center"><a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP20</a></td>
+</tr>
+<tr>
+<td align="center">RNF05</td>
+<td align="center">O aplicativo deve oferecer comodidade ao usuário</td>
+<td align="center"><a href=../../elicitacao/entrevistas>E05</a></td>
+</tr>
+<tr>
+<td align="center">RNF06</td>
+<td align="center">O pagamento de ingressos deve ser fácil</td>
+<td align="center"><a href=../../elicitacao/entrevistas>E06</a></td>
+</tr>
+<tr>
+<td align="center">RNF07</td>
+<td align="center">O pagamento de ingresso deve ser rápido</td>
+<td align="center"><a href=../../elicitacao/entrevistas>E07</a></td>
+</tr>
+<tr>
+<td align="center">RNF08</td>
+<td align="center">A plataforma deve ser rápida</td>
+<td align="center"><a href=../../elicitacao/entrevistas>E10</a></td>
+</tr>
+<tr>
+<td align="center">RNF09</td>
+<td align="center">Não há necessidade de autenticação para navegar entre os filmes e notícia</td>
+<td align="center"><a href=../../elicitacao/analiseProtocolo>AP16</a><br><a href=../../elicitacao/introspeccao>I09</a></td>
+</tr>
+<tr>
+<td align="center">RNF10</td>
+<td align="center">O aplicativo deve ser fácil de ser utilizado</td>
+<td align="center"><a href=../../elicitacao/analiseProtocolo>AP17</a><br><a href=../../elicitacao/storytelling>ST01</a></td>
+</tr>
+<tr>
+<td align="center">RNF11</td>
+<td align="center">O aplicativo deve estar sempre com os horários das sessões atualizados</td>
+<td align="center"><a href=../../elicitacao/storytelling>ST03</a></td>
+</tr>
+<tr>
+<td align="center">RNF12</td>
+<td align="center">O aplicativo deve estar sempre com as notícias atualizadas</td>
+<td align="center"><a href=../../elicitacao/storytelling>ST07</a></td>
+</tr>
+<tr>
+<td align="center">RNF13</td>
+<td align="center">A lista de filmes e notícias devem ser claras e legíveis</td>
+<td align="center"><a href=../../elicitacao/storytelling>ST10</a></td>
+</tr>
+<tr>
+<td align="center">RNF14</td>
+<td align="center">O aplicativo deve prover conforto e menos tempos em filas para compra de ingressos</td>
+<td align="center"><a href=../../elicitacao/storytelling>ST10</a></td>
+</tr>
+<tr>
+<td align="center">RNF15</td>
+<td align="center">O aplicativo deve funcionar em todas as plataformas virtuais</td>
+<td align="center"><a href=../../elicitacao/brainstorming>BS19</a></td>
+</tr>
+<tr>
+<td align="center">RNF16</td>
+<td align="center">O aplicativo deve funcionar em dispositivos de tamanhos diferentes</td>
+<td align="center"><a href=../../elicitacao/brainstorming>BS20</a></td>
+</tr>
+<tr>
+<td align="center">RNF17</td>
+<td align="center">O sistema e o evento deve ter uma interface de comunicação prática</td>
+<td align="center"><a href=../../elicitacao/brainstorming>BS21</a></td>
+</tr>
+</tbody>
+</table>
+<h6 align="center">Tabela 1: Matriz de Rastreabilidade Backward-From</h6>
+<h6 align="center">Fonte: Autores</h6>
+
+<hr />
+<h3 id="rf01">RF01</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP01</a></li>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I08</a></li>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP10</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Recurso: OP10 depende dos recursos de AP01 e I08</li>
+</ul>
+<hr />
+<h3 id="rf02">RF02</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS04</a></li>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I01</a></li>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP50</a></li>
+<li>Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP02</a></li>
+<li>Questionário <a href=../../elicitacao/questionario/#5-requisitos-elicitados>Q02</a></li>
+<li>Storytelling <a href=../../elicitacao/storytelling/#4-requisitos>ST06</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Agregação: AP02 agregra Q02</li>
+<li>Recurso: OP50 depende de um recurso de I01</li>
+<li>Representa: BS04 representa ST06</li>
+</ul>
+<hr />
+<h3 id="rf03">RF03</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I04</a></li>
+<li>Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP03</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Recurso: AP03 depende de um recurso de I04</li>
+</ul>
+<hr />
+<h3 id="rf04">RF04</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS03</a></li>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I03</a></li>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP18</a></li>
+<li>Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP04</a></li>
+<li>Questionário <a href=../../elicitacao/questionario/#5-requisitos-elicitados>Q03</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Agregação: AP04 agregra Q03</li>
+<li>Representa: BS03 e OP18 representam ST06</li>
+</ul>
+<hr />
+<h3 id="rf05">RF05</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP05</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf06">RF06</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I14</a></li>
+<li>Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP06</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Recurso: AP06 depende de um recurso de I14</li>
+</ul>
+<hr />
+<h3 id="rf07">RF07</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP07</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf08">RF08</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS15</a></li>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I07</a></li>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP31, OP49</a></li>
+<li>Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP08</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Agregação: BS15 agregra AP08</li>
+<li>Recurso: OP31, OP49 depende de um recurso de I07</li>
+</ul>
+<hr />
+<h3 id="rf09">RF09</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP09</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf10">RF10</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP10</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf11">RF11</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP35</a></li>
+<li>Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP11</a></li>
+<li>Storytelling <a href=../../elicitacao/storytelling/#4-requisitos>ST09</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Representa: AP11 e OP35 representam ST09</li>
+</ul>
+<hr />
+<h3 id="rf12">RF12</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP12</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf13">RF13</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS10</a></li>
+<li>Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP13</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Agregação: BS10 depende de um recurso de AP13</li>
+</ul>
+<hr />
+<h3 id="rf14">RF14</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS09</a></li>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I27</a></li>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP40</a></li>
+<li>Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP14</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Agregação: BS09 agregra AP14</li>
+<li>Recurso: OP40 e BS09 dependem de um recurso de I27</li>
+</ul>
+<hr />
+<h3 id="rf15">RF15</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP15</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf16">RF16</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Entrevista <a href=../../elicitacao/entrevistas/#4-requisitos>E01</a></li>
+<li>Storytelling <a href=../../elicitacao/storytelling/#4-requisitos>ST08</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Representação: E01 representa ST08</li>
+</ul>
+<hr />
+<h3 id="rf17">RF17</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Entrevista <a href=../../elicitacao/entrevistas/#4-requisitos>E03</a></li>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I12, I17</a></li>
+<li>Storytelling <a href=../../elicitacao/storytelling/#4-requisitos>ST02</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Representação: E03 e I12 representam ST02</li>
+</ul>
+<hr />
+<h3 id="rf18">RF18</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS05</a></li>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I02</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Agregação: BS05 agrega I02</li>
+</ul>
+<hr />
+<h3 id="rf19">RF19</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I04</a></li>
+<li>Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP03</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Recurso: AP03 depende de um recurso de I04</li>
+</ul>
+<hr />
+<h3 id="rf20">RF20</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS13</a></li>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I05</a></li>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP48</a></li>
+<li>Questionário <a href=../../elicitacao/questionario/#5-requisitos-elicitados>Q01</a></li>
+<li>Storytelling <a href=../../elicitacao/storytelling/#4-requisitos>ST04</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Agregação: I05 agregra Q01</li>
+<li>Representa: BS13 e OP48 representam ST04</li>
+</ul>
+<hr />
+<h3 id="rf21">RF21</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS06</a></li>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I10</a></li>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OB20</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Agregração: BS06 e I10 agregam OB20</li>
+</ul>
+<hr />
+<h3 id="rf22">RF22</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Entrevista <a href=../../elicitacao/entrevistas/#4-requisitos>E03</a></li>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I12</a></li>
+<li>Storytelling <a href=../../elicitacao/storytelling/#4-requisitos>ST02</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Representação: E03 e I12 representa ST02</li>
+</ul>
+<hr />
+<h3 id="rf23">RF23</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I13</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<hr />
+<h3 id="rf24">RF24</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I14</a></li>
+<li>Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP06</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf25">RF25</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I15</a></li>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP25</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Satisfação: I15 satisfaz OP25</li>
+</ul>
+<hr />
+<h3 id="rf26">RF26</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I16</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf27">RF27</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS07</a></li>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I17</a></li>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP22, OP30</a></li>
+<li>Questionário <a href=../../elicitacao/questionario/#5-requisitos-elicitados>Q07</a></li>
+<li>Storytelling <a href=../../elicitacao/storytelling/#4-requisitos>ST03</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Agregação: I17 agregra Q07</li>
+<li>Representa: BS07, OP22 e OP30 representam ST03</li>
+</ul>
+<hr />
+<h3 id="rf28">RF28</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I18</a></li>
+<li>Storytelling <a href=../../elicitacao/storytelling/#4-requisitos>ST02</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Representação: I18 representa ST02</li>
+</ul>
+<hr />
+<h3 id="rf29">RF29</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I19</a></li>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP35</a></li>
+<li>Storytelling <a href=../../elicitacao/storytelling/#4-requisitos>ST09</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Representação: I19 e OP35 representam ST09</li>
+</ul>
+<hr />
+<h3 id="rf30">RF30</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I20</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf31">RF31</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I21</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf32">RF32</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I22</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf33">RF33</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I23</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf34">RF34</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I24</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf35">RF35</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I25</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf36">RF36</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I26</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf37">RF37</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I29</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf38">RF38</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I30</a></li>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP07</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Satisfação: I30 satisfaz OP07</li>
+</ul>
+<hr />
+<h3 id="rf39">RF39</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I31</a></li>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP58</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Satisfação: I31 satisfaz OP58</li>
+</ul>
+<hr />
+<h3 id="rf40">RF40</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I32</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf41">RF41</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I33</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf42">RF42</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I34</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf43">RF43</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP03</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf44">RF44</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP04</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf45">RF45</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP05</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf46">RF46</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP06</a>
+<b>Elo</b>:</li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf47">RF47</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP07</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf48">RF48</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP08</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf49">RF49</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP09, OP51</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf50">RF50</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS17</a></li>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP12</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Recurso: OP12 depende de um recurso de BS17</li>
+</ul>
+<hr />
+<h3 id="rf51">RF51</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS05</a></li>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP19</a></li>
+<li>Questionário <a href=../../elicitacao/questionario/#5-requisitos-elicitados>Q05</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Recurso: Q05 depende de recursos de BS05 e OP19</li>
+</ul>
+<hr />
+<h3 id="rf52">RF52</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP20</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf53">RF53</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP22</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf54">RF54</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP23</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf55">RF55</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP24</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf56">RF56</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP26</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf57">RF57</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP27</a>
+<b>Elo</b>:</li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf58">RF58</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP28</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf59">RF59</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP29</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf60">RF60</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP36</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf61">RF61</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP37</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf62">RF62</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP42</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf63">RF63</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP43</a>
+<b>Elo</b>:</li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf64">RF64</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP45</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf65">RF65</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Observação Participativa <a href=../../elicitacao/observacao_participativa/#31-requisitos>OP47</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf66">RF66</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS10</a></li>
+<li>Introspecção <a href=../../elicitacao/introspeccao/#3-requisitos-elicitados>I21</a></li>
+<li>Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP13</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Recurso: AP13 e BS10 dependem de um recurso de I21</li>
+</ul>
+<hr />
+<h3 id="rf67">RF67</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS11</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf68">RF68</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS12</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rf69">RF69</h3>
+<p><b>Categoria:</b></p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis:</b></p>
+<ul>
+<li>Brainstorming <a href=../../elicitacao/brainstorming/#4-requisitos-levantados>BS16</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rnf01">RNF01</h3>
+<p><b>Categoria</b>:</p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis</b>:</p>
+<ul>
+<li>Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP16</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rnf02">RNF02</h3>
+<p><b>Categoria</b>:</p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis</b>:</p>
+<ul>
+<li>Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP18</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rnf03">RNF03</h3>
+<p><b>Categoria</b>:</p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis</b>:</p>
+<ul>
+<li>
+<p>Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP19</a>
+<b>Elo</b>:</p>
+</li>
+<li>
+<p>Não existem artefatos para moldar o elo</p>
+</li>
+</ul>
+<hr />
+<h3 id="rnf04">RNF04</h3>
+<p><b>Categoria</b>:</p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis</b>:</p>
+<ul>
+<li>
+<p>Análise de Protocolo <a href=../../elicitacao/analiseProtocolo/#5-requisitos-levantados>AP20</a>
+<b>Elo</b>:</p>
+</li>
+<li>
+<p>Não existem artefatos para moldar o elo</p>
+</li>
+</ul>
+<hr />
+<h3 id="rnf05">RNF05</h3>
+<p><b>Categoria</b>:</p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis</b>:</p>
+<ul>
+<li>Entrevista <a href=../../elicitacao/entrevistas>E05</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rnf06">RNF06</h3>
+<p><b>Categoria</b>:</p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis</b>:</p>
+<ul>
+<li>Entrevista <a href=../../elicitacao/entrevistas>E06</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rnf07">RNF07</h3>
+<p><b>Categoria</b>:</p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis</b>:</p>
+<ul>
+<li>Entrevista <a href=../../elicitacao/entrevistas>E07</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rnf08">RNF08</h3>
+<p><b>Categoria</b>:</p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis</b>:</p>
+<ul>
+<li>Entrevista <a href=../../elicitacao/entrevistas>E10</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rnf09">RNF09</h3>
+<p><b>Categoria</b>:</p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis</b>:</p>
+<ul>
+<li>Introspecção <a href=../../elicitacao/introspeccao>I09</a></li>
+<li>Análise de Protocolo <a href=../../elicitacao/analiseProtocolo>AP16</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Recurso: AP16 depende de um recurso de I09 </li>
+</ul>
+<hr />
+<h3 id="rnf10">RNF10</h3>
+<p><b>Categoria</b>:</p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis</b>:</p>
+<ul>
+<li>Análise de Protocolo <a href=../../elicitacao/analiseProtocolo>AP17</a></li>
+<li>Storytelling <a href=../../elicitacao/storytelling>ST01</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Representação: AP17 representa ST01</li>
+</ul>
+<hr />
+<h3 id="rnf11">RNF11</h3>
+<p><b>Categoria</b>:</p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis</b>:</p>
+<ul>
+<li>Storytelling <a href=../../elicitacao/storytelling>ST03</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rnf12">RNF12</h3>
+<p><b>Categoria</b>:</p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis</b>:</p>
+<ul>
+<li>Storytelling <a href=../../elicitacao/storytelling>ST07</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rnf13">RNF13</h3>
+<p><b>Categoria</b>:</p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis</b>:</p>
+<ul>
+<li>Storytelling <a href=../../elicitacao/storytelling>ST10</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rnf14">RNF14</h3>
+<p><b>Categoria</b>:</p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis</b>:</p>
+<ul>
+<li>Storytelling <a href=../../elicitacao/storytelling>ST10</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rnf15">RNF15</h3>
+<p><b>Categoria</b>:</p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis</b>:</p>
+<ul>
+<li>Brainstorming <a href=../../elicitacao/brainstorming>BS19</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo</li>
+</ul>
+<hr />
+<h3 id="rnf16">RNF16</h3>
+<p><b>Categoria</b>:</p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis</b>:</p>
+<ul>
+<li>Brainstorming <a href=../../elicitacao/brainstorming>BS20</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo </li>
+</ul>
+<hr />
+<h3 id="rnf17">RNF17</h3>
+<p><b>Categoria</b>:</p>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<p><b>Elementos Rastreáveis</b>:</p>
+<ul>
+<li>Brainstorming <a href=../../elicitacao/brainstorming>BS21</a></li>
+</ul>
+<p><b>Elo</b>:</p>
+<ul>
+<li>Não existem artefatos para moldar o elo </li>
+</ul>
+<hr />
+<h2 id="4-bibliografia">4. Bibliografia</h2>
+<p style="text-align: justify; text-indent: 20px">SERRANO, Milene; SERRANO, Maurício. <b>Requisitos - Aula 24</b>. 2019. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../../validacao/validacao_informal/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Validação Informal" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Validação Informal
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../forward_from/" class="md-footer__link md-footer__link--next" aria-label="Next: Forward From" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Forward From
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        
+          Made with
+          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+            Material for MkDocs
+          </a>
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": "navigation.tabs", "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.1e84347e.min.js"></script>
+      
+    
+  </body>
+</html>
