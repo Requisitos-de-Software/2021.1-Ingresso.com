@@ -5,6 +5,8 @@
 |1.0|26/08|Abertura do documento de Cenários|Carlos Eduardo e Vitor Lamego|
 |1.1|26/08|Criação dos Cenários|Carlos Eduardo e Vitor Lamego|
 |1.2|01/10|Linkagem dos léxicos|João Pedro|
+|1.3|18/10|Correção dos erros apontados na Análise do Documento (Verificação)|Vitor Lamego|
+
 
 ## 2. Introdução
 <p style="text-align: justify; text-indent: 20px">Dentro da Engenharia de Requisitos existe uma etapa fundamental designada para a Modelagem dos requisitos. Dentre as várias técnicas existentes, este documento irá abordar e aplicar uma técnica em específico: Cenários.</p>
@@ -20,7 +22,7 @@
 
 |Cenário 001||
 |:----:|:----------|
-|<b>Objetivo</b>| Descrever as regras do [Ingresso](../../modelagem/lexicos/#ingresso).com | 
+|<b>Objetivo</b>| Apresentar principais cenários do aplicativo | 
 |<b>Contexto</b>| Abertura do aplicativo |
 |<b>Atores</b>| Comprador/Usuário | 
 |<b>Recursos</b>| Smartphone, internet e o aplicativo | 
@@ -59,7 +61,7 @@
 |<b>Atores</b>| Usuário | 
 |<b>Recursos</b>| Smartphone, internet e o aplicativo | 
 |<b>Exceção</b>| 1. Smartphone para de funcionar</br>2. Sem acesso à internet<br>3. Não existem [cinemas](../../modelagem/lexicos/#cinema) disponíveis na região desejada |
-|<b>Episódios</b>| 1. Usuário navega até a lista de [cinemas](../../modelagem/lexicos/#cinema)<br>2. Usuário escolhe um [cinema](../../modelagem/lexicos/#cinema) desejado|
+|<b>Episódios</b>| 1. Usuário acessa o aplicativo </br>2. Usuário seleciona opção '[Cinemas](../../modelagem/lexicos/#cinema)' no Menu de Navegação<br>3. Usuário escolhe um [cinema](../../modelagem/lexicos/#cinema) desejado|
 
 </center>
 <h6 align = "center">Tabela 3: Descrição das características do Cenário 03</h6>
@@ -144,7 +146,7 @@
 |<b>Atores</b>| Usuário | 
 |<b>Recursos</b>| Smartphone, internet e o aplicativo | 
 |<b>Exceção</b>| 1. Smartphone para de funcionar</br>2. Sem acesso à internet<br>3. Não ter mais [assento](../../modelagem/lexicos/#assento) disponível |
-|<b>Episódios</b>| 1.Sistema apresenta os [assentos](../../modelagem/lexicos/#assento) disponíveis<br>2. Usuário escolhe o(s) seu(s) [assento](../../modelagem/lexicos/#assento)(s) de acordo com o seu número de [ingressos](../../modelagem/lexicos/#ingresso)|
+|<b>Episódios</b>| 1. Usuário abre o aplicativo </br>2. Usuário escolhe o [filme](../../modelagem/lexicos/#filme)<br>3. Usuário escolhe a sessão<br>4.Sistema apresenta os [assentos](../../modelagem/lexicos/#assento) disponíveis<br>5. Usuário escolhe o(s) seu(s) [assento](../../modelagem/lexicos/#assento)(s) de acordo com o seu número de [ingressos](../../modelagem/lexicos/#ingresso)|
 
 </center>
 <h6 align = "center">Tabela 8: Descrição das características do Cenário 08</h6>
@@ -156,12 +158,12 @@
 
 |Cenário 009||
 |:----:|:----------|
-|<b>Objetivo</b>| Usuário escolher qual o tipo de [ingresso](../../modelagem/lexicos/#ingresso) ele vai comprar, podendo utilizar benefícios de meia-entrada se assim ele puder. | 
+|<b>Objetivo</b>| Usuário escolher qual o tipo de [ingresso](../../modelagem/lexicos/#ingresso) ele vai comprar entre os disponíveis| 
 |<b>Contexto</b>| Pré-condição: [Assentos](../../modelagem/lexicos/#assento) escolhidos<br>Pós-condição: Usuário é direcionado para a compra de comidas e snacks no [cinema](../../modelagem/lexicos/#cinema)|
 |<b>Atores</b>| Usuário | 
 |<b>Recursos</b>| Smartphone, internet e o aplicativo | 
 |<b>Exceção</b>| 1. Smartphone para de funcionar</br>2. Sem acesso à internet|
-|<b>Episódios</b>| 1. Sistema apresenta os tipos de [ingresso](../../modelagem/lexicos/#ingresso) disponíveis e seus respectivos valores<br>2. Usuário escolhe o(s) seu(s) tipo(s) de [ingresso](../../modelagem/lexicos/#ingresso)(s)<br>3. Se usuário escoher tipo meia, sistema pede mais informações para comprovação<br>4. Usuário preeenche suas informações para utilizar a meia entrada|
+|<b>Episódios</b>| 1. Usuário escolhe os [assentos](../../modelagem/lexicos/#assento) da sessão<br>2. Sistema apresenta os tipos de [ingresso](../../modelagem/lexicos/#ingresso) disponíveis e seus respectivos valores<br>3. Usuário escolhe o(s) seu(s) tipo(s) de [ingresso](../../modelagem/lexicos/#ingresso)(s)<br>4. Se usuário escoher tipo meia, sistema pede mais informações para comprovação<br>5. Usuário preeenche suas informações para utilizar a meia entrada|
 
 </center>
 <h6 align = "center">Tabela 9: Descrição das características do Cenário 09</h6>
@@ -178,7 +180,7 @@
 |<b>Atores</b>| Usuário | 
 |<b>Recursos</b>| Smartphone, internet e o aplicativo | 
 |<b>Exceção</b>| 1. Smartphone para de funcionar</br>2. Sem acesso à internet<br>3. Usuário não deseja comprar a comida do [cinema](../../modelagem/lexicos/#cinema)|
-|<b>Episódios</b>| 1. Sistema apresenta as opções disponíveis<br>2. Se o usuário desejar, escolhe a quantidade de cada opção que deseja<br>3. Se o usuário não desejar, pula para a próxima etapa|
+|<b>Episódios</b>| 1. Usuário escolhe o tipo de [ingresso](../../modelagem/lexicos/#ingresso)<br>2. Sistema apresenta as opções disponíveis<br>3. Se o usuário desejar, escolhe a quantidade de cada opção que deseja<br>4. Se o usuário não desejar, pula para a próxima etapa|
 
 </center>
 <h6 align = "center">Tabela 10: Descrição das características do Cenário 10</h6>
@@ -193,9 +195,9 @@
 |<b>Objetivo</b>| Permitir que o usuário escolha alguma forma de pagamento já salva em sua conta, ou que fique salvo o histórico de compra, pelo menos. | 
 |<b>Contexto</b>| Pré-condição: Tipo de [ingresso](../../modelagem/lexicos/#ingresso) e comida para a sessão escolhidos e ter uma conta no aplicativo<br>Pós-condição: Aprovar o pagamento do [ingresso](../../modelagem/lexicos/#ingresso)|
 |<b>Atores</b>| Usuário | 
-|<b>Recursos</b>| Smartphone, internet e o aplicativo | 
+|<b>Recursos</b>| Smartphone, internet, aplicativo, conta Ingresso.com| 
 |<b>Exceção</b>| 1. Smartphone para de funcionar</br>2. Sem acesso à internet<br>3. Usuário não possui cartão válido e não possui conta PayPal|
-|<b>Episódios</b>| 1. Se não estiver logado ainda, usuário insere suas informações de login<br>2. Usuário escolhe qual a forma de pagamento deseja utilizar<br>3. Se os dados da forma de pagamento não estão salvas, usuário insere os dados<br>4. Se o usuário possuir, insere código de desconto para a compra<br>5. Usuário prossegue para a verificação do pagamento<br>6. Se aprovado, usuário recebe os [ingressos](../../modelagem/lexicos/#ingresso) no endereço de email cadastrado|
+|<b>Episódios</b>| 1. Usuário escolhe o que vai comer na sessão<br>2. Se não estiver logado ainda, usuário insere suas informações de login<br>3. Usuário escolhe qual a forma de pagamento deseja utilizar<br>4. Se os dados da forma de pagamento não estão salvas, usuário insere os dados<br>5. Se o usuário possuir, insere código de desconto para a compra<br>6. Usuário prossegue para a verificação do pagamento<br>7. Se aprovado, usuário recebe os [ingressos](../../modelagem/lexicos/#ingresso) no endereço de email cadastrado|
 
 </center>
 <h6 align = "center">Tabela 11: Descrição das características do Cenário 11</h6>
@@ -212,7 +214,7 @@
 |<b>Atores</b>| Usuário | 
 |<b>Recursos</b>| Smartphone, internet e o aplicativo | 
 |<b>Exceção</b>| 1. Smartphone para de funcionar</br>2. Sem acesso à internet<br>3. Usuário não possui cartão válido e não possui conta PayPal|
-|<b>Episódios</b>| 1. Usuário informa o seu email<br>2. Usuário confirma o email inserido<br>3. Usuário informa o seu CPF<br>4. Usuário informa as informações de pagamento<br>5. Usuário prossegue para a verificação do pagamento<br>6. Se aprovado, usuário recebe os [ingressos](../../modelagem/lexicos/#ingresso) no endereço de email informado.|
+|<b>Episódios</b>| 1. Usuário escolhe o que vai comer na sessão<br>2. Usuário informa o seu email<br>3. Usuário confirma o email inserido<br>4. Usuário informa o seu CPF<br>5. Usuário informa as informações de pagamento<br>6. Usuário prossegue para a verificação do pagamento<br>7. Se aprovado, usuário recebe os [ingressos](../../modelagem/lexicos/#ingresso) no endereço de email informado.|
 
 </center>
 <h6 align = "center">Tabela 12: Descrição das características do Cenário 12</h6>
@@ -224,7 +226,7 @@
 
 |Cenário 013||
 |:----:|:----------|
-|<b>Objetivo</b>| Permitir que o usuário crie uma conta para salvar as suas compras e formas de pagamento, evitando de ficar inserindo em todas as compras | 
+|<b>Objetivo</b>| Permitir que o usuário crie uma conta para salvar seu histórico no aplicativo | 
 |<b>Contexto</b>| Pré-condição: Possuir um email válido e o aplicativo<br>Pós-condição: Usuário é logado no aplicativo|
 |<b>Atores</b>| Usuário | 
 |<b>Recursos</b>| Smartphone, internet e o aplicativo | 
@@ -303,7 +305,7 @@
 <h6 align = "center">Tabela 17: Descrição das características do Cenário 17</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
-### C18: Ver Prevenções
+### C18: Ver Prevenções de Saúde
 
 <center>
 
@@ -313,7 +315,7 @@
 |<b>Contexto</b>| Pré-condição: Aplicativo aberto e acesso à internet|
 |<b>Atores</b>| Usuário | 
 |<b>Recursos</b>| Smartphone, internet e o aplicativo | 
-|<b>Exceção</b>| 1. Smartphone para de funcionar</br>2. Sem acesso à internet|
+|<b>Exceção</b>| 1. Smartphone para de funcionar</br>2. Sem acesso à internet<br>3. Cinema não informa as prevenções adotadas|
 |<b>Episódios</b>| 1. Usuário clica na aba "Prevenções" no menu de navegação<br>2. Usuário pesquisa por [cinema](../../modelagem/lexicos/#cinema) desejado<br>3. Usuário seleciona o [cinema](../../modelagem/lexicos/#cinema) desejado apresentado na lista|
 
 </center>
@@ -348,7 +350,7 @@
 |<b>Atores</b>| Usuário | 
 |<b>Recursos</b>| Smartphone, internet e o aplicativo | 
 |<b>Exceção</b>| 1. Smartphone para de funcionar</br>2. Sem acesso à internet<br> 3. Distribuidor não oferecer os detalhes do [filme](../../modelagem/lexicos/#filme)|
-|<b>Episódios</b>| 1. Usuário escolhe o [filme](../../modelagem/lexicos/#filme) desejado<br>2. Usuário clica na aba "Detalhes"|
+|<b>Episódios</b>| 1. Usuário abre o aplicativo<br>2. Usuário escolhe a opção 'Filmes' no Menu de Navegação<br>3. Usuário escolhe o [filme](../../modelagem/lexicos/#filme) desejado<br>3. Usuário clica na aba "Detalhes"|
 
 </center>
 <h6 align = "center">Tabela 20: Descrição das características do Cenário 20</h6>

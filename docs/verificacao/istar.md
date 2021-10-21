@@ -3,6 +3,8 @@
 |------|----|---------|---------|
 |1.0|13/09|Criação do documento|João Pedro|
 |1.1|13/09|Verificação do documento|João Pedro|
+| 1.2    | 17/10 | Adição do gráfico de resumo | Rafael    |
+
 
 ## 2. Introdução
 <p style="text-align: justify; text-indent: 20px"> A verificação corresponde a uma metodologia que visa garantir que os produtos de um trabalho selecionado cumpram com seus requisitos especificados. Essa etapa, também consiste de uma técnica que não depende da intervenção humana dos usuários, sendo feita através do viés do desenvolvedor.</p>
@@ -30,7 +32,14 @@
 ||<b>Porcentagem Total:</b>|100%|92.3%|100%|100%|
 
 ## 5. Conclusão
-<p style="text-align: justify; text-indent: 20px"> De acordo com a verificação, o documento iStar se encontra de acordo com os padrões esperados, com exceção do Modelo <i>Rationale</i> das Notícias. Entretanto, a equipe acredita que não há a necessidade da confecção desse artefato, visto que, essa funcionalidade já foi bem representada em seu Modelo Dependência.</p>
+<p style="text-align: justify; text-indent: 20px"> De acordo com a verificação, o documento iStar se encontra de acordo com os padrões esperados, com exceção do Modelo <i>Rationale</i> das Notícias. Entretanto, a equipe acredita que não há a necessidade da confecção desse artefato, visto que, essa funcionalidade já foi bem representada em seu Modelo Dependência. Pode-se ter uma melhor visualização dos resultados a partir do gráfico abaixo:</p>
+
+<center>
+<iframe width="600" height="360" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ9MTIOOoDp3Ict7aPCGTkI5MhpFi9Vw8ib5_SqdF9RM2ymcUPJwi_W9jkJeVoy4g5zv9DbLMepLuyY/pubchart?oid=1629102112&format=interactive"></iframe>
+<h6 align="center">Figura 1: Resumo da Verificação do iStar</h6>
+<h6 align="center">Fonte: Autores</h6>
+</center>
+
 
 ## 6. Bibliografia
 <p style="text-align: justify; text-indent: 20px">Serrano, M.; Serrano, M. <b>Requisitos - Aula 23</b>.</p>

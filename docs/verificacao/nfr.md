@@ -1,7 +1,8 @@
 ## 1. Versionamento
 | Versão | Data  | Descrição                                     | Autor(es) |
 | ------ | ----- | --------------------------------------------- | --------- |
-| 1.0    | 14/09 | Abertura do documento e adição da verificação | Thiago |
+| 1.0    | 14/09 | Abertura do documento e adição da verificação | Thiago    |
+| 1.1    | 17/10 | Adição do gráfico de resumo                 | Rafael    |
 
 ## 2. Introdução
 
@@ -14,30 +15,35 @@ A verificação corresponde a uma metodologia que visa garantir que os produtos 
 
 ## 4. Verificação
 
-|Número|Questões|Usabilidade|Confiabilidade|Desempenho|Suportabilidade|
-|:-:|---|:-:|:-:|:-:|:-:|
-|1|O fluxo do diagrama está bem representado?|✔|✔|✔|✔|
-|2|Os softgoals condizem com o contexto?|✔|✔|✔|✔|
-|3|Os softgoals são decompostos em operacionalizações?|✔|✔|✔|✔|
-|4|Existem softgoals suficientes no diagrama para representar o contexto?|✔|✔|✔|✔|
-|5|As operacionalizações condizem com o contexto?|✔|✔|✔|✔|
-|6|Existem operacionalizações suficientes no diagrama para representar o contexto?|✔|✔|✖|✔|
-|7|As contribuições dos impactos estão devidamente embasadas?|✔|✔|✔|✔|
-|8|A propagação está bem representada?|✔|✔|✔|✔|
-|9|Os impactos estão propagados corretamente ?|✔|✔|✔|✔|
-|10|As contribuições AND estão corretamente representadas e aplicadas?|✔|✔|✖|✔|
-|11|As contribuições OR estão corretamente representadas e aplicadas?|✔|✔|✔|✔|
-|12|Existem contribuições negativas?|✖|✔|✖|✖|
-|13|As contribuições positivas estão corretamente representadas e aplicadas?|✔|✔|✔|✔|
-|14|As contribuições negativas estão corretamente representadas e aplicadas?|✔|✔|✔|✔|
-||**Porcentagem Total**|93%|100%|79%|93%|
-
+| Número | Questões                                                                        | Usabilidade | Confiabilidade | Desempenho | Suportabilidade |
+| :----: | ------------------------------------------------------------------------------- | :---------: | :------------: | :--------: | :-------------: |
+|   1    | O fluxo do diagrama está bem representado?                                      |      ✔      |       ✔        |     ✔      |        ✔        |
+|   2    | Os softgoals condizem com o contexto?                                           |      ✔      |       ✔        |     ✔      |        ✔        |
+|   3    | Os softgoals são decompostos em operacionalizações?                             |      ✔      |       ✔        |     ✔      |        ✔        |
+|   4    | Existem softgoals suficientes no diagrama para representar o contexto?          |      ✔      |       ✔        |     ✔      |        ✔        |
+|   5    | As operacionalizações condizem com o contexto?                                  |      ✔      |       ✔        |     ✔      |        ✔        |
+|   6    | Existem operacionalizações suficientes no diagrama para representar o contexto? |      ✔      |       ✔        |     ✖      |        ✔        |
+|   7    | As contribuições dos impactos estão devidamente embasadas?                      |      ✔      |       ✔        |     ✔      |        ✔        |
+|   8    | A propagação está bem representada?                                             |      ✔      |       ✔        |     ✔      |        ✔        |
+|   9    | Os impactos estão propagados corretamente ?                                     |      ✔      |       ✔        |     ✔      |        ✔        |
+|   10   | As contribuições AND estão corretamente representadas e aplicadas?              |      ✔      |       ✔        |     ✖      |        ✔        |
+|   11   | As contribuições OR estão corretamente representadas e aplicadas?               |      ✔      |       ✔        |     ✔      |        ✔        |
+|   12   | Existem contribuições negativas?                                                |      ✖      |       ✔        |     ✖      |        ✖        |
+|   13   | As contribuições positivas estão corretamente representadas e aplicadas?        |      ✔      |       ✔        |     ✔      |        ✔        |
+|   14   | As contribuições negativas estão corretamente representadas e aplicadas?        |      ✔      |       ✔        |     ✔      |        ✔        |
+|        | **Porcentagem Total**                                                           |     93%     |      100%      |    79%     |       93%       |
 
 ## 5. Conclusão
 
 <p style="text-align: justify; text-indent: 20px"> 
-De acordo com a verificação, o documento NFR Framework se encontra de acordo com os padrões esperados. No entanto, a confecção da maioria dos Gráfico de Interdependência de Softgoal acabou priorizando apenas as contribuições positivas e esquecendo das negativas. As contribuições negativas são muito importantes, uma vez que permitirá que o desenvolvedor tenha conhecimento daquilo que não se deve fazer para atingir um determinado objetivo. Assim, essa verificação contribuirá bastante com a elaboração e aprimoramento da modelagem feita pela a equipe.
+De acordo com a verificação, o documento NFR Framework se encontra de acordo com os padrões esperados. No entanto, a confecção da maioria dos Gráfico de Interdependência de Softgoal acabou priorizando apenas as contribuições positivas e esquecendo das negativas. As contribuições negativas são muito importantes, uma vez que permitirá que o desenvolvedor tenha conhecimento daquilo que não se deve fazer para atingir um determinado objetivo. Assim, essa verificação contribuirá bastante com a elaboração e aprimoramento da modelagem feita pela a equipe. Pode-se ter uma melhor visualização dos resultados a partir do gráfico abaixo:
 </p>
+
+<center>
+<iframe width="600" height="360" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ9MTIOOoDp3Ict7aPCGTkI5MhpFi9Vw8ib5_SqdF9RM2ymcUPJwi_W9jkJeVoy4g5zv9DbLMepLuyY/pubchart?oid=911744733&format=interactive"></iframe>
+<h6 align="center">Figura 1: Resumo da Verificação do NFR Framework</h6>
+<h6 align="center">Fonte: Autores</h6>
+</center>
 
 ## 6. Bibliografia
 
